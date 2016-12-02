@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  
-  
+
+
   concern :exportable, Blacklight::Routes::Exportable.new
 
   resources :solr_documents, only: [:show], path: '/catalog', controller: 'catalog' do
@@ -37,6 +37,10 @@ Rails.application.routes.draw do
     collection do
       delete 'clear'
     end
+  end
+
+  Rails.application.routes.draw do
+      get "/pages/:page" => "pages#show"
   end
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
