@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1913-Q</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/1913-Q</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Verzamelaars van prenten</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">Honoré Daumier is voornamelijk bekend als tekenaar en lithograaf. Er zijn bijna vierduizend prenten van hem bekend. Daarin hekelde hij de bourgeoisie van zijn tijd of bekeek hij de verdrukten van de maatschappij met milde spot. Schilderen met olieverf ervoer Daumier als tijdrovend en vele van zijn schilderijen bleven onafgewerkt. Tot zijn geliefkoosde onderwerpen behoren taferelen uit het dagelijkse leven en portretten van kunstenaars en advocaten. Ook Verzamelaars van prenten is een thema dat Daumier meermaals behandelde. De Gentse studie wordt gesitueerd omstreeks 1870-1873, een periode waarin de kunstenaar een vluchtige penseelvoering en theatrale lichteffecten hanteerde. De aandacht ging naar de expressieve houding van de liefhebbers.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">Honoré Daumier is mainly known as a draughtsman and lithographer. There are almost four thousand known prints by this artist. In his prints Daumier criticized the bourgeoisie of his era or poked gentle fun at the lower social classes. Daumier felt that oils were a time-consuming way of painting; thus many of his paintings remained unfinished. His favourite subjects include scenes from daily life and portraits of artists and lawyers. Daumier also enjoyed the theme of Prints collectors, a theme which he covered repeatedly. The Ghent study is dated approximately around 1870-1873, a period during which the artist preferred airy brush strokes and theatrical light effects. His attention was mainly drawn to the expressive posture of the art lovers.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>40.9</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>33.2</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000251</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/96555949</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/20126</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata"/>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Daumier, Honoré</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Honoré Daumier</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1808</lido:earliestDate>
+                  <lido:latestDate>1879</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>circa 1870 - 1873</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate lido:type="circa">1870</lido:earliestDate>
+              <lido:latestDate lido:type="circa">1873</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">19de eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Frankrijk</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl"/>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1913-Q</lido:recordID>
+      <lido:recordID lido:type="Adlib">310007599</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

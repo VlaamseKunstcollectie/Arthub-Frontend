@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1914-AK</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/1914-AK</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">De grotten van Prunal in de omgeving van Pontgibaud (Auvergne)</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">Omstreeks 1890 ontdekte de Franse impressionist Armand Guillaumin het dorpje Crozant in de Creuse. In die omgeving ontstond ook dit zicht op de grotten van Pranal. Uit het schilderij blijkt dat Guillaumin zich als schilder opstelde tussen het impressionisme en het fauvisme. In de subtiele licht- en toetsbehandeling betoonde Guillaumin zich verwant met impressionisten als Claude Monet en Camille Pissarro, met wie hij sinds de jaren 1860 exposeerde. Het gebruik van felle kleuren en hardere tonaliteiten van violet, oker, groen en bruin kondigen dan weer een modernere tendens aan. Daarmee is zijn werk verwant met dat van Paul Cézanne, een goede vriend van Guillaumin.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">Vanaf de jaren 90 zoekt Guillaumin onderwerpen in het Centraal Massief, aan de Atlantische- en Middellandse Zeekusten en vooral in Crozant aan de Creuze, waar hij sinds 1893 woont. De grotten van Prunal in de omgeving van Pontigibaud bevinden zich in de streek van de Creuze. Dit landschap is een typerend werk waarin Guillaumin zich zowel als colorist als luminist uitdrukt. De subtiele licht- en toetsbehandeling zijn beïnvloed door het impressionisme terwijl het gebruik van de felle kleuren en hardere tonaliteiten van violet, oker, groen en bruin een moderne tendens aankondigen. Dit werk komt uit de collectie van Fernand Scribe die het op een Parijse veiling kocht in 1910 en het drie jaar later legateerde. Dankzij hem bezit het museum een interessante groep werken van Franse laat-impressionisten.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>73.5</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>92</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310019557</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/61822531</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/34570</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q436844</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Guillaumin, Armand</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Armand Guillaumin</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1841</lido:earliestDate>
+                  <lido:latestDate>1927</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:periodName>
+            <lido:term xml:lang="nl"/>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Prunal (Frankrijk)</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">landschappen</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1914-AK</lido:recordID>
+      <lido:recordID lido:type="Adlib">310000600</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

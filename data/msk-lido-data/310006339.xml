@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/S-75</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/S-75</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Allegorie van het Schepengerecht van Gedele</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">In 1627 bestelde het stadsbestuur van Gent dit monumentale schilderij bij de Antwerpse schilder Theodoor Rombouts. Het was bestemd voor het Schepenhuis van Gedele. Het Schepengerecht van Gedele is vergelijkbaar met het huidige vredegerecht en was tevens bevoegd voor de wezenzorg. Het werd pas op het einde van de achttiende eeuw afgeschaft. De personages in deze allegorie zingen de lof van de opdrachtgevers en van de stad Gent. Bovenaan troont de Maagd van Gent, met aan haar voeten de Gentse leeuw. Bij haar zitten vijf weeskinderen en op de trappen zetelen aan elke kant vier rechters. Zij symboliseren het schepengerecht. De vrouwen in het midden stellen drie deugden voor: Kracht slaat haar arm om een zuil, Wijsheid houdt al schrijvend een vergrootglas vast en Matigheid doet water in de wijn. De soldaten vooraan links moeten de orde handhaven. Rechts ligt de Schelde in de gedaante van een naakte man met een hoorn des overvloeds en een kruik met water. De vrouw rechts van hem, met de waterspuwende draak, is de Leie, de tweede rivier die de stad Gent haar welvaart bezorgde. Rombouts was in 1627 pas terug uit Italië. Hij bewonderde het werk van Caravaggio en dat is hier in zijn manier van schilderen nog goed te zien. De groots opgezette compositie doet echter aan Rubens denken die hem in toenemende mate zou gaan beïnvloeden.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">In 1627 the town council of Ghent commissioned this monumental painting by the painter Theodoor Rombouts of Antwerp. It was intended for the Alderman’s courtroom of  ‘Gedele’. The Second Bench of Aldermen was similar to our present justice of the peace court and also the competent authority for the care of orphans. It was only abolished at the end of the eighteenth century. The figures in this allegory are a tribute to those who commissioned the work and to the city of Ghent. At the top, seated on a throne, is the Virgin of Ghent with the lion of Ghent at her feet. Next to her are five orphans and on the stairs four judges are seated on either side. They symbolise the Second Bench of Aldermen. The women in the centre symbolise the three virtues, namely Strength, who has her arm around a column, Wisdom, who is holding a magnifying glass while busily writing, and Temperance, who is pouring water into the wine. The soldiers in the left foreground are supposed to maintain order. On the right is the River Scheldt, represented by the figure of a naked man with a horn of plenty and a pitcher of water. The women on his right, with the dragon spouting water, represent the River Lys, the second river to bring prosperity to the city of Ghent. Rombouts only returned from Italy in 1627. He admired the work of Caravaggio, which is clearly evident in his style of painting. But the large scale reminds one of Rubens, who increasingly influenced his work.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>435</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>382</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000418</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/35522898</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/67881</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q2303634</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Rombouts, Theodoor</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Theodoor Rombouts</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1597</lido:earliestDate>
+                  <lido:latestDate>1637</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>circa 1627 - 1628</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate lido:type="circa">1627</lido:earliestDate>
+              <lido:latestDate lido:type="circa">1628</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">17de eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl"/>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">allegorie</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">S-75</lido:recordID>
+      <lido:recordID lido:type="Adlib">310006339</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

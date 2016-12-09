@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1952-D</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://kunstenenerfgoed.be/CVG/collection/work/id/6695</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">De kruisdraging</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">Met de noodnaam Monogrammist DR wordt een anonieme meester aangeduid die op het einde van de zestiende eeuw werkzaam was. Het monogram DR en jaartal 1591 staan onderaan rechts. Deze Kruisdraging is geïnspireerd op het gelijknamige bekende paneel van Pieter I Bruegel, dat zich in het Kunsthistorisches Museum in Wenen bevindt. Het tafereel speelt zich af in een landschap dat de vorm van een hart vertoont. Landschappen met menselijke vormen zien we al bij Jheronimus Bosch. De symbolische betekenis ervan is niet altijd te achterhalen. Hier zien we in het midden Christus die onder zijn kruis valt, terwijl verder naar rechts de goede en slechte moordenaar in een kar naar Golgotha worden gevoerd. De stad in de verte moet Jeruzalem voorstellen. De kledij van de soldaten evenals de geestelijken die de goede en slechte moordenaar vergezellen, plaatsen het tafereel echter in de Nederlanden van de zestiende eeuw: het religieuze thema van de kruisdraging was hier aanleiding tot een voorstelling die alludeert op de praktijken van de inquisitie.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">The makeshift name of Monogrammist DR refers to an anonymous master at work at the end of the sixteenth century. The monogram DR and the year 1591 are inscribed bottom right.  This picture entitled Christ Carrying the Cross was inspired by the famous panel of the same name by Pieter Brueghel the Elder, which is at the Kunsthistorisches Museum in Vienna. The scene is set in a landscape shaped like a heart. We already see landscapes with human shapes in the work of Jheronimus Bosch. However it is not always easy to uncover their symbolic meaning. In the centre we see Christ stumbling under the weight of his cross, while on the right the good and bad murderers are being taken to Golgotha in a cart. The city in the distance is supposed to be Jerusalem. However, the soldiers’ clothing and that of the priests and the good and bad murderers place the scene in the Netherlands of the sixteenth century. Here the religious theme of the carrying of the cross has produced a picture that alludes to the practices
+of the Inquisition.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>95.3</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>129</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000609</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF"/>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/417283</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata"/>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Monogrammist DR</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Monogrammist DR</lido:appellationValue>
+                </lido:nameActorSet>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>1591</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1591</lido:earliestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">16de eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Zuidelijke Nederlanden</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">religieuze voorstellingen</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1952-D</lido:recordID>
+      <lido:recordID lido:type="Adlib">310005115</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

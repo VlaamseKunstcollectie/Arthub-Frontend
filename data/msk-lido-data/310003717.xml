@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/2002-A</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/2002-A</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">beeldhouwwerken</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300011099</lido:conceptID>
+          <lido:term lido:pref="alternate">gips</lido:term>
+          <lido:term lido:pref="preferred">gips</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Opus 1</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">Naast schilderijen maakte Victor Servranckx slechts enkele sculpturen. Dit Opus 1 dateert uit zijn zuiver abstract geometrische periode die hijzelf tussen 1921 en 1924 situeerde. Het werd uitgevoerd in brons, onyx en gips. In 1923 verwerkte Servranckx een afbeelding van deze sculptuur tweemaal, telkens vanuit een ander gezichtspunt, in een van zijn meest monumentale doeken, Exaltatie van het machinisme, uit de Koninklijke Musea voor Schone Kunsten van België in Brussel. Het Museum van Elsene bezit een schilderij van Servranckx uit hetzelfde jaar, het Opus 53, met enkel de afbeelding van diezelfde sculptuur tegen een egale achtergrond.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">In addition to his paintings, Victor Servranckx also did just a few sculptures. This work, Opus 1, dates from his purely abstract geometric period, which, in his own estimation, was from 1921 to 1924. It was made of bronze, onyx and plaster. In 1923, Servranckx incorporated portrayals of this sculpture twice, from different angles, into one of his most monumental paintings, Exaltation of Mechanisation, which is in the Royal Museums of the Fine Art of Belgium in Brussels. Elsene Museum has a painting by Servranckx from the same year, called Opus 53, depicting only this same sculpture against a uniform background.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>41</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>37</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>diepte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>37</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000895</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/10117306</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/72074</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q3062914</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Servranckx, Victor</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Victor Servranckx</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1897</lido:earliestDate>
+                  <lido:latestDate>1965</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>1921</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1921</lido:earliestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">20ste eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl"/>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription">
+                <lido:conceptID lido:source="Adlib"/>
+                <lido:term>gips</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">abstract</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">2002-A</lido:recordID>
+      <lido:recordID lido:type="Adlib">310003717</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

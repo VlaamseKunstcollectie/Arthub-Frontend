@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1958-N-1</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/1958-N-1</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">De heiligen Arnoldus van Soissons en Godelieve</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">De hier voorgestelde heiligen herkennen we aan hun attributen. Op het linkerpaneeltje zien we de heilige Arnoldus van Soissons, patroon van de bierbrouwers. In zijn rechterhand houdt hij de roerstok waarmee het bier werd geroerd. Hij is voorgesteld in wapenuitrusting en draagt de bisschopsmijter. Naast hem staat de heilige Godelieve van Gistel met de wurgdoek rond de hals. Haar man liet haar ombrengen omdat zij voedsel bracht aan de armen. Op het rechterpaneeltje staat de heilige Livinus, prediker en patroonheilige van Gent. Hij houdt de tang vast waarmee zijn tong werd uitgerukt. Naast hem zien we de heilige Margareta van Antiochië. Ook zij werd gemarteld omwille van haar geloof. In de gevangenis streed ze met de duivel in de gedaante van een draak. De twee eiken paneeltjes zijn vermoedelijk afkomstig van een huisaltaar. De stijl en het formaat sluiten aan bij de Vlaamse miniatuurkunst van de vijftiende eeuw.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">We recognise the saints portrayed here from their attributes. In the panel on the left we see Arnold of Soissons, the patron saint of beer brewers. In his right hand he holds the stick with which the beer is stirred. He is portrayed in military dress and wears a bishop’s mitre. Standing next to him is St Godelieve, the patron of Gistel, with the cloth used to strangle her still around her neck. Her husband ordered her death because she took food to the poor. On the right panel we see St Livinus, preacher and patron saint of Ghent. Next to him is St. Margaret of Antioch. She too was tortured for her faith. In prison she fought with the devil who appeared in the shape of a dragon. The two oak panels probably came from a domestic altar. The style and size form a link with fifteenth-century Flemish miniature painting.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>10.5</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>10.5</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310044176</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF"/>
+                <lido:actorID lido:type="url" lido:source="RKD"/>
+                <lido:actorID lido:type="url" lido:source="Wikidata"/>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Anonieme meester, Gent, midden 15de eeuw</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Anonieme meester, Gent, midden 15de eeuw</lido:appellationValue>
+                </lido:nameActorSet>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>circa 1450</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate lido:type="circa">1450</lido:earliestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">15de eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Gent</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">religieuze voorstellingen</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1958-N-1</lido:recordID>
+      <lido:recordID lido:type="Adlib">310005282</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

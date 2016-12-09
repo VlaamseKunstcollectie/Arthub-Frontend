@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/2003-K</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/2003-K</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">De heilige Veronica van Binasco</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">De heilige Veronica werd geboren in Binasco, nabij Milaan, in 1445. Ze groeide op in een arm maar devoot landbouwersgezin. Nadat de Heilige Maagd aan haar verscheen besloot ze het passieverhaal van Christus dagelijks te herleven door boetedoening en zelfgeseling. Later werd ze opgenomen door de Augustinessen bij wie ze zich onderscheidde door haar opmerkelijke deugdzaamheid alsook door haar nooit opdrogende tranen. Veronica stierf in 1497. Dit schilderij ontstond het jaar nadat François-Joseph Navez Parijs had verlaten om zijn meester Jacques-Louis David te volgen naar Brussel. Beide kunstenaars respecteerden elkaar en wisselden onderling artistieke ideeën uit. In dit jeugdwerk zijn onmiskenbaar invloeden aanwezig van Davids latere stijl die werd gekenmerkt door een mix van realisme en idealisme en een grotere aandacht voor de expressies van de gezichten.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">St Veronica was born in Binasco, near Milan in 1445. She grew up in a poor but devout peasant family. After the Holy Virgin appeared to her, she decided to relive Christ’s passion on a daily basis through penance and flagellation. She later joined the Augustine nuns, where she distinguished herself through her remarkable virtue and her never-drying tears. Veronica died in 1497. This painting was created the year after François-Joseph Navez left Paris to follow his master Jacques-Louis David to Brussels. Both artists respected one another and exchanged artistic ideas. This early work reveals the unmistakable influences of David’s later style, which was characterized by a mix of realism and idealism and increased attention for facial expressions.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>92</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>82</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000508</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/54320066</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/58967</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata"/>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Navez, François-Joseph</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">François-Joseph Navez</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1787</lido:earliestDate>
+                  <lido:latestDate>1869</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>1816</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1816</lido:earliestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">19de eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl"/>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">religieuze voorstellingen</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">2003-K</lido:recordID>
+      <lido:recordID lido:type="Adlib">310006114</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

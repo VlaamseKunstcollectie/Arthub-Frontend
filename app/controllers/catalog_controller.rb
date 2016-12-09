@@ -68,6 +68,12 @@ class CatalogController < ApplicationController
     #  (useful when user clicks "more" on a large facet and wants to navigate alphabetically across a large set of results)
     # :index_range can be an array or range of prefixes that will be used to create the navigation (note: It is case sensitive when searching values)
 
+    config.add_facet_field 'author_display', label: 'artist'
+    config.add_facet_field 'title_display', label: 'title'
+    config.add_facet_field 'period', label: 'period'
+    config.add_facet_field 'category', label: 'voorstelling'
+    config.add_facet_field 'artwork_type', label: 'type'
+    config.add_facet_field 'repository', label: 'museum'
 
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
@@ -77,20 +83,24 @@ class CatalogController < ApplicationController
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
     config.add_index_field 'title_display', label: 'Title'
-    config.add_index_field 'title_vern_display', label: 'Title'
     config.add_index_field 'author_display', label: 'Author'
-    config.add_index_field 'author_vern_display', label: 'Author'
-    config.add_index_field 'type', label: 'Type'
+    config.add_index_field 'artwork_type', label: 'Type'
+    config.add_index_field 'repository', label: 'Museum'
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
     config.add_show_field 'title_display', label: 'Title'
-    config.add_show_field 'title_vern_display', label: 'Title'
     config.add_show_field 'subtitle_display', label: 'Subtitle'
-    config.add_show_field 'subtitle_vern_display', label: 'Subtitle'
     config.add_show_field 'author_display', label: 'Author'
-    config.add_show_field 'author_vern_display', label: 'Author'
-    config.add_show_field 'type', label: 'Type'
+    config.add_show_field 'artwork_type', label: 'Type'
+    config.add_show_field 'keywords', label: 'Keywords'
+    config.add_show_field 'repository', label: 'Museum'
+    config.add_show_field 'dimensions', label: 'Dimensions'
+    config.add_show_field 'material', label: 'Material'
+    config.add_show_field 'period', label: 'Period'
+    config.add_show_field 'object_number', label: 'Object number'
+    config.add_show_field 'work_pid', label: 'Work PID'
+    config.add_show_field 'references', label: 'References'
 
     # "fielded" search configuration. Used by pulldown among other places.
     # For supported keys in hash, see rdoc for Blacklight::SearchFields

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1971-A</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/1971-A</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Portret van de kunstcritici Paul en Luc Haesaerts</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">Edgard Tytgat portretteerde graag de mensen uit zijn omgeving, zijn vrouw, familie, vrienden en kennissen. Hier zien we een dubbelportret van Paul en Luc Haesaerts. De gebroeders waren veelzijdige persoonlijkheden die zich op verschillende domeinen profileerden: als architect, regisseur en kunstcriticus. Luc studeerde rechten, filosofie en geschiedenis en Paul bezocht de academie. Samen maakten ze films, richtten het tijdschrift Journal des Beaux-Arts op en schreven talrijke kunstkritieken. Hun voornaamste gezamenlijke realisatie is ‘Flandre’, een lijvig boek  over de kunst in Vlaanderen vanaf 1880. De beide broers poseren hier zittend voor een tafel waarop het boek tentoongesteld ligt. Tytgat portretteerde hen dan ook in de eerste plaats in de hoedanigheid van kunstcritici. Naast het boek ligt een aantal afbeeldingen van schilderijen van hemzelf en van een portret dat Paul Haesaerts van Tytgat maakte.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">In het atelier van Tytgat poseren de gebroeders Luc en Paul Haesaerts voor de kunstenaar, die zij reeds enkele jaren kenden. Voor Sélection, Le Centaure en Cahiers de Belgique in België, en voor L'art vivant in Parijs schreven ze bijdragen over hem. Op de achtergrond staan verschillende doeken op chevalets. Links herkennen we het schilderij La maison du pèlerin uit 1923. Voor hen op tafel ligt Flandre. Essai sur l'art flamand depuis 1880, hun basiswerk over Vlaamse kunst uit 1931. Enkele foto's van kunstwerken liggen voor hen uitgespreid. Paul laat zijn arm rusten op een detail uit het schilderij Quand Monsieur l'époux va à la chasse (1927), als illustratie gebruikt bij het hoofdstuk 'Les visages de la Flandre'. Helemaal vooraan herkennen we de jongen uit het schilderij De beginnelingen (1928). Op tafel ligt ook een portret van Tytgat door Paul Haesaerts.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>89.4</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>116</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310007910</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/24618542</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/77484</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q366851</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Tytgat, Edgard</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Edgard Tytgat</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1879</lido:earliestDate>
+                  <lido:latestDate>1957</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>1932-02</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1932-02</lido:earliestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">20ste eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Sint-Lambrechts-Woluwe (Brussel)</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">portretten</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1971-A</lido:recordID>
+      <lido:recordID lido:type="Adlib">310006188</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

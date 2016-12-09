@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/2002-F</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://kunstenenerfgoed.be/CVG/collection/work/id/2026</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl"/>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT"/>
+          <lido:term lido:pref="alternate"/>
+          <lido:term lido:pref="preferred"/>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Dorpsgezicht</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">De gouache was voor Ossip Zadkine een autonoom uitdrukkingsmiddel. Dit dorpsgezicht ontstond waarschijnlijk in Caylus in het departement Tarn-et-Garonne waar de kunstenaar vanaf 1921 regelmatig verbleef in het gezelschap van zijn echtgenote Valentine Prax. Zadkine zag het dorpslandschap vanuit verschillende gezichtspunten en dacht in een speelse, verticale opeenstapeling van de verschillende plans. Dergelijke gouaches waren in de jaren 1920 herhaaldelijk te zien in België. Kunstpromotoren zoals André De Ridder, Walter Schwarzenberg en Paul-Gustave Van Hecke exposeerden zijn werk in hun galerijen en brachten hem in hun publicaties onder de aandacht.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">Het postkubisme van Ossip Zadkine was bijzonder geliefd op de progressieve kunstscène in België na de Eerste Wereldoorlog. Kunstpromotoren André De Ridder, Walter Schwarzenberg, André De Ridder brachten hem voortdurend als beeldhouwer én tekenaar onder de aandacht in hun galerijen. De historische avant-garde hechtte in de jaren 1920 trouwens veel belang aan de technieken van aquarel en gouache als autonome uitdrukkingsmiddelen. Zadkine zelf wijdde verschillende individuele tentoonstellingen uitsluitend aan zijn aquarellen en gouaches. In deze technieken beïnvloedde hij de Vlaamse expressionist Frits Van den Berghe omstreeks 1925-26.
+In de reeks cahiers die het tijdschrift Antwerps-Brusselse Sélection uitgaf werd in januari 1928 het nummer drie aan de kunstenaar gewijd. Hierin ging criticus Waldémar George dieper in op de aquarellen van Zadkine en bewonderde hij vooral “la franchise de son accent, une vision non encore polluée, une gaucherie extérieure, enfin un certain rusticisme et une volonté permanente de sacrifier le beau proportionnel à l’expression lyrique et dramatique” (Sélection. Cahier 3 : Ossip Zadkine, Anvers, éditions Sélection, 1928, p. 10). Paysage ontstond waarschijnlijk te Caylus in de Tarn-et-Garonne, waar Zadkine vanaf 1921 regelmatig verbleef in het gezelschap van zijn echtgenote, Valentine Prax. In het dorp zagen verschillende monumentale beelden het licht, maar in haar memoires getuigde Prax dat Zadkine hier ook veel in gouache werkte. Zadkine zag het dorpslandschap vanuit verschillende gezichtspunten, en dacht in een speelse, verticale opeenstapeling van de verschillende plans. De dorpsweg loopt compositorisch als een zigzag lijn doorheen het beeldvlak. Coloristisch stond hij dan weer dicht bij Georges Braque. Opvallend is dat hij de vlakverdeling begrensde door stukken wit die een sterk opbouwende functie hebben.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>mm</lido:measurementUnit>
+              <lido:measurementValue>625</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>mm</lido:measurementUnit>
+              <lido:measurementValue>465</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310007215</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/4938137</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/86049</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q160172</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Zadkine, Ossip</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Ossip Zadkine</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1890</lido:earliestDate>
+                  <lido:latestDate>1967</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>1922</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1922</lido:earliestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">20ste eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl"/>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl"/>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">2002-F</lido:recordID>
+      <lido:recordID lido:type="Adlib">310006349</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

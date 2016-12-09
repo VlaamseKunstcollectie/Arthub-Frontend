@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1908-F</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/1908-F</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Portret van een kleptomaan</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">Rond 1820 schilderde Théodore Géricault (1791-1824) het Portret van de kleptomaan. Het werk maakt deel uit van een reeks van tien portretten van waanzinnigen, waarvan er slechts vijf bewaard zijn gebleven. De kunstenaar was in die tijd bevriend met de geneesheer Etienne-Jean Georget, die behoorde tot een groep verlichte artsen, de zogenaamde aliënisten. Zij beschouwden waanzin niet langer als een goddelijke straf, maar als een te behandelen ziekte of afwijking. De alinisten geloofden dat de galaatstrekken van de waanzinnige zijn afwijking verraadden. Zij introduceerden de term monomanie voor een psychische stoornis  die zich uit in een welbepaalde obsessie of een enkel waandenkbeeld. In hun onderzoek hebben zij alle mogelijke bestaande middelen om expressies weer te geven benut, zoals gietvormen, bustes, tekeningen en gravures. Géricault was ongetwijfeld door hen beïnvloed. Zijn portretten verraadden zijn wetenschappelijke belangstelling voor krankzinnigen. Ongewoon voor die tijd zijn de waardigheid waarmee hij de krankzinnige heeft uitbeeld en de romantische inleving in de zieke geest van de patiënt. De soepele en suggestieve schilderwijze die Géricault in Portret van een kleptomaan hanteerde, relativeert het begrip ‘voltooid schilderij’ en verleent het kunstwerk als studie een nieuwe eigenwaarde.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">Around 1820 Théodore Géricault painted the Portrait of a Kleptomaniac. This painting was part of a series of ten portraits of people confined in a madhouse, five of which have been preserved. At the time the artist had befriended doctor Etienne-Jean Georget, who was a member of a group of enlightened medical practitioners, the so-called alienists. They no longer considered madness to be a divine punishment, but rather an illness or a disability, which needed to be treated. The alienists believed that the mad person’s physiognomy revealed his disability. They coined the term ‘monomania’ for a psychological disorder, which expressed itself as one well-defined obsession or one single illusion. They used every possible means in their research to represent expressions, such as casting moulds, busts, drawings and engravings. Géricault was undoubtedly influenced by them. His portraits reveal an almost scientific interest in mad people. An unusual feature for this era is the dignity that the artist tries to respect, while depicting the confined person and his Romantic empathy for the patient’s sick mind. Géricault’s fluent and suggestive style of painting in Portrait of a Kleptomaniac gives another perspective to the concept of ‘finished painting’, while adding new value to the work of art as a study.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>61.2</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>50.1</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000280</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/64128788</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/31065</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata"/>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Géricault, Théodore</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Théodore Géricault</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1791</lido:earliestDate>
+                  <lido:latestDate>1824</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>circa 1820 - 1824</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate lido:type="circa">1820</lido:earliestDate>
+              <lido:latestDate lido:type="circa">1824</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">19de eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Frankrijk</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl"/>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1908-F</lido:recordID>
+      <lido:recordID lido:type="Adlib">310006882</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

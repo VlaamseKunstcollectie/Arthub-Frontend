@@ -1,0 +1,313 @@
+[{
+   "lidoRecID" : [
+      {
+         "_" : "http://mskgent.be/collection/work/data/S-40",
+         "source" : "Museum voor Schone Kunsten Gent",
+         "label" : "dataPID",
+         "type" : "global"
+      }
+   ],
+   "administrativeMetadata" : [
+      {
+         "recordWrap" : {
+            "recordType" : {
+               "conceptID" : [
+                  {
+                     "source" : "AAT",
+                     "_" : "http://vocab.getty.edu/aat/300133025",
+                     "type" : "local"
+                  }
+               ],
+               "term" : [
+                  {
+                     "addedSearchTerm" : "no",
+                     "_" : "Item"
+                  }
+               ]
+            },
+            "recordID" : [
+               {
+                  "_" : "S-40",
+                  "type" : "local"
+               },
+               {
+                  "_" : "310000001",
+                  "type" : "Adlib"
+               }
+            ],
+            "recordSource" : [
+               {
+                  "legalBodyName" : [
+                     {
+                        "appellationValue" : [
+                           {
+                              "_" : "Museum voor Schone Kunsten Gent"
+                           }
+                        ]
+                     }
+                  ],
+                  "legalBodyWeblink" : [
+                     {
+                        "_" : "http://mskgent.be"
+                     }
+                  ]
+               }
+            ]
+         }
+      }
+   ],
+   "descriptiveMetadata" : [
+      {
+         "eventWrap" : {
+            "eventSet" : [
+               {
+                  "event" : {
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "_" : "Production",
+                              "addedSearchTerm" : "no"
+                           }
+                        ]
+                     },
+                     "eventPlace" : [
+                        {
+                           "place" : {
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "pref" : "preferred",
+                                          "_" : "Zuidelijke Nederlanden",
+                                          "lang" : "nl"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        }
+                     ],
+                     "periodName" : [
+                        {
+                           "term" : [
+                              {
+                                 "addedSearchTerm" : "no",
+                                 "lang" : "nl",
+                                 "_" : "17de eeuw"
+                              }
+                           ]
+                        }
+                     ],
+                     "eventActor" : [
+                        {
+                           "actorInRole" : {
+                              "actor" : {
+                                 "actorID" : [
+                                    {
+                                       "_" : "310048210",
+                                       "source" : "Adlib",
+                                       "type" : "local"
+                                    },
+                                    {
+                                       "_" : "",
+                                       "source" : "VIAF",
+                                       "type" : "url"
+                                    },
+                                    {
+                                       "type" : "url",
+                                       "_" : "",
+                                       "source" : "RKD"
+                                    },
+                                    {
+                                       "type" : "url",
+                                       "source" : "Wikidata",
+                                       "_" : ""
+                                    }
+                                 ],
+                                 "nameActorSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "pref" : "alternate",
+                                             "_" : "Anonieme meester, Gent, eind 17de eeuw"
+                                          },
+                                          {
+                                             "_" : "Anonieme meester, Gent, eind 17de eeuw",
+                                             "pref" : "preferred"
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           }
+                        }
+                     ],
+                     "eventMaterialsTech" : [
+                        {
+                           "materialsTech" : {
+                              "termMaterialsTech" : [
+                                 {
+                                    "type" : "physicalDescription"
+                                 }
+                              ]
+                           }
+                        }
+                     ]
+                  }
+               }
+            ]
+         },
+         "objectClassificationWrap" : {
+            "classificationWrap" : {
+               "classification" : [
+                  {
+                     "conceptID" : [
+                        {
+                           "pref" : "alternate",
+                           "type" : "global",
+                           "_" : "http://vocab.getty.edu/aat/300033799",
+                           "source" : "AAT"
+                        }
+                     ],
+                     "term" : [
+                        {
+                           "addedSearchTerm" : "no",
+                           "pref" : "alternate",
+                           "_" : "olieverfschilderingen"
+                        },
+                        {
+                           "pref" : "preferred",
+                           "addedSearchTerm" : "no",
+                           "_" : "olieverfschilderij"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "objectWorkTypeWrap" : {
+               "objectWorkType" : [
+                  {
+                     "term" : [
+                        {
+                           "addedSearchTerm" : "no",
+                           "pref" : "preferred",
+                           "_" : "schilderingen",
+                           "lang" : "nl"
+                        }
+                     ]
+                  }
+               ]
+            }
+         },
+         "objectRelationWrap" : {
+            "subjectWrap" : {
+               "subjectSet" : [
+                  {
+                     "subject" : {
+                        "subjectConcept" : [
+                           {
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "lang" : "nl",
+                                    "_" : "religieuze voorstellingen"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         },
+         "objectIdentificationWrap" : {
+            "objectMeasurementsWrap" : {
+               "objectMeasurementsSet" : [
+                  {
+                     "objectMeasurements" : {
+                        "measurementsSet" : [
+                           {
+                              "measurementValue" : {
+                                 "_" : "88"
+                              },
+                              "measurementUnit" : [
+                                 {
+                                    "_" : "cm"
+                                 }
+                              ],
+                              "measurementType" : [
+                                 {
+                                    "_" : "hoogte"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "objectMeasurements" : {
+                        "measurementsSet" : [
+                           {
+                              "measurementType" : [
+                                 {
+                                    "_" : "breedte"
+                                 }
+                              ],
+                              "measurementValue" : {
+                                 "_" : "136.4"
+                              },
+                              "measurementUnit" : [
+                                 {
+                                    "_" : "cm"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            "objectDescriptionWrap" : {
+               "objectDescriptionSet" : [
+                  {
+                     "descriptiveNoteValue" : [
+                        {
+                           "lang" : "nl",
+                           "_" : ""
+                        }
+                     ]
+                  },
+                  {
+                     "descriptiveNoteValue" : [
+                        {
+                           "_" : "",
+                           "lang" : "en"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "titleWrap" : {
+               "titleSet" : [
+                  {
+                     "appellationValue" : [
+                        {
+                           "lang" : "nl",
+                           "_" : "Het Manna"
+                        }
+                     ]
+                  }
+               ]
+            }
+         }
+      }
+   ],
+   "objectPublishedID" : [
+      {
+         "label" : "workPID",
+         "source" : "Museum voor Schone Kunsten Gent",
+         "_" : "http://mskgent.be/collection/work/id/S-40",
+         "type" : "global"
+      }
+   ]
+}]

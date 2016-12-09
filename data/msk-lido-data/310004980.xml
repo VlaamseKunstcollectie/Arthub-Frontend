@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1923-E</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/1923-E</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Monniken in gebed</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">In een woeste omgeving knielen twee monniken neer voor een provisoir altaar met kruisbeeld.
+De een schreeuwt, zijn armen wanhopig ten hemel opgeheven. De ander buigt deemoedig zijn hoofd en legt zijn lot in de handen van Christus. Een derde monnik is als het ware gevlucht in de slaap. De kunstenaar vertelt geen verhaal, maar toont ons drie mogelijke reacties op het lijden: opstandigheid, aanvaarding en vlucht. De compositie en de beklemmende sfeer herinneren aan voorstellingen van Jezus in Getsemane. De monniken behoren tot de Italiaanse orde van de witte benedictijnen, die zich als kluizenaars in de bergen terugtrokken. Alessandro Magnasco, aan wie dit werk lange tijd werd toegeschreven, schilderde bij voorkeur scènes uit het dagelijkse leven van soldaten, vagebonden en zigeuners. Eenzame monniken en kluizenaars bevolken zijn macabere taferelen, waarin een fantastische, soms demonische en mystieke wereld wordt opgeroepen. De kunstenaar hanteerde een nerveuze, schetsmatige en heel directe toets. Gaandeweg beperkte hij zich tot grijswaarden, met hier en daar opflakkerend wit. Het doek dat we hier zien, is een kopie door een directe navolger van de meester. Het origineel bevindt zich in het Rijksmuseum van Amsterdam.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">Two monks kneel before an altar with a crucifix in a rugged landscape. The one cries out in despair with his arms raised to heaven. The other meekly bows his head and places his lot in Christ’s hands. A third monk appears to have fallen asleep. The artist does not tell us a story but shows us three possible reactions to suffering: defiance, acceptance and escape. The composition and the oppressive atmosphere are reminiscent of depictions of Jesus in the Garden of Gethsemane. The monks are members of the Order of the Camuldulenses, or White Robed Monks of St. Benedict, who lived a life of isolation as hermits in the mountains. Alessandro Magnasco, to whom this work was for many years attributed, preferred to paint scenes from the everyday lives of soldiers, vagabonds and gypsies. In his macabre scenes, populated with lonely monks and hermits, he evokes a fantastic, sometimes demonic and mystical world. The artist’s brushwork is nervous, sketchy and very direct. He gradually limited his colours to tones of grey with occasional touches of brilliant white. The painting we see here is a copy made by a direct successor of the master. The original is housed in the Rijksmuseum in Amsterdam.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>53.6</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>43.9</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000368</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/62343833</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/51970</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q16649834</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Magnasco, Alessandro</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Alessandro Magnasco</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1667</lido:earliestDate>
+                  <lido:latestDate>1749</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+              <lido:attributionQualifierActor>navolger van</lido:attributionQualifierActor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:periodName>
+            <lido:term xml:lang="nl">18de eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Genua</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">religieuze voorstellingen</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1923-E</lido:recordID>
+      <lido:recordID lido:type="Adlib">310004980</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

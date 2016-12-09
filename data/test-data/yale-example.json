@@ -1,0 +1,1547 @@
+[{
+   "descriptiveMetadata" : [
+      {
+         "lang" : "eng",
+         "objectClassificationWrap" : {
+            "objectWorkTypeWrap" : {
+               "objectWorkType" : [
+                  {
+                     "conceptID" : [
+                        {
+                           "type" : "Object name",
+                           "source" : "AAT",
+                           "_" : "300033618"
+                        }
+                     ],
+                     "term" : [
+                        {
+                           "addedSearchTerm" : "no",
+                           "_" : "painting"
+                        }
+                     ]
+                  },
+                  {
+                     "conceptID" : [
+                        {
+                           "_" : "33",
+                           "source" : "YCBA",
+                           "type" : "Genre"
+                        }
+                     ],
+                     "term" : [
+                        {
+                           "_" : "religious and mythological subject",
+                           "addedSearchTerm" : "no"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "classificationWrap" : {
+               "classification" : [
+                  {
+                     "conceptID" : [
+                        {
+                           "source" : "AAT",
+                           "type" : "Classification",
+                           "_" : "300033618"
+                        }
+                     ],
+                     "term" : [
+                        {
+                           "addedSearchTerm" : "no",
+                           "_" : "Painting"
+                        }
+                     ]
+                  }
+               ]
+            }
+         },
+         "objectIdentificationWrap" : {
+            "inscriptionsWrap" : {
+               "inscriptions" : [
+                  {
+                     "inscriptionTranscription" : [
+                        {
+                           "_" : ""
+                        }
+                     ],
+                     "type" : "Inscription"
+                  },
+                  {
+                     "type" : "Marks",
+                     "inscriptionTranscription" : [
+                        {
+                           "_" : ""
+                        }
+                     ]
+                  },
+                  {
+                     "type" : "Lettering",
+                     "inscriptionTranscription" : [
+                        {
+                           "_" : ""
+                        }
+                     ]
+                  },
+                  {
+                     "type" : "signed and dated",
+                     "inscriptionTranscription" : [
+                        {
+                           "_" : ""
+                        }
+                     ]
+                  }
+               ]
+            },
+            "displayStateEditionWrap" : {},
+            "repositoryWrap" : {
+               "repositorySet" : [
+                  {
+                     "repositoryLocation" : {
+                        "partOfPlace" : [
+                           {
+                              "gml" : [
+                                 {
+                                    "Point" : [
+                                       {
+                                          "coordinates" : {
+                                             "_" : "",
+                                             "decimal" : ".",
+                                             "cs" : ",",
+                                             "ts" : " "
+                                          }
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "label" : "UnitPosition",
+                                          "_" : ""
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "gml" : [
+                                 {
+                                    "Point" : [
+                                       {
+                                          "coordinates" : {
+                                             "_" : "",
+                                             "cs" : ",",
+                                             "decimal" : ".",
+                                             "ts" : " "
+                                          }
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "",
+                                          "label" : "UnitNumber"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "",
+                                          "label" : "UnitType"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "gml" : [
+                                 {
+                                    "Point" : [
+                                       {
+                                          "coordinates" : {
+                                             "_" : "",
+                                             "decimal" : ".",
+                                             "cs" : ",",
+                                             "ts" : " "
+                                          }
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "gml" : [
+                                 {
+                                    "Point" : [
+                                       {
+                                          "coordinates" : {
+                                             "cs" : ",",
+                                             "decimal" : ".",
+                                             "ts" : " ",
+                                             "_" : ""
+                                          }
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "label" : "SubSite",
+                                          "_" : "209"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "gml" : [
+                                 {
+                                    "Point" : [
+                                       {
+                                          "coordinates" : {
+                                             "ts" : " ",
+                                             "cs" : ",",
+                                             "decimal" : ".",
+                                             "_" : "41.3080060, -72.9306282"
+                                          }
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Yale Center for British Art",
+                                          "label" : "Site"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "New Haven"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "placeID" : [
+                                 {
+                                    "_" : "7",
+                                    "source" : "TGN",
+                                    "type" : "Geo location"
+                                 }
+                              ],
+                              "gml" : [
+                                 {
+                                    "Point" : [
+                                       {
+                                          "coordinates" : {
+                                             "ts" : " ",
+                                             "decimal" : ".",
+                                             "cs" : ",",
+                                             "_" : "41.3000, -72.9160"
+                                          }
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     "repositoryName" : {
+                        "legalBodyID" : [
+                           {
+                              "_" : "500303557",
+                              "source" : "ULAN",
+                              "type" : "local"
+                           }
+                        ],
+                        "legalBodyName" : [
+                           {
+                              "appellationValue" : [
+                                 {
+                                    "_" : "Yale Center for British Art"
+                                 }
+                              ]
+                           }
+                        ],
+                        "legalBodyWeblink" : [
+                           {
+                              "_" : "http://britishart.yale.edu"
+                           }
+                        ]
+                     },
+                     "workID" : [
+                        {
+                           "_" : "B1979.20",
+                           "type" : "inventory number"
+                        }
+                     ],
+                     "type" : "current"
+                  }
+               ]
+            },
+            "titleWrap" : {
+               "titleSet" : [
+                  {
+                     "type" : "Repository title",
+                     "appellationValue" : [
+                        {
+                           "pref" : "preferred",
+                           "_" : "The Good Samaritan",
+                           "lang" : "eng"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "objectMeasurementsWrap" : {
+               "objectMeasurementsSet" : [
+                  {
+                     "objectMeasurements" : {
+                        "extentMeasurements" : [
+                           {
+                              "_" : "Support (PTG)"
+                           }
+                        ],
+                        "measurementsSet" : [
+                           {
+                              "measurementValue" : {
+                                 "_" : "199.4"
+                              },
+                              "measurementType" : [
+                                 {
+                                    "_" : "height"
+                                 }
+                              ],
+                              "measurementUnit" : [
+                                 {
+                                    "_" : "cm"
+                                 }
+                              ]
+                           },
+                           {
+                              "measurementUnit" : [
+                                 {
+                                    "_" : "cm"
+                                 }
+                              ],
+                              "measurementType" : [
+                                 {
+                                    "_" : "width"
+                                 }
+                              ],
+                              "measurementValue" : {
+                                 "_" : "123.2"
+                              }
+                           }
+                        ],
+                        "qualifierMeasurements" : [
+                           {
+                              "_" : ""
+                           }
+                        ]
+                     },
+                     "displayObjectMeasurements" : [
+                        {
+                           "_" : "78 1/2 × 48 1/2 inches (199.4 × 123.2 cm)"
+                        }
+                     ]
+                  }
+               ]
+            }
+         },
+         "objectRelationWrap" : {
+            "subjectWrap" : {
+               "subjectSet" : [
+                  {
+                     "subject" : {
+                        "subjectPlace" : [
+                           {
+                              "place" : {
+                                 "gml" : [
+                                    {
+                                       "Point" : [
+                                          {
+                                             "coordinates" : {
+                                                "_" : "",
+                                                "ts" : " ",
+                                                "decimal" : ".",
+                                                "cs" : ","
+                                             }
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "namePlaceSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "Cusworth"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "geographicalEntity" : "geographic location",
+                                 "placeID" : [
+                                    {
+                                       "_" : "-1",
+                                       "source" : "local",
+                                       "type" : "subjectPlace"
+                                    }
+                                 ]
+                              },
+                              "displayPlace" : [
+                                 {
+                                    "_" : "Cusworth"
+                                 }
+                              ]
+                           },
+                           {
+                              "place" : {
+                                 "gml" : [
+                                    {
+                                       "Point" : [
+                                          {
+                                             "coordinates" : {
+                                                "_" : "",
+                                                "decimal" : ".",
+                                                "cs" : ",",
+                                                "ts" : " "
+                                             }
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "geographicalEntity" : "geographic location",
+                                 "placeID" : [
+                                    {
+                                       "_" : "-1",
+                                       "source" : "local",
+                                       "type" : "subjectPlace"
+                                    }
+                                 ],
+                                 "namePlaceSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "Cusworth Hall"
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "displayPlace" : [
+                                 {
+                                    "_" : "Cusworth Hall"
+                                 }
+                              ]
+                           },
+                           {
+                              "displayPlace" : [
+                                 {
+                                    "_" : "United Kingdom"
+                                 }
+                              ],
+                              "place" : {
+                                 "gml" : [
+                                    {
+                                       "Point" : [
+                                          {
+                                             "coordinates" : {
+                                                "_" : "54.0000, -4.5000",
+                                                "ts" : " ",
+                                                "cs" : ",",
+                                                "decimal" : "."
+                                             }
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "namePlaceSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "United Kingdom"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "placeID" : [
+                                    {
+                                       "source" : "TGN",
+                                       "type" : "subjectPlace",
+                                       "_" : "7008591"
+                                    }
+                                 ],
+                                 "geographicalEntity" : "geographic location"
+                              }
+                           },
+                           {
+                              "place" : {
+                                 "geographicalEntity" : "geographic location",
+                                 "placeID" : [
+                                    {
+                                       "_" : "7008171",
+                                       "source" : "TGN",
+                                       "type" : "subjectPlace"
+                                    }
+                                 ],
+                                 "namePlaceSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "Yorkshire"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "gml" : [
+                                    {
+                                       "Point" : [
+                                          {
+                                             "coordinates" : {
+                                                "_" : "0.0000, 0.0000",
+                                                "decimal" : ".",
+                                                "cs" : ",",
+                                                "ts" : " "
+                                             }
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "displayPlace" : [
+                                 {
+                                    "_" : "Yorkshire"
+                                 }
+                              ]
+                           },
+                           {
+                              "displayPlace" : [
+                                 {
+                                    "_" : "England"
+                                 }
+                              ],
+                              "place" : {
+                                 "gml" : [
+                                    {
+                                       "Point" : [
+                                          {
+                                             "coordinates" : {
+                                                "_" : "53.0000, -2.0000",
+                                                "cs" : ",",
+                                                "decimal" : ".",
+                                                "ts" : " "
+                                             }
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "namePlaceSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "England"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "geographicalEntity" : "geographic location",
+                                 "placeID" : [
+                                    {
+                                       "_" : "7002445",
+                                       "source" : "TGN",
+                                       "type" : "subjectPlace"
+                                    }
+                                 ]
+                              }
+                           }
+                        ],
+                        "subjectConcept" : [
+                           {
+                              "term" : [
+                                 {
+                                    "_" : "New Testament",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "source" : "local",
+                                    "type" : "subjectConcept",
+                                    "_" : "-1"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "_" : "-1",
+                                    "type" : "subjectConcept",
+                                    "source" : "local"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "donkey"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "_" : "-1",
+                                    "type" : "subjectConcept",
+                                    "source" : "local"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "levite"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "_" : "-1",
+                                    "type" : "subjectConcept",
+                                    "source" : "local"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "pity",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "type" : "subjectConcept",
+                                    "source" : "local",
+                                    "_" : "-1"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "the good Samaritan (Luke 10:30-37)",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ]
+                           },
+                           {
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "costume"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "_" : "178802",
+                                    "type" : "subjectConcept",
+                                    "source" : "AAT"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept",
+                                    "_" : "25928"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "men"
+                                 }
+                              ]
+                           },
+                           {
+                              "term" : [
+                                 {
+                                    "_" : "pouring",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept",
+                                    "_" : "250952"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "_" : "-1",
+                                    "type" : "subjectConcept",
+                                    "source" : "local"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "religious and mythological subject"
+                                 }
+                              ]
+                           },
+                           {
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "injuries"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "_" : "-1",
+                                    "type" : "subjectConcept",
+                                    "source" : "local"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "type" : "subjectConcept",
+                                    "source" : "local",
+                                    "_" : "-1"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "Bible",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ]
+                           },
+                           {
+                              "term" : [
+                                 {
+                                    "_" : "scroll (information artifact)",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "type" : "subjectConcept",
+                                    "source" : "AAT",
+                                    "_" : "28629"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "_" : "45627",
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "bottle",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept",
+                                    "_" : "216741"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "mule"
+                                 }
+                              ]
+                           },
+                           {
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "nude"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "_" : "189568",
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept",
+                                    "_" : "25879"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "traveler"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "type" : "subjectConcept",
+                                    "source" : "AAT",
+                                    "_" : "25774"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "priest",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ]
+                           },
+                           {
+                              "term" : [
+                                 {
+                                    "_" : "blood",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept",
+                                    "_" : "11797"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "_" : "11797",
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "blood (animal material)",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ]
+                           },
+                           {
+                              "conceptID" : [
+                                 {
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept",
+                                    "_" : "25756"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "bishop (prelate)",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ]
+                           },
+                           {
+                              "term" : [
+                                 {
+                                    "_" : "reading",
+                                    "addedSearchTerm" : "no"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "_" : "248178",
+                                    "source" : "AAT",
+                                    "type" : "subjectConcept"
+                                 }
+                              ]
+                           }
+                        ],
+                        "type" : "description"
+                     }
+                  }
+               ]
+            },
+            "relatedWorksWrap" : {
+               "relatedWorkSet" : [
+                  {
+                     "relatedWorkRelType" : {
+                        "term" : [
+                           {
+                              "_" : "related to",
+                              "addedSearchTerm" : "no"
+                           }
+                        ],
+                        "conceptID" : [
+                           {
+                              "type" : "local",
+                              "source" : "publication",
+                              "_" : ""
+                           }
+                        ]
+                     },
+                     "relatedWork" : {
+                        "object" : {
+                           "objectID" : [
+                              {
+                                 "type" : "local",
+                                 "source" : "LC Call Number",
+                                 "_" : "ND466 G67 (YCBA)"
+                              },
+                              {
+                                 "_" : "07500731",
+                                 "source" : "OCLC Number",
+                                 "type" : "local"
+                              },
+                              {
+                                 "source" : "YCBA",
+                                 "type" : "local",
+                                 "_" : "2775"
+                              }
+                           ],
+                           "objectNote" : [
+                              {
+                                 "_" : "\n                                                Catherine M. Gordon, British paintings Hogarth to Turner, Frederick Warne, London, 1981, p. 29, ND466 G67 (YCBA)\n                                            "
+                              }
+                           ],
+                           "objectWebResource" : [
+                              {
+                                 "_" : ""
+                              }
+                           ]
+                        },
+                        "displayObject" : [
+                           {
+                              "_" : "\n                                            Catherine M. Gordon, /British paintings Hogarth to Turner, /Frederick Warne, London, 1981, p. 29, ND466 G67 (YCBA)\n                                        "
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         },
+         "eventWrap" : {
+            "eventSet" : [
+               {
+                  "event" : {
+                     "eventType" : {
+                        "conceptID" : [
+                           {
+                              "type" : "local",
+                              "source" : "AAT",
+                              "_" : "300054713"
+                           }
+                        ],
+                        "term" : [
+                           {
+                              "_" : "production",
+                              "addedSearchTerm" : "no"
+                           }
+                        ]
+                     },
+                     "culture" : [
+                        {
+                           "term" : [
+                              {
+                                 "addedSearchTerm" : "no",
+                                 "_" : "British"
+                              }
+                           ],
+                           "conceptID" : [
+                              {
+                                 "_" : "300111159",
+                                 "type" : "local",
+                                 "source" : "AAT"
+                              }
+                           ]
+                        }
+                     ],
+                     "eventActor" : [
+                        {
+                           "actorInRole" : {
+                              "roleActor" : [
+                                 {
+                                    "term" : [
+                                       {
+                                          "_" : "Artist",
+                                          "addedSearchTerm" : "no"
+                                       }
+                                    ],
+                                    "conceptID" : [
+                                       {
+                                          "type" : "Object related role",
+                                          "source" : "AAT",
+                                          "_" : "300025103"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "term" : [
+                                       {
+                                          "addedSearchTerm" : "no",
+                                          "_" : "painter"
+                                       }
+                                    ],
+                                    "conceptID" : [
+                                       {
+                                          "_" : "25136",
+                                          "type" : "Life role",
+                                          "source" : "AAT"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "conceptID" : [
+                                       {
+                                          "type" : "Life role",
+                                          "source" : "AAT",
+                                          "_" : "25165"
+                                       }
+                                    ],
+                                    "term" : [
+                                       {
+                                          "addedSearchTerm" : "no",
+                                          "_" : "engraver (printmaker)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "conceptID" : [
+                                       {
+                                          "_" : "",
+                                          "source" : "AAT",
+                                          "type" : "Life role"
+                                       }
+                                    ],
+                                    "term" : [
+                                       {
+                                          "addedSearchTerm" : "no",
+                                          "_" : "book illustrator"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "actor" : {
+                                 "vitalDatesActor" : {
+                                    "latestDate" : {
+                                       "_" : "1776",
+                                       "type" : "estimatedDate"
+                                    },
+                                    "earliestDate" : {
+                                       "type" : "estimatedDate",
+                                       "_" : "1707"
+                                    }
+                                 },
+                                 "actorID" : [
+                                    {
+                                       "type" : "local",
+                                       "source" : "YCBA",
+                                       "_" : "7"
+                                    }
+                                 ],
+                                 "nationalityActor" : [
+                                    {
+                                       "term" : [
+                                          {
+                                             "_" : "British",
+                                             "addedSearchTerm" : "no"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "genderActor" : [
+                                    {
+                                       "_" : "male"
+                                    }
+                                 ],
+                                 "nameActorSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "pref" : "alternate",
+                                             "_" : "Francis Haiman"
+                                          },
+                                          {
+                                             "_" : "Francis Hayman",
+                                             "pref" : "preferred"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "type" : "person"
+                              },
+                              "attributionQualifierActor" : [
+                                 {
+                                    "_" : ""
+                                 }
+                              ]
+                           },
+                           "displayActorInRole" : [
+                              {
+                                 "_" : "Francis Hayman, 1707/8–1776, British"
+                              }
+                           ]
+                        }
+                     ],
+                     "eventPlace" : [
+                        {
+                           "displayPlace" : [
+                              {
+                                 "_" : "London"
+                              }
+                           ],
+                           "type" : "Death place",
+                           "place" : {
+                              "placeClassification" : [
+                                 {
+                                    "conceptID" : [
+                                       {
+                                          "type" : "Death place",
+                                          "source" : "TGN",
+                                          "_" : "7011781"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "London"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "gml" : [
+                                 {
+                                    "Point" : [
+                                       {
+                                          "coordinates" : {
+                                             "decimal" : ".",
+                                             "cs" : ",",
+                                             "ts" : " ",
+                                             "_" : "51.5000, -0.1660"
+                                          }
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        },
+                        {
+                           "place" : {
+                              "placeClassification" : [
+                                 {
+                                    "conceptID" : [
+                                       {
+                                          "type" : "Birth place",
+                                          "source" : "TGN",
+                                          "_" : "7011953"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Exeter"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "gml" : [
+                                 {
+                                    "Point" : [
+                                       {
+                                          "coordinates" : {
+                                             "cs" : ",",
+                                             "decimal" : ".",
+                                             "ts" : " ",
+                                             "_" : "50.7160, -3.5160"
+                                          }
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           "displayPlace" : [
+                              {
+                                 "_" : "Exeter"
+                              }
+                           ],
+                           "type" : "Birth place"
+                        }
+                     ],
+                     "eventID" : [
+                        {
+                           "type" : "TMS",
+                           "_" : "499"
+                        }
+                     ],
+                     "eventDate" : {
+                        "displayDate" : [
+                           {
+                              "_" : "between 1751 and 1752"
+                           }
+                        ],
+                        "date" : {
+                           "earliestDate" : {
+                              "_" : "1751"
+                           },
+                           "latestDate" : {
+                              "_" : "1752"
+                           }
+                        }
+                     },
+                     "periodName" : [
+                        {
+                           "term" : [
+                              {
+                                 "_" : "18th century",
+                                 "addedSearchTerm" : "no"
+                              }
+                           ],
+                           "conceptID" : [
+                              {
+                                 "_" : "22",
+                                 "source" : "YCBA",
+                                 "type" : "local"
+                              }
+                           ]
+                        }
+                     ],
+                     "eventMaterialsTech" : [
+                        {
+                           "materialsTech" : {
+                              "termMaterialsTech" : [
+                                 {
+                                    "term" : [
+                                       {
+                                          "_" : "canvas",
+                                          "addedSearchTerm" : "no"
+                                       }
+                                    ],
+                                    "conceptID" : [
+                                       {
+                                          "_" : "14078",
+                                          "source" : "AAT",
+                                          "type" : "support"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "term" : [
+                                       {
+                                          "addedSearchTerm" : "no",
+                                          "_" : "oil paint"
+                                       }
+                                    ],
+                                    "conceptID" : [
+                                       {
+                                          "_" : "230810",
+                                          "type" : "medium",
+                                          "source" : "AAT"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           "displayMaterialsTech" : [
+                              {
+                                 "_" : "Oil on canvas"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               },
+               {
+                  "displayEvent" : [
+                     {
+                        "_" : "Francis Hayman, 1987"
+                     }
+                  ],
+                  "event" : {
+                     "eventID" : [
+                        {
+                           "type" : "TMS",
+                           "_" : "389"
+                        }
+                     ],
+                     "eventType" : {
+                        "conceptID" : [
+                           {
+                              "_" : "300054766",
+                              "source" : "AAT",
+                              "type" : "local"
+                           }
+                        ],
+                        "term" : [
+                           {
+                              "_" : "exhibition history",
+                              "addedSearchTerm" : "no"
+                           }
+                        ]
+                     }
+                  }
+               }
+            ]
+         }
+      }
+   ],
+   "lidoRecID" : [
+      {
+         "_" : "YCBA/lido-TMS-499",
+         "type" : "local",
+         "source" : "Yale Center for British Art"
+      }
+   ],
+   "administrativeMetadata" : [
+      {
+         "resourceWrap" : {
+            "resourceSet" : [
+               {
+                  "resourceType" : {
+                     "term" : [
+                        {
+                           "_" : "digital image",
+                           "addedSearchTerm" : "no"
+                        }
+                     ]
+                  },
+                  "resourceRepresentation" : [
+                     {
+                        "type" : "thumb",
+                        "linkResource" : {
+                           "formatResource" : "jpg",
+                           "_" : "\n                                        http://deliver.odai.yale.edu/content/repository/YCBA/object/499/type/2/format/1\n                                    "
+                        }
+                     },
+                     {
+                        "type" : "large",
+                        "linkResource" : {
+                           "_" : "\n                                        http://deliver.odai.yale.edu/content/repository/YCBA/object/499/type/2/format/3\n                                    ",
+                           "formatResource" : "jpg"
+                        }
+                     },
+                     {
+                        "type" : "list",
+                        "linkResource" : {
+                           "formatResource" : "json",
+                           "_" : "\n                                        http://deliver.odai.yale.edu/info/repository/YCBA/object/499/type/2\n                                    "
+                        }
+                     },
+                     {
+                        "linkResource" : {
+                           "_" : "\n                                        http://deliver.odai.yale.edu/content/repository/YCBA/object/499/type/2/format/6\n                                    ",
+                           "formatResource" : "tif"
+                        },
+                        "type" : "original"
+                     }
+                  ],
+                  "rightsResource" : [
+                     {
+                        "rightsHolder" : [
+                           {
+                              "legalBodyID" : [
+                                 {
+                                    "_" : "http://hdl.handle.net/10079/w6m90dq",
+                                    "type" : "URL"
+                                 }
+                              ],
+                              "legalBodyName" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Yale Center for British Art"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "resourceSource" : [
+                     {
+                        "type" : "holder of image",
+                        "legalBodyName" : [
+                           {
+                              "appellationValue" : [
+                                 {
+                                    "_" : "Yale Center for British Art"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "lang" : "eng",
+         "rightsWorkWrap" : {
+            "rightsWorkSet" : [
+               {
+                  "rightsHolder" : [
+                     {
+                        "legalBodyWeblink" : [
+                           {
+                              "_" : ""
+                           }
+                        ],
+                        "legalBodyName" : [
+                           {
+                              "appellationValue" : [
+                                 {
+                                    "_" : "Public Domain"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "rightsType" : [
+                     {
+                        "term" : [
+                           {
+                              "_" : "",
+                              "addedSearchTerm" : "no"
+                           }
+                        ],
+                        "conceptID" : [
+                           {
+                              "_" : "public domain",
+                              "source" : "YCBA",
+                              "type" : "object copyright"
+                           }
+                        ]
+                     }
+                  ],
+                  "creditLine" : [
+                     {
+                        "_" : "Yale Center for British Art, Paul Mellon Fund"
+                     }
+                  ]
+               }
+            ]
+         },
+         "recordWrap" : {
+            "recordInfoSet" : [
+               {
+                  "recordInfoLink" : [
+                     {
+                        "_" : "\n                                    http://collections.britishart.yale.edu/vufind/Record/1669220\n                                ",
+                        "formatResource" : "html"
+                     }
+                  ]
+               },
+               {
+                  "recordInfoID" : [
+                     {
+                        "source" : "YCBA",
+                        "type" : "URL",
+                        "_" : "oai:tms.ycba.yale.edu:499"
+                     }
+                  ]
+               }
+            ],
+            "recordSource" : [
+               {
+                  "legalBodyID" : [
+                     {
+                        "type" : "local",
+                        "_" : "Yale Center for British Art"
+                     }
+                  ],
+                  "legalBodyName" : [
+                     {
+                        "appellationValue" : [
+                           {
+                              "_" : "Yale Center for British Art"
+                           }
+                        ]
+                     }
+                  ],
+                  "legalBodyWeblink" : [
+                     {
+                        "_" : "http://britishart.yale.edu"
+                     }
+                  ]
+               }
+            ],
+            "recordType" : {
+               "term" : [
+                  {
+                     "_" : "Item",
+                     "addedSearchTerm" : "no"
+                  }
+               ],
+               "conceptID" : [
+                  {
+                     "source" : "AAT",
+                     "type" : "local",
+                     "_" : "300133025"
+                  }
+               ]
+            },
+            "recordID" : [
+               {
+                  "type" : "local",
+                  "_" : "499"
+               }
+            ]
+         }
+      }
+   ],
+   "category" : {
+      "term" : [
+         {
+            "lang" : "eng",
+            "addedSearchTerm" : "no",
+            "_" : "Man-Made Object"
+         }
+      ],
+      "conceptID" : [
+         {
+            "_" : "http://www.cidoc-crm.org/crm-concepts/#E22",
+            "type" : "URI"
+         }
+      ]
+   }
+}]

@@ -192,8 +192,17 @@
        <str name="fl">
          id,
          score,
+         title_display,
          author_display,
-
+         period,
+         repository,
+         artwork_type,
+         category,
+         dimensions,
+         material,
+         object_number,
+         work_pid,
+         references
        </str>
 
        <str name="facet">true</str>
@@ -202,7 +211,11 @@
        <str name="facet.field">lc_1letter_facet</str>
        <str name="facet.field">lc_alpha_facet</str>
        <str name="facet.field">lc_b4cutter_facet</str>
-       <str name="facet.field">nassia_facet</str>
+       <str name="facet.field">title_display</str>
+       <str name="facet.field">author_display</str>
+       <str name="facet.field">period</str>
+       <str name="facet.field">repository</str>
+       <str name="facet.field">category</str>
 
        <str name="spellcheck">true</str>
        <str name="spellcheck.dictionary">default</str>

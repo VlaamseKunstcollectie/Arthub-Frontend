@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1908-A</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/1908-A</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Zeegezicht in Blankenberge</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">In de jaren 1860 en 1870 onderging de Belgische marineschilderkunst een grondige vernieuwing, en ontstonden onder invloed van buitenlandse ontwikkelingen nieuwe artistieke opvattingen. In die ontwikkeling speelde Louis Artan voor België een belangrijke rol. Artan brak met de gekunstelde marineschilderkunst van zijn voorgangers. Met een open blik bestudeerde hij de Noordzee in al haar aspecten. Hij hechtte veel belang aan het schilderen in open lucht, en trachtte steeds opnieuw het wisselende karakter van de zee te suggereren. Daarbij ging zijn voorkeur uit naar sombere marines onder zware wolkenhemels. Het Zeegezicht in Blankenberge illustreert deze studie van de atmosferische werking van de natuur. Het schilderij is geen louter realistische voorstelling van het strand en de zee, maar een impressie van dit stukje natuur.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">De marine is een genre dat in de 17de eeuw als specialiteit wordt beoefend door Hollandse en Vlaamse schilders. Hun werk is in binnen- en buitenland bekend en wordt nog tot in de 19de eeuw door traditionele kunstenaars nagevolgd. Deze stellen de zee en het strand voor als stereotiepe, anekdotische decors, met zeil- en stoomschepen bij onweer, schipbreuken, … In de jaren 1860 en 1870 wordt de marineschilderkunst grondig herdacht. Mede onder invloed van buitenlandse ontwikkelingen ontstaan nieuwe artistieke opvattingen waarvan Louis Artan als een van de eersten aanhanger is. Hij bestudeert de Noordzee in al haar aspecten en hecht dan ook veel belang aan het schilderen in open lucht. Op het strand van De Panne laat hij zelfs een paalwoning bouwen die dienst doet als atelier.
+Tijdens zijn verblijf in Blankenberge komen Artans eerste belangrijke zeegezichten tot stand. Zijn voorkeur gaat vaak uit naar sombere zeegezichten onder zware wolkenhemels, zoals het geval in Zeegezicht te Blankenberge. In dit werk worden Artans zin voor de atmosferische werking van het licht en zijn interesse voor de vloeiende en onstandvastige aspecten van de zee, o.m. beïnvloed door de wisselende weersomstandigheden, mooi geïllustreerd. Het gaat hier niet om een louter realistische voorstelling van de zee, maar om de weergave van Artans persoonlijke impressie van dit stukje natuur. Vandaar ook het gebruik van een snelle en spontane penseelvoering en het achterwege laten van nodeloze details. Zo kan hij de vluchtige en wisselende stemmingen van het water en de lucht het best uitdrukken. Artan moet beschouwd worden als een voorloper van het Belgische impressionisme.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>84</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>122</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000170</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/25761629</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/2615</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q545005</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Artan de Saint-Martin, Louis</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Louis Artan de Saint-Martin</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1837</lido:earliestDate>
+                  <lido:latestDate>1890</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>1871</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1871</lido:earliestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">19de eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Blankenberge</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">zeegezichten</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1908-A</lido:recordID>
+      <lido:recordID lido:type="Adlib">310006343</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

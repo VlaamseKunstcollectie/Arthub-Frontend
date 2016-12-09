@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1941-D</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/1941-D</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Winter</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">Samen met Vincent van Gogh was George Hendrik Breitner een van de meest eigenzinnige en vernieuwende Nederlandse schilders van het einde van de negentiende eeuw. Een steeds terugkerend thema in zijn oeuvre is Amsterdam bij avond, mist of regenweer, meestal weergegeven in sombere tonen van oker, bruin en grijs. Hij schilderde bij voorkeur mensen uit de lagere klassen, arbeiders aan het werk of wandelaars op straat. Zijn losse, schetsmatige manier van schilderen lijkt intuïtief en is vaak onrustig, bijna agressief. Breitner was een van de eerste kunstenaars die de fotografie als hulpmiddel gebruikte. Daardoor wekte hij, zoals in dit wintergezicht, de indruk alsof zijn composities naar schijnbaar willekeurig genomen snapshots zijn geschilderd.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">Samen met Vincent van Gogh is Hendrik Breitner een van de meest eigenzinnige en vernieuwende Nederlandse schilders van het einde van de 19de eeuw. Reeds van in het begin van de jaren 1880 wil Breitner de “historieschilder van zijn eigen tijd worden.” Hij vindt geestesgenoten in de generatie van de Tachtigers met o.a. Willem Kloos en Frederik van Eeden. Geleidelijk aan maakt hij zich stilistisch los van de Haagse School en gaat hij een losse, schetsmatige toets hanteren die in het burgerlijke Nederland aanvankelijk op veel verzet stuit. Sommige werken uit die periode doen onwillekeurig aan Ensor denken. Breitner schildert Amsterdam bij voorkeur ‘s avonds, bij mist of regenweer. Het winterse gezicht uit het Museum voor Schone Kunsten Gent bevat bijna alle kenmerken van het rijpe oeuvre van Breitner. In zijn somber palet overheersen tonen in oker, grijs en donkere aardkleuren. Op een ongedwongen, intuïtieve maar soms agressieve en onrustige manier schildert hij bij voorkeur mensen uit de lagere klassen, zwoegende arbeiders en wandelaars die over de Dam of op straat wandelen. Hij is een van de eerste kunstenaars die hierbij de fotografie als hulpmiddel gebruikt. Soms gebruikt hij foto’s enkel om de sfeer op een bepaald moment vast te leggen maar even dikwijls ook als direct voorbeeld. Hierdoor wordt het toeval een belangrijke speler in zijn composities vanaf de tweede helft van de jaren 1880. Ook het hier voorliggende schilderij geeft een “toevallige” indruk, alsof het geschilderd is naar een schijnbaar willekeurig genomen snap-shot. Opvallend is dat de vrouw in dit schilderij duidelijk op de voorgrond treedt en meer uitgewerkt is terwijl de man zich moeizaam uit de achtergrond losmaakt. Het gaat waarschijnlijk om Maria Jordan met wie Breitner trouwt in 1901.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>71</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>93</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000514</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/71495339</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/12318</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q289441</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Breitner, George Hendrik</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">George Hendrik Breitner</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1857</lido:earliestDate>
+                  <lido:latestDate>1923</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:periodName>
+            <lido:term xml:lang="nl"/>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Amsterdam</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">figuurvoorstellingen</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1941-D</lido:recordID>
+      <lido:recordID lido:type="Adlib">310006501</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

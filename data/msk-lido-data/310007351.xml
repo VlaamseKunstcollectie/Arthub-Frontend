@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/1934-U</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/1934-U</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT">http://vocab.getty.edu/aat/300033799</lido:conceptID>
+          <lido:term lido:pref="alternate">olieverfschilderingen</lido:term>
+          <lido:term lido:pref="preferred">olieverfschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Zittende vrouw bij het venster of Portret van Nel Duerinckx, de vrouw van de kunstenaar</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">Van opleiding was Rik Wouters beeldhouwer, als schilder was hij autodidact. Zijn grote voorbeeld was de Franse kunstenaar Paul Cézanne. Wouters schilderde in felle, meestal zonnige kleuren in een techniek die aan aquarel doet denken. Hij bracht de verf zeer dun aan en hier en daar liet hij delen van het doek onbeschilderd, wat bijzondere lichteffecten creëert. Zijn uitverkoren model was zijn vrouw Nel. Bij het begin van de Eerste Wereldoorlog, na de val van Antwerpen, wordt Wouters in Nederland geïnterneerd. In 1915 werd hij ongeneeslijk ziek en in vrijheid gesteld. Samen met zijn vrouw vestigde hij zich in Amsterdam. Daar schilderde hij onder meer Zittende vrouw bij het venster. Het donker kleurengamma en de serene sfeer zijn kenmerkend voor Wouters latere werken.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">Zittende vrouw ontstond tijdens de Eerste Wereldoorlog. Rik Wouters, die aanvankelijk gemobiliseerd was voor het Belgisch leger en al snel in een interneringskamp voor Belgische soldaten in Amerfoort belandde, kon zich dankzij de bemiddeling van zijn vrouw en van Nic Beets, de toenmalige directeur van het Rijksprentenkabinet in Amsterdam, vestigen in Amsterdam om zich opnieuw volop aan de kunst te wijden. Tijdens zijn Amsterdamse periode, waarin Wouters van in het begin last had van een voortdurende hoofdpijn die in 1915 gediagnosticeerd zou worden als kanker, tekende en schilderde hij voortdurend. Vlak voor de Eerste Wereldoorlog slaagde hij er in om zijn eigen stijl volledig te ontwikkelen. Meer en meer, onder invloed van het werk van Paul Cézanne, maar ook van Ensor, Van Gogh en zelfs Goya en El Greco, gaat hij met transparante verflagen werken die dun aangebracht worden op het doek. Zijn palet is helder en gevarieerd waardoor de meeste van zijn schilderijen een lofzang lijken te zijn aan de zuivere kleur en aan het leven. Zittende vrouw is een van de weinige schilderijen in het oeuvre van Wouters dat getuigt van een zekere melancholie. Zijn vrouw Nel, die vaak diende als model, zit op een stoel, gekeerd naar de toeschouwer, met een omgekeerd boek op haar schoot. De bleke kleuren van het boek contrasteren met het donkere grijs en zwart van haar jurk. De rug van de vrouw wordt gereflecteerd in een spiegel achter haar. Het spiegelbeeld van de vrouw en de bos bloemen aan haar linkerkant zijn getuige van een tendens naar abstractie die, zeker in de laatste jaren, bij Wouters aanwezig was. Hoewel de compositie en het kleurgebruik intuïtief en vluchtig lijken en de kunstenaar de verf aanbracht met vlotte en grote toetsen is toch duidelijk dat de opbouw doordacht en intelligent gebeurde. De melancholische houding van de vrouw vindt haar echo in het sobere kleurgebruik en tegelijkertijd slaagde Wouters er in om met subtiele maar veelvuldige en rijke kleurschakeringen (bijvoorbeeld in het boek of in het spiegelbeeld rechts bovenaan) op een bijzonder treffende manier de atmosfeer en de flikkeringen van het licht weer te geven. Zittende vrouw neemt dan ook een unieke plaats in, zowel binnen het magistrale oeuvre van de kunstenaar als binnen de collectie van het Museum voor Schone Kunsten.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>96.2</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>74.6</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310000909</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/19851793</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">https://rkd.nl/explore/artists/85676</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q939197</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Wouters, Rik</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Rik Wouters</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1882</lido:earliestDate>
+                  <lido:latestDate>1916</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>circa 1915</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate lido:type="toegeschreven">1915</lido:earliestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">20ste eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl">Amsterdam</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl"/>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">1934-U</lido:recordID>
+      <lido:recordID lido:type="Adlib">310007351</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:gml="http://www.opengis.net/gml" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <lido:lidoRecID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="dataPID">http://mskgent.be/collection/work/data/2009-B</lido:lidoRecID>
+  <lido:objectPublishedID lido:type="global" lido:source="Museum voor Schone Kunsten Gent" lido:label="workPID">http://mskgent.be/collection/work/id/2009-B</lido:objectPublishedID>
+  <lido:descriptiveMetadata>
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+      <lido:classificationWrap>
+        <lido:classification>
+          <lido:conceptID lido:pref="alternate" lido:type="global" lido:source="AAT"/>
+          <lido:term lido:pref="alternate">caseïneschilderij</lido:term>
+          <lido:term lido:pref="preferred">caseïneschilderij</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue xml:lang="nl">Studie nr. III</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="nl">Bij het begin van de Eerste Wereldoorlog week Georges Vantongerloo uit naar Den Haag. In korte tijd vond hij aansluiting met de Nederlandse avant-garde en onderhield hij contacten met gelijkgezinde kunstenaars, in de eerste plaats met Theo van Doesburg. In november 1918 ondertekende hij als enige Belgische kunstenaar het manifest van De Stijl, naast onder meer Piet Mondriaan en Van Doesburg. Zijn eerste abstracte werken waren sculpturen. Parallel zocht hij in de schilderkunst naar de ruimtelijke mogelijkheden van kleur. In tegenstelling tot de meeste kunstenaars van De Stijl, die uitsluitend de primaire kleuren gebruikten – blauw, rood, geel –, introduceerde Vantongerloo secundaire kleuren in zijn geschilderde werk. Het schilderij Studie nr. III is een van de vroegste voorbeelden daarvan. Het illustreert zijn kleurentheorie, waarin hij zeven hoofdkleuren vastlegde: rood, oranje, geel, groen, blauw, indigo en violet. Daarnaast onderscheidde hij vijf overgangskleuren, zijnde oranjerood, oranjegeel, blauwgroen, indigoblauw en indigoviolet. Samen maken dat niet toevallig twaalf kleuren, waarmee Vantongerloo zijn kleurenpalet verbond met het twaalftoonstelsel in de muziek. Het schilderij heeft het kenmerk van een experiment, waarin de door Vantongerloo ontwikkelde kleurentheorie in de praktijk is omgezet.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet>
+          <lido:descriptiveNoteValue xml:lang="en">At the outbreak of WWI, Georges Vantongerloo left Belgium for The Hague. He soon made connections with the Dutch avant-garde and kept in touch with like-minded artists, above all Theo Van Doesburg. In November 1918 he signed the manifesto of De Stijl alongside Piet Mondriaan, Van Doesburg and others, the only Belgian artist to do so. His first abstract works were sculptures. Parallel to this, in painting he sought out the spatial potential of colour. Unlike most of the artists of De Stijl, who used only the primary colours – red, blue and yellow – Vantongerloo introduced secondary colours into his painted works. The painting Study no. III is one of the earliest examples. It illustrates his colour theory, in which he establishes seven principal colours: red, orange, yellow, green, blue, indigo and violet. In addition, he distinguished five transitional colours, being red-orange, yellow-orange, blue-green, indigo-blue and indigo-violet. It is no coincidence that this amounts to twelve colours, whereby Vantongerloo linked his palette to twelve-tone music. This painting has the nature of an experiment in which Vantongerloo puts his colour theory into practice.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap>
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>hoogte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>30</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>breedte</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>22.5</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+    <lido:eventWrap>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Production</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:actorID lido:type="local" lido:source="Adlib">310008282</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="VIAF">http://viaf.org/viaf/54416695</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="RKD">http://explore.rkd.nl/nl/explore/artists/79425</lido:actorID>
+                <lido:actorID lido:type="url" lido:source="Wikidata">http://www.wikidata.org/wiki/Q771670</lido:actorID>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:pref="alternate">Vantongerloo, Georges</lido:appellationValue>
+                  <lido:appellationValue lido:pref="preferred">Georges Vantongerloo</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:earliestDate>1886</lido:earliestDate>
+                  <lido:latestDate>1965</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate>1920</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1920</lido:earliestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:periodName>
+            <lido:term xml:lang="nl">20ste eeuw</lido:term>
+          </lido:periodName>
+          <lido:eventPlace>
+            <lido:place>
+              <lido:namePlaceSet>
+                <lido:appellationValue lido:pref="preferred" xml:lang="nl"/>
+              </lido:namePlaceSet>
+            </lido:place>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="physicalDescription"/>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+    <lido:objectRelationWrap>
+      <lido:subjectWrap>
+        <lido:subjectSet>
+          <lido:subject>
+            <lido:subjectConcept>
+              <lido:term xml:lang="nl">abstract</lido:term>
+            </lido:subjectConcept>
+          </lido:subject>
+        </lido:subjectSet>
+      </lido:subjectWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata>
+    <lido:recordWrap>
+      <lido:recordID lido:type="local">2009-B</lido:recordID>
+      <lido:recordID lido:type="Adlib">310007564</lido:recordID>
+      <lido:recordType>
+        <lido:conceptID lido:type="local" lido:source="AAT">http://vocab.getty.edu/aat/300133025</lido:conceptID>
+        <lido:term>Item</lido:term>
+      </lido:recordType>
+      <lido:recordSource>
+        <lido:legalBodyName>
+          <lido:appellationValue>Museum voor Schone Kunsten Gent</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>http://mskgent.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap>
+  </lido:administrativeMetadata>
+</lido:lido>
