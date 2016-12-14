@@ -285,19 +285,19 @@
 
 
  <fields>
-     <field name="id" type="string" indexed="true" stored="true" required="false" />
-     <field name="_bag" type="string" indexed="true" stored="true" required="false" />
-   <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
+    <field name="id" type="string" indexed="true" stored="true" required="false" />
+    <field name="_bag" type="string" indexed="true" stored="true" required="false" />
+    <field name="timestamp" type="date" indexed="false" stored="true" default="NOW" multiValued="false"/>
 
    <!-- default, catch all search field -->
    <field name="text" type="text" indexed="true" stored="false" multiValued="true"/>
 
-   <field name="title_display" type="string" indexed="false" stored="true" multiValued="false"/>
+   <field name="title_display" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="title_vern_display" type="string" indexed="false" stored="true" multiValued="false"/>
    <field name="subtitle_display" type="string" indexed="false" stored="true" multiValued="false"/>
    <field name="subtitle_vern_display" type="string" indexed="false" stored="true" multiValued="false"/>
 
-   <field name="author_display" type="string" indexed="false" stored="true" multiValued="false"/>
+   <field name="author_display" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="author_vern_display" type="string" indexed="false" stored="true" multiValued="false"/>
 
    <field name="production_date" type="string" indexed="true" stored="true" multiValued="false"/>
@@ -309,12 +309,12 @@
    <field name="object_number" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="work_pid" type="string" indexed="false" stored="true" multiValued="false"/>
 
-   <field name="material" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="material" type="string" indexed="false" stored="true" multiValued="false"/>
    <field name="dimensions" type="string" indexed="false" stored="true" multiValued="false"/>
 
    <field name="keywords" type="string" indexed="false" stored="true" multiValued="false"/>
-   <field name="category" type="string" indexed="false" stored="true" multiValued="false"/>
-   <field name="artwork_type" type="string" indexed="false" stored="true" multiValued="false"/>
+   <field name="artwork_category" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="artwork_type" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="references" type="string" indexed="false" stored="true" multiValued="false"/>
 
 
@@ -323,6 +323,8 @@
    <field name="subject_era_facet" type="string" indexed="true" stored="true" multiValued="true" />
    <field name="subject_geo_facet" type="string" indexed="true" stored="true" multiValued="true" />
 
+      <!-- format is used for facet, display, and choosing which partial to use for the show view, so it must be stored and indexed -->
+      <field name="format" type="string" indexed="true" stored="true"/>
    <!-- Dynamic field definitions.  If a field name is not found, dynamicFields
         will be used if the name matches any of the patterns.
         RESTRICTION: the glob-like pattern in the name attribute must have
@@ -372,6 +374,9 @@
 
  <!-- SolrQueryParser configuration: defaultOperator="AND|OR" -->
  <solrQueryParser defaultOperator="OR"/>
+
+ <copyField source="title_display" dest="title_t"/>
+ <copyField source="author_display" dest="author_t"/>
 
   <!-- copyField commands copy one field to another at the time a document
         is added to the index.  It's used either to index the same field differently,

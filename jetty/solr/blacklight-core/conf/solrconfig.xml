@@ -107,6 +107,8 @@
          subject_addl_t^50
          title_series_unstem_search^25
          title_series_t^10
+         title_display,
+         author_display,
          text
        </str>
        <str name="pf">
@@ -197,7 +199,7 @@
          period,
          repository,
          artwork_type,
-         category,
+         artwork_category,
          dimensions,
          material,
          object_number,
@@ -211,11 +213,10 @@
        <str name="facet.field">lc_1letter_facet</str>
        <str name="facet.field">lc_alpha_facet</str>
        <str name="facet.field">lc_b4cutter_facet</str>
-       <str name="facet.field">title_display</str>
-       <str name="facet.field">author_display</str>
        <str name="facet.field">period</str>
        <str name="facet.field">repository</str>
-       <str name="facet.field">category</str>
+       <str name="facet.field">artwork_category</str>
+       <str name="facet.field">artwork_type</str>
 
        <str name="spellcheck">true</str>
        <str name="spellcheck.dictionary">default</str>
@@ -376,8 +377,9 @@
         score,
         author_display,
         author_vern_display,
-        material_display,
+        material,
         production_date,
+        period,
         title_display,
         title_vern_display,
         subject_topic_facet,

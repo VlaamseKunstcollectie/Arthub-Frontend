@@ -545,10 +545,6 @@
    <field name="subject_topic_facet" type="string" indexed="true" stored="true" multiValued="true" />
    <field name="subject_era_facet" type="string" indexed="true" stored="true" multiValued="true" />
    <field name="subject_geo_facet" type="string" indexed="true" stored="true" multiValued="true" />
-
-   <field name="nassia" type="string" indexed="true" stored="true" multiValued="false"  default="true"/>
-   <field name="nassia_facet" type="string" indexed="true" stored="true" multiValued="true" />
-
    <!-- pub_date is used for facet and display so it must be indexed and stored -->
    <field name="pub_date" type="string" indexed="true" stored="true" multiValued="true"/>
    <!-- pub_date sort uses new trie-based int fields, which are recommended for any int and are displayable, sortable, and range-quer
@@ -610,7 +606,6 @@
         alternately, change the type="ignored" to some other type e.g. "text" if you want
         unknown fields indexed and/or stored by default -->
    <!--dynamicField name="*" type="ignored" multiValued="true" /-->
-
 
  </fields>
 
