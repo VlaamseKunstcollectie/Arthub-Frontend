@@ -1,0 +1,334 @@
+{
+   "lidoRecID" : [
+      {
+         "type" : "global",
+         "_" : "http://mskgent.be/collection/work/data/1883-L",
+         "label" : "dataPID",
+         "source" : "Museum voor Schone Kunsten Gent"
+      }
+   ],
+   "administrativeMetadata" : [
+      {
+         "recordWrap" : {
+            "recordSource" : [
+               {
+                  "legalBodyName" : [
+                     {
+                        "appellationValue" : [
+                           {
+                              "_" : "Museum voor Schone Kunsten Gent"
+                           }
+                        ]
+                     }
+                  ],
+                  "legalBodyWeblink" : [
+                     {
+                        "_" : "http://mskgent.be"
+                     }
+                  ]
+               }
+            ],
+            "recordID" : [
+               {
+                  "_" : "1883-L",
+                  "type" : "local"
+               },
+               {
+                  "_" : "310000008",
+                  "type" : "Adlib"
+               }
+            ],
+            "recordType" : {
+               "term" : [
+                  {
+                     "addedSearchTerm" : "no",
+                     "_" : "Item"
+                  }
+               ],
+               "conceptID" : [
+                  {
+                     "type" : "local",
+                     "_" : "http://vocab.getty.edu/aat/300133025",
+                     "source" : "AAT"
+                  }
+               ]
+            }
+         }
+      }
+   ],
+   "descriptiveMetadata" : [
+      {
+         "objectIdentificationWrap" : {
+            "objectMeasurementsWrap" : {
+               "objectMeasurementsSet" : [
+                  {
+                     "objectMeasurements" : {
+                        "measurementsSet" : [
+                           {
+                              "measurementValue" : {
+                                 "_" : "296"
+                              },
+                              "measurementUnit" : [
+                                 {
+                                    "_" : "cm"
+                                 }
+                              ],
+                              "measurementType" : [
+                                 {
+                                    "_" : "hoogte"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "objectMeasurements" : {
+                        "measurementsSet" : [
+                           {
+                              "measurementType" : [
+                                 {
+                                    "_" : "breedte"
+                                 }
+                              ],
+                              "measurementValue" : {
+                                 "_" : "355"
+                              },
+                              "measurementUnit" : [
+                                 {
+                                    "_" : "cm"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            "objectDescriptionWrap" : {
+               "objectDescriptionSet" : [
+                  {
+                     "descriptiveNoteValue" : [
+                        {
+                           "_" : "",
+                           "lang" : "nl"
+                        }
+                     ]
+                  },
+                  {
+                     "descriptiveNoteValue" : [
+                        {
+                           "lang" : "en",
+                           "_" : ""
+                        }
+                     ]
+                  }
+               ]
+            },
+            "titleWrap" : {
+               "titleSet" : [
+                  {
+                     "appellationValue" : [
+                        {
+                           "lang" : "nl",
+                           "_" : "De heilige Livinus in Vlaanderen"
+                        }
+                     ]
+                  }
+               ]
+            }
+         },
+         "objectRelationWrap" : {
+            "subjectWrap" : {
+               "subjectSet" : [
+                  {
+                     "subject" : {
+                        "subjectConcept" : [
+                           {
+                              "term" : [
+                                 {
+                                    "_" : "religieuze voorstellingen",
+                                    "addedSearchTerm" : "no",
+                                    "lang" : "nl"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         },
+         "objectClassificationWrap" : {
+            "objectWorkTypeWrap" : {
+               "objectWorkType" : [
+                  {
+                     "term" : [
+                        {
+                           "addedSearchTerm" : "no",
+                           "lang" : "nl",
+                           "_" : "schilderingen",
+                           "pref" : "preferred"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "classificationWrap" : {
+               "classification" : [
+                  {
+                     "term" : [
+                        {
+                           "pref" : "alternate",
+                           "_" : "olieverfschilderingen",
+                           "addedSearchTerm" : "no"
+                        },
+                        {
+                           "_" : "olieverfschilderij",
+                           "pref" : "preferred",
+                           "addedSearchTerm" : "no"
+                        }
+                     ],
+                     "conceptID" : [
+                        {
+                           "pref" : "alternate",
+                           "source" : "AAT",
+                           "_" : "http://vocab.getty.edu/aat/300033799",
+                           "type" : "global"
+                        }
+                     ]
+                  }
+               ]
+            }
+         },
+         "eventWrap" : {
+            "eventSet" : [
+               {
+                  "event" : {
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "_" : "Production",
+                              "addedSearchTerm" : "no"
+                           }
+                        ]
+                     },
+                     "eventActor" : [
+                        {
+                           "actorInRole" : {
+                              "actor" : {
+                                 "nameActorSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "Vanaise, Gustave",
+                                             "pref" : "alternate"
+                                          },
+                                          {
+                                             "pref" : "preferred",
+                                             "_" : "Gustave Vanaise"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "actorID" : [
+                                    {
+                                       "_" : "310000748",
+                                       "source" : "Adlib",
+                                       "type" : "local"
+                                    },
+                                    {
+                                       "_" : "http://viaf.org/viaf/96142481",
+                                       "source" : "VIAF",
+                                       "type" : "url"
+                                    },
+                                    {
+                                       "_" : "http://explore.rkd.nl/nl/explore/artists/79337",
+                                       "source" : "RKD",
+                                       "type" : "url"
+                                    },
+                                    {
+                                       "type" : "url",
+                                       "_" : "http://www.wikidata.org/wiki/Q3121341",
+                                       "source" : "Wikidata"
+                                    }
+                                 ],
+                                 "vitalDatesActor" : {
+                                    "latestDate" : {
+                                       "_" : "1902"
+                                    },
+                                    "earliestDate" : {
+                                       "_" : "1854"
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     ],
+                     "periodName" : [
+                        {
+                           "term" : [
+                              {
+                                 "_" : "19de eeuw",
+                                 "lang" : "nl",
+                                 "addedSearchTerm" : "no"
+                              }
+                           ]
+                        }
+                     ],
+                     "eventDate" : {
+                        "displayDate" : [
+                           {
+                              "_" : "circa 1882"
+                           }
+                        ],
+                        "date" : {
+                           "earliestDate" : {
+                              "_" : "1882",
+                              "type" : "circa"
+                           }
+                        }
+                     },
+                     "eventPlace" : [
+                        {
+                           "place" : {
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "lang" : "nl",
+                                          "pref" : "preferred",
+                                          "_" : ""
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        }
+                     ],
+                     "eventMaterialsTech" : [
+                        {
+                           "materialsTech" : {
+                              "termMaterialsTech" : [
+                                 {
+                                    "type" : "physicalDescription"
+                                 }
+                              ]
+                           }
+                        }
+                     ]
+                  }
+               }
+            ]
+         }
+      }
+   ],
+   "objectPublishedID" : [
+      {
+         "type" : "global",
+         "_" : "http://mskgent.be/collection/work/id/1883-L",
+         "source" : "Museum voor Schone Kunsten Gent",
+         "label" : "workPID"
+      }
+   ]
+}

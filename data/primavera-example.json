@@ -1,0 +1,2253 @@
+[{
+   "category" : {
+      "term" : [
+         {
+            "lang" : "en",
+            "_" : "Man-Made Object",
+            "addedSearchTerm" : "no"
+         }
+      ],
+      "conceptID" : [
+         {
+            "type" : "URI",
+            "_" : "http://www.cidoc-crm.org/crm-concepts/E22"
+         }
+      ]
+   },
+   "administrativeMetadata" : [
+      {
+         "lang" : "en",
+         "recordWrap" : {
+            "recordSource" : [
+               {
+                  "legalBodyID" : [
+                     {
+                        "type" : "URI",
+                        "source" : "ISIL (ISO 15511)",
+                        "_" : "info:isil/DE-Mb112"
+                     }
+                  ],
+                  "legalBodyName" : [
+                     {
+                        "appellationValue" : [
+                           {
+                              "_" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+                           }
+                        ]
+                     }
+                  ],
+                  "legalBodyWeblink" : [
+                     {
+                        "_" : "http://www.fotomarburg.de"
+                     }
+                  ]
+               }
+            ],
+            "recordType" : {
+               "term" : [
+                  {
+                     "_" : "single object",
+                     "addedSearchTerm" : "no"
+                  }
+               ]
+            },
+            "recordRights" : [
+               {
+                  "rightsHolder" : [
+                     {
+                        "legalBodyID" : [
+                           {
+                              "source" : "ISIL (ISO 15511)",
+                              "_" : "info:isil/DE-Mb112",
+                              "type" : "URI"
+                           }
+                        ],
+                        "legalBodyName" : [
+                           {
+                              "appellationValue" : [
+                                 {
+                                    "_" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+                                 }
+                              ]
+                           }
+                        ],
+                        "legalBodyWeblink" : [
+                           {
+                              "_" : "http://www.fotomarburg.de"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "recordID" : [
+               {
+                  "_" : "00154983",
+                  "type" : "local"
+               }
+            ],
+            "recordInfoSet" : [
+               {
+                  "recordInfoLink" : [
+                     {
+                        "formatResource" : "html",
+                        "_" : "http://www.bildindex.de/dokumente/html/obj00154983"
+                     }
+                  ]
+               },
+               {
+                  "recordInfoID" : [
+                     {
+                        "_" : "oai:bildindex.de:lidoWrap::DE-Mb112/lido-obj00154983",
+                        "type" : "oai"
+                     }
+                  ]
+               }
+            ]
+         },
+         "resourceWrap" : {
+            "resourceSet" : [
+               {
+                  "resourceSource" : [
+                     {
+                        "legalBodyName" : [
+                           {
+                              "appellationValue" : [
+                                 {
+                                    "_" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+                                 }
+                              ]
+                           }
+                        ],
+                        "type" : "holder of image"
+                     }
+                  ],
+                  "resourceDateTaken" : {
+                     "displayDate" : [
+                        {
+                           "_" : "1949"
+                        }
+                     ]
+                  },
+                  "resourceID" : {
+                     "_" : "C 654.591",
+                     "type" : "local"
+                  },
+                  "rightsResource" : [
+                     {
+                        "rightsHolder" : [
+                           {
+                              "legalBodyName" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "legalBodyID" : [
+                                 {
+                                    "source" : "ISIL (ISO 15511)",
+                                    "_" : "info:isil/DE-Mb112",
+                                    "type" : "URI"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "resourceDescription" : [
+                     {
+                        "_" : "overall view"
+                     }
+                  ],
+                  "resourceRepresentation" : [
+                     {
+                        "type" : "image_thumb",
+                        "resourceMeasurementsSet" : [
+                           {
+                              "measurementUnit" : [
+                                 {
+                                    "_" : "pixel"
+                                 }
+                              ],
+                              "measurementType" : [
+                                 {
+                                    "_" : "width"
+                                 }
+                              ],
+                              "measurementValue" : {
+                                 "_" : "120"
+                              }
+                           }
+                        ],
+                        "linkResource" : {
+                           "_" : "http://www.bildindex.de/bilder/t/fmc654591",
+                           "formatResource" : "jpg"
+                        }
+                     }
+                  ],
+                  "resourceType" : {
+                     "term" : [
+                        {
+                           "addedSearchTerm" : "no",
+                           "_" : "digital image"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "resourceSource" : [
+                     {
+                        "type" : "holder of image",
+                        "legalBodyName" : [
+                           {
+                              "appellationValue" : [
+                                 {
+                                    "_" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "resourceID" : {
+                     "type" : "local",
+                     "_" : ""
+                  },
+                  "resourceDateTaken" : {
+                     "displayDate" : [
+                        {
+                           "_" : "1932"
+                        }
+                     ]
+                  },
+                  "rightsResource" : [
+                     {
+                        "rightsHolder" : [
+                           {
+                              "legalBodyName" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "legalBodyID" : [
+                                 {
+                                    "type" : "URI",
+                                    "_" : "info:isil/DE-Mb112",
+                                    "source" : "ISIL (ISO 15511)"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "resourceDescription" : [
+                     {
+                        "_" : "overall view"
+                     }
+                  ],
+                  "resourceRepresentation" : [
+                     {
+                        "type" : "image_thumb",
+                        "resourceMeasurementsSet" : [
+                           {
+                              "measurementUnit" : [
+                                 {
+                                    "_" : "pixel"
+                                 }
+                              ],
+                              "measurementValue" : {
+                                 "_" : "120"
+                              },
+                              "measurementType" : [
+                                 {
+                                    "_" : "width"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkResource" : {
+                           "_" : "http://www.bildindex.de/bilder/t/it00148d04",
+                           "formatResource" : "jpg"
+                        }
+                     }
+                  ],
+                  "resourceType" : {
+                     "term" : [
+                        {
+                           "addedSearchTerm" : "no",
+                           "_" : "digital image (digitized from analog source)"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "rightsResource" : [
+                     {
+                        "rightsHolder" : [
+                           {
+                              "legalBodyName" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "legalBodyID" : [
+                                 {
+                                    "type" : "URI",
+                                    "_" : "info:isil/DE-Mb112",
+                                    "source" : "ISIL (ISO 15511)"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "resourceRepresentation" : [
+                     {
+                        "type" : "image_thumb",
+                        "linkResource" : {
+                           "_" : "http://www.bildindex.de/bilder/t/it00148d03",
+                           "formatResource" : "jpg"
+                        },
+                        "resourceMeasurementsSet" : [
+                           {
+                              "measurementUnit" : [
+                                 {
+                                    "_" : "pixel"
+                                 }
+                              ],
+                              "measurementType" : [
+                                 {
+                                    "_" : "width"
+                                 }
+                              ],
+                              "measurementValue" : {
+                                 "_" : "120"
+                              }
+                           }
+                        ]
+                     }
+                  ],
+                  "resourceType" : {
+                     "term" : [
+                        {
+                           "addedSearchTerm" : "no",
+                           "_" : "digital image (digitized from analog source)"
+                        }
+                     ]
+                  },
+                  "resourceSource" : [
+                     {
+                        "type" : "holder of image",
+                        "legalBodyName" : [
+                           {
+                              "appellationValue" : [
+                                 {
+                                    "_" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "resourceID" : {
+                     "type" : "local",
+                     "_" : "1.005.045"
+                  }
+               }
+            ]
+         },
+         "rightsWorkWrap" : {}
+      }
+   ],
+   "lidoRecID" : [
+      {
+         "source" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg",
+         "_" : "DE-Mb112/lido-obj00154983",
+         "type" : "local"
+      }
+   ],
+   "descriptiveMetadata" : [
+      {
+         "eventWrap" : {
+            "eventSet" : [
+               {
+                  "event" : {
+                     "eventActor" : [
+                        {
+                           "actorInRole" : {
+                              "actor" : {
+                                 "actorID" : [
+                                    {
+                                       "type" : "local",
+                                       "source" : "Bildindex-KUE-Datei",
+                                       "_" : "kue     02553338"
+                                    }
+                                 ],
+                                 "type" : "person",
+                                 "genderActor" : [
+                                    {
+                                       "_" : "male"
+                                    }
+                                 ],
+                                 "nameActorSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "Botticelli, Sandro",
+                                             "pref" : "preferred"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "Filipepi, Alessandro",
+                                             "pref" : "alternate"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "pref" : "alternate",
+                                             "_" : "Filipepi, Sandro"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "nationalityActor" : [
+                                    {
+                                       "term" : [
+                                          {
+                                             "addedSearchTerm" : "no",
+                                             "_" : "Italien"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "vitalDatesActor" : {
+                                    "latestDate" : {
+                                       "type" : "estimatedDate",
+                                       "_" : "1510-05-17"
+                                    },
+                                    "earliestDate" : {
+                                       "type" : "estimatedDate",
+                                       "_" : "1445"
+                                    }
+                                 }
+                              },
+                              "roleActor" : [
+                                 {
+                                    "term" : [
+                                       {
+                                          "_" : "painter",
+                                          "addedSearchTerm" : "no"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        }
+                     ],
+                     "eventMaterialsTech" : [
+                        {
+                           "materialsTech" : {
+                              "termMaterialsTech" : [
+                                 {
+                                    "term" : [
+                                       {
+                                          "_" : "tempera",
+                                          "addedSearchTerm" : "no"
+                                       },
+                                       {
+                                          "_" : "color material",
+                                          "addedSearchTerm" : "yes"
+                                       }
+                                    ],
+                                    "type" : "material"
+                                 }
+                              ]
+                           }
+                        },
+                        {
+                           "materialsTech" : {
+                              "termMaterialsTech" : [
+                                 {
+                                    "type" : "material",
+                                    "term" : [
+                                       {
+                                          "_" : "poplar",
+                                          "addedSearchTerm" : "no"
+                                       },
+                                       {
+                                          "addedSearchTerm" : "yes",
+                                          "_" : "wood"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        }
+                     ],
+                     "eventDate" : {
+                        "date" : {
+                           "earliestDate" : {
+                              "_" : "1482"
+                           },
+                           "latestDate" : {
+                              "_" : "1482"
+                           }
+                        }
+                     },
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "addedSearchTerm" : "no",
+                              "_" : "creation"
+                           }
+                        ]
+                     }
+                  }
+               },
+               {
+                  "event" : {
+                     "eventDate" : {
+                        "date" : {
+                           "earliestDate" : {
+                              "_" : "1982"
+                           },
+                           "latestDate" : {
+                              "_" : "1982"
+                           }
+                        }
+                     },
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "addedSearchTerm" : "no",
+                              "_" : "restoration"
+                           }
+                        ]
+                     }
+                  }
+               },
+               {
+                  "event" : {
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "addedSearchTerm" : "no",
+                              "_" : "provenance"
+                           }
+                        ]
+                     },
+                     "eventPlace" : [
+                        {
+                           "place" : {
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Florence, Palazzo Medici Riccardi, Via Cavour"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "partOfPlace" : [
+                                 {
+                                    "partOfPlace" : [
+                                       {
+                                          "partOfPlace" : [
+                                             {
+                                                "politicalEntity" : "nation",
+                                                "namePlaceSet" : [
+                                                   {
+                                                      "appellationValue" : [
+                                                         {
+                                                            "_" : "Italy"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             }
+                                          ],
+                                          "namePlaceSet" : [
+                                             {
+                                                "appellationValue" : [
+                                                   {
+                                                      "_" : "Firenze, Provincia"
+                                                   }
+                                                ]
+                                             }
+                                          ],
+                                          "politicalEntity" : "province"
+                                       }
+                                    ],
+                                    "namePlaceSet" : [
+                                       {
+                                          "appellationValue" : [
+                                             {
+                                                "_" : "Florence"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "appellationValue" : [
+                                             {
+                                                "_" : "Firenze"
+                                             }
+                                          ]
+                                       }
+                                    ],
+                                    "politicalEntity" : "commune"
+                                 }
+                              ]
+                           }
+                        }
+                     ],
+                     "eventDate" : {
+                        "date" : {
+                           "latestDate" : {
+                              "_" : "1498"
+                           },
+                           "earliestDate" : {
+                              "_" : "1498"
+                           }
+                        }
+                     }
+                  }
+               },
+               {
+                  "event" : {
+                     "eventPlace" : [
+                        {
+                           "place" : {
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Castello (Florence), Villa Medicea"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "partOfPlace" : [
+                                 {
+                                    "namePlaceSet" : [
+                                       {
+                                          "appellationValue" : [
+                                             {
+                                                "_" : "Castello (Florence)"
+                                             }
+                                          ]
+                                       }
+                                    ],
+                                    "partOfPlace" : [
+                                       {
+                                          "partOfPlace" : [
+                                             {
+                                                "politicalEntity" : "nation",
+                                                "namePlaceSet" : [
+                                                   {
+                                                      "appellationValue" : [
+                                                         {
+                                                            "_" : "Italy"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             }
+                                          ],
+                                          "namePlaceSet" : [
+                                             {
+                                                "appellationValue" : [
+                                                   {
+                                                      "_" : "Firenze, Provincia"
+                                                   }
+                                                ]
+                                             }
+                                          ],
+                                          "politicalEntity" : "province"
+                                       }
+                                    ],
+                                    "politicalEntity" : "commune"
+                                 }
+                              ]
+                           }
+                        }
+                     ],
+                     "eventDate" : {
+                        "date" : {
+                           "latestDate" : {
+                              "_" : "1555"
+                           },
+                           "earliestDate" : {
+                              "_" : "1546"
+                           }
+                        }
+                     },
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "_" : "provenance",
+                              "addedSearchTerm" : "no"
+                           }
+                        ]
+                     }
+                  }
+               }
+            ]
+         },
+         "objectClassificationWrap" : {
+            "classificationWrap" : {
+               "classification" : [
+                  {
+                     "term" : [
+                        {
+                           "addedSearchTerm" : "no",
+                           "_" : "IMAGE"
+                        }
+                     ],
+                     "type" : "europeana:type"
+                  },
+                  {
+                     "term" : [
+                        {
+                           "_" : "panel painting",
+                           "addedSearchTerm" : "no",
+                           "encodinganalog" : "5220/5220"
+                        },
+                        {
+                           "encodinganalog" : "5220/520a",
+                           "addedSearchTerm" : "yes",
+                           "_" : "painting"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "objectWorkTypeWrap" : {
+               "objectWorkType" : [
+                  {
+                     "term" : [
+                        {
+                           "_" : "painting",
+                           "addedSearchTerm" : "no",
+                           "encodinganalog" : "5230/5230"
+                        },
+                        {
+                           "addedSearchTerm" : "yes",
+                           "encodinganalog" : "5230/523a",
+                           "_" : "visual work of art"
+                        }
+                     ]
+                  }
+               ]
+            }
+         },
+         "objectIdentificationWrap" : {
+            "titleWrap" : {
+               "titleSet" : [
+                  {
+                     "appellationValue" : [
+                        {
+                           "_" : "La Primavera / Spring",
+                           "pref" : "preferred"
+                        },
+                        {
+                           "pref" : "preferred",
+                           "lang" : "en",
+                           "_" : "La Primavera / Spring"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "repositoryWrap" : {
+               "repositorySet" : [
+                  {
+                     "type" : "current",
+                     "repositoryName" : {
+                        "legalBodyName" : [
+                           {
+                              "appellationValue" : [
+                                 {
+                                    "_" : "Galleria degli Uffizi — Pinacoteca (Florence)"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     "workID" : [
+                        {
+                           "_" : "8360 (Inv. 1890)",
+                           "type" : "inventory number"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "displayStateEditionWrap" : {},
+            "objectDescriptionWrap" : {},
+            "inscriptionsWrap" : {},
+            "objectMeasurementsWrap" : {
+               "objectMeasurementsSet" : [
+                  {
+                     "displayObjectMeasurements" : [
+                        {
+                           "_" : "203 x 314 cm"
+                        }
+                     ]
+                  }
+               ]
+            }
+         },
+         "lang" : "en",
+         "objectRelationWrap" : {
+            "subjectWrap" : {
+               "subjectSet" : [
+                  {
+                     "subject" : {
+                        "type" : "description",
+                        "subjectConcept" : [
+                           {
+                              "conceptID" : [
+                                 {
+                                    "_" : "23 D 42",
+                                    "source" : "Iconclass",
+                                    "type" : "local"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "23 D 42",
+                                    "addedSearchTerm" : "no"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "spring, 'Ver'; 'Primavera' (Ripa)"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Ver & Primavera"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "nature"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "nature"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "time"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "time"
+                                 },
+                                 {
+                                    "_" : "seasons of the year (esp. personifications); 'Stagione', 'Le quattro stagione dell'anno' (Ripa)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "stagione & quattro stagione dell'anno (le) & season & summer & winter & spring & autumn"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "year divided into four seasons"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "four"
+                                 },
+                                 {
+                                    "_" : "spring; Ripa: Ver; Primavera",
+                                    "addedSearchTerm" : "yes"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "subjectConcept" : [
+                           {
+                              "conceptID" : [
+                                 {
+                                    "source" : "Iconclass",
+                                    "_" : "57 A 9 :",
+                                    "type" : "local"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "57 A 9 :"
+                                 },
+                                 {
+                                    "_" : "Humanity, Politeness; 'Cortesia', 'Humanità' (Ripa)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "humanity & humanità & politeness & cortesia & courtesy"
+                                 },
+                                 {
+                                    "_" : "abstract ideas and concepts",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "abstract ideas and concepts & allegory & personification"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "morality"
+                                 },
+                                 {
+                                    "_" : "morality",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "good and bad behaviour, moral qualities"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "morality & behaviour"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "humanity; politeness; Ripa: Cortesia, Humanità"
+                                 }
+                              ]
+                           }
+                        ],
+                        "type" : "description"
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "subjectConcept" : [
+                           {
+                              "conceptID" : [
+                                 {
+                                    "source" : "Iconclass",
+                                    "_" : "92 C 47",
+                                    "type" : "local"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "92 C 47",
+                                    "addedSearchTerm" : "no"
+                                 },
+                                 {
+                                    "_" : "specific aspects, allegorical aspects of Venus; Venus as patroness",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Aphrodite & Venus"
+                                 },
+                                 {
+                                    "_" : "classical mythology und ancient history",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "mythology & ancient history & history & classical antiquity & religion & Greek & Roman",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "gods in classical mythology"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "god (non-christian)"
+                                 },
+                                 {
+                                    "_" : "the great godesses of heaven, and their train",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "god (non-christian)"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "the story of Venus (Aphrodite)"
+                                 },
+                                 {
+                                    "_" : "Venus",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "specific aspects, allegorical aspects; Venus as patroness"
+                                 }
+                              ]
+                           }
+                        ],
+                        "type" : "description"
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "subjectConcept" : [
+                           {
+                              "conceptID" : [
+                                 {
+                                    "source" : "Iconclass",
+                                    "_" : "92 D 3",
+                                    "type" : "local"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "92 D 3"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Graces (Charites), generally three in number; 'Gratie' (Ripa)"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Graces & three & Gratie"
+                                 },
+                                 {
+                                    "_" : "classical mythology und ancient history",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "mythology & ancient history & history & classical antiquity & religion & Greek & Roman",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "gods in classical mythology"
+                                 },
+                                 {
+                                    "_" : "god (non-christian)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "lesser divinities of Heaven ~ serving and attendant environment"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "serving & god (non-christian) & Cupid & hours & graces & muses & Nike & Iris & Hebe & Ganymede"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Graces (Charites), generally three in number; 'Gratie' (Ripa)"
+                                 }
+                              ]
+                           }
+                        ],
+                        "type" : "description"
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "type" : "description",
+                        "subjectConcept" : [
+                           {
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "92 E 54 21"
+                                 },
+                                 {
+                                    "_" : "Zephyrus abducting Flora (or Chloris), who usually scatters flowers",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "abducting & Flora & Chloris & flower & scatter",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "classical mythology und ancient history",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "mythology & ancient history & history & classical antiquity & Religion & Greek & Roman"
+                                 },
+                                 {
+                                    "_" : "gods in classical mythology",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "god (non-christian)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "lesser divinities of Heaven ~ phenomena of air and sky",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "air & sky & heaven & god (non-christian)"
+                                 },
+                                 {
+                                    "_" : "gods of the winds",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "wind"
+                                 },
+                                 {
+                                    "_" : "(story of) Zephyrus (Favonius), the west wind; 'Favonio o Zeffiro' (Ripa)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "Zephyrus & wind & westwind & Favonio o Zeffiro",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "love affairs of Zephyrus"
+                                 },
+                                 {
+                                    "_" : "Zephyrus & love affair & west wind",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Zephyrus abducting Flora (or Chloris), who usually scatters flowers"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "type" : "local",
+                                    "source" : "Iconclass",
+                                    "_" : "92 E 54 21"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "subjectConcept" : [
+                           {
+                              "term" : [
+                                 {
+                                    "_" : "96 A 23 51",
+                                    "addedSearchTerm" : "no"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Flora in her realm: a garden full of flowers, given to her by Zephyrus"
+                                 },
+                                 {
+                                    "_" : "garden & flower & Zephyrus",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "classical mythology und ancient history",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "mythology & ancient history & history & classical antiquity & religion & Greek & Roman"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Roman gods and legends"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Roman & legend & god (non-christian)"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Roman deities, and foreign deities included in the classical Pantheon"
+                                 },
+                                 {
+                                    "_" : "Roman gods & god (non-christian)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "female roman deities"
+                                 },
+                                 {
+                                    "_" : "god (non-christian)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "(story of) Flora",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Flora & Primavera"
+                                 },
+                                 {
+                                    "_" : "non-aggressive, friendly or neutral activities and relationships of Flora",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Flora"
+                                 },
+                                 {
+                                    "_" : "Flora in her realm: a garden full of flowers, given to her by Zephyrus",
+                                    "addedSearchTerm" : "yes"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "_" : "96 A 23 51",
+                                    "source" : "Iconclass",
+                                    "type" : "local"
+                                 }
+                              ]
+                           }
+                        ],
+                        "type" : "description"
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "type" : "description",
+                        "subjectConcept" : [
+                           {
+                              "conceptID" : [
+                                 {
+                                    "type" : "local",
+                                    "_" : "92 D 15 21",
+                                    "source" : "Iconclass"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "92 D 15 21",
+                                    "addedSearchTerm" : "no"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Cupid shooting a dart"
+                                 },
+                                 {
+                                    "_" : "love & Cupid & bow and arrow & shooting",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "classical mythology und ancient history"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "mythology & ancient history & history & classical antiquity & religion & Greek & Roman"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "gods in classical mythology"
+                                 },
+                                 {
+                                    "_" : "god (non-christian)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "lesser divinities of Heaven ~ serving and attendant environment"
+                                 },
+                                 {
+                                    "_" : "serving & god (non-christian) & Cupid & hours & graces & muses & Nike & Iris & Hebe & Ganymede",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "(story of) Cupid, Amor (Eros)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Cupid & love"
+                                 },
+                                 {
+                                    "_" : "non-aggressive, friendly or neutral activities and relationships of Cupid",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Eros & Amor & Cupid"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Cupid handling his weapons"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "bow and arrow & arrowl"
+                                 },
+                                 {
+                                    "_" : "Cupid shooting a dart",
+                                    "addedSearchTerm" : "yes"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            "relatedWorksWrap" : {}
+         }
+      },
+      {
+         "lang" : "de",
+         "objectRelationWrap" : {
+            "relatedWorksWrap" : {},
+            "subjectWrap" : {
+               "subjectSet" : [
+                  {
+                     "subject" : {
+                        "type" : "Beschreibung",
+                        "subjectConcept" : [
+                           {
+                              "term" : [
+                                 {
+                                    "_" : "23 D 42",
+                                    "addedSearchTerm" : "no"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Frühling; Ripa: Ver; Primavera"
+                                 },
+                                 {
+                                    "_" : "Ver & Primavera",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Natur"
+                                 },
+                                 {
+                                    "_" : "Natur",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Zeit"
+                                 },
+                                 {
+                                    "_" : "Zeit",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Jahreszeiten (insbesondere ihre Personifikationen); Ripa: Stagione, Le quattro stagione dell'anno"
+                                 },
+                                 {
+                                    "_" : "stagione & quattro stagione dell'anno (le) & Jahreszeit & Sommer & Winter & Frühling & Herbst",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Aufteilung des Jahres in vier Jahreszeiten"
+                                 },
+                                 {
+                                    "_" : "vier",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "Frühling; Ripa: Ver; Primavera",
+                                    "addedSearchTerm" : "yes"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "source" : "Iconclass",
+                                    "_" : "23 D 42",
+                                    "type" : "local"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "type" : "Beschreibung",
+                        "subjectConcept" : [
+                           {
+                              "conceptID" : [
+                                 {
+                                    "source" : "Iconclass",
+                                    "_" : "57 A 9 :",
+                                    "type" : "local"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "57 A 9 :"
+                                 },
+                                 {
+                                    "_" : "Menschlichkeit, Höflichkeit; Ripa: Cortesia, Humanità",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Menschlichkeit & humanità & Höflichkeit & cortesia & Höflichkeit"
+                                 },
+                                 {
+                                    "_" : "abstrakte Ideen und Konzeptionen",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "abstrakte Ideen und Konzeptionen & Allegorie & Personifikation"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Moral"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Moral"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "gutes und böses Verhalten, moralische Vorzüge"
+                                 },
+                                 {
+                                    "_" : "Moral & Verhalten",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Menschlichkeit, Höflichkeit; Ripa: Cortesia, Humanità"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "subjectConcept" : [
+                           {
+                              "conceptID" : [
+                                 {
+                                    "type" : "local",
+                                    "source" : "Iconclass",
+                                    "_" : "92 C 47"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "92 C 47"
+                                 },
+                                 {
+                                    "_" : "spezifische Darstellungsformen, allegorische Darstellungsformen; Venus als Schutzgottheit",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Aphrodite & Venus"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Klassische Mythologie und Antike Geschichte"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Mythologie & antike Geschichte & Geschichte & Klassische Antike & Religion & griechisch & römisch"
+                                 },
+                                 {
+                                    "_" : "die Götter in der klassischen Mythologie",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "Gott (nicht-christlich)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "die großen Göttinnen des Himmels und ihr Gefolge"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Gott (nicht-christlich)"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "die Geschichte der Venus (Aphrodite)"
+                                 },
+                                 {
+                                    "_" : "Venus",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "spezifische Darstellungsformen, allegorische Darstellungsformen; Venus als Schutzgottheit",
+                                    "addedSearchTerm" : "yes"
+                                 }
+                              ]
+                           }
+                        ],
+                        "type" : "Beschreibung"
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "type" : "Beschreibung",
+                        "subjectConcept" : [
+                           {
+                              "conceptID" : [
+                                 {
+                                    "type" : "local",
+                                    "_" : "92 D 3",
+                                    "source" : "Iconclass"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "_" : "92 D 3",
+                                    "addedSearchTerm" : "no"
+                                 },
+                                 {
+                                    "_" : "Grazien (Chariten), meist als Dreiergespann; Ripa: Gratie",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Grazien & drei & Gratie"
+                                 },
+                                 {
+                                    "_" : "Klassische Mythologie und Antike Geschichte",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Mythologie & antike Geschichte & Geschichte & Klassische Antike & Religion & griechisch & römisch"
+                                 },
+                                 {
+                                    "_" : "die Götter in der klassischen Mythologie",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "Gott (nicht-christlich)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "niedere Gottheiten des Himmels: Diener, Begleiter, Gefährten",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "dienen & Gott (nicht-christlich) & Cupido & Horen & Grazien & Musen & Nike & Iris & Hebe & Ganymed"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Grazien (Chariten), meist als Dreiergespann; Ripa: Gratie"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "type" : "Beschreibung",
+                        "subjectConcept" : [
+                           {
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "92 E 54 21"
+                                 },
+                                 {
+                                    "_" : "Zephyrus entführt Flora (oder Chloris), die in der Regel Blumen streut",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "entführen & Flora & Chloris & Blume & streuen",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Klassische Mythologie und Antike Geschichte"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Mythologie & antike Geschichte & Geschichte & Klassische Antike & Religion & griechisch & römisch"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "die Götter in der klassischen Mythologie"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Gott (nicht-christlich)"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "niedere Gottheiten des Himmels: Luft- und Himmelsphänomene"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Luft & Himmel & Gott (nicht-christlich)"
+                                 },
+                                 {
+                                    "_" : "Windgottheiten",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Wind"
+                                 },
+                                 {
+                                    "_" : "die Geschichte von Zephyrus (Favonius), dem Westwind; Ripa: Favonio o Zeffiro",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Zephyrus & Wind & Westwind & Favonio o Zeffiro"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Liebesaffären des Zephyrus"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Zephyrus & Liebesaffäre & Westwind"
+                                 },
+                                 {
+                                    "_" : "Zephyrus entführt Flora (oder Chloris), die in der Regel Blumen streut",
+                                    "addedSearchTerm" : "yes"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "type" : "local",
+                                    "source" : "Iconclass",
+                                    "_" : "92 E 54 21"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "type" : "Beschreibung",
+                        "subjectConcept" : [
+                           {
+                              "term" : [
+                                 {
+                                    "_" : "96 A 23 51",
+                                    "addedSearchTerm" : "no"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Flora in ihrem Königreich: ein Garten voller Blumen, der ihr von Zephyrus geschenkt worden ist"
+                                 },
+                                 {
+                                    "_" : "Garten & Blume & Zephyrus",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "Klassische Mythologie und Antike Geschichte",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Mythologie & antike Geschichte & Geschichte & Klassische Antike & Religion & griechisch & römisch"
+                                 },
+                                 {
+                                    "_" : "römische Götter und Sagen",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "römisch & Legende & Gott (nicht-christlich)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "römische Gottheiten und fremde Gottheiten, die dem klassischen Pantheon zugerechnet werden"
+                                 },
+                                 {
+                                    "_" : "römische Gottheit & Gott (nicht-christlich)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "weibliche römische Gottheiten",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "Gott (nicht-christlich)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "die Geschichte der Flora",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Flora & Primavera"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "nicht-aggressive, freundliche oder neutrale Handlungen und Beziehungen der Flora"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Flora"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Flora in ihrem Königreich: ein Garten voller Blumen, der ihr von Zephyrus geschenkt worden ist"
+                                 }
+                              ],
+                              "conceptID" : [
+                                 {
+                                    "type" : "local",
+                                    "source" : "Iconclass",
+                                    "_" : "96 A 23 51"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "subject" : {
+                        "type" : "Beschreibung",
+                        "subjectConcept" : [
+                           {
+                              "conceptID" : [
+                                 {
+                                    "type" : "local",
+                                    "source" : "Iconclass",
+                                    "_" : "92 D 15 21"
+                                 }
+                              ],
+                              "term" : [
+                                 {
+                                    "addedSearchTerm" : "no",
+                                    "_" : "92 D 15 21"
+                                 },
+                                 {
+                                    "_" : "Cupido schießt einen Pfeil",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "Eros & Amor & Cupido & Pfeil und Bogen & schießen",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "_" : "Klassische Mythologie und Antike Geschichte",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Mythologie & antike Geschichte & Geschichte & Klassische Antike & Religion & griechisch & römisch"
+                                 },
+                                 {
+                                    "_" : "die Götter in der klassischen Mythologie",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Gott (nicht-christlich)"
+                                 },
+                                 {
+                                    "_" : "niedere Gottheiten des Himmels: Diener, Begleiter, Gefährten",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "dienen & Gott (nicht-christlich) & Cupido & Horen & Grazien & Musen & Nike & Iris & Hebe & Ganymed"
+                                 },
+                                 {
+                                    "_" : "die Geschichte des Cupido, Amor (Eros)",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Cupido & Liebe"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "nicht-aggressive, freundliche oder neutrale Handlungen und Beziehungen Cupidos"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Eros & Amor & Cupido"
+                                 },
+                                 {
+                                    "_" : "Cupido benutzt seine Waffen",
+                                    "addedSearchTerm" : "yes"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Pfeil und Bogen & Pfeil"
+                                 },
+                                 {
+                                    "addedSearchTerm" : "yes",
+                                    "_" : "Cpido schießt einen Pfeil"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         },
+         "eventWrap" : {
+            "eventSet" : [
+               {
+                  "event" : {
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "_" : "Herstellung",
+                              "addedSearchTerm" : "no"
+                           }
+                        ]
+                     },
+                     "eventDate" : {
+                        "date" : {
+                           "earliestDate" : {
+                              "_" : "1482"
+                           },
+                           "latestDate" : {
+                              "_" : "1482"
+                           }
+                        }
+                     },
+                     "eventMaterialsTech" : [
+                        {
+                           "materialsTech" : {
+                              "termMaterialsTech" : [
+                                 {
+                                    "term" : [
+                                       {
+                                          "_" : "Tempera",
+                                          "addedSearchTerm" : "no"
+                                       },
+                                       {
+                                          "addedSearchTerm" : "yes",
+                                          "_" : "Farbmaterial"
+                                       }
+                                    ],
+                                    "type" : "Material"
+                                 }
+                              ]
+                           }
+                        },
+                        {
+                           "materialsTech" : {
+                              "termMaterialsTech" : [
+                                 {
+                                    "term" : [
+                                       {
+                                          "addedSearchTerm" : "no",
+                                          "_" : "Pappelholz"
+                                       },
+                                       {
+                                          "_" : "Holz",
+                                          "addedSearchTerm" : "yes"
+                                       }
+                                    ],
+                                    "type" : "Material"
+                                 }
+                              ]
+                           }
+                        }
+                     ],
+                     "eventActor" : [
+                        {
+                           "actorInRole" : {
+                              "roleActor" : [
+                                 {
+                                    "term" : [
+                                       {
+                                          "addedSearchTerm" : "no",
+                                          "_" : "Maler"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "actor" : {
+                                 "vitalDatesActor" : {
+                                    "latestDate" : {
+                                       "_" : "1510-05-17",
+                                       "type" : "estimatedDate"
+                                    },
+                                    "earliestDate" : {
+                                       "_" : "1445",
+                                       "type" : "estimatedDate"
+                                    }
+                                 },
+                                 "actorID" : [
+                                    {
+                                       "_" : "kue     02553338",
+                                       "source" : "Bildindex-KUE-Datei",
+                                       "type" : "local"
+                                    }
+                                 ],
+                                 "genderActor" : [
+                                    {
+                                       "_" : "männlich"
+                                    }
+                                 ],
+                                 "type" : "person",
+                                 "nationalityActor" : [
+                                    {
+                                       "term" : [
+                                          {
+                                             "_" : "Italien",
+                                             "addedSearchTerm" : "no"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "nameActorSet" : [
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "Botticelli, Sandro",
+                                             "pref" : "preferred"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "_" : "Filipepi, Alessandro",
+                                             "pref" : "alternate"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "appellationValue" : [
+                                          {
+                                             "pref" : "alternate",
+                                             "_" : "Filipepi, Sandro"
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           }
+                        }
+                     ]
+                  }
+               },
+               {
+                  "event" : {
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "addedSearchTerm" : "no",
+                              "_" : "Restaurierung"
+                           }
+                        ]
+                     },
+                     "eventDate" : {
+                        "date" : {
+                           "earliestDate" : {
+                              "_" : "1982"
+                           },
+                           "latestDate" : {
+                              "_" : "1982"
+                           }
+                        }
+                     }
+                  }
+               },
+               {
+                  "event" : {
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "addedSearchTerm" : "no",
+                              "_" : "Herkunft"
+                           }
+                        ]
+                     },
+                     "eventPlace" : [
+                        {
+                           "place" : {
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Florenz, Palazzo Medici Riccardi, Via Cavour"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "partOfPlace" : [
+                                 {
+                                    "partOfPlace" : [
+                                       {
+                                          "partOfPlace" : [
+                                             {
+                                                "politicalEntity" : "Staat",
+                                                "namePlaceSet" : [
+                                                   {
+                                                      "appellationValue" : [
+                                                         {
+                                                            "_" : "Italien"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             }
+                                          ],
+                                          "namePlaceSet" : [
+                                             {
+                                                "appellationValue" : [
+                                                   {
+                                                      "_" : "Firenze, Provincia"
+                                                   }
+                                                ]
+                                             }
+                                          ],
+                                          "politicalEntity" : "Regierungsbezirk/Provinz"
+                                       }
+                                    ],
+                                    "namePlaceSet" : [
+                                       {
+                                          "appellationValue" : [
+                                             {
+                                                "_" : "Florenz"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "appellationValue" : [
+                                             {
+                                                "_" : "Firenze"
+                                             }
+                                          ]
+                                       }
+                                    ],
+                                    "politicalEntity" : "Gemeinde"
+                                 }
+                              ]
+                           }
+                        }
+                     ],
+                     "eventDate" : {
+                        "date" : {
+                           "latestDate" : {
+                              "_" : "1498"
+                           },
+                           "earliestDate" : {
+                              "_" : "1498"
+                           }
+                        }
+                     }
+                  }
+               },
+               {
+                  "event" : {
+                     "eventPlace" : [
+                        {
+                           "place" : {
+                              "partOfPlace" : [
+                                 {
+                                    "namePlaceSet" : [
+                                       {
+                                          "appellationValue" : [
+                                             {
+                                                "_" : "Castello (Florenz)"
+                                             }
+                                          ]
+                                       }
+                                    ],
+                                    "partOfPlace" : [
+                                       {
+                                          "namePlaceSet" : [
+                                             {
+                                                "appellationValue" : [
+                                                   {
+                                                      "_" : "Firenze, Provincia"
+                                                   }
+                                                ]
+                                             }
+                                          ],
+                                          "partOfPlace" : [
+                                             {
+                                                "namePlaceSet" : [
+                                                   {
+                                                      "appellationValue" : [
+                                                         {
+                                                            "_" : "Italien"
+                                                         }
+                                                      ]
+                                                   }
+                                                ],
+                                                "politicalEntity" : "Staat"
+                                             }
+                                          ],
+                                          "politicalEntity" : "Regierungsbezirk/Provinz"
+                                       }
+                                    ],
+                                    "politicalEntity" : "Gemeinde"
+                                 }
+                              ],
+                              "namePlaceSet" : [
+                                 {
+                                    "appellationValue" : [
+                                       {
+                                          "_" : "Castello (Florenz), Villa Medicea"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        }
+                     ],
+                     "eventType" : {
+                        "term" : [
+                           {
+                              "addedSearchTerm" : "no",
+                              "_" : "Herkunft"
+                           }
+                        ]
+                     },
+                     "eventDate" : {
+                        "date" : {
+                           "earliestDate" : {
+                              "_" : "1546"
+                           },
+                           "latestDate" : {
+                              "_" : "1555"
+                           }
+                        }
+                     }
+                  }
+               }
+            ]
+         },
+         "objectClassificationWrap" : {
+            "classificationWrap" : {
+               "classification" : [
+                  {
+                     "type" : "europeana:type",
+                     "term" : [
+                        {
+                           "_" : "IMAGE",
+                           "addedSearchTerm" : "no"
+                        }
+                     ]
+                  },
+                  {
+                     "term" : [
+                        {
+                           "encodinganalog" : "5220/5220",
+                           "addedSearchTerm" : "no",
+                           "_" : "Tafelmalerei"
+                        },
+                        {
+                           "encodinganalog" : "5220/520a",
+                           "addedSearchTerm" : "yes",
+                           "_" : "Malerei"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "objectWorkTypeWrap" : {
+               "objectWorkType" : [
+                  {
+                     "term" : [
+                        {
+                           "_" : "Bild",
+                           "encodinganalog" : "5230/5230",
+                           "addedSearchTerm" : "no"
+                        },
+                        {
+                           "encodinganalog" : "5230/523a",
+                           "addedSearchTerm" : "yes",
+                           "_" : "Bildwerk"
+                        }
+                     ]
+                  }
+               ]
+            }
+         },
+         "objectIdentificationWrap" : {
+            "objectDescriptionWrap" : {},
+            "inscriptionsWrap" : {},
+            "displayStateEditionWrap" : {},
+            "titleWrap" : {
+               "titleSet" : [
+                  {
+                     "appellationValue" : [
+                        {
+                           "_" : "La Primavera / Der Frühling",
+                           "pref" : "preferred"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "repositoryWrap" : {
+               "repositorySet" : [
+                  {
+                     "workID" : [
+                        {
+                           "_" : "8360 (Inv. 1890)",
+                           "type" : "Inventarnummer"
+                        }
+                     ],
+                     "type" : "current",
+                     "repositoryName" : {
+                        "legalBodyName" : [
+                           {
+                              "appellationValue" : [
+                                 {
+                                    "_" : "Galleria degli Uffizi — Pinacoteca (Florenz)"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            "objectMeasurementsWrap" : {
+               "objectMeasurementsSet" : [
+                  {
+                     "displayObjectMeasurements" : [
+                        {
+                           "_" : "203 x 314 cm"
+                        }
+                     ]
+                  }
+               ]
+            }
+         }
+      }
+   ]
+}]

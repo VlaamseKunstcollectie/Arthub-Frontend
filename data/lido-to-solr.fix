@@ -1,0 +1,24 @@
+copy_field('descriptiveMetadata.0.objectIdentificationWrap.titleWrap.titleSet.0.appellationValue.0._', 'title_display')
+copy_field('descriptiveMetadata.0.eventWrap.eventSet.0.event.eventActor.0.displayActorInRole.0._', 'author_display_simple')
+do list(path:descriptiveMetadata.0.eventWrap.eventSet.0.event.eventActor.0.actorInRole.actor.nameActorSet.0.appellationValue, var:auth)
+    if all_match('auth.pref', 'preferred')
+        copy_field(auth._, author)
+    end
+end
+copy_field('descriptiveMetadata.0.eventWrap.eventSet.0.event.eventDate.date.earliestDate._', 'production_date')
+copy_field('descriptiveMetadata.0.eventWrap.eventSet.0.event.periodName.0.term.0._', 'period')
+copy_field('descriptiveMetadata.0.objectIdentificationWrap.repositoryWrap.repositorySet.0.repositoryName.legalBodyName.0.appellationValue.0._', 'repository')
+copy_field('descriptiveMetadata.0.eventWrap.eventSet.0.event.eventMaterialsTech.0.displayMaterialsTech.0._', 'material')
+copy_field('descriptiveMetadata.0.objectIdentificationWrap.objectMeasurementsWrap.objectMeasurementsSet.0.displayObjectMeasurements.0._', 'dimensions')
+# loop over all the keywords to make a list and concatenate them with commas
+do list(path:descriptiveMetadata.0.objectRelationWrap.subjectWrap.subjectSet.0.subject.subjectConcept, var:keyword)
+  copy_field(keyword.term.*._,keywords.$append)
+end
+join_field(keywords, ', ')
+copy_field('descriptiveMetadata.0.objectClassificationWrap.objectWorkTypeWrap.objectWorkType.0.term.0._', 'category')
+copy_field('descriptiveMetadata.0.objectClassificationWrap.objectWorkTypeWrap.objectWorkType.0.term.0._', 'artwork_type')
+copy_field('administrativeMetadata.0.recordWrap.recordInfoSet.0.recordInfoLink.0._', references)
+remove_field('descriptiveMetadata')
+remove_field('administrativeMetadata')
+remove_field('category')
+remove_field('lidoRecID')
