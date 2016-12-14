@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+TODO clean up this repo
 
-Things you may want to cover:
+Files that were changed are
 
-* Ruby version
+Solr configs:
+jetty/solr/blacklight-core/conf/schema.xml
+jetty/solr/blacklight-core/conf/solrconfig.xml
 
-* System dependencies
+Catalog controller:
+app/controllers/catalog_controller.rb
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Static pages support:
+app/controllers/pages_controller.rb
+app/views/pages/about.html.erb
