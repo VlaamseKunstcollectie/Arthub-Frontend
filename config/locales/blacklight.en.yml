@@ -1,3 +1,18 @@
 en:
-  blacklight:
-    application_name: 'Blacklight'
+    blacklight:
+        application_name: 'Blacklight'
+
+    Title: "Titel"
+    Author: "Kunstenaar"
+    Period: "Periode"
+    Production date: "Datering"
+    Repository: "Museum"
+    Type: "Type"
+    Category: "Voorstelling"
+    Dimensions: "Afmetingen"
+    Material: "Materiaal"
+    Keywords: "Trefwoorden"
+    Object number: "Inventarisnummer"
+    Work PID: "Work PID"
+    References: "Referenties"
+    All Fields: "Alle velden"
