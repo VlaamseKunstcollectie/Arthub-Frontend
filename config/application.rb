@@ -13,8 +13,8 @@ module Blacklight
     # -- all .rb files in that directory are automatically loaded.
 
     I18n.available_locales = [:en, :nl]
-    config.i18n.default_locale = :nl
-    config.i18n.locale = :nl
+    # config.i18n.default_locale = :nl
+    # config.i18n.locale = :nl
 
   end
 end
