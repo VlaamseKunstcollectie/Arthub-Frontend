@@ -20,18 +20,20 @@ Rails.application.routes.draw do
   root to: "catalog#index"
     concern :searchable, Blacklight::Routes::Searchable.new
 
-  resource :catalog, only: [:index], as: 'catalog', path: '/catalog', controller: 'catalog' do
+
+
+  resource :catalog, only: [:index], as: 'catalog', path: '/catalog', controller: 'catalog', :constraints => { :id => /[^\/]+/ } do
     concerns :searchable
   end
 
   devise_for :users
   concern :exportable, Blacklight::Routes::Exportable.new
 
-  resources :solr_documents, only: [:show], path: '/catalog', controller: 'catalog' do
+  resources :solr_documents, only: [:show], path: '/catalog', controller: 'catalog', :constraints => { :id => /[^\/]+/ } do
     concerns :exportable
   end
 
-  resources :bookmarks do
+  resources :bookmarks, :constraints => { :id => /[^\/]+/ } do
     concerns :exportable
 
     collection do
