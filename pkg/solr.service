@@ -1,0 +1,19 @@
+[Unit]
+Description=solr
+Requires=network.target
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/solr
+User=blacklight
+Restart=always
+RestartSec=10
+EnvironmentFile=/etc/systemd/system/solr.service.d/solr.conf
+
+
+ExecStart=/bin/java -Djetty.port=${SOLR_PORT} -Dsolr.solr.home=/opt/solr/solr -jar start.jar
+
+[Install]
+WantedBy=multi-user.target
+
