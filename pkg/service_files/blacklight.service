@@ -5,7 +5,7 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/opt/solr
+WorkingDirectory=/opt/project-blacklight
 User=blacklight
 Restart=always
 RestartSec=10
