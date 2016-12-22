@@ -12,7 +12,7 @@ RestartSec=10
 EnvironmentFile=/etc/systemd/system/solr.service.d/solr.conf
 
 
-ExecStart=/bin/java -Djetty.port=${SOLR_PORT} -Dsolr.solr.home=/opt/solr/solr -jar start.jar
+ExecStart=/bin/java -Djetty.host=127.0.0.1 -Djetty.port=${SOLR_PORT} -Dsolr.solr.home=/opt/solr/solr -jar start.jar
 
 [Install]
 WantedBy=multi-user.target
