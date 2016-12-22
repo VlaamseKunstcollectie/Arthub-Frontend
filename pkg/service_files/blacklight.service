@@ -1,5 +1,5 @@
 [Unit]
-Description=solr
+Description=project-blacklight
 Requires=network.target
 After=network.target
 
@@ -11,7 +11,7 @@ Restart=always
 RestartSec=10
 
 
-ExecStart=/opt/blacklight/bin/rails s
+ExecStart=/opt/project-blacklight/start.sh
 
 [Install]
 WantedBy=multi-user.target
