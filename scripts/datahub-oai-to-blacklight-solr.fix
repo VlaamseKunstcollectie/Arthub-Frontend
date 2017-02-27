@@ -1,0 +1,95 @@
+# Catmandu Fix script to convert LIDO XML data into JSON data for Solr
+# (MSK data version)
+#
+# USAGE
+# Convert to JSON
+# catmandu convert OAI --url "http://datahub_ubuntu:8000/oai/" --metadataPrefx oai_lido --handler lido to JSON --pretty 1 --fix oai.fix > out-fix.json && cat out-fix.json
+#
+# Import into Solr
+# catmandu import OAI --url "http://datahub_ubuntu:8000/oai/" --metadataPrefx oai_lido --handler lido --fix oai.fix to pbsolr
+
+
+
+# Title - use NL
+do list(path:_metadata.descriptiveMetadata.0.objectIdentificationWrap.titleWrap.titleSet.0.appellationValue, var:el)
+    if all_match('el.lang', 'nl')
+    copy_field('el._', title_display)
+    end
+end
+
+# Artist - use preferred
+do list(path:_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventActor.0.actorInRole.actor.nameActorSet.0.appellationValue, var:auth)
+    if all_match('auth.pref', 'preferred')
+        copy_field(auth._, author_display)
+    end
+end
+
+# ? Production date
+copy_field('_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventDate.date.earliestDate._', 'production_date')
+
+# Period - use NL field
+do list(path:_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.periodName, var:per)
+    if all_match('per.term.*.lang', 'nl')
+        copy_field('per.term.*._', period)
+    end
+end
+
+# Repository
+copy_field('_metadata.administrativeMetadata.0.recordWrap.recordSource.0.legalBodyName.0.appellationValue.0._', 'repository')
+
+# ? Material
+copy_field('_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventMaterialsTech.0.materialsTech.termMaterialsTech.0.term.0._', 'material')
+
+# Dimensions
+do list(path:_metadata.descriptiveMetadata.0.objectIdentificationWrap.objectMeasurementsWrap.objectMeasurementsSet, var:el2)
+    do list(path:el2.objectMeasurements.measurementsSet, var:el)
+        if all_match('el.measurementType.0._', 'hoogte')
+            copy_field(el.measurementValue._, dimensionsh.$append)
+            copy_field(el.measurementUnit.0._, dimensionsh.$append)
+            join_field(dimensionsh, ' ')
+        end
+        if all_match('el.measurementType.0._', 'breedte')
+            copy_field(el.measurementValue._, dimensionsw.$append)
+            copy_field(el.measurementUnit.0._, dimensionsw.$append)
+            join_field(dimensionsw, ' ')
+        end
+    end
+end
+copy_field(dimensionsh, dimensions.$append)
+remove_field(dimensionsh)
+copy_field(dimensionsw, dimensions.$append)
+remove_field(dimensionsw)
+join_field(dimensions, ' x ')
+
+# Keywords - loop over all and concatenate
+do list(path:_metadata.descriptiveMetadata.0.objectRelationWrap.subjectWrap.subjectSet.0.subject.subjectConcept, var:keyword)
+  copy_field(keyword.term.*._,keywords.$append)
+end
+join_field(keywords, ', ')
+
+# Category
+copy_field('_metadata.descriptiveMetadata.0.objectRelationWrap.subjectWrap.subjectSet.0.subject.subjectConcept.0.term.0._', 'artwork_category')
+
+# Artwork_type
+copy_field('_metadata.descriptiveMetadata.0.objectClassificationWrap.objectWorkTypeWrap.objectWorkType.0.term.0._', 'artwork_type')
+
+# References
+copy_field('_metadata.administrativeMetadata.0.recordWrap.recordInfoSet.0.recordInfoLink.0._', 'references')
+
+# Object_number
+copy_field('_metadata.administrativeMetadata.0.recordWrap.recordID.0._', 'object_number')
+copy_field('_metadata.administrativeMetadata.0.recordWrap.recordID.0._', 'id')
+
+# Work_pid
+copy_field('_metadata.objectPublishedID.0._', 'work_pid')
+
+
+
+# remove all original fields and only retain the ones we set
+remove_field('_id')
+remove_field('_identifier')
+remove_field('_status')
+remove_field('_setSpec')
+remove_field('_about')
+remove_field('_datestamp')
+remove_field('_metadata')
