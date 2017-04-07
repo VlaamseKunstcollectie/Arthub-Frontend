@@ -81,7 +81,7 @@ class CatalogController < ApplicationController
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
     config.add_index_field 'title_display', label: I18n.t('Title')
-    config.add_index_field 'author_display', label: I18n.t('Author')
+    config.add_index_field 'author_display', label: I18n.t('Creator')
     config.add_index_field 'period', label: I18n.t('Period')
     config.add_index_field 'repository', label: I18n.t('Repository')
     config.add_index_field 'artwork_type', label: I18n.t('Type')
@@ -91,7 +91,7 @@ class CatalogController < ApplicationController
     #   The ordering of the field names is the order of the display
     config.add_show_field 'title_display', label: I18n.t('Title')
     config.add_show_field 'subtitle_display', label: I18n.t('Subtitle')
-    config.add_show_field 'author_display', label: I18n.t('Author')
+    config.add_show_field 'author_display', label: I18n.t('Creator')
     config.add_show_field 'period', label: I18n.t('Period')
     config.add_show_field 'production_date', label: I18n.t('Production date')
     config.add_show_field 'repository', label: I18n.t('Repository')
@@ -129,7 +129,7 @@ class CatalogController < ApplicationController
     # case for a BL "search field", which is really a dismax aggregate
     # of Solr search fields.
 
-    config.add_search_field('title') do |field|
+    config.add_search_field('title', label: I18n.t('Title')) do |field|
       # solr_parameters hash are sent to Solr as ordinary url query params.
       field.solr_parameters = { :'spellcheck.dictionary' => 'title' }
 
@@ -143,7 +143,7 @@ class CatalogController < ApplicationController
       }
     end
 
-    config.add_search_field('author') do |field|
+    config.add_search_field('author', label: I18n.t('Author')) do |field|
       field.solr_parameters = { :'spellcheck.dictionary' => 'author' }
       field.solr_local_parameters = {
         qf: '$author_qf',
