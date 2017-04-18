@@ -17,3 +17,22 @@ en:
     Work PID: "Work PID"
     References: "Referenties"
     All Fields: "Alle velden"
+    relevance: "relevantie"
+    year: "jaar"
+    author: "kunstenaar"
+    title: "titel"
+    Sort by: "Sorteer op"
+    Datahub API record: Link naar Datahub API
+    Datahub OAI record: Link naar Datahub OAI
+
+    views:
+      pagination:
+        first: '&laquo; Eerste'
+        last: 'Laatste &raquo;'
+        previous: '&laquo; Vorige'
+        next: 'Volgende &raquo;'
+        truncate: '…'
+
+      pagination_compact:
+        previous: '&laquo; Vorige'
+        next: 'Volgende &raquo;'

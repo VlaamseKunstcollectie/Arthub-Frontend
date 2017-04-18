@@ -1,0 +1,9 @@
+development:
+    datahub_api_url: "http://datahub_ubuntu:8000/api/v1/data/"
+    datahub_oai_url: "http://datahub_ubuntu:8000/oai/?verb=GetRecord&metadataPrefix=oai_lido&identifier="
+testing:
+    datahub_api_url: "http://datahub_ubuntu:8000/api/v1/data/"
+    datahub_oai_url: "http://datahub_ubuntu:8000/oai/?verb=GetRecord&metadataPrefix=oai_lido&identifier="
+production:
+    datahub_api_url: "http://datahub_ubuntu:8000/api/v1/data/"
+    datahub_oai_url: "http://datahub_ubuntu:8000/oai/?verb=GetRecord&metadataPrefix=oai_lido&identifier="

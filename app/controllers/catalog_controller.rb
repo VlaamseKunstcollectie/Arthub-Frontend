@@ -103,6 +103,9 @@ class CatalogController < ApplicationController
     config.add_show_field 'object_number', label: I18n.t('Object number')
     config.add_show_field 'work_pid', label: I18n.t('Work PID')
     config.add_show_field 'references', label: I18n.t('References')
+    config.add_show_field 'datahub_api_record', accessor: 'datahub_api_record', label: I18n.t('Datahub API record')
+    config.add_show_field 'datahub_oai_record', accessor: 'datahub_oai_record', label: I18n.t('Datahub OAI record')
+
 
     # "fielded" search configuration. Used by pulldown among other places.
     # For supported keys in hash, see rdoc for Blacklight::SearchFields
