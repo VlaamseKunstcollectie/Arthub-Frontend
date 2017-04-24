@@ -377,6 +377,7 @@
 
  <copyField source="title_display" dest="title_t"/>
  <copyField source="author_display" dest="author_t"/>
+ <copyField source="object_number" dest="text"/>
 
   <!-- copyField commands copy one field to another at the time a document
         is added to the index.  It's used either to index the same field differently,

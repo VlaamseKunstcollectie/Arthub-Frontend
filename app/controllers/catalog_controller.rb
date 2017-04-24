@@ -154,6 +154,14 @@ class CatalogController < ApplicationController
       }
     end
 
+    config.add_search_field('object_number', label: I18n.t('Object number')) do |field|
+      #field.solr_parameters = { :'spellcheck.dictionary' => 'object_number' }
+      field.solr_local_parameters = {
+        qf: '$object_number_qf',
+        pf: '$object_number_pf'
+      }
+    end
+
     # Specifying a :qt only to show it's possible, and so our internal automated
     # tests can test it. In this case it's the same as
     # config[:default_solr_parameters][:qt], so isn't actually neccesary.
