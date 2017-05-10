@@ -1,0 +1,45 @@
+/* Header */
+
+.navbar-inverse {
+    background: #0bb4d3;
+    border-color: #0bb4d3;
+}
+
+#header-navbar .navbar-brand {  /* The main logo image for the Blacklight instance */
+    background: transparent image_url('logo-arthub.jpg') no-repeat top left;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li:hover {
+    background: #087d93;
+}
+
+/* Buttons */
+
+.btn-primary {
+    background: #0bb4d3;
+    border: 1px solid #087d93;
+}
+
+.btn-primary:hover {
+    background: #087d93;
+}
+
+#sort-dropdown .dropdown-toggle,
+#per_page-dropdown .dropdown-toggle {
+   color: #0bb4d3;
+}
+
+/* Links */
+
+a {
+    color: #0bb4d3;
+}
+
+a:active,
+a:hover {
+    color: #087d93;
+}
