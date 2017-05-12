@@ -68,10 +68,10 @@ class CatalogController < ApplicationController
     #  (useful when user clicks "more" on a large facet and wants to navigate alphabetically across a large set of results)
     # :index_range can be an array or range of prefixes that will be used to create the navigation (note: It is case sensitive when searching values)
 
-    config.add_facet_field 'period', label: I18n.t('Period')
-    config.add_facet_field 'repository', label: I18n.t('Repository')
-    config.add_facet_field 'artwork_type', label: I18n.t('Type')
-    config.add_facet_field 'artwork_category', label: I18n.t('Category')
+    config.add_facet_field 'period', label: 'period'
+    config.add_facet_field 'repository', label: 'repository'
+    config.add_facet_field 'artwork_type', label: 'artwork_type'
+    config.add_facet_field 'artwork_category', label: 'artwork_category'
 
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
@@ -80,31 +80,31 @@ class CatalogController < ApplicationController
 
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
-    config.add_index_field 'title_display', label: I18n.t('Title')
-    config.add_index_field 'author_display', label: I18n.t('Creator')
-    config.add_index_field 'period', label: I18n.t('Period')
-    config.add_index_field 'repository', label: I18n.t('Repository')
-    config.add_index_field 'artwork_type', label: I18n.t('Type')
-    config.add_index_field 'artwork_category', label: I18n.t('Category')
+    config.add_index_field 'title_display', label: 'title_display'
+    config.add_index_field 'author_display', label: 'creator'
+    config.add_index_field 'period', label: 'period'
+    config.add_index_field 'repository', label: 'repository'
+    config.add_index_field 'artwork_type', label: 'artwork_type'
+    config.add_index_field 'artwork_category', label: 'artwork_category'
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
-    config.add_show_field 'title_display', label: I18n.t('Title')
-    config.add_show_field 'subtitle_display', label: I18n.t('Subtitle')
-    config.add_show_field 'author_display', label: I18n.t('Creator')
-    config.add_show_field 'period', label: I18n.t('Period')
-    config.add_show_field 'production_date', label: I18n.t('Production date')
-    config.add_show_field 'repository', label: I18n.t('Repository')
-    config.add_show_field 'artwork_type', label: I18n.t('Type')
-    config.add_show_field 'artwork_category', label: I18n.t('Category')
-    config.add_show_field 'material', label: I18n.t('Material')
-    config.add_show_field 'dimensions', label: I18n.t('Dimensions')
-    config.add_show_field 'keywords', label: I18n.t('Keywords')
-    config.add_show_field 'object_number', label: I18n.t('Object number')
-    config.add_show_field 'work_pid', label: I18n.t('Work PID')
-    config.add_show_field 'references', label: I18n.t('References')
-    config.add_show_field 'datahub_api_record', accessor: 'datahub_api_record', label: I18n.t('Datahub API record')
-    config.add_show_field 'datahub_oai_record', accessor: 'datahub_oai_record', label: I18n.t('Datahub OAI record')
+    config.add_show_field 'title_display', label: 'title_display'
+    config.add_show_field 'subtitle_display', label: 'subtitle'
+    config.add_show_field 'author_display', label: 'author_display'
+    config.add_show_field 'period', label: 'period'
+    config.add_show_field 'production_date', label: 'production_date'
+    config.add_show_field 'repository', label: 'Repository'
+    config.add_show_field 'artwork_type', label: 'artwork_type'
+    config.add_show_field 'artwork_category', label: 'artwork_category'
+    config.add_show_field 'material', label: 'material'
+    config.add_show_field 'dimensions', label: 'dimensions'
+    config.add_show_field 'keywords', label: 'keywords'
+    config.add_show_field 'object_number', label: 'object_number'
+    config.add_show_field 'work_pid', label: 'work_pid'
+    config.add_show_field 'references', label: 'references'
+    config.add_show_field 'datahub_api_record', accessor: 'datahub_api_record', label: 'datahub_api_record'
+    config.add_show_field 'datahub_oai_record', accessor: 'datahub_oai_record', label: 'datahub_oai_record'
 
 
     # "fielded" search configuration. Used by pulldown among other places.
@@ -125,7 +125,7 @@ class CatalogController < ApplicationController
     # solr request handler? The one set in config[:default_solr_parameters][:qt],
     # since we aren't specifying it otherwise.
 
-    config.add_search_field 'all_fields', label: I18n.t('All Fields')
+    config.add_search_field 'all_fields', label: 'all_fields'
 
 
     # Now we see how to over-ride Solr request handler defaults, in this
