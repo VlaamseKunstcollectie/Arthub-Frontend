@@ -1,0 +1,3 @@
+<%= link_to_unless I18n.locale == :nl, "NL", locale: :nl do |name|
+   content_tag :span, name, class: ['lang-inactive']
+end %>
