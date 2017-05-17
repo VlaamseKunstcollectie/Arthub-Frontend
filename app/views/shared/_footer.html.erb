@@ -1,0 +1,33 @@
+<div id="footer" class="container">
+<% if I18n.locale == :en %>
+   <div class="row">
+     <ul class="logos">
+       <li><%= image_tag "kmska.jpg", :alt => "Royal Museum for Fine Arts Antwerp"  %></li>
+       <li><%= image_tag "groeninge.jpg", :alt => "Groeningemuseum Bruges" %></li>
+       <li><%= image_tag "msk.jpg", :alt => "Museum for Fine Arts Ghent" %></li>
+     </ul>
+   </div>
+   <div class="row">
+     <ul class="logos">
+       <li><%= image_tag "logo_vkc_en.png", :alt => "Flemish Art Collection" %></li>
+       <li><%= image_tag "logo_packed.png" %></li>
+       <li><%= image_tag "flanders.png", :alt => "Flanders. State of Art." %></li>
+     </ul>
+   </div>
+<% else %>
+   <div class="row">
+     <ul class="logos">
+       <li><%= image_tag "kmska.jpg", :alt => "Koninklijk Museum voor Schone Kunsten Antwerpen"  %></li>
+       <li><%= image_tag "groeninge.jpg", :alt => "Groeningemuseum Brugge" %></li>
+       <li><%= image_tag "msk.jpg", :alt => "Museum voor Schone Kunsten Gent" %></li>
+     </ul>
+   </div>
+   <div class="row">
+     <ul class="logos">
+       <li><%= image_tag "logo_vkc_nl.png" %></li>
+       <li><%= image_tag "logo_packed.png" %></li>
+       <li><%= image_tag "flanders.png" %></li>
+     </ul>
+   </div>
+<% end %>
+</div>

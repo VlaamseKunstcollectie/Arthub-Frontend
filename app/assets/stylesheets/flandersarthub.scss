@@ -69,3 +69,29 @@ a:hover {
     background: #0bb4d3;
 }
 
+/* Footer */
+
+#footer {
+    margin-top: 4em;
+    padding: 0;
+}
+
+.logos {
+    border-top: 1px solid #eee;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+      display: inline-block;
+      margin: 2em;
+    }
+
+    img {
+    	height: 80px;
+    }
+}
+
+
