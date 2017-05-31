@@ -78,12 +78,31 @@ copy_field('_metadata.administrativeMetadata.0.recordWrap.recordInfoSet.0.record
 
 # Object_number
 copy_field('_metadata.administrativeMetadata.0.recordWrap.recordID.0._', 'object_number')
-copy_field('_metadata.administrativeMetadata.0.recordWrap.recordID.0._', 'id')
+# copy_field('_metadata.administrativeMetadata.0.recordWrap.recordID.0._', 'id')
 
 # Work_pid
 copy_field('_metadata.objectPublishedID.0._', 'work_pid')
 
+# Data_pid
+copy_field('_metadata.lidoRecID.0._', 'data_pid')
 
+# ID
+#
+# The ID in Solr is based on the data_pid. The data_pid is converted to a string
+# which can be safely used as an identifier in Project Blacklight. The format of
+# the ID field looks like this:
+#
+#   <domain>:<identifier>
+#   ex. kmksa:254
+#   ex. collectievlaamsegemeenschap:837
+#
+# Note: the .tld is stripped from the domainname because the . (dot) breaks the
+# route matching algoritm.
+
+copy_field('data_pid', 'id')
+parse_text('id', '.*://([A-Za-z0-9\-\.]+)/collection/work/data/(.*)')
+replace_all('id.0', '([^.]*)\.[^.]{2,3}(?:\.[^.]{2,3})?$', '$1')
+join_field(id, ':')
 
 # remove all original fields and only retain the ones we set
 remove_field('_id')
