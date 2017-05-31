@@ -102,6 +102,7 @@ class CatalogController < ApplicationController
     config.add_show_field 'keywords', label: 'keywords'
     config.add_show_field 'object_number', label: 'object_number'
     config.add_show_field 'work_pid', label: 'work_pid'
+    config.add_show_field 'data_pid', label: 'data_pid'
     config.add_show_field 'references', label: 'references'
     config.add_show_field 'datahub_api_record', accessor: 'datahub_api_record', label: 'datahub_api_record'
     config.add_show_field 'datahub_oai_record', accessor: 'datahub_oai_record', label: 'datahub_oai_record'

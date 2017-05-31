@@ -226,6 +226,7 @@ en:
         keywords: 'Keywords'
         object_number: 'Object number'
         work_pid: 'Work PID'
+        data_pid: 'Data PID'
         production_date: 'Production date'
         references: 'References'
         datahub_api_record: 'Datahub API record'

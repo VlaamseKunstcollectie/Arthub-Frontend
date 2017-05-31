@@ -309,6 +309,7 @@
 
    <field name="object_number" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="work_pid" type="string" indexed="false" stored="true" multiValued="false"/>
+   <field name="data_pid" type="string" indexed="false" stored="true" multiValued="false"/>
 
    <field name="material" type="string" indexed="false" stored="true" multiValued="false"/>
    <field name="dimensions" type="string" indexed="false" stored="true" multiValued="false"/>
