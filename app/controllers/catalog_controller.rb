@@ -126,14 +126,14 @@ class CatalogController < ApplicationController
     # solr request handler? The one set in config[:default_solr_parameters][:qt],
     # since we aren't specifying it otherwise.
 
-    config.add_search_field 'all_fields', label: 'all_fields'
+    config.add_search_field 'all_fields', label: I18n.t('all_fields')
 
 
     # Now we see how to over-ride Solr request handler defaults, in this
     # case for a BL "search field", which is really a dismax aggregate
     # of Solr search fields.
 
-    config.add_search_field('title', label: I18n.t('Title')) do |field|
+    config.add_search_field('title', label: I18n.t('title')) do |field|
       # solr_parameters hash are sent to Solr as ordinary url query params.
       field.solr_parameters = { :'spellcheck.dictionary' => 'title' }
 
@@ -147,7 +147,7 @@ class CatalogController < ApplicationController
       }
     end
 
-    config.add_search_field('author', label: I18n.t('Author')) do |field|
+    config.add_search_field('author', label: I18n.t('creator')) do |field|
       field.solr_parameters = { :'spellcheck.dictionary' => 'author' }
       field.solr_local_parameters = {
         qf: '$author_qf',
@@ -155,7 +155,7 @@ class CatalogController < ApplicationController
       }
     end
 
-    config.add_search_field('object_number', label: I18n.t('Object number')) do |field|
+    config.add_search_field('object_number', label: I18n.t('object_number')) do |field|
       #field.solr_parameters = { :'spellcheck.dictionary' => 'object_number' }
       field.solr_local_parameters = {
         qf: '$object_number_qf',

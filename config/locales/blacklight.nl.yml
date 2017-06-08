@@ -249,3 +249,8 @@ nl:
       default: 'ingang'
 
     did_you_mean: 'Bedoelde u: %{options}?'
+
+  all_fields: 'Alle velden'
+  title: 'Titel'
+  creator: 'Kunstenaar'
+  object_number: 'Inventarisnummer'

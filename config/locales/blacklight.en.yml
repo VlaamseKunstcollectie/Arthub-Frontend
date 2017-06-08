@@ -249,3 +249,8 @@ en:
       default: 'entry'
 
     did_you_mean: 'Did you mean to type: %{options}?'
+
+  all_fields: 'All fields'
+  title: 'Title'
+  creator: 'Creator'
+  object_number: 'Object number'
