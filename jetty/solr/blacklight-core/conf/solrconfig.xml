@@ -57,6 +57,8 @@
     <defaultQuery>solr</defaultQuery>
   </admin>
 
+  <requestHandler name="/update/json" class="org.apache.solr.handler.JsonUpdateRequestHandler" />
+
   <!-- SearchHandler
 
        http://wiki.apache.org/solr/SearchHandler
