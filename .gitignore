@@ -4,9 +4,6 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# Ignore bundler config.
-/.bundle
-
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
@@ -24,3 +21,23 @@
 
 data
 data/*
+
+.DS_Store
+*.sw[pon]
+.bundle
+.byebug_history
+.yardoc
+.rvmrc
+*.log
+Gemfile.lock
+coverage/
+doc/
+gemfiles/*.gemfile.lock
+jetty/
+log/*
+tmp/*
+pkg/*
+.internal_test_app
+.vagrant
+/spec/examples.txt
+db/
