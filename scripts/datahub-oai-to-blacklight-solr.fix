@@ -8,19 +8,17 @@
 # Import into Solr
 # catmandu import OAI --url "http://datahub_ubuntu:8000/oai/" --metadataPrefx oai_lido --handler lido --fix oai.fix to pbsolr
 
-
-
 # Title - use NL
 do list(path:_metadata.descriptiveMetadata.0.objectIdentificationWrap.titleWrap.titleSet.0.appellationValue, var:el)
     if all_match('el.lang', 'nl')
-    copy_field('el._', title_display)
+    copy_field('el._', "title_display")
     end
 end
 
 # Artist - use preferred
 do list(path:_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventActor.0.actorInRole.actor.nameActorSet.0.appellationValue, var:auth)
-    if all_match('auth.pref', 'preferred')
-        copy_field(auth._, author_display)
+    if all_match('auth.pref', 'alternate')
+        copy_field(auth._, "author_display")
     end
 end
 
@@ -30,7 +28,7 @@ copy_field('_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventDate
 # Period - use NL field
 do list(path:_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.periodName, var:per)
     if all_match('per.term.*.lang', 'nl')
-        copy_field('per.term.*._', period)
+        copy_field('per.term.*._', "period")
     end
 end
 
