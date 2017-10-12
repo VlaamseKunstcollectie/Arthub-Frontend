@@ -26,10 +26,15 @@
   </head>
   <body class="<%= render_body_class %>">
 
-  <% if has_search_parameters? %>    
+  <% if !current_page?(controller: 'catalog', action: 'index') %>
     <%= render :partial => 'shared/header_navbar' %>
   <% else %>
-    <%= render :partial => 'shared/header_navbar_home' %>
+    <% if has_search_parameters? %>
+      <%= render :partial => 'shared/header_navbar' %>
+    <% else %>
+      <%= render :partial => 'shared/header_navbar_home' %>
+    <% end %>
+
   <% end %>
 
   <%= render partial: 'shared/ajax_modal' %>
