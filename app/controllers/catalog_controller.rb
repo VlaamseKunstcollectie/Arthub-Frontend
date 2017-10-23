@@ -4,7 +4,6 @@ class CatalogController < ApplicationController
   include Blacklight::Catalog
   include Blacklight::Marc::Catalog
 
-
   configure_blacklight do |config|
     ## Class for sending and receiving requests from a search index
     # config.repository_class = Blacklight::Solr::Repository
@@ -191,5 +190,11 @@ class CatalogController < ApplicationController
     # Configuration for autocomplete suggestor
     config.autocomplete_enabled = true
     config.autocomplete_path = 'suggest'
+  end
+
+  def front
+    render layout: "frontpage"
+    # This is the front page action. We add this to create a separate front page
+    # view.
   end
 end

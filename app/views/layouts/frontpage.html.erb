@@ -24,9 +24,9 @@
     <%= csrf_meta_tags %>
     <%= content_for(:head) %>
   </head>
-  <body class="<%= render_body_class %>">
+  <body class="<%= render_body_class %> frontpage">
 
-  <%= render :partial => 'shared/header_navbar' %>
+  <%= render :partial => 'shared/header_navbar_home' %>
 
   <%= render partial: 'shared/ajax_modal' %>
 
