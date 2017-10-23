@@ -193,7 +193,13 @@ class CatalogController < ApplicationController
   end
 
   def front
-    render layout: "frontpage"
+    (@response, @document_list) = search_results(params)
+    @total = @response.total
+
+    respond_to do |format|
+      format.html {render :layout => 'frontpage'}
+    end
+
     # This is the front page action. We add this to create a separate front page
     # view.
   end
