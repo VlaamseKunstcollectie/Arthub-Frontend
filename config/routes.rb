@@ -41,9 +41,8 @@ Rails.application.routes.draw do
       end
     end
 
-    Rails.application.routes.draw do
-        get "/pages/:page" => "pages#show"
-    end
+    get "/:id" => "pages#show", :as => :page, :format => false
+
   end
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

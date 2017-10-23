@@ -1,5 +1,7 @@
+# frozen_string_literal: true
 class PagesController < ApplicationController
-    def show
-        render template: "pages/#{params[:page]}"
-    end
+  protect_from_forgery with: :exception
+  include HighVoltage::StaticPage
+  
+  layout 'blacklight'
 end
