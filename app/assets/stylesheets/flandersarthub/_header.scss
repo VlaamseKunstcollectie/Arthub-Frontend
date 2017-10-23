@@ -1,0 +1,36 @@
+.navbar-inverse {
+    background: #0bb4d3;
+    border-color: #0bb4d3;
+}
+
+#header-navbar .navbar-brand {  /* The main logo image for the Blacklight instance */
+    height: 75px;
+    background: transparent image_url('logo-arthub.jpg') no-repeat top left;
+}
+
+
+.navbar-inverse .navbar-nav {
+    height: 75px;
+    line-height: 75px;
+}
+
+.navbar-inverse .navbar-nav > li {
+    font-size: 1.25em;
+    font-weight: 450;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.navbar-inverse .navbar-nav > li > * {
+    padding: 15px 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    background: #087d93;
+}
