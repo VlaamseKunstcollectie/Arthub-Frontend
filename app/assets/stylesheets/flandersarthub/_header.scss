@@ -1,6 +1,6 @@
 .navbar-inverse {
-    background: #0bb4d3;
-    border-color: #0bb4d3;
+    background: $color1;
+    border-color: $color1;
 }
 
 #header-navbar .navbar-brand {  /* The main logo image for the Blacklight instance */
@@ -28,9 +28,9 @@
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #ffffff;
+    color: $color3;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    background: #087d93;
+    background: $color2;
 }
