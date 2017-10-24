@@ -1,18 +1,19 @@
-#search-navbar-home {
+.blacklight-catalog-front #search-navbar {
     background-size: cover;
     background: transparent image_url('header.jpg') no-repeat top center;
     border: none;
+    height: 180px;
 }
 
-#search-navbar-home .container {
-    height: 180px;
+.blacklight-catalog-front #search-navbar .container {
     line-height: 180px;
 }
 
-#search-navbar-home .container .search-query-form {
-    text-align: center;
-    margin: 0;
+.blacklight-catalog-front #search-navbar .container .search-query-form {
+    margin: 0 auto;
     padding: 0;
+    float: none;
+    width: auto;
 
     .input-group {
         vertical-align: middle;
@@ -34,7 +35,6 @@
     }
     .twitter-typeahead {
         input.tt-input.form-control {
-            width: 400px;
             @media (max-width: 768px) {
               width: 100%;
             }
