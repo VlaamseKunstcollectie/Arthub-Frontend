@@ -1,10 +1,8 @@
-<div class="row">
-	<% if I18n.locale == :en %>
-		<%= render :partial=>'home_text_en' %>
-	<% else %>
-		<%= render :partial=>'home_text_nl' %>
-	<% end %>
-</div>
+<% if I18n.locale == :en %>
+	<%= render :partial=>'home_text_en' %>
+<% else %>
+	<%= render :partial=>'home_text_nl' %>
+<% end %>
 
 
 <script>
