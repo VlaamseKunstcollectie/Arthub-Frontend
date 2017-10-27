@@ -8,4 +8,11 @@ module FrontpageHelper
 
   	content_tag(:span, ftotal, :classes => ['total-count'])
   end
+
+  ##
+  # Render the search navbar
+  # @return [String]
+  def render_front_search_bar
+    render :partial=>'catalog/front_search_form'
+  end
 end
