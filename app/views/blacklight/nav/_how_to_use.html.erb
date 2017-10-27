@@ -1,0 +1,5 @@
+<% if I18n.locale == :en %>
+	<%= link_to 'How to use', page_path(id: 'how_to_use') %>
+<% else %>
+	<%= link_to 'Handleiding', page_path(id: 'handleiding') %>
+<% end %>

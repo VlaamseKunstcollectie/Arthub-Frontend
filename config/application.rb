@@ -16,6 +16,7 @@ module Blacklight
     I18n.available_locales = [:en, :nl]
     config.i18n.default_locale = :nl
     config.i18n.locale = :nl
+    config.available_locales = %w(en nl)
 
   end
 end
