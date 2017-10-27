@@ -1,13 +1,14 @@
 .btn-primary {
-    background: #0bb4d3;
-    border: 1px solid #087d93;
+    background: $color4;
+    border:1px solid $color4;
 }
 
 .btn-primary:hover {
-    background: #087d93;
+    background: $color1;
+    border:1px solid $color1;
 }
 
 #sort-dropdown .dropdown-toggle,
 #per_page-dropdown .dropdown-toggle {
-   color: #0bb4d3;
+   color: $color1;
 }
