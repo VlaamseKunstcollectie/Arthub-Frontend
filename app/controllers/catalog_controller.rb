@@ -81,12 +81,13 @@ class CatalogController < ApplicationController
 
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
-    config.add_index_field 'title_display', label: 'title_display'
+    # config.add_index_field 'title_display', label: 'title_display'
     config.add_index_field 'author_display', label: 'creator'
     config.add_index_field 'period', label: 'period'
     config.add_index_field 'repository', label: 'repository'
     config.add_index_field 'artwork_type', label: 'artwork_type'
     config.add_index_field 'artwork_category', label: 'artwork_category'
+    config.add_index_field 'object_number', label: 'object_number'
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
