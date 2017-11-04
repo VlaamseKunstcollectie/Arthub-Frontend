@@ -4,14 +4,11 @@
 }
 
 #header-navbar .navbar-brand {  /* The main logo image for the Blacklight instance */
-    height: 75px;
-    background: transparent image_url('logo-arthub.jpg') no-repeat top left;
+    background: transparent image_url('logo-arthub.jpg') no-repeat center left;
 }
 
-
-.navbar-inverse .navbar-nav {
-    height: 75px;
-    line-height: 75px;
+#header-navbar {
+    border: 0px;
 }
 
 .navbar-inverse .navbar-nav > li {
@@ -24,13 +21,31 @@
 }
 
 .navbar-inverse .navbar-nav > li > * {
-    padding: 15px 10px;
+    margin: 15px 10px;
+    padding: 0;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > div {
+    margin: 15px 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > div > a {
     color: $color3;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover {
-    background: $color2;
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > div > a:hover {
+    color: $color4;
+}
+
+.navbar-inverse .navbar-nav > li > div > a[href*="en"] {
+    margin-left: 30px;
+}
+
+.navbar-inverse .navbar-nav > li > div > a[href*="nl"] {
+    margin-left: 5px;
+}
+
+.navbar-inverse .navbar-nav > li > div > a.selected {
+  color: $color4;
+  text-decoration: underline;
 }
