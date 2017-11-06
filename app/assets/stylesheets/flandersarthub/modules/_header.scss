@@ -1,6 +1,9 @@
 .navbar-inverse {
     background: $color1;
     border-color: $color1;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 #header-navbar .navbar-brand {  /* The main logo image for the Blacklight instance */
