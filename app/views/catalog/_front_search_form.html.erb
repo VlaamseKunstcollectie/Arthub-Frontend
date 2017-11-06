@@ -1,23 +1,155 @@
 <%= form_tag search_action_url, method: :get, class: 'search-query-form clearfix navbar-form', role: 'search' do %>
   <%= render_hash_as_hidden_fields(search_state.params_for_search.except(:q, :search_field, :qt, :page, :utf8)) %>
-  <div class="input-group">
-    <% if search_fields.length > 1 %>
-      <span class="input-group-addon for-search-field">
-        <label for="search_field" class="sr-only"><%= t('blacklight.search.form.search_field.label') %></label>
-        <%= select_tag(:search_field, options_for_select(search_fields, h(params[:search_field])), title: t('blacklight.search.form.search_field.title'), id: "search_field", class: "search_field") %>
-      </span>
-    <% elsif search_fields.length == 1 %>
-      <%= hidden_field_tag :search_field, search_fields.first.last %>
-    <% end %>
+      <div id="carouselWrapper" class="carousel" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+          <li data-target="#carouselWrapper" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselWrapper" data-slide-to="1"></li>
+          <li data-target="#carouselWrapper" data-slide-to="2"></li>
+          <li data-target="#carouselWrapper" data-slide-to="3"></li>
+          <li data-target="#carouselWrapper" data-slide-to="4"></li>         
+        </ol>
 
-    <label for="q" class="sr-only"><%= t('blacklight.search.form.search.label') %></label>
-    <%= text_field_tag :q, params[:q], placeholder: t('blacklight.search.form.search.placeholder'), class: "search_q q form-control", id: "q", autofocus: should_autofocus_on_search_box?, data: { autocomplete_enabled: autocomplete_enabled?, autocomplete_path: blacklight.suggest_index_path }  %>
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <div class="carousel-caption d-none d-md-block">
+              <% if I18n.locale == :en %>
+                <%= render :partial=>'carousel_caption_1_en' %>
+              <% else %>
+                <%= render :partial=>'carousel_caption_1_nl' %>
+              <% end %>
+            </div>
+          </div>
 
-    <span class="input-group-btn">
-      <button type="submit" class="btn btn-primary search-btn" id="search">
-        <span class="submit-search-text"><%= t('blacklight.search.form.submit') %></span>
-        <span class="glyphicon glyphicon-search"></span>
-      </button>
-    </span>
-  </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <% if I18n.locale == :en %>
+                <%= render :partial=>'carousel_caption_2_en' %>
+              <% else %>
+                <%= render :partial=>'carousel_caption_2_nl' %>
+              <% end %>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <% if I18n.locale == :en %>
+                <%= render :partial=>'carousel_caption_3_en' %>
+              <% else %>
+                <%= render :partial=>'carousel_caption_3_nl' %>
+              <% end %>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <% if I18n.locale == :en %>
+                <%= render :partial=>'carousel_caption_4_en' %>
+              <% else %>
+                <%= render :partial=>'carousel_caption_4_nl' %>
+              <% end %>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <% if I18n.locale == :en %>
+                <%= render :partial=>'carousel_caption_5_en' %>
+              <% else %>
+                <%= render :partial=>'carousel_caption_5_nl' %>
+              <% end %>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="buttons">
+
+          <button id="playButton" type="button" class="btn btn-default btn-xs carouselButton">
+            <span class="glyphicon glyphicon-play"></span>
+          </button>
+
+          <button id="pauseButton" type="button" class="btn btn-default btn-xs carouselButton">
+            <span class="glyphicon glyphicon-pause"></span>
+          </button>
+
+          <button id="prevButton" href="#carouselWrapper" type="button" class="btn btn-default btn-xs carouselButton">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          </button>
+
+          <button id="nextButton" href="#carouselWrapper" type="button" class="btn btn-default btn-xs carouselButton">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          </button>
+
+        </div>
+
+        <div class="search_form">
+          
+          <div class="input-group">
+            
+            <% if search_fields.length > 1 %>
+              <span class="input-group-addon for-search-field">
+                <label for="search_field" class="sr-only"><%= t('blacklight.search.form.search_field.label') %></label>
+                <%= select_tag(:search_field, options_for_select(search_fields, h(params[:search_field])), title: t('blacklight.search.form.search_field.title'), id: "search_field", class: "search_field") %>
+              </span>
+            <% elsif search_fields.length == 1 %>
+              <%= hidden_field_tag :search_field, search_fields.first.last %>
+            <% end %>
+
+            <label for="q" class="sr-only"><%= t('blacklight.search.form.search.label') %></label>
+            <%= text_field_tag :q, params[:q], placeholder: t('blacklight.search.form.search.placeholder'), class: "search_q q form-control", id: "q", autofocus: should_autofocus_on_search_box?, data: { autocomplete_enabled: autocomplete_enabled?, autocomplete_path: blacklight.suggest_index_path }  %>
+
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-primary search-btn" id="search">
+                <span class="submit-search-text"><%= t('blacklight.search.form.submit') %></span>
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+          
+          </div>
+
+          <div class="calltoaction">
+            <% if I18n.locale == :en %>
+              <%= render :partial=>'calltoaction_en' %>
+            <% else %>
+              <%= render :partial=>'calltoaction_nl' %>
+            <% end %>
+          </div>
+        
+        </div>
+
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      
+      <script>
+        $(function () {
+            $('#playButton').hide();
+            $('#carouselWrapper').carousel({
+                interval:5000,
+                pause: "false"
+            });
+            $('#playButton').click(function () {
+                  $('#playButton').hide();
+                  $('#pauseButton').show();
+                  $('#carouselWrapper').carousel('cycle');
+            });
+            $('#pauseButton').click(function () {
+                  $('#pauseButton').hide();
+                  $('#playButton').show();
+                  $('#carouselWrapper').carousel('pause');
+            });
+            $('#prevButton').click(function () {
+                $('#carouselWrapper').carousel('prev');
+            });
+            $('#nextButton').click(function () {
+                $('#carouselWrapper').carousel('next');
+            });
+            
+        });
+      </script>
+
 <% end %>

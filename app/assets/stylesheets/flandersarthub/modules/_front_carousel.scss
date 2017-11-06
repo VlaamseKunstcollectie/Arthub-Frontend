@@ -1,0 +1,177 @@
+.carousel-item:nth-child(1) {
+    background: transparent image_url('header1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+.carousel-item:nth-child(2) {
+    background: transparent image_url('header2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+.carousel-item:nth-child(3) {
+    background: transparent image_url('header3.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+.carousel-item:nth-child(4) {
+    background: transparent image_url('header4.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+.carousel-item:nth-child(5) {
+    background: transparent image_url('header5.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+.carousel-item {
+	display:none;
+}
+.carousel-indicators {
+	bottom:10px;
+}
+.carousel-indicators li {
+	background-color: $color3;
+    opacity: 0.5;
+    border: none;
+    margin: 0px;
+}
+.carousel-indicators .active{
+	background-color: $color3;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    bottom: 15px;
+}
+.carousel-indicators li:hover, .carousel-indicators .active:hover{
+    background-color: $color1;
+    opacity: 1;
+}
+.carouselButton {
+    position: absolute;
+    background-color: transparent;
+    border:none;
+    color: $color3;
+    font-size:20px;
+}
+#playButton, #pauseButton {
+    bottom: 10px;
+    right: 10px;
+    background-color: transparent;
+}
+@media screen and (max-width: 870px) {
+    .carousel-indicators {
+        bottom: 25px !important;
+    }
+    .carousel-indicators .active{
+        background-color: $color4;
+        opacity: 1;
+    }
+    .carousel-indicators li {
+        background-color: $color4;
+        opacity: 0.5;
+    }
+    .buttons {
+        height: 60px;
+        background-color: rgba(0,0,0,0.1);
+    }
+    #prevButton, #nextButton {
+        top: auto !important;
+        bottom: 5px !important;
+        color: $color4 !important;
+    }
+    #playButton, #pauseButton {
+        top: auto !important;
+        bottom: 5px !important;
+        color: $color4 !important;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0;
+    }
+    .carousel-indicators li:hover, .carousel-indicators .active:hover{
+        color: $color1 !important;
+        opacity: 1;
+    }
+    #playButton:hover, #pauseButton:hover, #prevButton:hover, #nextButton:hover {
+        background-color: transparent;
+        color: $color1 !important;
+    }
+}
+#prevButton {
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 30px;
+    background-color: transparent;
+    color: $color3;
+}
+#nextButton {
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 30px;
+    background-color: transparent;
+    color: $color3;
+}
+.carouselButton:hover {
+    background-color: transparent;
+    color: $color1 !important;
+}
+.carouselButton:focus{
+    outline: none;
+}
+.carouselButton:active{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none !important;
+}
+.carousel-caption {
+    left:10px;
+    max-width:200px;
+    min-height:55px;
+    padding:5px;
+    bottom:10px;
+    background-color: rgba(0,0,0,0.25);
+	text-align:left;
+    text-shadow: none;
+    font-size: 75%;
+    border-radius:4px;
+}
+.carousel-caption p {
+    color: $color3;
+    margin: 0;
+}
+.carousel-caption .title {
+    font-weight: bold;
+}
+.carousel-caption .date {
+    font-weight: normal;
+}
+.carousel-caption .collection {
+    font-style: italic;
+}
+.calltoaction {
+    color: $color3;
+    background-color: $color4;
+    margin:auto;
+    margin-top:10px;
+    padding:0px;
+    line-height:10px;
+    text-align:center;
+    border-radius:4px;
+}
+.calltoaction p {
+    padding:10px;
+    line-height: 120% !important;
+    margin: 0;
+}
+@media screen and (max-width: 800px) {
+    .search_form {
+        width: 100% !important;
+    }
+}
+.search_form {
+    top: 150px;
+    bottom: 150px !important;
+}

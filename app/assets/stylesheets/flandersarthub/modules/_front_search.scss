@@ -1,18 +1,24 @@
-.blacklight-catalog-front #search-navbar {
-    background-size: cover;
-    background: transparent image_url('header.jpg') no-repeat center center;
-    background-size:cover;
-    border: none;
-    height: 400px;
+#search-navbar .container{
+    margin:0;
+    padding:0;
+    width:100%;
 }
 
-.blacklight-catalog-front #search-navbar .container {
-    line-height: 400px;
+.search_form{
+    width:800px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    position:absolute;
+    bottom:180px;
+    z-index:10;
 }
 
 .blacklight-catalog-front #search-navbar .container .search-query-form {
     width:100%;
     padding:0;
+    margin:0;
 
     .input-group {
         background: rgba(255,255,255,0.5);
@@ -20,21 +26,20 @@
         vertical-align: middle;
         line-height: normal;
         padding:10px;
+        z-index: 10;
     }
 
     .input-group-addon {
         .search_field { 
-            background-color: #fff;
             border-radius: 4px 0 0 4px;
             background: transparent;
             outline:none;
         }
     }
 
-    .twitter-typeahead {
+    .input-group-btn {
+        width: 40px;
+        max-width: 90px;
     }
 
-    .input-group-btn {
-        width:90px;
-    }
 }
