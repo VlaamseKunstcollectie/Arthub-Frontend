@@ -82,23 +82,23 @@ class CatalogController < ApplicationController
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
     # config.add_index_field 'title_display', label: 'title_display'
-    config.add_index_field 'author_display', label: 'creator'
-    config.add_index_field 'period', label: 'period'
-    config.add_index_field 'repository', label: 'repository'
-    config.add_index_field 'artwork_type', label: 'artwork_type'
-    config.add_index_field 'artwork_category', label: 'artwork_category'
+    config.add_index_field 'author_display', label: 'creator', link_to_search: true
+    config.add_index_field 'period', label: 'period', link_to_search: true
+    config.add_index_field 'repository', label: 'repository', link_to_search: true
+    config.add_index_field 'artwork_type', label: 'artwork_type', link_to_search: true
+    config.add_index_field 'artwork_category', label: 'artwork_category', link_to_search: true
     config.add_index_field 'object_number', label: 'object_number'
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
     config.add_show_field 'subtitle_display', label: 'subtitle'
-    config.add_show_field 'author_display', label: 'author_display'
-    config.add_show_field 'period', label: 'period'
+    config.add_show_field 'author_display', label: 'author_display', link_to_search: true
+    config.add_show_field 'period', label: 'period', link_to_search: true
     config.add_show_field 'production_date', label: 'production_date'
-    config.add_show_field 'repository', label: 'Repository'
-    config.add_show_field 'artwork_type', label: 'artwork_type'
-    config.add_show_field 'artwork_category', label: 'artwork_category'
-    config.add_show_field 'material', label: 'material'
+    config.add_show_field 'repository', label: 'Repository', link_to_search: true
+    config.add_show_field 'artwork_type', label: 'artwork_type', link_to_search: true
+    config.add_show_field 'artwork_category', label: 'artwork_category', link_to_search: true
+    config.add_show_field 'material', label: 'material', link_to_search: true
     config.add_show_field 'dimensions', label: 'dimensions'
     config.add_show_field 'keywords', label: 'keywords'
     config.add_show_field 'object_number', label: 'object_number'
