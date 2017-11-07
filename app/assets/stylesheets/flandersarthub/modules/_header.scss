@@ -1,7 +1,6 @@
 .navbar-inverse {
     background: $color1;
     border-color: $color1;
-    position: fixed;
     width: 100%;
     top: 0;
 }
@@ -16,7 +15,6 @@
 
 .navbar-inverse .navbar-nav > li {
     font-size: 1.25em;
-    font-weight: 450;
     float: none;
     display: inline-block;
     vertical-align: middle;
@@ -24,6 +22,8 @@
 }
 
 .navbar-inverse .navbar-nav > li > * {
+    font-family: $font-family-base;
+    font-weight: lighter;
     margin: 15px 10px;
     padding: 0;
 }
@@ -49,6 +49,6 @@
 }
 
 .navbar-inverse .navbar-nav > li > div > a.selected {
-  color: $color4;
-  text-decoration: underline;
+    color: $color4;
+    text-decoration: underline;
 }
