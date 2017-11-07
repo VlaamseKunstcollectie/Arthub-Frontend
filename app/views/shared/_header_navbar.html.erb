@@ -25,3 +25,10 @@
     <% end %>
   </div>
 </div>
+
+<script>
+  $(function () {
+    var pathname = window.location.pathname;
+    $('a[href="'+pathname+'"]').addClass('activePage');
+  });
+</script>

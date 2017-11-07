@@ -48,7 +48,11 @@
     margin-left: 5px;
 }
 
-.navbar-inverse .navbar-nav > li > div > a.selected {
+.navbar-inverse .navbar-nav > li > div > a.selectedLang {
     color: $color4;
     text-decoration: underline;
+}
+
+.activePage {
+    color: $color4 !important;
 }
