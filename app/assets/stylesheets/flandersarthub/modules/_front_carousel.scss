@@ -1,27 +1,37 @@
+.captionClass1 {display: none;}
+.captionClass2 {display: none;}
+.captionClass3 {display: none;}
+.captionClass4 {display: none;}
+.captionClass5 {display: none;}
 .class1 {
     background: transparent image_url('header1.jpg') no-repeat center center;
     background-size: cover;
     height: 400px;
+    .captionClass1 {display: block;}
 }
 .class2 {
     background: transparent image_url('header2.jpg') no-repeat center center;
     background-size: cover;
     height: 400px;
+    .captionClass2 {display: block;}
 }
 .class3 {
     background: transparent image_url('header3.jpg') no-repeat center center;
     background-size: cover;
     height: 400px;
+    .captionClass3 {display: block;}
 }
 .class4 {
     background: transparent image_url('header4.jpg') no-repeat center center;
     background-size: cover;
     height: 400px;
+    .captionClass4 {display: block;}
 }
 .class5 {
     background: transparent image_url('header5.jpg') no-repeat center center;
     background-size: cover;
     height: 400px;
+    .captionClass5 {display: block;}
 }
 .carousel-item {
 	display:none;
