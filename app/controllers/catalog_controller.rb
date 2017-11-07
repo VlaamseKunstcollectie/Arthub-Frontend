@@ -91,7 +91,6 @@ class CatalogController < ApplicationController
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
-    config.add_show_field 'title_display', label: 'title_display'
     config.add_show_field 'subtitle_display', label: 'subtitle'
     config.add_show_field 'author_display', label: 'author_display'
     config.add_show_field 'period', label: 'period'
