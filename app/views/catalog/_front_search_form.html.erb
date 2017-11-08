@@ -1,6 +1,6 @@
 <%= form_tag search_action_url, method: :get, class: 'search-query-form clearfix navbar-form', role: 'search' do %>
   <%= render_hash_as_hidden_fields(search_state.params_for_search.except(:q, :search_field, :qt, :page, :utf8)) %>
-      <div id="carouselWrapper" class="carousel" data-ride="carousel">
+      <div id="carouselWrapper" class="carousel" data-ride="carousel" data-interval="20000">
         
         <ol class="carousel-indicators">
           <li data-target="#carouselWrapper" data-slide-to="0" class="active"></li>
@@ -15,9 +15,9 @@
           <div class="carousel-item active">
             <div class="carousel-caption d-none d-md-block">
               <% if I18n.locale == :en %>
-                <%= render :partial=>'carousel_caption_1_en' %>
+                <%= render :partial=>'carousel_captions_en' %>
               <% else %>
-                <%= render :partial=>'carousel_caption_1_nl' %>
+                <%= render :partial=>'carousel_captions_nl' %>
               <% end %>
             </div>
           </div>
@@ -25,9 +25,9 @@
           <div class="carousel-item">
             <div class="carousel-caption d-none d-md-block">
               <% if I18n.locale == :en %>
-                <%= render :partial=>'carousel_caption_2_en' %>
+                <%= render :partial=>'carousel_captions_en' %>
               <% else %>
-                <%= render :partial=>'carousel_caption_2_nl' %>
+                <%= render :partial=>'carousel_captions_nl' %>
               <% end %>
             </div>
           </div>
@@ -35,9 +35,9 @@
           <div class="carousel-item">
             <div class="carousel-caption d-none d-md-block">
               <% if I18n.locale == :en %>
-                <%= render :partial=>'carousel_caption_3_en' %>
+                <%= render :partial=>'carousel_captions_en' %>
               <% else %>
-                <%= render :partial=>'carousel_caption_3_nl' %>
+                <%= render :partial=>'carousel_captions_nl' %>
               <% end %>
             </div>
           </div>
@@ -45,9 +45,9 @@
           <div class="carousel-item">
             <div class="carousel-caption d-none d-md-block">
               <% if I18n.locale == :en %>
-                <%= render :partial=>'carousel_caption_4_en' %>
+                <%= render :partial=>'carousel_captions_en' %>
               <% else %>
-                <%= render :partial=>'carousel_caption_4_nl' %>
+                <%= render :partial=>'carousel_captions_nl' %>
               <% end %>
             </div>
           </div>
@@ -55,9 +55,9 @@
           <div class="carousel-item">
             <div class="carousel-caption d-none d-md-block">
               <% if I18n.locale == :en %>
-                <%= render :partial=>'carousel_caption_5_en' %>
+                <%= render :partial=>'carousel_captions_en' %>
               <% else %>
-                <%= render :partial=>'carousel_caption_5_nl' %>
+                <%= render :partial=>'carousel_captions_nl' %>
               <% end %>
             </div>
           </div>
@@ -124,14 +124,11 @@
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-      
+
       <script>
         $(function () {
+            
             $('#playButton').hide();
-            $('#carouselWrapper').carousel({
-                interval:5000,
-                pause: "false"
-            });
             $('#playButton').click(function () {
                   $('#playButton').hide();
                   $('#pauseButton').show();
@@ -150,6 +147,14 @@
             });
             
         });
+      </script>
+
+      <script>
+        var array = [1,2,3,4,5];
+        array.sort(function() { return 0.5 - Math.random() });
+        for (i=1;i<=array.length;++i) {
+          $(".carousel-item:nth-child(" + i + ")").addClass("class"+array[i-1]);
+        }
       </script>
 
 <% end %>

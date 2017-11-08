@@ -197,7 +197,7 @@
          id,
          score,
          title_display,
-         author_display,
+         creator_display,
          period,
          repository,
          artwork_type,

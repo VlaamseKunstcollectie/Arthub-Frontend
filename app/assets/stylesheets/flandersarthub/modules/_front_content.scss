@@ -1,0 +1,45 @@
+#content, h2, h3 {
+	font-family: $font-family-base;
+	font-weight: lighter;
+	color: $color4;
+	line-height: 150%;
+}
+#content {
+	font-size: 120%;
+}
+
+.col-sm-12.col-md-6 {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+h3 {
+	margin: 0;
+}
+.fa.icon.featured {
+    float: left;
+    margin-bottom: 150px;
+    color: $color4;
+    display: block;
+    opacity: 0.5;
+    text-align: center;
+    position: relative;
+    font-size: 4em;
+	line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.fa-history, .fa-database {
+	margin-right: 30px;
+}
+
+.fa-users {
+	margin-right: 18px;
+}
+
+.fa-code-fork {
+	margin-right: 46px;
+}

@@ -105,7 +105,7 @@ nl:
       text:
         default_title: 'N/A'
         title: 'Titel: %{value}'
-        author: 'Creator: %{value}'
+        author: 'Auteur: %{value}'
         format: 'Formaat: %{value}'
         language: 'Taal: %{value}'
         subject:
@@ -219,7 +219,7 @@ nl:
         artwork_type: 'Type'
         artwork_category: 'Voorstelling'
         title_display: 'Title'
-        author_display: 'Vervaardiger'
+        creator_display: 'Vervaardiger'
         subtitle: 'Subtitle'
         material: 'Materiaal'
         dimensions: 'Dimensies'

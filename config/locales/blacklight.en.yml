@@ -219,7 +219,7 @@ en:
         artwork_type: 'Type'
         artwork_category: 'Category'
         title_display: 'Title'
-        author_display: 'Creator'
+        creator_display: 'Creator'
         subtitle: 'Subtitle'
         material: 'Material'
         dimensions: 'Dimensions'
