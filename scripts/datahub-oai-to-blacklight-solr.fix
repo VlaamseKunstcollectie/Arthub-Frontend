@@ -16,9 +16,19 @@ do list(path:_metadata.descriptiveMetadata.0.objectIdentificationWrap.titleWrap.
 end
 
 # Artist - use preferred
-do list(path:_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventActor.0.actorInRole.actor.nameActorSet.0.appellationValue, var:auth)
-    if all_match('auth.pref', 'alternate')
-        copy_field(auth._, "author_display")
+if is_array('_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventActor')
+    do list(path:'_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventActor', var: c)
+        do list(path:c.actorInRole.actor.nameActorSet.0.appellationValue, var:creator)
+            if all_match('creator.pref', 'alternate')
+                copy_field(creator._, "creator_display.$append")
+            end
+        end
+    end
+else
+    do list(path:_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventActor.actorInRole.actor.nameActorSet.0.appellationValue, var:creator)
+        if all_match('creator.pref', 'alternate')
+            copy_field(creator._, "creator_display")
+        end
     end
 end
 
@@ -36,7 +46,13 @@ end
 copy_field('_metadata.administrativeMetadata.0.recordWrap.recordSource.0.legalBodyName.0.appellationValue.0._', 'repository')
 
 # ? Material
-copy_field('_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventMaterialsTech.0.materialsTech.termMaterialsTech.0.term.0._', 'material')
+if is_array('_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventMaterialsTech')
+    do list(path: '_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventMaterialsTech', var: mat)
+        copy_field(mat.materialsTech.termMaterialsTech.0.term.0._, material.$append)
+    end
+else
+    copy_field('_metadata.descriptiveMetadata.0.eventWrap.eventSet.0.event.eventMaterialsTech.0.materialsTech.termMaterialsTech.0.term.0._', 'material')
+end
 
 # Dimensions
 do list(path:_metadata.descriptiveMetadata.0.objectIdentificationWrap.objectMeasurementsWrap.objectMeasurementsSet, var:el2)
@@ -66,10 +82,22 @@ end
 join_field(keywords, ', ')
 
 # Category
-copy_field('_metadata.descriptiveMetadata.0.objectRelationWrap.subjectWrap.subjectSet.0.subject.subjectConcept.0.term.0._', 'artwork_category')
+if is_array('_metadata.descriptiveMetadata.0.objectRelationWrap.subjectWrap.subjectSet.0.subject.subjectConcept.0.term')
+    do list(path: '_metadata.descriptiveMetadata.0.objectRelationWrap.subjectWrap.subjectSet.0.subject.subjectConcept.0.term', var: cat)
+        copy_field(cat._, artwork_category.$append)
+    end
+else
+    copy_field('_metadata.descriptiveMetadata.0.objectRelationWrap.subjectWrap.subjectSet.0.subject.subjectConcept.0.term.0._', 'artwork_category')
+end
 
 # Artwork_type
-copy_field('_metadata.descriptiveMetadata.0.objectClassificationWrap.objectWorkTypeWrap.objectWorkType.0.term.0._', 'artwork_type')
+if is_array('_metadata.descriptiveMetadata.0.objectClassificationWrap.objectWorkTypeWrap.objectWorkType.0.term')
+    do list(path: '_metadata.descriptiveMetadata.0.objectClassificationWrap.objectWorkTypeWrap.objectWorkType.0.term', var:type)
+        copy_field(type._, artwork_type.$append)
+    end
+else
+    copy_field('_metadata.descriptiveMetadata.0.objectClassificationWrap.objectWorkTypeWrap.objectWorkType.0.term.0._', 'artwork_type')
+end
 
 # References
 copy_field('_metadata.administrativeMetadata.0.recordWrap.recordInfoSet.0.recordInfoLink.0._', 'references')
