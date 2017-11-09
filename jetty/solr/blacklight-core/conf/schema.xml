@@ -312,6 +312,7 @@
 
     <field name="material" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="dimensions" type="string" indexed="false" stored="true" multiValued="false"/>
+    <field name="description" type="string" indexed="true" stored="true" multiValued="false"/>
 
     <field name="keywords" type="string" indexed="false" stored="true" multiValued="false"/>
     <field name="artwork_category" type="string" indexed="true" stored="true" multiValued="true"/>

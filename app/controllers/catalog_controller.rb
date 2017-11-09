@@ -102,6 +102,7 @@ class CatalogController < ApplicationController
     config.add_show_field 'dimensions', label: 'dimensions'
     config.add_show_field 'keywords', label: 'keywords'
     config.add_show_field 'object_number', label: 'object_number'
+    config.add_show_field 'description', label: 'description'
     config.add_show_field 'work_pid', label: 'work_pid'
     config.add_show_field 'data_pid', helper_method: :link_to_pid, label: 'data_pid'
     config.add_show_field 'references', label: 'references'
