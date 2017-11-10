@@ -223,6 +223,7 @@ en:
         subtitle: 'Subtitle'
         material: 'Material'
         dimensions: 'Dimensions'
+        description: 'Description'
         keywords: 'Keywords'
         object_number: 'Object number'
         work_pid: 'Work PID'

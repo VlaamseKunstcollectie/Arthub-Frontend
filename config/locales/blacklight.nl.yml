@@ -223,6 +223,7 @@ nl:
         subtitle: 'Subtitle'
         material: 'Materiaal'
         dimensions: 'Dimensies'
+        description: 'Beschrijving'
         keywords: 'Sleutelwoorden'
         work_pid: 'Work PID'
         data_pid: 'Data PID'

@@ -201,6 +201,7 @@
          artwork_type,
          artwork_category,
          dimensions,
+         description,
          material,
          object_number,
          work_pid,
