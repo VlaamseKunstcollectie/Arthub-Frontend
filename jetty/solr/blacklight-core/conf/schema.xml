@@ -297,6 +297,7 @@
     <field name="subtitle_display" type="string" indexed="false" stored="true" multiValued="false"/>
     <field name="subtitle_vern_display" type="string" indexed="false" stored="true" multiValued="false"/>
 
+    <field name="creator" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="creator_display" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="author_vern_display" type="string" indexed="false" stored="true" multiValued="false"/>
 
@@ -378,7 +379,7 @@
   <solrQueryParser defaultOperator="OR"/>
 
   <copyField source="title_display" dest="title_t"/>
-  <copyField source="author_display" dest="author_t"/>
+  <copyField source="creator" dest="author_t"/>
   <copyField source="object_number" dest="text"/>
 
   <!-- copyField commands copy one field to another at the time a document
