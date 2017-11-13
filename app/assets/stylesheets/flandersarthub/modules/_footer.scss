@@ -1,26 +1,55 @@
 #footer {
     margin-top: 4em;
     padding: 0;
-}
 
-.logos {
-    border-top: 1px solid #eee;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    .logos {
+        border-top: 1px solid #eee;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
 
-    li {
-      float: left;
-      margin: 2em;
-    }
-
-    img {
-        height: 80px;
-        @media (max-width: 768px) {
-            height: 40px;
+        li {
+            float: left;
+            margin: 2em;
+            @media screen and (max-width: 561px) {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
         }
+
+        img {
+            height: 80px;
+            @media screen and (max-width: 1199px) {
+                height: 60px;
+            }
+            @media screen and (max-width: 991px) {
+                height: 40px;
+            }
+            @media screen and (max-width: 419px) {
+                height: 80px;
+            }
+            @media screen and (max-width: 300px) {
+                height: 60px;
+            }
+            @media screen and (max-width: 250px) {
+                height: 40px;
+            }
+            @media screen and (max-width: 200px) {
+                height: 20px;
+            }
+        }
+    }
+    .buttons {
+        display: none;
+        @media screen and (max-width: 419px) {
+            display: block;
+        }
+    }
+    #prevButton, #nextButton {
+        color: $color4;
     }
 }

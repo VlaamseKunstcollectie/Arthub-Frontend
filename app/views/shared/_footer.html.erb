@@ -1,33 +1,102 @@
 <div id="footer" class="container">
 <% if I18n.locale == :en %>
+<div class="carouselLogoWrapper row1" data-ride="carousel" data-interval="false">
    <div class="row">
-     <ul class="logos">
-       <li><%= image_tag "kmska.jpg", :alt => "Royal Museum for Fine Arts Antwerp"  %></li>
-       <li><%= image_tag "groeninge.jpg", :alt => "Groeningemuseum Bruges" %></li>
-       <li><%= image_tag "msk.jpg", :alt => "Museum for Fine Arts Ghent" %></li>
+     <ul class="logos carousel-inner">
+       <li class="carouselLogo active"><%= image_tag "kmska.jpg", :alt => "Royal Museum of Fine Arts Antwerp"  %></li>
+       <li class="carouselLogo"><%= image_tag "groeninge.jpg", :alt => "Groeninge Museum Bruges" %></li>
+       <li class="carouselLogo"><%= image_tag "msk.jpg", :alt => "Museum of Fine Arts Ghent" %></li>
+       <li class="carouselLogo"><%= image_tag "mleuven.jpg", :alt => "M - Museum Leuven" %></li>
+       <li class="carouselLogo"><%= image_tag "muzee.jpg", :alt => "Mu.ZEE Ostend" %></li>
      </ul>
-   </div>
+     <div class="buttons">
+        <button id="prevButton" href=".row1" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </button>
+
+        <button id="nextButton" href=".row1" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </button>
+    </div>
+  </div>
+</div>
+<div class="carouselLogoWrapper row2" data-ride="carousel" data-interval="false">
    <div class="row">
-     <ul class="logos">
-       <li><%= image_tag "logo_vkc_en.png", :alt => "Flemish Art Collection" %></li>
-       <li><%= image_tag "logo_packed.png" %></li>
-       <li><%= image_tag "flanders.png", :alt => "Flanders. State of Art." %></li>
+     <ul class="logos carousel-inner">
+       <li class="carouselLogo active"><%= image_tag "logo_vkc_en.jpg", :alt => "Flemish Art Collection" %></li>
+       <li class="carouselLogo"><%= image_tag "logo_packed.png" %></li>
+       <li class="carouselLogo"><%= image_tag "flanders.png", :alt => "Flanders. State of Art." %></li>
      </ul>
-   </div>
+      <div class="buttons">
+        <button id="prevButton" href=".row2" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </button>
+
+        <button id="nextButton" href=".row2" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </button>
+    </div>
+  </div>
+</div>
 <% else %>
+<div class="carouselLogoWrapper row1" data-ride="carousel" data-interval="false">
    <div class="row">
-     <ul class="logos">
-       <li><%= image_tag "kmska.jpg", :alt => "Koninklijk Museum voor Schone Kunsten Antwerpen"  %></li>
-       <li><%= image_tag "groeninge.jpg", :alt => "Groeningemuseum Brugge" %></li>
-       <li><%= image_tag "msk.jpg", :alt => "Museum voor Schone Kunsten Gent" %></li>
+     <ul class="logos carousel-inner">
+       <li class="carouselLogo active"><%= image_tag "kmska.jpg", :alt => "Koninklijk Museum voor Schone Kunsten Antwerpen"  %></li>
+       <li class="carouselLogo"><%= image_tag "groeninge.jpg", :alt => "Groeningemuseum Brugge" %></li>
+       <li class="carouselLogo"><%= image_tag "msk.jpg", :alt => "Museum voor Schone Kunsten Gent" %></li>
+       <li class="carouselLogo"><%= image_tag "mleuven.jpg", :alt => "M - Museum Leuven" %></li>
+       <li class="carouselLogo"><%= image_tag "muzee.jpg", :alt => "Mu.ZEE Oostende" %></li>
      </ul>
-   </div>
+     <div class="buttons">
+        <button id="prevButton" href=".row1" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </button>
+
+        <button id="nextButton" href=".row1" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </button>
+    </div>
+  </div>
+</div>
+<div class="carouselLogoWrapper row2" data-ride="carousel" data-interval="false">
    <div class="row">
-     <ul class="logos">
-       <li><%= image_tag "logo_vkc_nl.png" %></li>
-       <li><%= image_tag "logo_packed.png" %></li>
-       <li><%= image_tag "flanders.png" %></li>
+     <ul class="logos carousel-inner">
+       <li class="carouselLogo active"><%= image_tag "logo_vkc_nl.png" %></li>
+       <li class="carouselLogo"><%= image_tag "logo_packed.png" %></li>
+       <li class="carouselLogo"><%= image_tag "flanders.png" %></li>
      </ul>
-   </div>
+     <div class="buttons">
+        <button id="prevButton" href=".row2" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </button>
+
+        <button id="nextButton" href=".row2" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </button>
+    </div>
+  </div>
+</div>
 <% end %>
 </div>
+
+<script>
+ (function($) {
+    var $window = $(window),
+        $div = $('.carouselLogoWrapper'),
+        $li = $('.carouselLogo');
+
+    function resize() {
+        if ($window.width() < 405) {
+            return ($div.addClass('carousel'), $li.addClass('carousel-item'));
+        }
+
+        $div.removeClass('carousel');
+        $li.removeClass('carousel-item');
+    }
+
+    $window
+        .resize(resize)
+        .trigger('resize');
+})(jQuery);
+</script>
