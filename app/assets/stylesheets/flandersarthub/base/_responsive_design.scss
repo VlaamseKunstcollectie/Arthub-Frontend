@@ -1,0 +1,29 @@
+@media screen and (max-width: 1199px) {
+	h1, .h1 {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	h1, .h1 {
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	h1, .h1 {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 463px) {
+	h1, .h1 {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 243px) {
+	h1, .h1 {
+		font-size: 16px;
+	}
+}
