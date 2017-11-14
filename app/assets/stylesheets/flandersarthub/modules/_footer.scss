@@ -32,23 +32,52 @@
             @media screen and (max-width: 417px) {
                 height: 80px;
             }
-            @media screen and (max-width: 300px) {
+            @media screen and (max-width: 320px) {
                 height: 60px;
             }
-            @media screen and (max-width: 250px) {
+            @media screen and (max-width: 270px) {
                 height: 40px;
             }
-            @media screen and (max-width: 200px) {
+            @media screen and (max-width: 220px) {
                 height: 20px;
             }
         }
     }
+
+    .row2 .logos {
+        border-bottom: 1px solid #eee;
+    }
+
+    .menu {
+        display: table;
+        margin: 0 auto;
+        list-style: none;
+        padding: 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        li {
+            display: inline;
+            margin-left: 2em;
+            margin-right: 2em;
+            @media screen and (max-width: 320px) {
+                display: block;
+                text-align: center;
+            }
+           
+            a {
+                color: $color4;
+            }
+        }
+    }
+
     .buttons {
         display: none;
         @media screen and (max-width: 417px) {
             display: block;
         }
     }
+
     #prevButton, #nextButton {
         color: $color4;
     }
