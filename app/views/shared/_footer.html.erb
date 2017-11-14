@@ -87,7 +87,7 @@
         $li = $('.carouselLogo');
 
     function resize() {
-        if ($window.width() < 405) {
+        if ($window.outerWidth() <= 417) {
             return ($div.addClass('carousel'), $li.addClass('carousel-item'));
         }
 

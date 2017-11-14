@@ -29,7 +29,7 @@
             @media screen and (max-width: 991px) {
                 height: 40px;
             }
-            @media screen and (max-width: 419px) {
+            @media screen and (max-width: 417px) {
                 height: 80px;
             }
             @media screen and (max-width: 300px) {
@@ -45,7 +45,7 @@
     }
     .buttons {
         display: none;
-        @media screen and (max-width: 419px) {
+        @media screen and (max-width: 417px) {
             display: block;
         }
     }
