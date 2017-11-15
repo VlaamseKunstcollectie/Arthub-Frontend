@@ -143,6 +143,8 @@ en:
     back_to_search: 'Back to Search'
     back_to_bookmarks: 'Back to Bookmarks'
 
+    technical_details: 'For developers'
+
     search:
       # i18n key 'title' is deprecated and will be removed in Blacklight 6.0
       title: '%{application_name} Search Results'

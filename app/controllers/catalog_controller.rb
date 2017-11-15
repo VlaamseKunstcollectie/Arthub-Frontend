@@ -102,12 +102,9 @@ class CatalogController < ApplicationController
     config.add_show_field 'keywords', label: 'keywords'
     config.add_show_field 'object_number', label: 'object_number'
     config.add_show_field 'description', label: 'description'
-    config.add_show_field 'work_pid', label: 'work_pid'
-    config.add_show_field 'data_pid', helper_method: :link_to_pid, label: 'data_pid'
+#    config.add_show_field 'work_pid', label: 'work_pid'
+#    config.add_show_field 'data_pid', helper_method: :link_to_pid, label: 'data_pid'
     config.add_show_field 'references', label: 'references'
-    config.add_show_field 'datahub_api_record', accessor: 'datahub_api_record', helper_method: :link_to_pid, label: 'datahub_api_record'
-    config.add_show_field 'datahub_oai_record', accessor: 'datahub_oai_record', helper_method: :link_to_pid, label: 'datahub_oai_record'
-
 
     # "fielded" search configuration. Used by pulldown among other places.
     # For supported keys in hash, see rdoc for Blacklight::SearchFields

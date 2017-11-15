@@ -19,21 +19,6 @@ class SolrDocument
 
   # self.unique_key = 'id'
 
-  # Create fields with links to Datahub API and OAI fields
-  # use these with accessor in catalog_controller
-  def datahub_api_record
-    id = first(:work_pid)
-    id.sub! '/id/', '/data/'
-    ENV["datahub_api_url"]+id
-  end
-
-  def datahub_oai_record
-      id = first(:work_pid)
-      id.sub! '/id/', '/data/'
-    ENV["datahub_oai_url"]+id
-  end
-
-
   # Email uses the semantic field mappings below to generate the body of an email.
   # SolrDocument.use_extension(Blacklight::Document::Email)
 
