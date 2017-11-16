@@ -1,0 +1,17 @@
+.blacklight-catalog-index {
+	font-family: $font-family-base !important;
+	h3 {
+		font-family: $font-family-base !important;
+		font-weight: 900;
+	}
+	.search-widgets {
+		@media screen and (max-width: 222px) {
+			float: left !important;
+		}
+	}
+	.catalog_startOverLink {
+	    color: #0bb4d3 !important;
+	    background-color: #fff;
+	    border-color: #ccc;
+	}
+}

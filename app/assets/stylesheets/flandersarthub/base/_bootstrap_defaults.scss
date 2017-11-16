@@ -1,0 +1,30 @@
+.row {
+	width: 100% !important;
+}
+
+h1, h2, h3, h4, .facets .facets-heading, h5, #documents .document .document-title-heading, h6,
+.h1, .h2, .h3, .h4, .h5, span.constraints-label, .h6 {
+	font-family: $font-family-base !important;
+	font-weight: normal !important;
+}
+
+h3, .h3 {
+	font-size: 18px !important;
+}
+
+.panel-success > .panel-heading, .facet_limit-active > .panel-heading {
+	color: #ffffff !important;
+	background-color: #5F585D !important;
+}
+
+.panel-success > .panel-heading + .panel-collapse > .panel-body, .facet_limit-active > .panel-heading + .panel-collapse > .panel-body, .panel-success, .facet_limit-active {
+	border-color: #5F585D !important;
+}
+
+.facet_limit-active .panel-heading h3.panel-title.facet-field-heading::after {
+	color: #ffffff !important;
+}
+
+.text-success, .facet-values li .selected {
+	color: #5F585D !important;
+}

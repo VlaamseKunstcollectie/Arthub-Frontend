@@ -1,26 +1,84 @@
 #footer {
     margin-top: 4em;
     padding: 0;
-}
 
-.logos {
-    border-top: 1px solid #eee;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    .logos {
+        border-top: 1px solid #eee;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
 
-    li {
-      float: left;
-      margin: 2em;
+        li {
+            float: left;
+            margin: 2em;
+            @media screen and (max-width: 561px) {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+
+        img {
+            height: 80px;
+            @media screen and (max-width: 1199px) {
+                height: 60px;
+            }
+            @media screen and (max-width: 991px) {
+                height: 40px;
+            }
+            @media screen and (max-width: 417px) {
+                height: 80px;
+            }
+            @media screen and (max-width: 340px) {
+                height: 60px;
+            }
+            @media screen and (max-width: 270px) {
+                height: 40px;
+            }
+            @media screen and (max-width: 220px) {
+                height: 20px;
+            }
+        }
     }
 
-    img {
-        height: 80px;
-        @media (max-width: 768px) {
-            height: 40px;
+    .row2 .logos {
+        border-bottom: 1px solid #eee;
+    }
+
+    .menu {
+        display: table;
+        margin: 0 auto;
+        list-style: none;
+        padding: 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        li {
+            display: inline;
+            margin-left: 2em;
+            margin-right: 2em;
+            @media screen and (max-width: 340px) {
+                display: block;
+                text-align: center;
+            }
+           
+            a {
+                color: $color4;
+            }
         }
+    }
+
+    .buttons {
+        display: none;
+        @media screen and (max-width: 417px) {
+            display: block;
+        }
+    }
+
+    #prevButton, #nextButton {
+        color: $color4;
     }
 }
