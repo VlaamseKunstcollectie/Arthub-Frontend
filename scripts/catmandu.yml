@@ -2,5 +2,5 @@ store:
   blacklightsolr:
    package: Solr
    options:
-    url: http://blacklight.box:8983/solr/blacklight-core
+    url: http://datahub_ubuntu:8983/solr/blacklight-core
     autocommit: true
