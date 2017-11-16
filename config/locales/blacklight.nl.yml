@@ -143,6 +143,8 @@ nl:
     back_to_search: 'Terug naar zoeken'
     back_to_bookmarks: 'Terug naar favorieten'
 
+    technical_details: 'Voor ontwikkelaars'
+
     search:
       # i18n key 'title' is deprecated and will be removed in Blacklight 6.0
       title: '%{application_name} Zoek resultaten'
