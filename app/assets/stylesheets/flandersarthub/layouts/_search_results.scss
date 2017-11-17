@@ -10,8 +10,17 @@
 		}
 	}
 	.catalog_startOverLink {
-	    color: #0bb4d3 !important;
-	    background-color: #fff;
-	    border-color: #ccc;
+	    color: $color3 !important;
+	    background-color: $color4;
+	    border: 1px solid $color4;
+	    font-size: 14px;
+	}
+	.catalog_startOverLink:hover {
+		background-color: $color1;
+		border: 1px solid $color1;
+	}
+	.catalog_startOverLink:focus {
+		background-color: $color2;
+		border: 1px solid $color2;
 	}
 }
