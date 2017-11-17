@@ -96,8 +96,8 @@ class CatalogController < ApplicationController
     config.add_show_field 'period', label: 'period', link_to_search: true
     config.add_show_field 'production_date', label: 'production_date'
     config.add_show_field 'repository', label: 'Repository', link_to_search: true
-    config.add_show_field 'artwork_type', label: 'artwork_type', link_to_search: true
-    config.add_show_field 'artwork_subtype', label: 'artwork_subtype', link_to_search: true
+    config.add_show_field 'artwork_type_display', label: 'artwork_type_display'
+    config.add_show_field 'artwork_subtype_display', label: 'artwork_subtype_display'
     config.add_show_field 'material', label: 'material', link_to_search: true
     config.add_show_field 'artwork_category', label: 'artwork_category', link_to_search: true
     config.add_show_field 'dimensions', label: 'dimensions'
