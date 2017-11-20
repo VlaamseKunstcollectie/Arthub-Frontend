@@ -1,7 +1,7 @@
 <li>
   <div>
     <% Rails.application.config.available_locales.each do |l| %>
-      <%= link_to l, (locale_picker(l), :class => ("selectedLang" if I18n.locale.to_s == l ) %>
+      <%= link_to l, locale_picker(l), :class => ("selectedLang" if I18n.locale.to_s == l ) %>
     <% end %>
   </div>
 </li>
