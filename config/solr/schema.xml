@@ -313,9 +313,11 @@
    <field name="dimensions" type="string" indexed="false" stored="true" multiValued="false"/>
    <field name="description" type="description" indexed="true" stored="true" multivalued="false"/>
 
-   <field name="keywords" type="string" indexed="false" stored="true" multiValued="false"/>
    <field name="artwork_category" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="artwork_type" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="artwork_type_display" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="artwork_subtype" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="artwork_subtype_display" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="references" type="string" indexed="false" stored="true" multiValued="false"/>
 
 

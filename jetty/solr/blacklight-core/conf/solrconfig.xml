@@ -201,6 +201,9 @@
          period,
          repository,
          artwork_type,
+         artwork_type_display,
+         artwork_subtype,
+         artwork_subtype_display,
          artwork_category,
          dimensions,
          description,
@@ -220,6 +223,7 @@
        <str name="facet.field">repository</str>
        <str name="facet.field">artwork_category</str>
        <str name="facet.field">artwork_type</str>
+       <str name="facet.field">artwork_subtype</str>
 
        <str name="spellcheck">true</str>
        <str name="spellcheck.dictionary">default</str>

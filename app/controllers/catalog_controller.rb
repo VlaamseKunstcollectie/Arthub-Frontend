@@ -70,8 +70,9 @@ class CatalogController < ApplicationController
     config.add_facet_field 'period', limit: 20, label: 'period'
     config.add_facet_field 'repository', label: 'repository'
     config.add_facet_field 'artwork_type', limit: 15, label: 'artwork_type'
-    config.add_facet_field 'artwork_category', limit: 15, label: 'artwork_category'
+    config.add_facet_field 'artwork_subtype', label: 'artwork_subtype'
     config.add_facet_field 'material', limit: 15, label: 'material'
+    config.add_facet_field 'artwork_category', limit: 15, label: 'artwork_category'
 
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
@@ -95,11 +96,11 @@ class CatalogController < ApplicationController
     config.add_show_field 'period', label: 'period', link_to_search: true
     config.add_show_field 'production_date', label: 'production_date'
     config.add_show_field 'repository', label: 'Repository', link_to_search: true
-    config.add_show_field 'artwork_type', label: 'artwork_type', link_to_search: true
-    config.add_show_field 'artwork_category', label: 'artwork_category', link_to_search: true
+    config.add_show_field 'artwork_type_display', label: 'artwork_type_display'
+    config.add_show_field 'artwork_subtype_display', label: 'artwork_subtype_display'
     config.add_show_field 'material', label: 'material', link_to_search: true
+    config.add_show_field 'artwork_category', label: 'artwork_category', link_to_search: true
     config.add_show_field 'dimensions', label: 'dimensions'
-    config.add_show_field 'keywords', label: 'keywords'
     config.add_show_field 'object_number', label: 'object_number'
     config.add_show_field 'description', label: 'description'
 #    config.add_show_field 'work_pid', label: 'work_pid'
