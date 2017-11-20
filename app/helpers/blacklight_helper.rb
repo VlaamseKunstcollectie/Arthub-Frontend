@@ -12,7 +12,7 @@ module BlacklightHelper
         '/nl/open-data' => '/nl/open-gegevens',
         '/en/open-gegevens' => '/en/open-data',
         '/nl/open-source' => '/nl/open-bron',
-        '/en/open-bron' => '/en/open-soure',
+        '/en/open-bron' => '/en/open-source',
         '/nl/contact-en' => '/nl/contact-nl',
         '/en/contact-nl' => '/en/contact-en',
         '/nl/legal-notification' => '/nl/juridische-kennisgeving',
