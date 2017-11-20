@@ -3,6 +3,21 @@ module BlacklightHelper
 
   include FrontpageHelper
 
+  def locale_picker(locale)
+    paths = {
+        '/nl/collections' => '/nl/collecties',
+        '/en/collecties' => '/en/collections'
+    }
+
+    url = url_for(locale: locale)
+    unless paths[url].nil?
+        translated = paths[url]
+        "#{translated}"
+    else
+        "#{url}"
+    end
+  end
+
   def render_technical_details(document=@document, options = {})
     return if document.nil?    
     @technical_details = []
