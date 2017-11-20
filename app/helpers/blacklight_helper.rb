@@ -6,7 +6,17 @@ module BlacklightHelper
   def locale_picker(locale)
     paths = {
         '/nl/collections' => '/nl/collecties',
-        '/en/collecties' => '/en/collections'
+        '/en/collecties' => '/en/collections',
+        '/nl/how-to-use' => '/nl/handleiding',
+        '/en/handleiding' => '/en/how-to-use',
+        '/nl/open-data' => '/nl/open-gegevens',
+        '/en/open-gegevens' => '/en/open-data',
+        '/nl/open-source' => '/nl/open-bron',
+        '/en/open-bron' => '/en/open-soure',
+        '/nl/contact-en' => '/nl/contact-nl',
+        '/en/contact-nl' => '/en/contact-en',
+        '/nl/legal-notification' => '/nl/juridische-kennisgeving',
+        '/en/juridische-kennisgeving' => '/en/legal-notification'
     }
 
     url = url_for(locale: locale)
