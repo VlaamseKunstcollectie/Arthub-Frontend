@@ -217,7 +217,7 @@ en:
       fields:
         default: 'Keyword'
         period: 'Period'
-        repository: 'Insitution'
+        repository: 'Institution'
         artwork_type: 'Type'
         artwork_type_display: 'Type'
         artwork_subtype: 'Subtype'
