@@ -1,0 +1,31 @@
+.collections {
+    font-family: $font-family-base;
+    font-weight: lighter;
+    color: $color4;
+    line-height: 150%;
+    font-size: 120%;
+    .col-sm-12 {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+    p {
+    margin-left: 10px;
+    display: inline;
+    }
+    img {
+        height: 80px;
+        @media screen and (max-width: 1199px) {
+            height: 60px;
+        }
+        @media screen and (max-width: 991px) {
+            height: 80px;
+        }
+        @media screen and (max-width: 340px) {
+            height: 60px;
+        }
+        @media screen and (max-width: 270px) {
+            height: 40px;
+        }
+    }
+}
