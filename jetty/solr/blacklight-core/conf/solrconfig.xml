@@ -206,6 +206,7 @@
          artwork_subtype_display,
          artwork_category,
          dimensions,
+         creator_role,
          description,
          material,
          object_number,
