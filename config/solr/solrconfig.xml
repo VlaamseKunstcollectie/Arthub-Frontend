@@ -204,6 +204,7 @@
          description,
          material,
          object_number,
+         data_pid,
          work_pid,
          references
        </str>
