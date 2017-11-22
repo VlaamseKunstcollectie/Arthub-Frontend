@@ -87,7 +87,7 @@ class CatalogController < ApplicationController
     config.add_index_field 'repository', label: 'repository', link_to_search: true
     config.add_index_field 'artwork_type', label: 'artwork_type', link_to_search: true
     config.add_index_field 'artwork_category', label: 'artwork_category', link_to_search: true
-    config.add_index_field 'object_number', label: 'object_number'
+    config.add_index_field 'data_pid', label: 'data_pid'
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
