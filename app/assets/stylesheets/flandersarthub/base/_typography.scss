@@ -1,0 +1,41 @@
+.blacklight-catalog,
+.blacklight-pages {
+
+	/** CSS Reset against Bootstrap CSS **/
+
+    font-family: $font-family-base;
+    font-weight: lighter;
+    color: $color4;
+    line-height: 1.5;
+
+    p, h2, h3, h4 {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+    }
+
+    #main-container {
+	    p {
+	    	font-size: 1em;
+	    }
+
+	    p, h2, h3, h4 {
+	    	margin: 0.75em 0;
+	    }
+
+	    h4 {
+	    	font-size: 1.2em;
+	    }
+
+	    h3 {
+	    	font-size: 1.44em;
+	    }
+
+	    h2 {
+	    	font-size: 1.728em;
+	    }
+    }
+
+}
