@@ -1,9 +1,9 @@
 .blacklight-catalog-index {
-	font-family: $font-family-base !important;
+	/* font-family: $font-family-base !important;
 	h3 {
 		font-family: $font-family-base !important;
 		font-weight: 900;
-	}
+	} */
 	.search-widgets {
 		@media screen and (max-width: 222px) {
 			float: left !important;
@@ -13,7 +13,7 @@
 	    color: $color3 !important;
 	    background-color: $color4;
 	    border: 1px solid $color4;
-	    font-size: 14px;
+	   /*  font-size: 14px; */
 	}
 	.catalog_startOverLink:hover {
 		background-color: $color1;
