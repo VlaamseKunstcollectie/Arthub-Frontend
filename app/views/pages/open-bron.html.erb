@@ -1,1 +1,148 @@
-open bron
+<div class="row">
+
+	<h2>Open source tools</h2>
+
+	<p>Arthub Flanders is ontworpen en ontwikkeld met open
+	source software libraries, frameworks en applicaties. 
+	De <a href="http://www.vlaamsekunstcollectie.be/">Vlaamse Kunstcollectie</a>, 
+	ontwikkelde, in nauwe samenwerking met <a href="http://www.packed.be">PACKED vzw</a>, 
+	een reeks op maat gemaakte tools die inspelen op de specifieke vereisten van dit platform.
+	De volledige toolset wordt ter beschikking gesteld van de 
+	<a href="https://nl.wikipedia.org/wiki/GLAM">GLAM</a>-gemeenschap onder een 
+	<a href="https://nl.wikipedia.org/wiki/Vrije_software_en_opensourcesoftware">open 
+	source</a> licentie. Culturele organisaties die hun collecties digitaal willen
+	openstellen, zijn uitgenodigd om deze tools op te nemen in en aan te passen 
+	aan hun eigen digitale projecten.<p>
+
+	<p><strong>Pagina-inhoud</strong></p>
+	<ul>
+		<li><a href="#technology">Technologie</a></li>
+		<li><a href="#formats">Open formats</a></li>
+		<li><a href="#community">Gemeenschap van ontwikkelaars</a></li>
+		<li><a href="#licensing">Licensing</a></li>
+	</ul>
+
+	<a name="#technology"></a>
+	<h2>Technologie</h2>
+
+	<p>Arthub Flanders is een publieke discovery interface. Het is het zichtbare gedeelte
+	van het platform en voorziet rechtstreekse, gebruiksvriendelijke toegang tot de collectiemetadata. 
+	Het platform is opgebouwd als een architectuur van 'loosely coupled'
+	componenten die automatisch collectiematadata uitwisselen, transformeren en beschikbaar 
+	stellen via interfaces voor mensen of machines (<a href="https://nl.wikipedia.org/wiki/Application_programming_interface">API's</a>).</p>
+
+	<h3>Project Blacklight</h3>
+
+	<p>Blacklight is een open source Solr user interface discovery platform. Je 
+	kan Blacklight gebruiken om zoeken en browsen in je collecties te faciliteren. 
+	Blacklight gebruikt de <a href="http://lucene.apache.org/solr/">Apache Solr 
+	search engine</a> om full text en/of metadata te doorzoeken. Blacklight heeft een 
+	sterk configureerbare <a href="http://rubyonrails.org/">Ruby on Rails</a> 
+	front-end. Blacklight werd gepubliceerd onder een Apache 2.0 licentie.<p>
+
+	<p><a href="http://projectblacklight.org/">
+	http://projectblacklight.org/</a></p>
+
+	<p>Arthub Flanders is een op maat gemaakte instantie van Project Blacklight om te
+	zoeken en browsen doorheen culturele erfgoedobjecten. De code werd gepubliceerd op Github.</p>
+
+	<p><a href="https://github.com/VlaamseKunstcollectie/Arthub-Frontend">
+	https://github.com/VlaamseKunstcollectie/Arthub-Frontend</a></p>
+	
+	<h3>De Datahub</h3>
+
+	<p>De Datahub is een webgebaseerde metadata-aggregator. Deze applicatie  
+	verzamelt en bewaart collectiemetadata van een of meerdere providers of 
+	bronnen, en publiceert de verzamelde metadata via webgebaseerde API's.</p>
+
+	<p>De Datahub implementeert twee soorten API's. De applicatie voorziet een 
+	<a href="https://nl.wikipedia.org/wiki/Representational_state_transfer">REST API</a> dat 
+	metadata aanbiedt in JSON-format. Metadata wordt ook beschikbaar gesteld via een 
+	<a href="https://www.openarchives.org/pmh/">OAI-PMH API</a>.</p>
+
+	<p>De Datahub front-end werd gemaakt met behulp van het <a href="https://symfony.com/">
+	Symfony Framework</a>. Verzamelde metadata wordt persistent bewaard in een 
+	<a href="https://www.mongodb.com/">MongoDB</a>-database.</p>
+
+	<p><a href="https://github.com/thedatahub/datahub">
+	https://github.com/thedatahub/datahub</a></p>
+	
+	<h3>Catmandu</h3>
+
+	<p>Catmandu is een data processing toolkit dat toegang en conversie toelaat
+	van datasets van het ene format of datamodel naar een ander.</p>
+
+	<p>Het Catmandu framework is gebaseerd op Perl en voorziet een ecosysteem van
+	pluggable modules die tegemoet komen aan een brede waaier van formats en use cases.</p>
+
+	<p><a href="https://librecat.org">
+	https://librecat.org</a></p>
+
+	<h3>De Datahub Factory</h3>
+
+	<p>De Datahub Factory is een op maat gemaakte command line tool die het makkelijker maakt om complexe ETL (Extract Transform Load)
+	pipelines te configureren en monitoren. Deze toolkit is gebaseerd op Perl en maakt achter de schermen gebruik van Catmandu modules.</p>
+
+	<p>Deze command line tool wordt gebruikt om ETL pipelines te creëren tussen collectieregistratiesystemen, de Datahub en Arthub Flanders. De Datahub Factory wordt gebruikt om automatisch collectiemetadata over te brengen en te transformeren tussen deze systemen.</p>
+
+	<p><a href="https://github.com/thedatahub/Datahub-Factory">
+	https://github.com/thedatahub/Datahub-Factory</a><br />
+	<a href="https://github.com/thedatahub/Datahub-Factory-Pipelines">
+	https://github.com/thedatahub/Datahub-Factory-Pipelines</a><br />
+	<a href="https://github.com/thedatahub/Datahub-Factory-Arthub">
+	https://github.com/thedatahub/Datahub-Factory-Arthub</a></p>
+
+	<a name="#formats"></a>
+	<h2>Open formats</h2>
+
+	<p>Collectiemetadata wordt automatisch uitgewisseld tussen de diverse systemen die in het platform werkzaam zijn. Vooraleer collectiemetadata
+	wordt uitgewisseld, wordt deze omgezet naar één geïntegreerd format: LIDO XML</p>
+
+	<p><a href="http://lido-schema.org">http://lido-schema.org</a></p>
+
+	<p>LIDO is een XML harvesting schema. Het schema levert metadata op die gebruikt kan worden in diverse online diensten, gaande van een online collectie-database van een organisatie tot portalen van geaggregeerde bronnen, alsook het weergeven, delen en verbinden van data op het web.</p>
+
+	<p>De Datahub Factory zet metadata, opgehaald uit een collectieregistratiesysteem, om in LIDO XML. Vervolgens verzamelt de Datahub deze omgezette metadata. Records worden omgezet via scripts geschreven in Catmandu's <a href="http://librecat.org/Catmandu/#fix-language">
+	Fix programeertaal</a>.</p>
+
+	<p>Per instelling werd een transformatiescript geschreven. Elk script definieert een mapping tussen recordvelden aangeboden door het collectieregistratiesysteem en de velden van het LIDO-datamodel. De scripts bevatten ook logica die bepaalt wanneer waarden moeten overgenomen worden in het LIDO-record.</p>
+
+	<p>De scripts die gebruikt worden door het Arthub Flanders platform zijn gepubliceerd op Github.</p>
+
+	<p><a href="https://github.com/VlaamseKunstcollectie/Datahub-Fixes">
+	https://github.com/VlaamseKunstcollectie/Datahub-Fixes</a></p>
+
+	<a name="#community"></a>
+	<h2>Gemeenschap van ontwikkelaars</h2>
+
+	<p>Alle componenten zijn gepubliceerd op <a href="https://github.com">Github</a>
+	, een populair platform om software te delen en eraan samen te werken. We nodigen andere ontwikkelaars uit om bij te dragen aan de componenten. Er zijn verschillende manieren om bij te dragen.</p>
+
+	<ul>
+		<li>Bug reports, suggesties, vragen en feedback kunnen doorgegeven worden per component als afzonderlijke 
+		<a href="https://help.github.com/articles/about-issues/">issues.</a> Deze
+		issues kunnen doorgegeven worden aan de
+		<a href="https://help.github.com/articles/creating-an-issue/">Github project
+		issue tracker</a> geassocieerd met het relevante component.</li>
+
+		<li>Contributors zijn vrij om de componenten te forken, veranderingen te maken zoals bugs fixen en nieuwe features toe te voegen, en deze veranderingen terug aan de projecten aan te leveren als 
+		<a href="https://help.github.com/articles/about-pull-requests/">
+		Github pull requests</a>.</li>
+	</ul>
+
+	<p>Om bij te dragen aan de projecten, is het nodig om 
+	<a href="https://help.github.com/articles/signing-up-for-a-new-github-account/">
+	een account te registreren op Github.</a></p>
+
+	<p><a href="https://github.com/thedatahub">https://github.com/thedatahub
+	</a></p>
+
+	<a name="#licensing"></a>
+	<h2>Licensing</h2>
+
+	<p>Tenzij anders aangegeven door de oorspronkelijke auteurs, is alle software 
+	beschikbaar gesteld als vrije software; je kan het herverdelen en/of aanpassen onder
+	de voorwaarden van de <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU 
+	General Public License (GPL) v3 licentie</a>.</p>
+
+</div>
