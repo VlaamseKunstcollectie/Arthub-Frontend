@@ -1,10 +1,44 @@
 // Colors available
-$color1: #0bb4d3; // Blue
-$color2: #087d93; // Dark blue
-$color3: #ffffff; // White
+
+$color1: #ffffff; // White
+$color2: #000000; // Black
+$color3: #eeeeee; // Light grey
 $color4: #5F585D; // Dark grey
-$color5: #eeeeee; // Grey
-$color6: #000000; // Black
+$color5: #0bb4d3; // Light blue
+$color6: #087d93; // Dark blue
+
+$transparent-color1: rgba(255, 255, 255, 0.5); // 5O% white
+$transparent-color2: rgba(0, 0, 0, 0.25); // 25% black
+
+
+// Colors per item
+
+$color-navbar-background: $color5;
+$color-navbar-menu-item-link: $color1;
+$color-navbar-menu-item-link-hover: $color4;
+$color-navbar-menu-item-link-activePage: $color4;
+
+$color-search-form-input-group-background: $transparent-color1;
+$color-search-form-input-button-text: $color1;
+$color-search-form-input-button-background: $color4;
+$color-search-form-input-button-hover-background: $color5;
+$color-search-form-input-button-focus-background: $color6;
+
+$color-calltoaction-text: $color1;
+$color-calltoaction-background: $color4;
+
+$color-carousel-buttons: $transparent-color1;
+$color-carousel-buttons-hover: $color1;
+$color-carousel-buttons-focus: $color5;
+
+$color-carousel-indicators: $transparent-color1;
+$color-carousel-indicators-active: $color1;
+$color-carousel-indicators-hover: $color1;
+$color-carousel-indicators-focus: $color5;
+
+$color-carousel-caption-text: $color1;
+$color-carousel-caption-background: $transparent-color2;
+
 
 // Bootstrap variables
 $font-family-base: 'Gotham', Helvetica, Arial, sans-serif;
