@@ -18,7 +18,7 @@ module Blacklight::Document::Lido
 
     @doc = Nokogiri::XML(raw)
     id = @doc.at("//lido:lido/lido:lidoRecID[@lido:type='urn']")
-    id.content = "arthub.vlaamsekunstcollectie.be:" + self.fetch(:id)
+    id.content = self.fetch(:id)
     @doc.to_xml
   end
 
