@@ -1,3 +1,5 @@
+require 'nokogiri'
+
 # This module provide Dublin Core export based on the document's semantic values
 module Blacklight::Document::Lido
   
@@ -12,7 +14,12 @@ module Blacklight::Document::Lido
   end
 
   def export_as_oai_lido_xml
-    self.fetch(:xml)
+    raw = self.fetch(:xml)
+
+    @doc = Nokogiri::XML(raw)
+    id = @doc.at("//lido:lido/lido:lidoRecID[@lido:type='urn']")
+    id.content = "arthub.vlaamsekunstcollectie.be:" + self.fetch(:id)
+    @doc.to_xml
   end
 
   alias_method :export_as_xml, :export_as_oai_lido_xml
