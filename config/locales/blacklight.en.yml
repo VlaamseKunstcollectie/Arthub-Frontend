@@ -232,7 +232,7 @@ en:
         object_number: 'Object number'
         work_pid: 'Work PID'
         data_pid: 'Data PID'
-        production_date: 'Production date'
+        production_date: 'Dated'
         references: 'References'
         datahub_api_record: 'Datahub API record'
         datahub_oai_record: 'Datahub OAI record'

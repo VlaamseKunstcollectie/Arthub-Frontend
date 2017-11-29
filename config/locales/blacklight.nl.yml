@@ -231,7 +231,7 @@ nl:
         description: 'Beschrijving'
         work_pid: 'Work PID'
         data_pid: 'Data PID'
-        production_date: 'Productie datum'
+        production_date: 'Datering'
         object_number: 'Inventarisnummer'
         references: 'Referenties'
         datahub_api_record: 'Datahub API record'
