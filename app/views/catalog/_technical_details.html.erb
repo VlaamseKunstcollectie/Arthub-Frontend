@@ -1,6 +1,46 @@
 <div class="panel panel-default">
   <div class="panel-heading"><%= t('blacklight.technical_details') %></div>
   <div class="panel-body">
+
+        <% if I18n.locale == :en %>
+			<p>The <strong>data</strong> below (with the exceptions outlined in 
+			the next paragraph) contain no indication of originality and 
+			therefore belong to the public domain. You can thus freely use this 
+			information. All data (with the exception of descriptive texts) 
+			below is published under a 
+			<a href="https://creativecommons.org/publicdomain/zero/1.0/">
+			Creative Commons Zero (CCO)</a> license to make this explicitly 
+			clear.</p>
+
+			<p><strong>Some parts</strong> of the data below do contain an 
+			element of orginality and are therefore made available under a 
+			<a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative 
+			Commons BY-NC</a> license. Under the terms of this license, you 
+			must give attribution when reusing descriptive texts. Commercial 
+			use of descriptive texts is not permitted. This license applies to 
+			the fields listed in the <a href="/en/open-data">Open Data</a> 
+			section.</p>
+
+		<% else %>
+
+			<p>De <strong>gegevens</strong> in de links hieronder vermeld 
+			bevatten, behoudens de in de volgende paragraaf omschreven 
+			uitzonderingen, geen indicatie van originaliteit en behoren daarom 
+			tot het publieke domein. Deze gegeven mogen vrij worden gebruikt. 
+			Om dit expliciet duidelijk te maken, zijn de gegevens gepubliceerd 
+			onder de 
+			<a href="https://creativecommons.org/publicdomain/zero/1.0/">
+			Creative Commons Zero (CCO)</a> licentie.</p>
+
+			<p>Sommige <strong>onderdelen</strong> van de gegevens in de links 
+			hieronder vermeld bevatten een element van originaliteit en zijn 
+			daarom gepubliceerd onder de 
+			<a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative 
+			Commons BY-NC</a> licentie. Onder de voorwaarden van deze licentie 
+			moet je 
+
+		<% end %>
+
   	<dl class="dl-invert dl-horizontal">
     	<%= render_technical_details(@document) %>
 	</dl>
