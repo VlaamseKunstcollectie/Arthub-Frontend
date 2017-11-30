@@ -222,7 +222,7 @@ nl:
         artwork_type_display: 'Type'
         artwork_subtype: 'Subtype'
         artwork_subtype_display: 'Subtype'
-        artwork_category: 'Voorstelling'
+        artwork_category: 'Onderwerp'
         title_display: 'Title'
         creator_display: 'Vervaardiger'
         subtitle: 'Subtitle'
