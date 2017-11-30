@@ -24,11 +24,11 @@
     <h2>About the catalog</h2>
 
     <p>Arthub flanders is a catalog of records which describe cultural heritage
-    objects preserved by the museums of the museum of Fine ARts and 
-    Contemporary arts in Flanders. A record is a collection of structured
+    objects preserved by the museums of Fine Arts and 
+    Contemporary Arts in Flanders. A record is a collection of structured
     information which describes various properties of the object such as the
     title, its creator, the date of inception, physical dimensions, provenance,
-    exhibition history,...</p>
+    exhibition history,... Each property is stored in what is called a record field.</p>
 
     <p>Records are created, edited and managed by knowledge specialists in the
     cultural heritage organsations. Records are kept in a collection 
@@ -56,14 +56,14 @@
     how many times the term occurs in a record, and the linguistic context 
     in which it appears.</p>
 
-    <p><%= image_tag "manual-screenshot-one.png", :alt => "the search bar" %>
+    <p><%= image_tag "manual-screenshot-1.png", :alt => "the search bar" %>
     </p>
 
     <p>Searching for multiple search terms without quotes will yield a set of 
     records in which each term occurs at least once. Multiple terms enclosed by 
     double quotes will be treated as single search term.</p>
 
-    <p><%= image_tag "manual-screenshot-two.png", :alt => "the search bar with
+    <p><%= image_tag "manual-screenshot-2.png", :alt => "the search bar with
     quoted search" %>
     </p>
 
@@ -81,7 +81,7 @@
     facet. Subsequent selections of keywords will keep reducing the result 
     set.</p>
 
-    <p><%= image_tag "manual-screenshot-three.png", :alt => "The search 
+    <p><%= image_tag "manual-screenshot-3.png", :alt => "The search 
     facets" %></p>
 
     <p>Each term in a facet, also refers to the number of records associated 
@@ -89,7 +89,7 @@
     refers to the number of records yielded by the last performed search query,
     which are associated with that particular term.</p>
 
-    <p><%= image_tag "manual-screenshot-four.png", :alt => "The search 
+    <p><%= image_tag "manual-screenshot-4.png", :alt => "The search 
     facets, selection made" %></p>
 
     <h3>Overview pages</h3>
@@ -102,7 +102,7 @@
     object, provenance,... Using the pagination links at the top of the list, 
     or the pagination at the bottom, you can browse through the list.</p>
 
-    <p><%= image_tag "manual-screenshot-five.png", :alt => "The search 
+    <p><%= image_tag "manual-screenshot-5.png", :alt => "The search 
     results with pagination" %></p>
 
     <p>You can sort the results by relevance, creator, year or title, using 
@@ -113,7 +113,8 @@
     <p>By default, a result page will yield 10 results. Using the 'per page'
     dropdown, you can retrieve up to 100 results per page.</p>
 
-    <p><%= image_tag "manual-screenshot-six.png", :alt => "sorting filters" 
+
+    <p><%= image_tag "manual-screenshot-6.png", :alt => "sorting filters" 
     %></p>
 
     <h3>Detail page</h3>
@@ -121,7 +122,7 @@
     <p>The detail page of a record displays a set of basic properties. The 
     values of some of these properties are links. When you click on them, you 
     will trigger a search for similar records who have the same value for that 
-    property. Below the basic properties, you will find a box 'for 
+    property. Below the basic properties, you will find a box 'For 
     developers' which contains a set of links which are useful for people who 
     want to reuse the recorded information in their own (digital) 
     applications.</p>
@@ -133,17 +134,17 @@
             <dt>Title</dt>
             <dd>This is the title of the cultural heritage object.</dd>
             <dt>Creator</dt>
-            <dd>One or more persons involved in the production of the object.
-                A person consists of a qualifier (attributed to, folower of, 
-                ...), their name and - if known - their role in the production 
+            <dd>One or more persons involved in the creation of the object.
+                A person consists - if known and described - of a qualifier (attributed to, folower of, 
+                ...), their name and their role in the creation 
                 event.</dd>
             <dt>Period</dt>
             <dd>The time period in which the object was produced; denoted in
                 centuries (16th century, 17th century,...)</dd>
-            <dt>Production date</dt>
-            <dd>The exact production date; if known.</dd>
+            <dt>Date</dt>
+            <dd>The creation date; if known.</dd>
             <dt>Institution</dt>
-            <dd>The cultural organisation who manages collection of which the 
+            <dd>The cultural organisation who manages the collection of which the 
                 object is part of.</dd>
             <dt>Type</dt>
             <dd>The type of object refers to either the object name or 
@@ -204,9 +205,9 @@
     <h2>For museum workers</h2>
 
     <p>Museum workers are encouraged to reuse records in the Arthub Flanders 
-    platform for their (digital) museal projects. How to reuse the the records 
+    platform for their (digital) museal projects. How to reuse the records 
     is covered in the next section. This section is limited to how to extract 
-    records and communicate with a technical partner.</p>
+    records from the Arthub Flanders platform and how to communicate with a technical partner.</p>
 
     <p><em>Q: How do I compile a curated list of records?</em><p>
 
@@ -216,20 +217,20 @@
     stored in the record.</p>
 
     <ol>
-        <li>Open up a spreadsheet program (Excel, LibreOffice,...)</li>
+        <li>Open up a spreadsheet program (Excel, LibreOffice,...).</li>
         <li>Open a new, empty spreadsheet.</li>
         <li>Fill out 'link' in the first cell of the first column. This is the
         header of your list.</li>
-        <li>Search the catalog for relevant records.</li>
+        <li>Search the Arthub Flanders catalog for relevant records.</li>
         <li>Navigate to the detail page of a single record you would like to 
         add to your list.</li>
         <li>Scroll down to the 'For developers' box and right-click with on 
         the LIDO XML link.</li>
         <li>Select 'copy' from the pop-up menu.</li>
-        <li>Right-click on the second cell in the first column.</li>
+        <li>Right-click on the second cell in the first column of the spreadsheet.</li>
         <li>Select 'paste' from the pop-up menu.</li>
         <li>The link should be added to the spreadsheet document.</li>
-        <li>Keep  selecting, copying and pasting links to compile an entire 
+        <li>Keep selecting, copying and pasting links to compile an entire 
         list in the spreadsheet document.</li>
         <li>(optional) Add titles, creators,... in subsequent columns.</li>
      </ol>
@@ -267,7 +268,7 @@
 
     <h3>JSON API</h3>
 
-    <p>The Arthub Flanders platforms features a straightforward JSON API.</p>
+    <p>The Arthub Flanders platform features a straightforward JSON API.</p>
 
     <p><strong>Search queries</strong></p>
 
@@ -356,7 +357,7 @@
     published because of various concerns such as copyright, confidentiality, 
     security and privacy. Other properties, like exhibition history or 
     provenance, might be added at a later date as capturing knowledge about 
-    a cultural heritage is an ongoing effort.</p>
+    a cultural heritage object is an ongoing effort.</p>
 
     <p><em>Q: How often are records updated?</em></p>
 
@@ -367,9 +368,9 @@
     <p><em>Q: Why do I see duplicate records?</em></p>
 
     <p>Some organizations, like the Flemish Art Collection, do not manage a 
-    collection of cultural heritage objects. As part of their core mission, 
-    they mantain a copy of the records originally created by the cultural 
-    heritage organisations they represent, in their own collection 
+    collection of cultural heritage objects. As part of its core mission, 
+    the Flemisch Art Collection mantain a copy of the records originally created by the cultural 
+    heritage organisations it represent, in its own collection 
     registration systems. These duplicated records are then 'enriched' with 
     extra information such as translations, specific terminologies or content 
     suitable for particular audiences.</p>
@@ -377,11 +378,9 @@
     <p>These duplicate records are also available in the Arthub Flanders as 
     alternates to the record contributed by the cultural heritage organisation 
     which preserves the physical heritage object. You can derive the provenance 
-    of a record via the 'Data PURL' and  'Work PURL' fields. The latter two 
-    fields store persistent    URL's which unambiguously identify the record and 
+    of a record via the 'Data PURL' and 'Work PURL'. These persistent URL's identify unambiguously the record and 
     the cultural heritage object they describe. Records describing the same 
-    cultural heritage object will have  differing Data PURL's but the same Work 
-        PURL.</p>
+    cultural heritage object will have different Data PURL's but the same Work PURL.</p>
 
     <p>The institution field is another indicator for the provenance of a 
     record, but does not indicate that the institution is the owner of the 
