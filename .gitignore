@@ -41,3 +41,4 @@ pkg/*
 .vagrant
 /spec/examples.txt
 db/
+scripts/
