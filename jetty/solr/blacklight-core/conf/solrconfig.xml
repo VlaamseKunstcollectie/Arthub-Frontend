@@ -125,8 +125,8 @@
          subject_addl_t^50
          title_series_unstem_search^25
          title_series_t^10
-         title_display,
-         author_display,
+         title_display
+         author_display
          text
        </str>
        <str name="pf">

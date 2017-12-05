@@ -384,7 +384,14 @@
 
   <copyField source="title_display" dest="title_t"/>
   <copyField source="creator" dest="author_t"/>
+  <copyField source="creator_role" dest="author_t"/>
+  <copyField source="creator_role" dest="text"/>
+  <copyField source="description" dest="text"/>
   <copyField source="object_number" dest="text"/>
+  <copyField source="artwork_category" dest="text"/>
+  <copyField source="artwork_type" dest="text"/>
+  <copyField source="artwork_subtype" dest="text"/>
+  <copyField source="material" dest="text"/>
 
   <!-- copyField commands copy one field to another at the time a document
         is added to the index.  It's used either to index the same field differently,
@@ -394,6 +401,7 @@
   <!-- unstemmed fields -->
   <copyField source="title_t" dest="title_unstem_search"/>
   <copyField source="subtitle_t" dest="subtitle_unstem_search"/>
+  <copyField source="subtitle_t" dest="description_unstem_search"/>
   <copyField source="title_addl_t" dest="title_addl_unstem_search"/>
   <copyField source="title_added_entry_t" dest="title_added_entry_unstem_search"/>
   <copyField source="title_series_t" dest="title_series_unstem_search"/>
@@ -401,6 +409,7 @@
   <copyField source="author_addl_t" dest="author_addl_unstem_search"/>
   <copyField source="subject_t" dest="subject_unstem_search"/>
   <copyField source="subject_addl_t" dest="subject_addl_unstem_search"/>
+  <copyField source="description_t" dest="description_unstem_search"/>
   <copyField source="subject_topic_facet" dest="subject_topic_unstem_search"/>
   <!-- sort fields -->
   <copyField source="production_date" dest="production_date_sort"/>
