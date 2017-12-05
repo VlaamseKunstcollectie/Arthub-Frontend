@@ -15,10 +15,16 @@
 
 .navbar-inverse .navbar-nav > li {
     font-size: 1.25em;
-    float: none;
-    display: inline-block;
+    //float: none;
+    // display: inline-block;
     vertical-align: middle;
     line-height: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li {
+        text-align: center;
+    }
 }
 
 .navbar-inverse .navbar-nav > li > * {
@@ -42,6 +48,12 @@
 
 .navbar-inverse .navbar-nav > li > div > a[href*="en"] {
     margin-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > div > a[href*="en"] {
+        margin-left: 0px;
+    }
 }
 
 .navbar-inverse .navbar-nav > li > div > a[href*="nl"] {
