@@ -2,40 +2,40 @@
 
 <% if I18n.locale == :en %>
   
-  <div class="carouselLogoWrapper row1" data-ride="carousel" data-interval="false">
+  <div id="carouselLogoWrapperUp" class="carousel row1" data-ride="carousel" data-interval="false">
      <div class="row">
        <ul class="logos carousel-inner">
-         <li class="carouselLogo active"><a href="http://www.kmska.be/en/index.html?_language=en" title="Royal Museum of Fine Arts Antwerp" target="_blank"><%= image_tag "kmska.jpg", :alt => "Royal Museum of Fine Arts Antwerp" %></a></li>
-         <li class="carouselLogo"><a href="https://bezoekers.brugge.be/en/groeningemuseum-groeninge-museum" title="Groeninge Museum Bruges" target="_blank"><%= image_tag "groeninge.jpg", :alt => "Groeninge Museum Bruges" %></a></li>
-         <li class="carouselLogo"><a href="https://www.mskgent.be/en" title="Museum of Fine Arts Ghent " target="_blank"><%= image_tag "msk.jpg", :alt => "Museum of Fine Arts Ghent" %></a></li>
-         <li class="carouselLogo"><a href="https://www.mleuven.be/en/index.jsp" title="M - Museum Leuven" target="_blank"><%= image_tag "mleuven.jpg", :alt => "M - Museum Leuven" %></a></li>
-         <li class="carouselLogo"><a href="http://www.muzee.be/index.jsp?lang=en"" title="Mu.ZEE Ostend" target="_blank"><%= image_tag "muzee.jpg", :alt => "Mu.ZEE Ostend" %></a></li>
+         <li class="carouselLogo item active"><a href="http://www.kmska.be/en/index.html?_language=en" title="Royal Museum of Fine Arts Antwerp" target="_blank"><%= image_tag "kmska.jpg", :alt => "Royal Museum of Fine Arts Antwerp" %></a></li>
+         <li class="carouselLogo item"><a href="https://bezoekers.brugge.be/en/groeningemuseum-groeninge-museum" title="Groeninge Museum Bruges" target="_blank"><%= image_tag "groeninge.jpg", :alt => "Groeninge Museum Bruges" %></a></li>
+         <li class="carouselLogo item"><a href="https://www.mskgent.be/en" title="Museum of Fine Arts Ghent " target="_blank"><%= image_tag "msk.jpg", :alt => "Museum of Fine Arts Ghent" %></a></li>
+         <li class="carouselLogo item"><a href="https://www.mleuven.be/en/index.jsp" title="M - Museum Leuven" target="_blank"><%= image_tag "mleuven.jpg", :alt => "M - Museum Leuven" %></a></li>
+         <li class="carouselLogo item"><a href="http://www.muzee.be/index.jsp?lang=en"" title="Mu.ZEE Ostend" target="_blank"><%= image_tag "muzee.jpg", :alt => "Mu.ZEE Ostend" %></a></li>
        </ul>
        <div class="buttons">
-          <button id="prevButton" href=".row1" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
+          <button id="prevButton" href="#carouselLogoWrapperUp" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           </button>
 
-          <button id="nextButton" href=".row1" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
+          <button id="nextButton" href="#carouselLogoWrapperUp" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           </button>
       </div>
     </div>
   </div>
 
-  <div class="carouselLogoWrapper row2" data-ride="carousel" data-interval="false">
+  <div id="carouselLogoWrapperDown" class="carousel row2" data-ride="carousel" data-interval="false">
      <div class="row">
        <ul class="logos carousel-inner">
-         <li class="carouselLogo active"><a href="http://www.vlaamsekunstcollectie.be" title="Flemish Art Collection" target="_blank"><%= image_tag "logo_vkc_en.jpg", :alt => "Flemish Art Collection" %></a></li>
-         <li class="carouselLogo"><a href="http://www.packed.be/en" title="Packed. Centre of Expertise in Digital Heritage." target="_blank"><%= image_tag "logo_packed.png", :alt => "Packed. Centre of Expertise in Digital Heritage." %></a></li>
-         <li class="carouselLogo"><a href="http://www.kunstenerfgoed.be/en" title="Flanders. State of Art." target="_blank"><%= image_tag "flanders.png", :alt => "Flanders. State of Art." %></a></li>
+         <li class="carouselLogo item active"><a href="http://www.vlaamsekunstcollectie.be" title="Flemish Art Collection" target="_blank"><%= image_tag "logo_vkc_en.jpg", :alt => "Flemish Art Collection" %></a></li>
+         <li class="carouselLogo item"><a href="http://www.packed.be/en" title="Packed. Centre of Expertise in Digital Heritage." target="_blank"><%= image_tag "logo_packed.png", :alt => "Packed. Centre of Expertise in Digital Heritage." %></a></li>
+         <li class="carouselLogo item"><a href="http://www.kunstenerfgoed.be/en" title="Flanders. State of Art." target="_blank"><%= image_tag "flanders.png", :alt => "Flanders. State of Art." %></a></li>
        </ul>
         <div class="buttons">
-          <button id="prevButton" href=".row2" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
+          <button id="prevButton" href="#carouselLogoWrapperDown" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           </button>
 
-          <button id="nextButton" href=".row2" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
+          <button id="nextButton" href="#carouselLogoWrapperDown" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           </button>
       </div>
@@ -53,40 +53,40 @@
 
 <% else %>
 
-  <div class="carouselLogoWrapper row1" data-ride="carousel" data-interval="false">
+  <div id="carouselLogoWrapperUp" class="carousel row1" data-ride="carousel" data-interval="false">
      <div class="row">
        <ul class="logos carousel-inner">
-         <li class="carouselLogo active"><a href="http://www.kmska.be/nl" title="Koninklijk Museum voor Schone Kunsten Antwerpen" target="_blank"><%= image_tag "kmska.jpg", :alt => "Koninklijk Museum voor Schone Kunsten Antwerpen" %></a></li>
-         <li class="carouselLogo"><a href="https://bezoekers.brugge.be/nl/groeningemuseum" title="Groeningemuseum Brugge" target="_blank"><%= image_tag "groeninge.jpg", :alt => "Groeningemuseum Brugge" %></a></li>
-         <li class="carouselLogo"><a href="https://www.mskgent.be" title="Museum voor Schone Kunsten Gent" target="_blank"><%= image_tag "msk.jpg", :alt => "Museum voor Schone Kunsten Gent" %></a></li>
-         <li class="carouselLogo"><a href="https://www.mleuven.be/index.jsp" title="M - Museum Leuven" target="_blank"><%= image_tag "mleuven.jpg", :alt => "M - Museum Leuven" %></a></li>
-         <li class="carouselLogo"><a href="http://www.muzee.be/index.jsp?lang=nl"" title="Mu.ZEE Oostende" target="_blank"><%= image_tag "muzee.jpg", :alt => "Mu.ZEE Oostende" %></a></li>
+         <li class="carouselLogo item active"><a href="http://www.kmska.be/nl" title="Koninklijk Museum voor Schone Kunsten Antwerpen" target="_blank"><%= image_tag "kmska.jpg", :alt => "Koninklijk Museum voor Schone Kunsten Antwerpen" %></a></li>
+         <li class="carouselLogo item"><a href="https://bezoekers.brugge.be/nl/groeningemuseum" title="Groeningemuseum Brugge" target="_blank"><%= image_tag "groeninge.jpg", :alt => "Groeningemuseum Brugge" %></a></li>
+         <li class="carouselLogo item"><a href="https://www.mskgent.be" title="Museum voor Schone Kunsten Gent" target="_blank"><%= image_tag "msk.jpg", :alt => "Museum voor Schone Kunsten Gent" %></a></li>
+         <li class="carouselLogo item"><a href="https://www.mleuven.be/index.jsp" title="M - Museum Leuven" target="_blank"><%= image_tag "mleuven.jpg", :alt => "M - Museum Leuven" %></a></li>
+         <li class="carouselLogo item"><a href="http://www.muzee.be/index.jsp?lang=nl"" title="Mu.ZEE Oostende" target="_blank"><%= image_tag "muzee.jpg", :alt => "Mu.ZEE Oostende" %></a></li>
        </ul>
        <div class="buttons">
-          <button id="prevButton" href=".row1" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
+          <button id="prevButton" href="#carouselLogoWrapperUp" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           </button>
 
-          <button id="nextButton" href=".row1" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
+          <button id="nextButton" href="#carouselLogoWrapperUp" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           </button>
       </div>
     </div>
   </div>
 
-  <div class="carouselLogoWrapper row2" data-ride="carousel" data-interval="false">
+  <div id="carouselLogoWrapperDown" class="carousel row2" data-ride="carousel" data-interval="false">
      <div class="row">
        <ul class="logos carousel-inner">
-         <li class="carouselLogo active"><a href="http://www.vlaamsekunstcollectie.be/" title="Vlaamse Kunstcollectie" target="_blank"><%= image_tag "logo_vkc_nl.png", :alt => "Vlaamse Kunstcollectie" %></a></li>
-         <li class="carouselLogo"><a href="http://www.packed.be" title="Packed. Expertisecentrum Digitaal Erfgoed." target="_blank"><%= image_tag "logo_packed.png", :alt => "Packed. Expertisecentrum Digitaal Erfgoed." %></a></li>
-         <li class="carouselLogo"><a href="http://www.kunstenerfgoed.be/nl" title="Vlaanderen. Verbeelding werkt." target="_blank"><%= image_tag "flanders.png", :alt => "Vlaanderen. Verbeelding werkt." %></a></li>
+         <li class="carouselLogo item active"><a href="http://www.vlaamsekunstcollectie.be/" title="Vlaamse Kunstcollectie" target="_blank"><%= image_tag "logo_vkc_nl.png", :alt => "Vlaamse Kunstcollectie" %></a></li>
+         <li class="carouselLogo item"><a href="http://www.packed.be" title="Packed. Expertisecentrum Digitaal Erfgoed." target="_blank"><%= image_tag "logo_packed.png", :alt => "Packed. Expertisecentrum Digitaal Erfgoed." %></a></li>
+         <li class="carouselLogo item"><a href="http://www.kunstenerfgoed.be/nl" title="Vlaanderen. Verbeelding werkt." target="_blank"><%= image_tag "flanders.png", :alt => "Vlaanderen. Verbeelding werkt." %></a></li>
        </ul>
        <div class="buttons">
-          <button id="prevButton" href=".row2" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
+          <button id="prevButton" href="#carouselLogoWrapperDown" type="button" class="btn btn-default btn-xs carouselButton" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           </button>
 
-          <button id="nextButton" href=".row2" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
+          <button id="nextButton" href="#carouselLogoWrapperDown" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           </button>
       </div>
