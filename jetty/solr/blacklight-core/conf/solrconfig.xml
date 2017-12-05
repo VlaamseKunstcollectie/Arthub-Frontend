@@ -59,6 +59,22 @@
 
   <requestHandler name="/update/json" class="org.apache.solr.handler.JsonUpdateRequestHandler" />
 
+
+  <!-- The default high-performance update handler -->
+  <updateHandler class="solr.DirectUpdateHandler2">
+
+    <!-- Enables a transaction log, used for real-time get, durability, and
+         and solr cloud replica recovery.  The log can grow as big as
+         uncommitted changes to the index, so use of a hard autoCommit
+         is recommended (see below).
+         "dir" - the target directory for transaction logs, defaults to the
+                solr data directory.  --> 
+    <updateLog>
+      <str name="dir">${solr.ulog.dir:}</str>
+    </updateLog>
+
+  </updateHandler>
+
   <!-- SearchHandler
 
        http://wiki.apache.org/solr/SearchHandler
