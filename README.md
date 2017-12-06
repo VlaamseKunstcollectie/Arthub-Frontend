@@ -97,6 +97,6 @@ Copyright 2016 - PACKED vzw, Vlaamse Kunstcollectie vzw
 ## License
 
 This library is free software; you can redistribute it and/or modify it under 
-the same terms as the license provided with [Project Blacklight](https://github.com/projectblacklight/blacklight/blob/master/LICENSE. 
+the same terms as the license provided with [Project Blacklight](https://github.com/projectblacklight/blacklight/blob/master/LICENSE). 
 
 
