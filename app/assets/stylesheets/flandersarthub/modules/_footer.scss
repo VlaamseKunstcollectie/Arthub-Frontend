@@ -44,6 +44,12 @@
         }
     }
 
+    .carousel-inner > .item {
+        @media screen and (min-width: 417px) {
+            display: block;
+        }
+    }
+
     .row2 .logos {
         border-bottom: 1px solid #eee;
     }
