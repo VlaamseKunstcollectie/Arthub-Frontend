@@ -305,7 +305,7 @@
 
     <field name="production_date" type="string" indexed="true" stored="true" multiValued="false"/>
     <field name="production_date_sort" type="string" indexed="true" stored="true" multiValued="false"/><!-- for sorting and range queries -->
-    <field name="period" type="string" indexed="true" stored="true" multiValued="false"/>
+    <field name="period" type="string" indexed="true" stored="true" multiValued="true"/>
 
     <field name="repository" type="string" indexed="true" stored="true" multiValued="false"/>
 
