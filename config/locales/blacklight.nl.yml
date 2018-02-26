@@ -224,6 +224,7 @@ nl:
         artwork_subtype_display: 'Subtype'
         artwork_category: 'Onderwerp'
         title_display: 'Title'
+        creator_index: 'Vervaardiger'
         creator_display: 'Vervaardiger'
         subtitle: 'Subtitle'
         material: 'Materiaal'

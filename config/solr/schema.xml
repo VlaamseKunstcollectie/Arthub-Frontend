@@ -297,6 +297,7 @@
    <field name="subtitle_display" type="string" indexed="false" stored="true" multiValued="false"/>
    <field name="subtitle_vern_display" type="string" indexed="false" stored="true" multiValued="false"/>
 
+   <field name="creator_index" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="creator_display" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="author_vern_display" type="string" indexed="false" stored="true" multiValued="false"/>
 

@@ -195,6 +195,7 @@
          id,
          score,
          title_display,
+         creator_index,
          creator_display,
          period,
          repository,
