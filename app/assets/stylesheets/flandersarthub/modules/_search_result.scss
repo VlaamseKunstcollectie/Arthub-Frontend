@@ -1,5 +1,15 @@
 #documents .document {
 	h3.document-title-heading {
 		font-size: 100%;
+		padding-left: 25px;
 	}
+}
+
+#documents .blacklight-vlaamse-kunstcollectie:before {
+	content: "\f0c5";
+	font-family: 'FontAwesome' !important;
+	font-size: 125%;
+	color: rgb(95, 88, 93);
+	position: absolute;
+	margin-top: 5px;
 }
