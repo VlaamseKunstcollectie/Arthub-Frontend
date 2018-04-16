@@ -94,8 +94,8 @@ class CatalogController < ApplicationController
     #   The ordering of the field names is the order of the display
     config.add_show_field 'subtitle_display', label: 'subtitle'
     config.add_show_field 'creator_display', label: 'creator_display', helper_method: :show_list_creators
-    config.add_show_field 'period', label: 'period', link_to_search: true, separator_options: { words_connector: ' / ', two_words_connector: ' / ', last_word_connector: ' / '}
-    config.add_show_field 'production_date', label: 'production_date'
+    config.add_show_field 'period', label: 'period', link_to_search: true, separator_options: { words_connector: '<br />', two_words_connector: '<br />', last_word_connector: '<br />'}
+    config.add_show_field 'production_date', label: 'production_date', separator_options: { words_connector: '<br />', two_words_connector: '<br />', last_word_connector: '<br />'}
     config.add_show_field 'repository', label: 'Repository', link_to_search: true
     config.add_show_field 'artwork_type_display', label: 'artwork_type_display'
     config.add_show_field 'artwork_subtype_display', label: 'artwork_subtype_display'
