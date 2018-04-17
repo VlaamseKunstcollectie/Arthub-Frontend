@@ -301,8 +301,8 @@
    <field name="creator_display" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="author_vern_display" type="string" indexed="false" stored="true" multiValued="false"/>
 
-   <field name="production_date" type="string" indexed="true" stored="true" multiValued="false"/>
-   <field name="production_date_sort" type="tint" indexed="true" stored="true" multiValued="false"/><!-- for sorting and range queries -->
+   <field name="production_date" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="production_date_sort" type="tint" indexed="true" stored="true" multiValued="true"/><!-- for sorting and range queries -->
    <field name="period" type="string" indexed="true" stored="true" multiValued="true"/>
 
    <field name="repository" type="string" indexed="true" stored="true" multiValued="false"/>
