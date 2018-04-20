@@ -13,7 +13,7 @@ module Blacklight
     # -- all .rb files in that directory are automatically loaded.
     config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
 
-    I18n.available_locales = [:en, :nl]
+    I18n.available_locales = ["en", "nl", "en-US"]
     config.i18n.default_locale = :nl
     config.i18n.locale = :nl
     config.available_locales = %w(en nl)

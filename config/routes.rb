@@ -41,9 +41,31 @@ Rails.application.routes.draw do
       end
     end
 
-    get "/:id" => "pages#show", :as => :page, :format => false
 
+  mount MiradorRails::Engine, at: MiradorRails::Engine.locales_mount_path
+
+  ALLOW_ANYTHING_BUT_SLASHES = /[^\/]+/
+
+  constraints id: ALLOW_ANYTHING_BUT_SLASHES, rotation: Riiif::Routes::ALLOW_DOTS, size: Riiif::Routes::SIZES do
+    get "/iiif/2/:id/:region/:size/:rotation/:quality.:format" => 'riiif/images#show',
+      defaults: { format: 'jpg', rotation: '0', region: 'full', size: 'full', quality: 'default', model: 'riiif/image' },
+      as: 'riiif_image'
+
+    get "/iiif/2/:id/info.json" => 'riiif/images#info',
+      defaults: { format: 'json', model: 'riiif/image' },
+      as: 'riiif_info'
+
+    # This doesn't work presently
+    get "/iiif/2/:id", to: redirect("/iiif/2/%{id}/info.json"), as: 'riiif_base'
+    # get "/iiif/2/:id" => 'riiif/images#redirect', as: 'riiif_base'
+
+    get "iiif/2/:id/manifest.json" => "images#manifest",
+      defaults: { format: 'json' },
+      as: 'riiif_manifest'
   end
+end
+
+  get "/:id" => "pages#show", :as => :page, :format => false
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

@@ -42,3 +42,4 @@ pkg/*
 /spec/examples.txt
 db/
 scripts/
+vendor/

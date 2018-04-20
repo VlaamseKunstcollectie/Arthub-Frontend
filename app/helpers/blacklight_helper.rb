@@ -64,4 +64,9 @@ module BlacklightHelper
 
     render partial: "catalog/technical_detail", collection: @technical_details
   end
+
+  def render_iiif_manifest_url(document=@document, options = {})
+    id = document.fetch(:id)
+    riiif_manifest_url(id)
+  end
 end

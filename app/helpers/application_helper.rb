@@ -16,4 +16,8 @@ module ApplicationHelper
     end.join('<br />').html_safe
   end
 
+  def iiif_thumbnail_url_field(document=@document)
+    id = document.fetch(:id)
+    riiif_image_url(id, size: "206,")
+  end
 end

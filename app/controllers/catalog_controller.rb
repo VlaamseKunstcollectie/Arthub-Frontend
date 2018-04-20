@@ -36,6 +36,9 @@ class CatalogController < ApplicationController
     #  # q: '{!term f=id v=$id}'
     #}
 
+    # Paritals index
+    config.index.partials = [:index_header, :thumbnail, :index]
+
     # solr field configuration for search results/index views
     config.index.title_field = 'title_display'
 

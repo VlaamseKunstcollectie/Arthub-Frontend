@@ -57,3 +57,11 @@ gem 'devise'
 gem 'devise-guests', '~> 0.5'
 gem 'blacklight-marc', '~> 6.1'
 gem 'high_voltage', '~> 3.0.0'
+gem "riiif", "~> 2.0"
+gem "mirador_rails", "~> 0.7.0"
+
+# Added at 2018-04-18 14:28:05 +0000 by vagrant:
+gem "iiif-presentation", "~> 0.2.0"
+
+# Added at 2018-04-19 08:26:50 +0000 by vagrant:
+gem "faraday", "~> 0.14.0"
