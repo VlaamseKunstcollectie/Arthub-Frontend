@@ -2,6 +2,7 @@
 	font-family: $font-family-base !important;
 	h1 {
 		font-family: $font-family-base !important;
+		margin-bottom: 20px;
 	}
 	.panel .panel-body .dl-invert {
 		margin-bottom: 0px;
@@ -15,5 +16,8 @@
 		font-size: 175%;
 		color: rgb(95, 88, 93);
 		position: absolute;
+	}
+	.dl-horizontal {
+		margin-top: 20px;
 	}
 }
