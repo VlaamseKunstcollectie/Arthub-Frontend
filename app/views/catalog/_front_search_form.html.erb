@@ -1,13 +1,16 @@
 <%= form_tag search_action_url, method: :get, class: 'search-query-form clearfix navbar-form', role: 'search' do %>
   <%= render_hash_as_hidden_fields(search_state.params_for_search.except(:q, :search_field, :qt, :page, :utf8)) %>
-      <div id="carouselWrapper" class="carousel slide" data-ride="carousel" data-interval="20000">
+      <div id="carouselWrapper" class="carousel slide" data-ride="carousel" data-interval="30000">
         
         <ol class="carousel-indicators">
           <li data-target="#carouselWrapper" data-slide-to="0" class="active"></li>
           <li data-target="#carouselWrapper" data-slide-to="1"></li>
+          <!-- To add items to carousel: add (one of) these lines -->
+          <!-- 
           <li data-target="#carouselWrapper" data-slide-to="2"></li>
           <li data-target="#carouselWrapper" data-slide-to="3"></li>
-          <li data-target="#carouselWrapper" data-slide-to="4"></li>         
+          <li data-target="#carouselWrapper" data-slide-to="4"></li>
+          -->
         </ol>
 
         <div class="carousel-inner">
@@ -32,15 +35,8 @@
             </div>
           </div>
 
-          <div class="carousel-item item">
-            <div class="carousel-caption d-none d-md-block">
-              <% if I18n.locale == :en %>
-                <%= render :partial=>'carousel_captions_en' %>
-              <% else %>
-                <%= render :partial=>'carousel_captions_nl' %>
-              <% end %>
-            </div>
-          </div>
+          <!-- To add items to carousel: add (one of) these sections -->
+          <!--
 
           <div class="carousel-item item">
             <div class="carousel-caption d-none d-md-block">
@@ -61,6 +57,18 @@
               <% end %>
             </div>
           </div>
+
+          <div class="carousel-item item">
+            <div class="carousel-caption d-none d-md-block">
+              <% if I18n.locale == :en %>
+                <%= render :partial=>'carousel_captions_en' %>
+              <% else %>
+                <%= render :partial=>'carousel_captions_nl' %>
+              <% end %>
+            </div>
+          </div>
+
+          -->
 
         </div>
 
@@ -74,11 +82,11 @@
             <span class="glyphicon glyphicon-pause"></span>
           </button>
 
-          <button id="prevButton" href="#carouselWrapper" type="button" class="btn btn-default btn-xs carouselButton">
+          <button id="prevButton" href="#carouselWrapper" type="button" class="btn btn-default btn-xs carouselButton " data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           </button>
 
-          <button id="nextButton" href="#carouselWrapper" type="button" class="btn btn-default btn-xs carouselButton">
+          <button id="nextButton" href="#carouselWrapper" type="button" class="btn btn-default btn-xs carouselButton" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           </button>
 
@@ -122,34 +130,27 @@
       </div>
 
       <script>
-        $(function () {
-            
-            $('#playButton').hide();
-            $('#playButton').click(function () {
-                  $('#playButton').hide();
-                  $('#pauseButton').show();
-                  $('#carouselWrapper').carousel('cycle');
-            });
-            $('#pauseButton').click(function () {
-                  $('#pauseButton').hide();
-                  $('#playButton').show();
-                  $('#carouselWrapper').carousel('pause');
-            });
-            $('#prevButton').click(function () {
-                $('#carouselWrapper').carousel('prev');
-            });
-            $('#nextButton').click(function () {
-                $('#carouselWrapper').carousel('next');
-            });
-            
-        });
+          $(function(){
+              $('#playButton').hide();
+              $("#playButton").click(function(){
+                $('#playButton').hide();
+                $('#pauseButton').show();
+                $("#carouselWrapper").carousel('cycle');
+              });
+              $("#pauseButton").click(function(){
+                $('#pauseButton').hide();
+                $('#playButton').show();
+                $("#carouselWrapper").carousel('pause');
+              });
+          });
       </script>
 
       <script>
-        var array = [1,2,3,4,5];
+        // To add items to carousel: add numbers to var array according to number of items
+        var array = [1,2];
         array.sort(function() { return 0.5 - Math.random() });
         for (i=1;i<=array.length;++i) {
-          $(".carousel-item:nth-child(" + i + ")").addClass("class"+array[i-1]);
+          $(".carousel-item:nth-child(" + i + ")").attr("id", "item"+array[i-1]);
         }
       </script>
 
