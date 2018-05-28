@@ -59,6 +59,7 @@ gem 'blacklight-marc', '~> 6.1'
 gem 'high_voltage', '~> 3.0.0'
 gem "riiif", "~> 2.0"
 gem "mirador_rails", "~> 0.7.0"
+gem 'i18n-tasks', '~> 0.9.21'
 
 # Added at 2018-04-18 14:28:05 +0000 by vagrant:
 gem "iiif-presentation", "~> 0.2.0"
