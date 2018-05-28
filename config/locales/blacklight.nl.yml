@@ -237,6 +237,10 @@ nl:
         references: 'Referenties'
         datahub_api_record: 'Datahub API record'
         datahub_oai_record: 'Datahub OAI record'
+        sort:
+          relevance: relevantie
+          title: titel
+          production_date: productie datum
       bookmarks:
         present: "In Favorieten"
         absent: "Favoriet"
