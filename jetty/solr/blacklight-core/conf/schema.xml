@@ -305,7 +305,7 @@
     <field name="author_vern_display" type="string" indexed="false" stored="true" multiValued="false"/>
 
     <field name="production_date" type="string" indexed="true" stored="true" multiValued="true"/>
-    <field name="production_date_sort" type="string" indexed="true" stored="true" multiValued="true"/><!-- for sorting and range queries -->
+    <field name="production_date_sort" type="string" indexed="true" stored="true" multiValued="false"/>
     <field name="period" type="string" indexed="true" stored="true" multiValued="true"/>
 
     <field name="repository" type="string" indexed="true" stored="true" multiValued="false"/>
@@ -415,9 +415,9 @@
   <copyField source="subject_addl_t" dest="subject_addl_unstem_search"/>
   <copyField source="description_t" dest="description_unstem_search"/>
   <copyField source="subject_topic_facet" dest="subject_topic_unstem_search"/>
+  
   <!-- sort fields -->
-  <copyField source="production_date" dest="production_date_sort"/>
-
+  <copyField source="title_display" dest="title_display_sort"/>
 
   <!-- spellcheck fields -->
   <!-- default spell check;  should match fields for default request handler -->
