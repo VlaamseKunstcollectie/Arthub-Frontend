@@ -215,6 +215,10 @@ nl:
       rss_feed: 'RSS voor zoekresultaten'
       atom_feed: 'Atom voor zoekresultaten'
       fields:
+        search:
+          all_fields: 'Alle velden'
+          title: 'Titel'
+          creator: 'Vervaardiger'
         default: 'Sleutelwoord'
         period: 'Periode'
         repository: 'Instelling'
@@ -259,8 +263,3 @@ nl:
       default: 'ingang'
 
     did_you_mean: 'Bedoelde u: %{options}?'
-
-  all_fields: 'Alle velden'
-  title: 'Titel'
-  creator: 'Kunstenaar'
-  object_number: 'Inventarisnummer'

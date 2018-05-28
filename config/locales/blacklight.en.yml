@@ -215,6 +215,10 @@ en:
       rss_feed: 'RSS for results'
       atom_feed: 'Atom for results'
       fields:
+        search:
+          all_fields: 'All fields'
+          title: 'title'
+          creator: 'creator'
         default: 'Keyword'
         period: 'Period'
         repository: 'Institution'
@@ -259,8 +263,3 @@ en:
       default: 'entry'
 
     did_you_mean: 'Did you mean to type: %{options}?'
-
-  all_fields: 'All fields'
-  title: 'Title'
-  creator: 'Creator'
-  object_number: 'Object number'
