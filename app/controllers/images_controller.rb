@@ -3,25 +3,27 @@ class ImagesController < ApplicationController
 
     def manifest
       @response, @document = fetch params[:id]
-      
+
+      image_id = @document.fetch(:publish_image) ? params[:id] : 'arthub:placeholder'
+
       # Check if valid image
       # Set CORS allowed header
-      artefact = Riiif::Image.new(params[:id])
+      artefact = Riiif::Image.new(image_id)
 
       seed = {
-          '@id' => riiif_manifest_url(params[:id]),
+          '@id' => riiif_manifest_url(image_id),
           'label' => @document.fetch(:title_display)
       }
 
       # service = IIIF::Presentation::Resource.new('@id' => "http://" + SecureRandom.uuid)
-      service = IIIF::Presentation::Resource.new('@id' => riiif_base_url(params[:id]))
+      service = IIIF::Presentation::Resource.new('@id' => riiif_base_url(image_id))
       service['@context'] = "http://iiif.io/api/image/2/context.json"
       service['profile'] = "http://iiif.io/api/image/2/level2.json"
 
       manifest = IIIF::Presentation::Manifest.new(seed)
 
       thumbnail = IIIF::Presentation::Resource.new(
-          '@id' => riiif_image_url(id: params[:id], size: '400,400')
+          '@id' => riiif_image_url(id: image_id, size: '400,400')
       )
       thumbnail['@type'] = 'dctypes:Image'
       thumbnail['format'] = 'image/jpeg'
@@ -48,9 +50,9 @@ class ImagesController < ApplicationController
       image = IIIF::Presentation::Resource.new('@id' => "http://bbb")
       image['@type'] = 'oa:Annotation'
       image['motivation'] = 'sc:painting'
-      image['on'] = canvas_id
+      image['on'] = canvas_id  
 
-      resource = IIIF::Presentation::Resource.new('@id' => riiif_image_url(params[:id]))
+      resource = IIIF::Presentation::Resource.new('@id' => riiif_image_url(image_id))
       resource['@type'] = 'dctypes:Image'
       resource['format'] = 'image/jpeg'
       resource['width'] = artefact.info.width

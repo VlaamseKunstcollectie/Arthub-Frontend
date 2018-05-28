@@ -224,6 +224,7 @@
          artwork_category,
          dimensions,
          creator_role,
+         publish_image,
          description,
          material,
          object_number,
