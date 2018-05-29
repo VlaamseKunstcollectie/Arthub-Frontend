@@ -1,4 +1,10 @@
 en:
+  404_title: "Page not found"
+  404_message: "The requested page could not be found."
+  422_title: "The change you wanted was rejected"
+  422_message: "Maybe you tried to change something you didn't have access to."
+  500_title: "Something went wrong"
+  500_message: "An unexpected error occurred. Please try again later."
   views:
     pagination:
       first: '&laquo; First'

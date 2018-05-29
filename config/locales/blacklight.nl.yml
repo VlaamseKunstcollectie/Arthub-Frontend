@@ -1,4 +1,10 @@
 nl:
+  404_title: "Pagina niet gevonden"
+  404_message: "De opgevraagde pagina kon niet gevonden worden."
+  422_title: "De gevraagde wijziging werd afgewezen"
+  422_message: "Misschien probeerde je iets te wijzigen waar je geen toegang toe hebt."
+  500_title: "Er ging iets mis"
+  500_message: "Er is een onverwacht probleem opgetreden. Probeer het later opnieuw."
   views:
     pagination:
       first: '&laquo; Eerste'

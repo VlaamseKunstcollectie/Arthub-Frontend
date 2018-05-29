@@ -18,5 +18,6 @@ module Blacklight
     config.i18n.locale = :nl
     config.available_locales = %w(en nl)
 
+    config.exceptions_app = self.routes
   end
 end
