@@ -4,6 +4,10 @@ Rails.application.routes.draw do
 
   root to: redirect("/#{I18n.default_locale}", status: 302), as: :redirected_root
 
+  get "/404" => "errors#not_found", :via => :all
+  get "/422" => "errors#unprocessable_entity", :via => :all
+  get "/500" => "errors#internal_server_error", :via => :all
+
   scope "/:locale", locale: /en|nl/ do
     resources :solr_documents, only: [:show], path: '/catalog', controller: 'catalog' do
       concerns :exportable
