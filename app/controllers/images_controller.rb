@@ -22,6 +22,50 @@ class ImagesController < ApplicationController
 
       manifest = IIIF::Presentation::Manifest.new(seed)
 
+      manifest['metadata'] = Array.new
+
+      manifest['metadata'] << {
+        'label': 'title',
+        'value': @document.fetch(:title_display)
+      }
+
+      manifest['metadata'] << {
+        'label': 'creator',
+        'value': @document.fetch(:creator_display)
+      }
+
+      manifest['metadata'] << {
+        'label': 'production date',
+        'value': @document.fetch(:production_date)
+      }
+
+      # logo
+      logoService = IIIF::Presentation::Resource.new('@id' => "http://" + SecureRandom.uuid)
+      logoService['@context'] = "http://iiif.io/api/image/2/context.json"
+      logoService['profile'] = "http://iiif.io/api/image/2/level2.json"
+
+      logoUrl = view_context.image_path('logo-arthub.jpg')
+
+      repository = @document.fetch(:repository)
+      publish_image = @document.fetch(:publish_image)
+
+      if (publish_image)
+        manifest['license'] = "https://creativecommons.org/licenses/by/4.0"
+        manifest['attribution'] = <<~HEREDOC
+           © #{repository}. Licensed under a Creative Commons Attribution 4.0 International License. For higher resolution images suitable for scholarly or commercial publication, either in print or in an electronic format, please contact #{repository} directly.
+           HEREDOC
+      else
+        manifest['license'] = "http://rightsstatements.org/vocab/InC/1.0/"
+        manifest['attribution'] = <<~HEREDOC
+           For higher resolution images suitable for scholarly or commercial publication, either in print or in an electronic format, please contact #{repository} directly.
+           HEREDOC
+      end
+
+      manifest['logo'] =  {
+        "@id": logoUrl,
+        "service": logoService
+      }
+
       thumbnail = IIIF::Presentation::Resource.new(
           '@id' => riiif_image_url(id: image_id, size: '400,400')
       )
@@ -47,7 +91,7 @@ class ImagesController < ApplicationController
       canvas['label'] = "Image 1"
 
       # image = IIIF::Presentation::Resource.new('@id' => "http://" + SecureRandom.uuid)
-      image = IIIF::Presentation::Resource.new('@id' => "http://bbb")
+      image = IIIF::Presentation::Resource.new('@id' => "http://" + SecureRandom.uuid)
       image['@type'] = 'oa:Annotation'
       image['motivation'] = 'sc:painting'
       image['on'] = canvas_id  
