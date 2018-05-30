@@ -66,3 +66,5 @@ gem "iiif-presentation", "~> 0.2.0"
 
 # Added at 2018-04-19 08:26:50 +0000 by vagrant:
 gem "faraday", "~> 0.14.0"
+
+gem "rake", "~> 12.3"
