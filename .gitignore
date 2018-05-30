@@ -22,6 +22,7 @@
 data
 data/*
 public/assets/
+public/dev-assets/
 .DS_Store
 *.sw[pon]
 .bundle

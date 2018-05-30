@@ -84,6 +84,67 @@ rake jetty:stop
 rm -r jetty/solr/blacklight-core/data/*
 rake jetty:start
 ```
+## Production
+
+### Asset compilation
+
+This application uses the Asset Pipeline. Assets are stored in the 
+`/app/assets` folder. In development mode, Rails will automagically compile
+and store the assets in the `/public/assets` folder. However, in production 
+mode, you will need to do things manually.
+
+First you will need to manually pre-compile the assets. From the project 
+root, run this command (assuming you use bundler).
+
+```
+$ RAILS_ENV=production bundle exec rake assets:precompile
+```
+
+This will create all the assetes and store them in the `/public/assets` folder.
+
+**You will need to manually pre-compile all the assets when you perform a 
+deployment to production**
+
+## Asset serving configuration
+
+The pre-compiled assets aren't served through rails but via the NGINX or 
+Apache HTTP proxy. The configuration setting `config.public_file_server.enabled`
+in `production.rb` needs to be set to `true` in order to make this happen.
+If you don't do this, the assets won't be served properly and the layout of 
+the appication will break. 
+
+Set the environment variable `RAILS_SERVE_STATIC_FILES` in your `.bash_profile` 
+file (or equivalent) accordingly:
+
+```
+export RAILS_SERVE_STATIC_FILES=true
+```
+
+## Set SECRET_KEY_BASE
+
+The `secrets.yml` configuration file contains a salt per environment. You will 
+need to set the production salt manually. From the project root, run this command:
+
+```
+$ rails secret
+```
+
+It will spit out a long hash. Copy the hash and add it to your `.bash_profile` 
+file (or equivalent) as an environment vairbale:
+
+```
+export export SECRET_KEY_BASE="<HASH>"
+```
+
+Replace `<HASH>` with the generated hash.
+
+## Run the production server
+
+You are now set to run the production server:
+
+```
+$ rails s -e production
+```
 
 ## Authors
 
