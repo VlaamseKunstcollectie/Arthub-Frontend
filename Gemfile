@@ -55,7 +55,6 @@ gem 'jettywrapper', '>= 2.0'
 gem 'rsolr', '~> 1.0'
 gem 'devise'
 gem 'devise-guests', '~> 0.5'
-gem 'blacklight-marc', '~> 6.1'
 gem 'high_voltage', '~> 3.0.0'
 gem "riiif", "~> 2.0"
 gem "mirador_rails", "~> 0.7.0"

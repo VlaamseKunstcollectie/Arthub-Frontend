@@ -22,11 +22,8 @@ Rails.application.routes.draw do
     end
 
     mount Blacklight::Engine => '/'
-    Blacklight::Marc.add_routes(self)
     root to: "catalog#front"
       concern :searchable, Blacklight::Routes::Searchable.new
-
-    get 'consent' => 'catalog#consent'
 
     resource :catalog, only: [:index], as: 'catalog', path: '/catalog', controller: 'catalog', :constraints => { :id => /[^\/]+/ } do
       concerns :searchable
