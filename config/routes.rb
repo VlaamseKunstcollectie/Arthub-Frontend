@@ -46,8 +46,6 @@ Rails.application.routes.draw do
 
     mount MiradorRails::Engine, at: MiradorRails::Engine.locales_mount_path
 
-    ALLOW_ANYTHING_BUT_SLASHES = /[^\/]+/
-
     constraints id: ALLOW_ANYTHING_BUT_SLASHES, rotation: Riiif::Routes::ALLOW_DOTS, size: Riiif::Routes::SIZES do
       get "/iiif/2/:id/:region/:size/:rotation/:quality.:format" => 'riiif/images#show',
         defaults: { format: 'jpg', rotation: '0', region: 'full', size: 'full', quality: 'default', model: 'riiif/image' },
