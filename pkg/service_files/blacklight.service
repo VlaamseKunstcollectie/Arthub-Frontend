@@ -9,7 +9,7 @@ WorkingDirectory=/opt/project-blacklight
 User=blacklight
 Restart=always
 RestartSec=10
-
+Environment=RAILS_SERVE_STATIC_FILES=true
 
 ExecStart=/opt/project-blacklight/start.sh
 
