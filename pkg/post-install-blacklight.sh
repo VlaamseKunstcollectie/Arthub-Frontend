@@ -17,7 +17,7 @@ echo ">> POST-INSTALL: Login as Blacklight user and perform tasks"
 
 su - blacklight -s /bin/bash <<_EOF_
 
-set -o errexit
+set -e
 
 cd \${HOME}
 
