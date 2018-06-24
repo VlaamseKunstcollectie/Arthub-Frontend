@@ -11,7 +11,7 @@ echo ">> POST-INSTALL: Reloading systemd service definitions"
 
 echo ">> POST-INSTALL: Stopping Solr and Blacklight"
 /usr/bin/systemctl stop solr.service
-/usr/bin/systemctl stop blacklght.service
+/usr/bin/systemctl stop blacklight.service
 
 echo ">> POST-INSTALL: Login as Blacklight user and perform tasks"
 
