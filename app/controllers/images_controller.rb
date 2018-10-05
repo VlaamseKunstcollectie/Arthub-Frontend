@@ -49,17 +49,12 @@ class ImagesController < ApplicationController
       repository = @document.fetch(:repository)
       publish_image = @document.fetch(:publish_image)
 
-      if (publish_image)
-        manifest['license'] = "https://creativecommons.org/licenses/by/4.0"
+        manifest['license'] = "http://rightsstatements.org/vocab/CNE/1.0/"
         manifest['attribution'] = <<~HEREDOC
-           © #{repository}. Licensed under a Creative Commons Attribution 4.0 International License. For higher resolution images suitable for scholarly or commercial publication, either in print or in an electronic format, please contact #{repository} directly.
-           HEREDOC
-      else
-        manifest['license'] = "http://rightsstatements.org/vocab/InC/1.0/"
-        manifest['attribution'] = <<~HEREDOC
+           The evaluation of the copyright for this work and its electronic representations is ongoing. 
+           Rightsholders are kindly invited to reach out to us and direct corrections via email to info@vlaamsekunstcollectie.be.
            For higher resolution images suitable for scholarly or commercial publication, either in print or in an electronic format, please contact #{repository} directly.
            HEREDOC
-      end
 
       manifest['logo'] =  {
         "@id": logoUrl,
