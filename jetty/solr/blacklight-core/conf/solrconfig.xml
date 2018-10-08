@@ -227,6 +227,7 @@
          publish_image,
          description,
          material,
+         material_display,
          object_number,
          data_pid,
          work_pid,

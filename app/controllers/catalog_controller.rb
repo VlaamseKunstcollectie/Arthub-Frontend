@@ -101,9 +101,9 @@ class CatalogController < ApplicationController
     config.add_show_field 'repository', label: 'Repository', link_to_search: true
     config.add_show_field 'artwork_type_display', label: 'artwork_type_display'
     config.add_show_field 'artwork_subtype_display', label: 'artwork_subtype_display'
-    config.add_show_field 'material', label: 'material', link_to_search: true
+    config.add_show_field 'material_display', label: 'material_display'
     config.add_show_field 'artwork_category', label: 'artwork_category', link_to_search: true
-    config.add_show_field 'dimensions', label: 'dimensions'
+    config.add_show_field 'dimensions', label: 'dimensions', separator_options: { words_connector: '<br />', two_words_connector: '<br />', last_word_connector: '<br />'}
     config.add_show_field 'object_number', label: 'object_number'
     config.add_show_field 'description', label: 'description'
 #    config.add_show_field 'work_pid', label: 'work_pid'

@@ -237,7 +237,7 @@ en:
         creator_index: 'Creator'
         creator_display: 'Creator'
         subtitle: 'Subtitle'
-        material: 'Material'
+        material_display: 'Material'
         dimensions: 'Dimensions'
         description: 'Description'
         object_number: 'Object number'
