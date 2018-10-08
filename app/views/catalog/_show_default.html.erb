@@ -12,9 +12,18 @@
           manifestUri: render_iiif_manifest_url(document)
          }
         ],
+        mainMenuSettings: {
+          show: false
+        },
         windowObjects: [
-           loadedManifest: render_iiif_manifest_url(document),
-           viewType: "ImageView"
+            loadedManifest: render_iiif_manifest_url(document),
+            viewType: "ImageView",
+            displayLayout: false,
+            bottomPanel: false,
+            bottomPanelAvailable: false,
+            bottomPanelVisible: false,
+            sidePanel: false,
+            annotationLayer: false
         ]
       }
     )
