@@ -50,11 +50,20 @@ class ImagesController < ApplicationController
       publish_image = @document.fetch(:publish_image)
 
         manifest['license'] = "http://rightsstatements.org/vocab/CNE/1.0/"
-        manifest['attribution'] = <<~HEREDOC
-           The evaluation of the copyright for this work and its electronic representations is ongoing. 
-           Rightsholders are kindly invited to reach out to us and direct corrections via email to info@vlaamsekunstcollectie.be.
-           For higher resolution images suitable for scholarly or commercial publication, either in print or in an electronic format, please contact #{repository} directly.
-           HEREDOC
+
+        if (I18n.locale == :en)
+          manifest['attribution'] = <<~HEREDOC
+            The evaluation of the copyright for this work and its electronic representations is ongoing. 
+            Rightsholders are kindly invited to reach out to us and direct corrections via email to info@vlaamsekunstcollectie.be.
+            For higher resolution images suitable for scholarly or commercial publication, either in print or in an electronic format, please contact #{repository} directly.
+            HEREDOC
+        else
+          manifest['attribution'] = <<~HEREDOC
+          De evaluatie van de auteursrechten voor dit werk en haar electronische representaties is gaande.
+          Rechthebbenden worden vriendelijk verzocht om correspondentie te richten via e-mail aan info@vlaamsekunstcollectie.be.
+          Voor kopiën op hoge resolutie voor educatieve of commerciële publicatie, zowel in print als digitaal formaat, kan u #{repository} rechtstreeks contacteren.
+          HEREDOC
+        end
 
       manifest['logo'] =  {
         "@id": logoUrl,
