@@ -9,7 +9,8 @@ Riiif::Image.file_resolver.id_to_uri = lambda do |id|
     pid = parts.last
 
     if (id == "arthub:placeholder")
-        return "#{Rails.root}/public/copyrighted_image.png"
+        # return "#{Rails.root}/public/copyrighted_image.png"
+        return "#{Rails.root}/public/no_image_available.png"
     else
         uri = URI.parse("http://resolver.#{domain}.be/collection/work/representation/#{pid}")
         http = Net::HTTP.new(uri.host, uri.port)
