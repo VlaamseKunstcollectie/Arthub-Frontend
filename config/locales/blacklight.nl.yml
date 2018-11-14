@@ -237,6 +237,7 @@ nl:
         creator_index: 'Vervaardiger'
         creator_display: 'Vervaardiger'
         subtitle: 'Subtitle'
+        material: 'Materiaal'
         material_display: 'Materiaal'
         dimensions: 'Dimensies'
         description: 'Beschrijving'
