@@ -102,7 +102,7 @@ class CatalogController < ApplicationController
     config.add_show_field 'artwork_type_display', label: 'artwork_type_display'
     config.add_show_field 'artwork_subtype_display', label: 'artwork_subtype_display'
     config.add_show_field 'material_display', label: 'material_display'
-    config.add_show_field 'artwork_category', label: 'artwork_category', link_to_search: true
+    config.add_show_field 'artwork_category_display', label: 'artwork_category_display', link_to_search: true
     config.add_show_field 'dimensions', label: 'dimensions', separator_options: { words_connector: '<br />', two_words_connector: '<br />', last_word_connector: '<br />'}
     config.add_show_field 'object_number', label: 'object_number'
     config.add_show_field 'description', label: 'description'
