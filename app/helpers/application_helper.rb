@@ -20,4 +20,10 @@ module ApplicationHelper
     image_id = document.fetch(:publish_image) ? document.fetch(:id) : 'arthub:placeholder'
     riiif_image_url(image_id, size: "206,")
   end
+
+  def meta_description
+    ftotal = number_with_delimiter(@total)
+    content_for?(:meta_description) ? content_for(:meta_description) : t(:meta_description, total_count: ftotal)
+  end
+
 end

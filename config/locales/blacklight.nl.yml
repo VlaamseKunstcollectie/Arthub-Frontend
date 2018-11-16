@@ -17,6 +17,8 @@ nl:
       previous: '&laquo; Vorige'
       next: 'Volgende &raquo;'
 
+  meta_description: 'Verken Arthub Flanders, een catalogus met %{total_count} objectbeschrijvingen uit de Vlaamse Musea voor Beeldende Kunsten.'
+
   blacklight:
     application_name: 'Arthub Flanders'
 

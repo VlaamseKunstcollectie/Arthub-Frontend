@@ -69,4 +69,10 @@ module BlacklightHelper
     id = document.fetch(:id)
     riiif_manifest_url(id)
   end
+
+  def render_meta_description(document=@document, options = {})
+    meta_description = document.fetch(:description)
+    "#{meta_description}"
+  end
+
 end
