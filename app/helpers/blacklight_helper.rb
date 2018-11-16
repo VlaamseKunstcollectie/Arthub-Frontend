@@ -75,4 +75,9 @@ module BlacklightHelper
     "#{meta_description}"
   end
 
+  def render_canonical_url
+    url = url_for(:only_path => false)
+    "#{url}"
+  end
+
 end
