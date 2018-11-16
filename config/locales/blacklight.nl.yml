@@ -155,13 +155,13 @@ nl:
 
     search:
       # i18n key 'title' is deprecated and will be removed in Blacklight 6.0
-      title: '%{application_name} Zoek resultaten'
+      title: '%{application_name} Zoekresultaten'
       page_title:
-        title: '%{constraints} - %{application_name} Zoek resultaten'
+        title: '%{constraints} - %{application_name} Zoekresultaten'
         constraint: '%{label}: %{value}'
         many_constraint_values: '%{values} geselecteerd'
       search_results_header: 'Zoek filters'
-      search_results: 'Zoek resultaten'
+      search_results: 'Zoekresultaten'
       errors:
         request_error: "Sorry, ik kon uw zoekopdracht niet begrijpen."
         invalid_solr_id: "Sorry, u vroeg een onbestaande record op."
