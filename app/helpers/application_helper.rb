@@ -26,12 +26,16 @@ module ApplicationHelper
     content_for?(:meta_description) ? content_for(:meta_description) : t(:meta_description, total_count: ftotal)
   end
 
-  def og_image(document=@document)
-    content_for?(:og_image) ? content_for(:og_image) : image_url('logo-arthub.jpg')
+  def meta_image
+    content_for?(:meta_image) ? content_for(:meta_image) : image_url('logo-arthub.jpg')
   end
 
-  def og_image_alt(document=@document)
-    content_for?(:og_image_alt) ? content_for(:og_image_alt) : application_name
+  def meta_image_alt
+    content_for?(:meta_image_alt) ? content_for(:meta_image_alt) : application_name
+  end
+
+  def twitter_card
+    content_for?(:twitter_card) ? content_for(:twitter_card) : 'summary'
   end
 
 end

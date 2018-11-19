@@ -33,9 +33,14 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="<%= render_language_territory %>">
     <meta property="og:locale:alternate" content="<%= render_alternate_language_territory %>">
-    <meta property="og:image" content="<%= og_image %>">
-    <meta property="og:image:alt" content="<%= og_image_alt %>">
+    <meta property="og:image" content="<%= meta_image %>">
+    <meta property="og:image:alt" content="<%= meta_image_alt %>">
     <meta property="og:image:type" content="image/jpeg">
+    <meta name="twitter:title" content="<%= render_page_title %>">
+    <meta name="twitter:description" content="<%= meta_description %>">
+    <meta name="twitter:card" content="<%= twitter_card %>">
+    <meta name="twitter:image" content="<%= meta_image %>">
+    <meta name="twitter:image:alt" content="<%= meta_image_alt %>">
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
 

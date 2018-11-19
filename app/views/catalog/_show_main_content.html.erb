@@ -3,8 +3,9 @@
 <% @page_title = t('blacklight.search.show.title', :document_title => document_show_html_title, :application_name => application_name).html_safe %>
 <% content_for(:head) { render_link_rel_alternates } %>
 <% content_for(:meta_description) { render_meta_description } %>
-<% content_for(:og_image) { render_image } %>
-<% content_for(:og_image_alt) { render_meta_description } %>
+<% content_for(:meta_image) { render_image } %>
+<% content_for(:meta_image_alt) { @document.fetch(:title_display) } %>
+<% content_for(:twitter_card) do %>summary_large_image<% end %>
 
 <div id="document" class="document <%= render_document_class %>" itemscope  itemtype="<%= @document.itemtype %>">
   <div id="doc_<%= @document.id.to_s.parameterize %>">
