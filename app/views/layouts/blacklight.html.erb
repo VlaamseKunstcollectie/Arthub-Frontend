@@ -19,16 +19,25 @@
     <title><%= render_page_title %></title>
     <meta name="description" content="<%= meta_description %>">
     <%= opensearch_description_tag application_name, opensearch_catalog_url(:format => 'xml') %>
-    <%= favicon_link_tag %>
     <%= stylesheet_link_tag "application", media: "all" %>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <%= favicon_link_tag %>
     <link rel="canonical" href="<%= render_canonical_url %>">
     <link rel="alternate" hreflang='nl' href="<%= render_nl_url %>">
     <link rel='alternate' hreflang='en' href="<%= render_en_url %>">
     <%= content_for(:head) %>
+    <meta property="og:site_name" content="<%= application_name %>">
+    <meta property="og:url" content="<%= render_canonical_url %>">
+    <meta property="og:title" content="<%= render_page_title %>">
+    <meta property="og:description" content="<%= meta_description %>">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="<%= render_language_territory %>">
+    <meta property="og:locale:alternate" content="<%= render_alternate_language_territory %>">
+    <meta property="og:image" content="<%= og_image %>">
+    <meta property="og:image:alt" content="<%= og_image_alt %>">
+    <meta property="og:image:type" content="image/jpeg">
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
-
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <% if Rails.env.production? %>
         <script type="text/javascript">

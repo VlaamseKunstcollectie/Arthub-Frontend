@@ -92,4 +92,24 @@ module BlacklightHelper
     "#{host}#{url}"
   end
 
+  def render_language_territory
+    if I18n.locale.to_s == "nl"
+        "nl_BE"
+    else
+        "en_GB"
+    end
+  end
+
+  def render_alternate_language_territory
+    if I18n.locale.to_s == "nl"
+        "en_GB"
+    else
+        "nl_BE"
+    end
+  end
+
+  def render_image(document=@document)
+    riiif_image_url(document)
+  end
+
 end
