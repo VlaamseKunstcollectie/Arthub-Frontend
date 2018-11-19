@@ -80,4 +80,16 @@ module BlacklightHelper
     "#{url}"
   end
 
+  def render_nl_url
+    host = url_for("http://"+request.host)
+    url = locale_picker("nl")
+    "#{host}#{url}"
+  end
+
+  def render_en_url
+    host = url_for("http://"+request.host)
+    url = locale_picker("en")
+    "#{host}#{url}"
+  end
+
 end
