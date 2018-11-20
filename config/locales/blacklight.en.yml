@@ -271,6 +271,6 @@ en:
         list: "List"
 
     entry_name:
-      default: 'entry'
+      default: 'item'
 
     did_you_mean: 'Did you mean to type: %{options}?'

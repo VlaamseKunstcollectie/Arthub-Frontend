@@ -271,6 +271,6 @@ nl:
         list: "Lijst"
 
     entry_name:
-      default: 'ingang'
+      default: 'item'
 
     did_you_mean: 'Bedoelde u: %{options}?'
