@@ -34,6 +34,10 @@ module ApplicationHelper
     content_for?(:meta_image_alt) ? content_for(:meta_image_alt) : application_name
   end
 
+  def render_image_alt(document=@document)
+    image_alt = document.fetch(:publish_image) ? document.fetch(:title_display) : t(:image_alt)
+  end
+
   def twitter_card
     content_for?(:twitter_card) ? content_for(:twitter_card) : 'summary'
   end

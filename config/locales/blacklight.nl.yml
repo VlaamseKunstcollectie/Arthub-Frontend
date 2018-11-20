@@ -19,6 +19,7 @@ nl:
 
   meta_description: 'Verken Arthub Flanders, een catalogus met %{total_count} objectbeschrijvingen uit de Vlaamse Musea voor Beeldende Kunsten.'
   meta_description_search_results: 'Verken Arthub Flanders, een catalogus met objectbeschrijvingen uit de Vlaamse Musea voor Beeldende Kunsten.'
+  image_alt: 'Geen afbeelding beschikbaar'
 
   blacklight:
     application_name: 'Arthub Flanders'
