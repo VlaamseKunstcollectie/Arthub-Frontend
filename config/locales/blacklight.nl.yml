@@ -237,6 +237,7 @@ nl:
         artwork_subtype: 'Subtype'
         artwork_subtype_display: 'Subtype'
         artwork_category: 'Onderwerp'
+        artwork_category_display: 'Onderwerp'
         title_display: 'Title'
         creator_index: 'Vervaardiger'
         creator_display: 'Vervaardiger'
