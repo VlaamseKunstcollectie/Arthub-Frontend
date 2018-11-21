@@ -58,11 +58,20 @@
 
 .navbar-inverse .navbar-nav > li > div > a[href*="nl"] {
     margin-left: 5px;
+    margin-right: 15px;
 }
 
 .navbar-inverse .navbar-nav > li > div > a.selectedLang {
     color: $color4;
     text-decoration: underline;
+}
+
+.search-query-form {
+    padding: 0 !important;
+    @media screen and (max-width: 767px) {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
 }
 
 .activePage {
