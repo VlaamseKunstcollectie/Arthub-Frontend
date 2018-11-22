@@ -4,54 +4,94 @@
 
 <div class="collections">
 
-	<div class="row0">
-	    <div class="text-center">
-	    	<h2><%= title %></h2>
-	    	<p>Arthub Flanders is een gebruiksvriendelijke zoekmachine om informatie over kunst- en erfgoedobjecten terug te vinden over de grenzen van collecties aanwezig in de Vlaamse musea voor Schone en Hedendaagse Kunsten heen.</p>
-	    </div>
+	<div class="col-md-2">
 	</div>
+	<div class="col-md-8">
 
-	<div class="row1">
-		<div class="col-sm-12 col-md-6 col1">
-			<div class="logo">
-				<a href="http://www.kmska.be/nl" title="Koninklijk Museum voor Schone Kunsten Antwerpen" target="_blank"><%= image_tag "kmska.jpg", :alt => "Koninklijk Museum voor Schone Kunsten Antwerpen" %></a>
+		<h2><%= title %></h2>
+		
+		<p>Arthub Flanders is een gebruiksvriendelijke zoekmachine om informatie over kunst- en erfgoedobjecten terug te vinden over de grenzen van collecties aanwezig in de Vlaamse musea voor Schone en Hedendaagse Kunsten heen.</p>
+
+
+		<div class="collection-overiew-item">
+			<div class="image">
+				<a href=<%= link_to_repository("Koninklijk+Museum+voor+Schone+Kunsten+Antwerpen") %> title="Collectie Koninklijk Museum voor Schone Kunsten Antwerpen"><%= image_tag "kmska_museum.jpg", :alt => "Koninklijk Museum voor Schone Kunsten Antwerpen" %></a>
 			</div>
-			<h3><a href="http://www.kmska.be/nl" title="Koninklijk Museum voor Schone Kunsten Antwerpen" target="_blank">Koninklijk Museum voor Schone Kunsten Antwerpen</a></h3>
+			<h3><a href=<%= link_to_repository("Koninklijk+Museum+voor+Schone+Kunsten+Antwerpen") %> title="Collectie Koninklijk Museum voor Schone Kunsten Antwerpen">Koninklijk Museum voor Schone Kunsten Antwerpen</a></h3>
+			<p>Lange Kievitstraat 111-113 bus 100</p>
+			<p>2018 Antwerpen, België</p>
 			<p>T +32 (0)3 224 95 61</p>
 			<p>E <a href="mailto:publiekswerking@kmska.be">publiekswerking@kmska.be</a></p>
-		</div>
-		<div class="col-sm-12 col-md-6 col2">
-			<div class="logo">
-				<a href="https://bezoekers.brugge.be/nl/groeningemuseum" title="Groeningemuseum Brugge" target="_blank"><%= image_tag "groeninge.jpg", :alt => "Groeningemuseum Brugge" %></a>
+			<div class="links">
+				<a href=<%= link_to_repository("Koninklijk+Museum+voor+Schone+Kunsten+Antwerpen") %> title="Collectie Koninklijk Museum voor Schone Kunsten Antwerpen" class="button left">Kunstcollectie</a>
+				<a href="http://www.kmska.be/nl" title="Website Koninklijk Museum voor Schone Kunsten Antwerpen" target="_blank" class="button right">Museumwebsite</a>
 			</div>
-			<h3><a href="https://bezoekers.brugge.be/nl/groeningemuseum" title="Groeningemuseum Brugge" target="_blank">Groeningemuseum Brugge</a></h3>
+		</div>
+
+		<div class="collection-overiew-item">
+			<div class="image">
+				<a href=<%= link_to_repository("Musea+Brugge+-+Groeningemuseum") %> title="Collectie Groeningemuseum Brugge"><%= image_tag "groeninge_museum.jpg", :alt => "Groeningemuseum Brugge" %></a>
+			</div>
+			<h3><a href=<%= link_to_repository("Musea+Brugge+-+Groeningemuseum") %> title="Collectie Groeningemuseum Brugge">Groeningemuseum Brugge</a></h3>
+			<p>Dijver 12</p>
+			<p>8000 Brugge, België</p>
 			<p>T +32 (0)50 44 87 43</p>
 			<p>E <a href="mailto:musea.reservatie@brugge.be">musea.reservatie@brugge.be</a></p>
-		</div>
-		<div class="col-sm-12 col-md-6 col1">
-			<div class="logo">
-				<a href="https://www.mskgent.be" title="Museum voor Schone Kunsten Gent" target="_blank"><%= image_tag "msk.jpg", :alt => "Museum voor Schone Kunsten Gent" %></a>
+			<div class="links">
+				<a href=<%= link_to_repository("Musea+Brugge+-+Groeningemuseum") %> title="Collectie Groeningemuseum Brugge" class="button left">Kunstcollectie</a>
+				<a href="https://bezoekers.brugge.be/nl/groeningemuseum" title="Website Groeningemuseum Brugge" target="_blank" class="button right">Museumwebsite</a>
 			</div>
-			<h3><a href="https://www.mskgent.be" title="Museum voor Schone Kunsten Gent" target="_blank">Museum voor Schone Kunsten Gent</a></h3>
+		</div>
+
+		<div class="collection-overiew-item">
+			<div class="image">
+				<a href=<%= link_to_repository("Museum+voor+Schone+Kunsten+Gent") %> title="Collectie Museum voor Schone Kunsten Gent"><%= image_tag "msk_museum.jpg", :alt => "Museum voor Schone Kunsten Gent" %></a>
+			</div>
+			<h3><a href=<%= link_to_repository("Museum+voor+Schone+Kunsten+Gent") %> title="Collectie Museum voor Schone Kunsten Gent">Museum voor Schone Kunsten Gent</a></h3>
+			<p>Hofbouwlaan 29</p> 
+			<p>9000 Gent, België</p>
 			<p>T +32 (0)9 240 07 00</p>
 			<p>E <a href="mailto: museum.msk@gent.be">museum.msk@gent.be</a></p>
-		</div>
-		<div class="col-sm-12 col-md-6 col2">
-			<div class="logo">
-				<a href="https://www.mleuven.be/index.jsp" title="M - Museum Leuven" target="_blank"><%= image_tag "mleuven.jpg", :alt => "M - Museum Leuven" %></a>
+			<div class="links">
+				<a href=<%= link_to_repository("Museum+voor+Schone+Kunsten+Gent") %> title="Collectie Museum voor Schone Kunsten Gent" class="button left">Kunstcollectie</a>
+				<a href="https://www.mskgent.be/nl" title="Website Museum voor Schone Kunsten Gent" target="_blank" class="button right">Museumwebsite</a>
 			</div>
-			<h3><a href="https://www.mleuven.be/index.jsp" title="M - Museum Leuven" target="_blank">M - Museum Leuven</a></h3>
+		</div>
+
+		<div class="collection-overiew-item">
+			<div class="image">
+				<!--<a href=<%= link_to_repository("M+-+Museum+Leuven") %> title="Collectie M - Museum Leuven"><%= image_tag "mleuven_museum.jpg", :alt => "M - Museum Leuven" %></a>-->
+				<%= image_tag "mleuven_museum.jpg", :alt => "M - Museum Leuven" %>
+			</div>
+			<!--<h3><a href=<%= link_to_repository("M+-+Museum+Leuven") %> title="Collectie M - Museum Leuven">M - Museum Leuven</a></h3>-->
+			<h3 class="colored-title">M - Museum Leuven</h3>
+			<p>Leopold Vanderkelenstraat 28</p>
+			<p>3000 Leuven, België</p>
 			<p>T +32 (0)16 27 29 29</p>
 			<p>E <a href="mailto: bezoekm@leuven.be">bezoekm@leuven.be</a></p>
-		</div>
-		<div class="col-sm-12 col-md-6 col1">
-			<div class="logo">
-				<a href="http://www.muzee.be/index.jsp?lang=nl"" title="Mu.ZEE Oostende" target="_blank"><%= image_tag "muzee.jpg", :alt => "Mu.ZEE Oostende" %></a>
+			<div class="links">
+				<!--<a href=<%= link_to_repository("M+-+Museum+Leuven") %> title="Collectie M - Museum Leuven" class="button left">Kunstcollectie</a>-->
+				<a href="https://www.mleuven.be/nl" title="Website M - Museum Leuven" target="_blank" class="button right">Museumwebsite</a>
 			</div>
-			<h3><a href="http://www.muzee.be/index.jsp?lang=nl"" title="Mu.ZEE Oostende" target="_blank">Mu.ZEE Oostende</a></h3>
+		</div>
+
+		<div class="collection-overiew-item last-item">
+			<div class="image">
+				<!--<h3><a href=<%= link_to_repository("Mu.ZEE+Oostende") %> title="Collectie "Mu.ZEE Oostende"><%= image_tag "muzee_museum.jpg", :alt => "Mu.ZEE Oostende" %></a>-->
+				<%= image_tag "muzee_museum.jpg", :alt => "Mu.ZEE Oostende" %>
+			</div>
+			<!--<h3><a href=<%= link_to_repository("Mu.ZEE+Oostende") %> title="Collectie "Mu.ZEE Oostende">Mu.ZEE Oostende</a></h3>-->
+			<h3 class="colored-title">Mu.ZEE Oostende</h3>
+			<p>Romestraat 11</p>
+			<p>8400 Oostende, België</p>
 			<p>T +32 (0)59 50 81 18</p>
 			<p>E <a href="mailto: info@muzee.be">info@muzee.be</a></p>
+			<div class="links">
+				<!--<a href=<%= link_to_repository("Mu.ZEE+Oostende") %> title="Collectie Mu.ZEE Oostende" class="button left">Kunstcollectie</a>-->
+				<a href="https://www.muzee.be/nl" title="Website Mu.ZEE Oostende" target="_blank" class="button right">Museumwebsite</a>
+			</div>
 		</div>
+
 	</div>
 
 </div>

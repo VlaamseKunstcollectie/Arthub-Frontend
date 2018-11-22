@@ -70,6 +70,16 @@ module BlacklightHelper
     riiif_manifest_url(id)
   end
 
+  def link_to_repository(repository)
+    host = url_for("http://"+request.host)
+    if I18n.locale.to_s == "nl"
+      locale = "nl"
+    else
+      locale = "en"
+    end
+    "#{host}/#{locale}/catalog?f%5Brepository%5D%5B%5D=#{repository}"
+  end
+
   def render_meta_description(document=@document)
     meta_description = document.fetch(:description)
     "#{meta_description}"

@@ -1,37 +1,86 @@
 .collections {
-    .col-sm-12 {
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 50px;
+    .collection-overiew-item {
+        position: relative;
+        padding: 10px;
+        border: 1px #e7e7e7 solid;
+        border-radius: 4px;
+        height: 215px;
+        margin-top: 20px;
+        @media screen and (max-width: 500px) {
+            height: auto;
+        }
     }
     h3 {
         margin-top: 0 !important;
-        font-size: 1.2em !important;
     }
-    .row1 {
-        line-height: 100%;
+    p {
+        margin: 0 !important;
     }
-    .logo {
-        width: 200px;
-        height: 100px;
+    .colored-title {
+        color: $color1;
+    }
+    .image {
+        width: 280px;
+        height: 205px;
         float: left;
+        @media screen and (max-width: 630px) {
+            width: 150px;
+        }
+        @media screen and (max-width: 500px) {
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            margin-bottom: 20px;
+            float: none;
+        }
+    }
+    .links {
+        position: absolute;
+        padding-top: 10.5px;
+        right: 10px;
+        bottom: 16px;
+        @media screen and (max-width: 500px) {
+            position: relative;
+            bottom: 0;
+            margin-left: 10px;
+            margin-bottom: 4px;
+            margin-top: 10px;
+        }
+    }
+    .button {
+        border-radius: 4px;
+        color: $color4;
+        background: $color5;
+        padding: 6px 12px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .button:hover {
+        color: $color3;
+        background: $color1;
+    }
+    .button:focus, .button:active {
+        color: $color3;
+        background: $color2;
+    }
+    .button.left {
+        margin-right: 10px;
+        @media screen and (max-width: 360px) {
+            display: block;
+            width: 111.92px;
+            margin-bottom: 14px;
+        }
     }
     img {
-        height: 80px;
+        width: 260px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        @media screen and (max-width: 1199px) {
-            height: 60px;
+        margin-left: 0;
+        @media screen and (max-width: 630px) {
+            width: 130px;
         }
-        @media screen and (max-width: 991px) {
-            height: 80px;
-        }
-        @media screen and (max-width: 340px) {
-            height: 60px;
-        }
-        @media screen and (max-width: 270px) {
-            height: 40px;
+        @media screen and (max-width: 500px) {
+            max-width: 100%;
+            width: auto;
         }
     }
 }
