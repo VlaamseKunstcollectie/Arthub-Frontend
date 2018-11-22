@@ -5,9 +5,9 @@
         <ol class="carousel-indicators">
           <li data-target="#carouselWrapper" data-slide-to="0" class="active"></li>
           <li data-target="#carouselWrapper" data-slide-to="1"></li>
+          <li data-target="#carouselWrapper" data-slide-to="2"></li>
           <!-- To add items to carousel: add (one of) these lines -->
           <!-- 
-          <li data-target="#carouselWrapper" data-slide-to="2"></li>
           <li data-target="#carouselWrapper" data-slide-to="3"></li>
           <li data-target="#carouselWrapper" data-slide-to="4"></li>
           -->
@@ -35,9 +35,6 @@
             </div>
           </div>
 
-          <!-- To add items to carousel: add (one of) these sections -->
-          <!--
-
           <div class="carousel-item item">
             <div class="carousel-caption d-none d-md-block">
               <% if I18n.locale == :en %>
@@ -47,6 +44,9 @@
               <% end %>
             </div>
           </div>
+
+          <!-- To add items to carousel: add (one of) these sections -->
+          <!--
 
           <div class="carousel-item item">
             <div class="carousel-caption d-none d-md-block">
@@ -151,7 +151,7 @@
 
       <script>
         // To add items to carousel: add numbers to var array according to number of items
-        var array = [1,2];
+        var array = [1,2,3];
         array.sort(function() { return 0.5 - Math.random() });
         for (i=1;i<=array.length;++i) {
           $(".carousel-item:nth-child(" + i + ")").attr("id", "item"+array[i-1]);
