@@ -436,11 +436,29 @@
   <!-- spellcheck fields -->
   <!-- default spell check;  should match fields for default request handler -->
   <!-- it won't work with a copy of a copy field -->
+  <copyField source="title_display" dest="spell"/>
+  <copyField source="creator" dest="spell"/>
+  <copyField source="creator_index" dest="spell"/>
+  <copyField source="creator_display" dest="spell"/>
+  <copyField source="creator_role" dest="spell"/>
+  <copyField source="production_date" dest="spell"/>
+  <copyField source="period" dest="spell"/>
+  <copyField source="repository" dest="spell"/>
+  <copyField source="object_number" dest="spell"/>
+  <copyField source="material" dest="spell"/>
+  <copyField source="material_display" dest="spell"/>
+  <copyField source="artwork_category" dest="spell"/>
+  <copyField source="artwork_category_display" dest="spell"/>
+  <copyField source="artwork_type" dest="spell"/>
+  <copyField source="artwork_type_display" dest="spell"/>
+  <copyField source="artwork_subtype" dest="spell"/>
+  <copyField source="artwork_subtype_display" dest="spell"/>
   <!--
   <copyField source="*_t" dest="spell"/>
   <copyField source="*_facet" dest="spell"/>
   -->
   <!-- title spell check;  should match fields for title request handler -->
+  <copyField source="title_display" dest="title_spell"/>
   <!--
   <copyField source="title_t" dest="title_spell"/>
   <copyField source="subtitle_t" dest="title_spell"/>
@@ -449,6 +467,9 @@
   <copyField source="title_series_t" dest="title_spell"/>
   -->
   <!-- author spell check; should match fields for author request handler -->
+  <copyField source="creator" dest="spell"/>
+  <copyField source="creator_display" dest="author_spell"/>
+  <copyField source="creator_role" dest="author_spell"/>
   <!--
   <copyField source="author_t" dest="author_spell"/>
   <copyField source="author_addl_t" dest="author_spell"/>
