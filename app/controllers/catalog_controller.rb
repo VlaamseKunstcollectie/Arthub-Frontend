@@ -84,7 +84,7 @@ class CatalogController < ApplicationController
 
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
-    # config.add_index_field 'title_display', label: 'title_display'
+#    config.add_index_field 'title_display', label: 'title_display'
     config.add_index_field 'creator_index', label: 'creator_index', helper_method: :show_list_creators
     config.add_index_field 'period', label: 'period', link_to_search: true, separator_options: { words_connector: ' / ', two_words_connector: ' / ', last_word_connector: ' / '}
     config.add_index_field 'repository', label: 'repository', link_to_search: true
@@ -94,7 +94,7 @@ class CatalogController < ApplicationController
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
-    config.add_show_field 'subtitle_display', label: 'subtitle'
+#    config.add_show_field 'subtitle_display', label: 'subtitle'
     config.add_show_field 'creator_display', label: 'creator_display', helper_method: :show_list_creators
     config.add_show_field 'period', label: 'period', link_to_search: true, separator_options: { words_connector: '<br />', two_words_connector: '<br />', last_word_connector: '<br />'}
     config.add_show_field 'production_date', label: 'production_date', separator_options: { words_connector: '<br />', two_words_connector: '<br />', last_word_connector: '<br />'}
@@ -108,7 +108,7 @@ class CatalogController < ApplicationController
     config.add_show_field 'description', label: 'description'
 #    config.add_show_field 'work_pid', label: 'work_pid'
 #    config.add_show_field 'data_pid', helper_method: :link_to_pid, label: 'data_pid'
-    config.add_show_field 'references', label: 'references'
+#    config.add_show_field 'references', label: 'references'
 
     # "fielded" search configuration. Used by pulldown among other places.
     # For supported keys in hash, see rdoc for Blacklight::SearchFields
@@ -188,7 +188,7 @@ class CatalogController < ApplicationController
     config.spell_max = 5
 
     # Configuration for autocomplete suggestor
-    config.autocomplete_enabled = false
+    config.autocomplete_enabled = true
     config.autocomplete_path = 'suggest'
   end
 

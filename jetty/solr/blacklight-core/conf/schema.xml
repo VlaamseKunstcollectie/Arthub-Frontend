@@ -170,6 +170,14 @@
         <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
       </analyzer>
     </fieldType>
+    <fieldType class="solr.TextField" name="textSuggest" positionIncrementGap="100">
+       <analyzer>
+          <tokenizer class="solr.KeywordTokenizerFactory"/>
+          <filter class="solr.StandardFilterFactory"/>
+          <filter class="solr.LowerCaseFilterFactory"/>
+          <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+       </analyzer>
+    </fieldType>
     <fieldType name="alphaOnlySort" class="solr.TextField" sortMissingLast="true" omitNorms="true">
       <analyzer>
         <!-- KeywordTokenizer does no actual tokenizing, so the entire
@@ -321,6 +329,7 @@
     <field name="description" type="string" indexed="true" stored="true" multiValued="false"/>
 
     <field name="artwork_category" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="artwork_category_display" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_type" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_type_display" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_subtype" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -372,6 +381,7 @@
     <dynamicField name="*_sort" type="alphaOnlySort" indexed="true" stored="false" multiValued="false" />
     <dynamicField name="*_unstem_search" type="text_general" indexed="true" stored="false" multiValued="true" />
     <dynamicField name="*spell" type="textSpell" indexed="true" stored="false" multiValued="true" />
+    <dynamicField name="*suggest" type="textSuggest" indexed="true" stored="false" multiValued="true" />
     <dynamicField name="*_rpt" type="location_rpt" stored="true" indexed="true"/>
     <dynamicField name="*_bbox" type="bbox" stored="true" indexed="true"/>
   </fields>
@@ -449,4 +459,26 @@
   <copyField source="subject_topic_facet" dest="opensearch_display"/>
   <copyField source="subject_t" dest="opensearch_display"/>
   <copyField source="subject_addl_t" dest="opensearch_display"/>
+
+  <!-- for suggestions -->
+  <copyField source="title_display" dest="suggest"/>
+  <copyField source="creator_index" dest="suggest"/>
+  <copyField source="creator_display" dest="suggest"/>
+  <copyField source="creator_role" dest="suggest"/>
+  <copyField source="repository" dest="suggest"/>
+  <copyField source="object_number" dest="suggest"/>
+  <copyField source="material" dest="suggest"/>
+  <copyField source="material_display" dest="suggest"/>
+  <copyField source="artwork_category" dest="suggest"/>
+  <copyField source="artwork_category_display" dest="suggest"/>
+  <copyField source="artwork_type" dest="suggest"/>
+  <copyField source="artwork_type_display" dest="suggest"/>
+  <copyField source="artwork_subtype" dest="suggest"/>
+  <copyField source="artwork_subtype_display" dest="suggest"/>
+  <!-- it won't work with a copy of a copy field -->
+  <!--
+  <copyField source="*_t" dest="suggest"/>
+  <copyField source="*_facet" dest="suggest"/>
+  -->
+
 </schema>
