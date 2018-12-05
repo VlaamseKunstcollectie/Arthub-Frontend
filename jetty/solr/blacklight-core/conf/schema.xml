@@ -399,14 +399,26 @@
 
   <copyField source="title_display" dest="title_t"/>
   <copyField source="creator" dest="author_t"/>
+  <copyField source="creator_index" dest="author_t"/>
+  <copyField source="creator_display" dest="author_t"/>
   <copyField source="creator_role" dest="author_t"/>
-  <copyField source="creator_role" dest="text"/>
-  <copyField source="description" dest="text"/>
+  <copyField source="production_date" dest="text"/>
+  <copyField source="period" dest="text"/>
+  <copyField source="repository" dest="text"/>
   <copyField source="object_number" dest="text"/>
-  <copyField source="artwork_category" dest="text"/>
-  <copyField source="artwork_type" dest="text"/>
-  <copyField source="artwork_subtype" dest="text"/>
+  <copyField source="work_pid" dest="text"/>
+  <copyField source="data_pid" dest="text"/>
+  <copyField source="representation_pid" dest="text"/>
   <copyField source="material" dest="text"/>
+  <copyField source="material_display" dest="text"/>
+  <copyField source="dimensions" dest="text"/>
+  <copyField source="description" dest="text"/>
+  <copyField source="artwork_category" dest="text"/>
+  <copyField source="artwork_category_display" dest="text"/>
+  <copyField source="artwork_type" dest="text"/>
+  <copyField source="artwork_type_display" dest="text"/>
+  <copyField source="artwork_subtype" dest="text"/>
+  <copyField source="artwork_subtype_display" dest="text"/>
 
   <!-- copyField commands copy one field to another at the time a document
         is added to the index.  It's used either to index the same field differently,
