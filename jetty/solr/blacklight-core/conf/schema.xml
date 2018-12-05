@@ -414,6 +414,8 @@
   <!-- Copy Fields -->
 
   <!-- unstemmed fields -->
+  <!-- it won't work with a copy of a copy field -->
+  <!--
   <copyField source="title_t" dest="title_unstem_search"/>
   <copyField source="subtitle_t" dest="subtitle_unstem_search"/>
   <copyField source="subtitle_t" dest="description_unstem_search"/>
@@ -426,6 +428,7 @@
   <copyField source="subject_addl_t" dest="subject_addl_unstem_search"/>
   <copyField source="description_t" dest="description_unstem_search"/>
   <copyField source="subject_topic_facet" dest="subject_topic_unstem_search"/>
+  -->
   
   <!-- sort fields -->
   <copyField source="title_display" dest="title_display_sort"/>
@@ -433,22 +436,33 @@
   <!-- spellcheck fields -->
   <!-- default spell check;  should match fields for default request handler -->
   <!-- it won't work with a copy of a copy field -->
+  <!--
   <copyField source="*_t" dest="spell"/>
   <copyField source="*_facet" dest="spell"/>
+  -->
   <!-- title spell check;  should match fields for title request handler -->
+  <!--
   <copyField source="title_t" dest="title_spell"/>
   <copyField source="subtitle_t" dest="title_spell"/>
   <copyField source="addl_titles_t" dest="title_spell"/>
   <copyField source="title_added_entry_t" dest="title_spell"/>
   <copyField source="title_series_t" dest="title_spell"/>
+  -->
   <!-- author spell check; should match fields for author request handler -->
+  <!--
   <copyField source="author_t" dest="author_spell"/>
   <copyField source="author_addl_t" dest="author_spell"/>
+  -->
   <!-- subject spell check; should match fields for subject request handler -->
+  <!--
   <copyField source="subject_topic_facet" dest="subject_spell"/>
   <copyField source="subject_t" dest="subject_spell"/>
   <copyField source="subject_addl_t" dest="subject_spell"/>
-   <!-- OpenSearch query field should match request handler search fields -->
+  -->
+
+  <!-- OpenSearch query field should match request handler search fields -->
+  <!-- it won't work with a copy of a copy field -->
+  <!--
   <copyField source="title_t" dest="opensearch_display"/>
   <copyField source="subtitle_t" dest="opensearch_display"/>
   <copyField source="addl_titles_t" dest="opensearch_display"/>
@@ -459,6 +473,7 @@
   <copyField source="subject_topic_facet" dest="opensearch_display"/>
   <copyField source="subject_t" dest="opensearch_display"/>
   <copyField source="subject_addl_t" dest="opensearch_display"/>
+  -->
 
   <!-- for suggestions -->
   <copyField source="title_display" dest="suggest"/>
