@@ -270,8 +270,20 @@ nl:
       view_title: "Bekijk resultaten als: "
       view:
         list: "Lijst"
+        gallery: "Gallerij"
+        slideshow: "Slideshow"
+        masonry: "Raster"
 
     entry_name:
       default: 'item'
 
     did_you_mean: 'Bedoelde u: %{options}?'
+
+  blacklight_gallery:
+    catalog:
+      grid_slideshow:
+        missing_image: 'Niet beschikbaar'
+      document_slideshow:
+        header: "Klik op een afbeelding om de slideshow te starten"
+      modal_slideshow:
+        counter: "%{counter} van %{count}"

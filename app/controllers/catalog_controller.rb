@@ -4,6 +4,13 @@ class CatalogController < ApplicationController
   include Blacklight::Catalog
 
   configure_blacklight do |config|
+    # config.view.gallery.partials = [:index_header]
+    config.view.masonry.partials = [:index]
+    # config.view.slideshow.partials = [:index]
+
+
+    config.show.tile_source_field = :content_metadata_image_iiif_info_ssm
+    config.show.partials.insert(1, :openseadragon)
     ## Class for sending and receiving requests from a search index
     # config.repository_class = Blacklight::Solr::Repository
     #
@@ -40,10 +47,10 @@ class CatalogController < ApplicationController
 
     # solr field configuration for search results/index views
     config.index.title_field = 'title_display'
+    config.index.display_type_field = 'repository'
 
     # solr field configuration for document/show views
     #config.show.title_field = 'title_display'
-    config.index.display_type_field = 'repository'
     #config.show.display_type_field = 'format'
 
     # solr fields that will be treated as facets by the blacklight application
