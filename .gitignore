@@ -19,6 +19,7 @@
 
 *.log
 
+solr/
 data
 data/*
 public/assets/

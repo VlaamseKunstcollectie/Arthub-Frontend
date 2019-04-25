@@ -51,7 +51,7 @@ gem 'tzinfo-data'
 gem 'blacklight', "~> 6.0"
 gem 'therubyracer'
 
-gem 'jettywrapper', '>= 2.0'
+gem 'solr_wrapper', '~> 1.2'
 gem 'rsolr', '~> 1.0'
 gem 'devise'
 gem 'devise-guests', '~> 0.5'
