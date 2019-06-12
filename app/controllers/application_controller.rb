@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   include Blacklight::Controller
   layout 'blacklight'
 
+  skip_after_action :discard_flash_if_xhr
 
   before_action :set_locale
   def set_locale
