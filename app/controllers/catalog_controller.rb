@@ -76,6 +76,7 @@ class CatalogController < ApplicationController
     config.add_facet_field 'artwork_subtype', limit: 15, label: 'artwork_subtype'
     config.add_facet_field 'material', limit: 15, label: 'material'
     config.add_facet_field 'artwork_category', limit: 15, label: 'artwork_category'
+    config.add_facet_field 'language', limit: 15, label: 'language'
 
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
