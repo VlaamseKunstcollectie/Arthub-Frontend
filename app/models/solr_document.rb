@@ -9,9 +9,17 @@ class SolrDocument
                          :format => "format"
                          )
 
-
-
-  # self.unique_key = 'id'
+  # Accessor for the Solr document model
+  #
+  # This will set the :id property of the Solr Document to
+  # the correct version depending on the locale. 
+  # "en:groeningemuseum:1234" will become "groeningemuseum:1234"
+  #
+  # This method needs to be called explicitly from controllers, concerns,...
+  def set_id_on_locale
+    id = self[:id].gsub(/^#{I18n.locale.to_s}:/, '')
+    self[:id] = id
+  end
 
   # Email uses the semantic field mappings below to generate the body of an email.
   # SolrDocument.use_extension(Blacklight::Document::Email)

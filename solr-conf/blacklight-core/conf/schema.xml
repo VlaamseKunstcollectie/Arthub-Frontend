@@ -35,6 +35,8 @@
 
     <field name="repository" type="string" indexed="true" stored="true" multiValued="false"/>
 
+    <field name="language" type="string" indexed="true" stored="true" multiValued="false"/>
+
     <field name="object_number" type="string" indexed="true" stored="true" multiValued="false"/>
     <field name="work_pid" type="string" indexed="false" stored="true" multiValued="false"/>
     <field name="data_pid" type="string" indexed="false" stored="true" multiValued="false"/>
@@ -272,6 +274,7 @@
   <copyField source="artwork_type" dest="all_text_timv"/>
   <copyField source="artwork_subtype" dest="all_text_timv"/>
   <copyField source="material" dest="all_text_timv"/>
+  <copyField source="language" dest="language_ssi"/>
 
   <copyField source="author_tsim" dest="author_spell"/>
   <copyField source="subject_ssim" dest="subject_spell"/>
