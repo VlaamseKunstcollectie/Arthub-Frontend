@@ -4,15 +4,7 @@ class ImagesController < ApplicationController
 
     include Blacklight::Catalog
 
-    def manifest
-      # Hack.
-      #
-      # the translated solr document (en:groeningemuseum:1234) is still passed to 
-      # the images controlelr in _show_default_html.erb. So, we have to strip out the 'en:'
-      # locale if is present. Adding a before_action specifically for this controller
-      # means adding skip_before_action in every other controller.
-      params[:id] = params[:id].gsub(/^#{I18n.locale.to_s}:/, '')
-      
+    def manifest    
       @response, @document = fetch params[:id]
 
       image_id = @document.fetch(:publish_image) ? params[:id] : 'arthub:placeholder'
