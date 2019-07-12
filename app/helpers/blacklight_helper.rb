@@ -24,12 +24,12 @@ module BlacklightHelper
   # It's kinda rendunant to expose the fact that the index uses 2 different solr documents
   # to model translations, when we're talking about the same record all-in-all.
   def url_for_document(document, options = {})
-    document.id.gsub(/^#{I18n.locale.to_s}:/, '')
+    document[:id] = document.id.gsub(/#{I18n.locale.to_s}:/, '')
     search_state.url_for_document(document, options)
   end
 
   # Implements the locale picker.
-  # Depending on which pays you're on, the 'en' and 'nl' options have to 
+  # Depending on which page you're on, the 'en' and 'nl' options have to link 
   # their respective localised paths (either /nl/ or /en/) in order to show
   # the content in the correct language. 
   # 
@@ -55,7 +55,7 @@ module BlacklightHelper
     url = url_for(locale: locale)
     
     # get rid of the 'en:' prefix if the id is en:groeningemuseum:1234
-    url.gsub(/#{I18n.locale.to_s}:/, '')
+    url = url.gsub(/#{I18n.locale.to_s}:/, '')
 
     unless paths[url].nil?
         translated = paths[url]

@@ -32,9 +32,9 @@ class ApplicationController < ActionController::Base
   # to the outside world that the index contains multiple documents.
   before_action :switch_locale_of_document_id
   def switch_locale_of_document_id
-    if (params[:locale] == "en")
+   if (params.has_key?(:id))
       params[:id].prepend("#{I18n.locale}:")
-    end
+   end
   end
 
   # app/controllers/application_controller.rb
