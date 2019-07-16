@@ -251,17 +251,17 @@
   <copyField source="*_ssim" dest="all_text_timv" maxChars="3000"/>
   <copyField source="*_si" dest="all_text_timv" maxChars="3000"/>
 
-  <copyField source="*_tsim" dest="suggest"/>
+<!--  <copyField source="*_tsim" dest="suggest"/>
   <copyField source="*_tesim" dest="suggest"/>
   <copyField source="*_ssim" dest="suggest"/>
   <copyField source="*_si" dest="suggest"/>
-
+-->
   <!-- TODO: Look into if these are actually being used. -->
-  <copyField source="*_tsim" dest="spell"/>
+<!--  <copyField source="*_tsim" dest="spell"/>
   <copyField source="*_tesim" dest="spell"/>
   <copyField source="*_ssim" dest="spell"/>
   <copyField source="*_si" dest="spell"/>
-
+-->
   <copyField source="title_display" dest="title_tsim"/>
   <copyField source="creator" dest="author_tsim"/>
   <copyField source="creator_role" dest="author_tsim"/>
@@ -272,6 +272,30 @@
   <copyField source="artwork_type" dest="all_text_timv"/>
   <copyField source="artwork_subtype" dest="all_text_timv"/>
   <copyField source="material" dest="all_text_timv"/>
+
+
+  <copyField source="title_display" dest="spell"/>
+  <copyField source="creator" dest="spell"/>
+  <copyField source="creator_index" dest="spell"/>
+  <copyField source="creator_display" dest="spell"/>
+  <copyField source="creator_role" dest="spell"/>
+  <copyField source="object_number" dest="spell"/>
+  <copyField source="artwork_category" dest="spell"/>
+  <copyField source="artwork_type" dest="spell"/>
+  <copyField source="artwork_subtype" dest="spell"/>
+  <copyField source="material" dest="spell"/>
+
+
+  <copyField source="title_display" dest="suggest"/>
+  <copyField source="creator_index" dest="suggest"/>
+  <copyField source="creator_display" dest="suggest"/>
+  <copyField source="creator_role" dest="suggest"/>
+  <copyField source="object_number" dest="suggest"/>
+  <copyField source="artwork_category" dest="suggest"/>
+  <copyField source="artwork_type" dest="suggest"/>
+  <copyField source="artwork_subtype" dest="suggest"/>
+  <copyField source="material" dest="suggest"/>
+
 
   <copyField source="author_tsim" dest="author_spell"/>
   <copyField source="subject_ssim" dest="subject_spell"/>
