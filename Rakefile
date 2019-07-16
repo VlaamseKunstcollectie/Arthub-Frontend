@@ -3,7 +3,16 @@
 
 require_relative 'config/application'
 
+SolrWrapper.default_instance_options = {
+    verbose: true,
+    cloud: false,
+    port: '8983',
+    version: '7.3.1',
+    instance_dir: 'solr',
+    download_dir: 'tmp'
+}
+
+require 'solr_wrapper/rake_task'
+
 Rails.application.load_tasks
 
-ZIP_URL = "https://github.com/projectblacklight/blacklight-jetty/archive/v4.10.4.zip"
-require 'jettywrapper'
