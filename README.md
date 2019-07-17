@@ -8,20 +8,19 @@ A customised Project Blacklight installation for the
 * Ruby ~>2.4 with Bundler ~>1.16
 * Rails ~>5.1
 * SQlite 3
-* Oracle [Java 8](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html)
-
-**Important: You will need Oracle Java 8 for this project! The packaged version 
-of Apache Solr does not work properly with other flavors of Java**
+* OpenJDK 8 (1.8)
 
 ## Installation
 
-Get up and running
+Get up and running (both blacklight and solr)
 
 ```
 $ git clone https://github.com/VlaamseKunstcollectie/Arthub-Frontend frontend
 $ cd frontend
 $ bundle install
-$ rake jetty:start
+$ rake solr:clean
+$ cp -R /vagrant/project-blacklight/solr-conf/blacklight-core /vagrant/project-blacklight/solr/server/solr
+$ rake solr:start
 $ rails server
 ```
 
@@ -64,14 +63,23 @@ Instead of running `rails server`, use `rails server -e development`.
 
 ### Configuring Apache Solr
 
-The entire Solr configuration is stored in the `jetty` folder. Project 
+The entire Solr configuration is stored in the `solr` folder. Project 
 Blacklight is configured to connect with Solr and use the `blacklight-core` 
 core. The entire configuration can be found here:
 
 ```
-jetty/solr/blacklight-core/conf/*
-jetty/solr/blacklight-core/conf/solrconfig.xml
-jetty/solr/blacklight-core/conf/schema.xml
+/solr/server/solr/blacklight-core/conf/*
+/solr/server/solr/blacklight-core/conf/solrconfig.xml
+/solr/server/solr/blacklight-core/conf/schema.xml
+```
+
+Initial installation of Solr:
+
+```
+#!/bin/bash
+rake solr:clean
+cp -R /vagrant/project-blacklight/solr-conf/blacklight-core /vagrant/project-blacklight/solr/server/solr
+rake solr:start
 ```
 
 If you make changes to the configuration, you will need to restart your Solr 
@@ -80,9 +88,9 @@ below to do this the brute force way. Save it in the root of the project.
 
 ```
 #!/bin/bash
-rake jetty:stop
-rm -r jetty/solr/blacklight-core/data/*
-rake jetty:start
+rake solr:stop
+rm -r /solr/server/solr/blacklight-core/data/*
+rake solr:start
 ```
 ## Production
 
