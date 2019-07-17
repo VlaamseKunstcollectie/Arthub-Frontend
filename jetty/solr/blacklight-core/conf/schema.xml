@@ -170,6 +170,14 @@
         <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
       </analyzer>
     </fieldType>
+    <fieldType class="solr.TextField" name="textSuggest" positionIncrementGap="100">
+       <analyzer>
+          <tokenizer class="solr.KeywordTokenizerFactory"/>
+          <filter class="solr.StandardFilterFactory"/>
+          <filter class="solr.LowerCaseFilterFactory"/>
+          <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+       </analyzer>
+    </fieldType>
     <fieldType name="alphaOnlySort" class="solr.TextField" sortMissingLast="true" omitNorms="true">
       <analyzer>
         <!-- KeywordTokenizer does no actual tokenizing, so the entire
@@ -321,6 +329,7 @@
     <field name="description" type="string" indexed="true" stored="true" multiValued="false"/>
 
     <field name="artwork_category" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="artwork_category_display" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_type" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_type_display" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_subtype" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -372,6 +381,7 @@
     <dynamicField name="*_sort" type="alphaOnlySort" indexed="true" stored="false" multiValued="false" />
     <dynamicField name="*_unstem_search" type="text_general" indexed="true" stored="false" multiValued="true" />
     <dynamicField name="*spell" type="textSpell" indexed="true" stored="false" multiValued="true" />
+    <dynamicField name="*suggest" type="textSuggest" indexed="true" stored="false" multiValued="true" />
     <dynamicField name="*_rpt" type="location_rpt" stored="true" indexed="true"/>
     <dynamicField name="*_bbox" type="bbox" stored="true" indexed="true"/>
   </fields>
@@ -389,14 +399,26 @@
 
   <copyField source="title_display" dest="title_t"/>
   <copyField source="creator" dest="author_t"/>
+  <copyField source="creator_index" dest="author_t"/>
+  <copyField source="creator_display" dest="author_t"/>
   <copyField source="creator_role" dest="author_t"/>
-  <copyField source="creator_role" dest="text"/>
-  <copyField source="description" dest="text"/>
+  <copyField source="production_date" dest="text"/>
+  <copyField source="period" dest="text"/>
+  <copyField source="repository" dest="text"/>
   <copyField source="object_number" dest="text"/>
-  <copyField source="artwork_category" dest="text"/>
-  <copyField source="artwork_type" dest="text"/>
-  <copyField source="artwork_subtype" dest="text"/>
+  <copyField source="work_pid" dest="text"/>
+  <copyField source="data_pid" dest="text"/>
+  <copyField source="representation_pid" dest="text"/>
   <copyField source="material" dest="text"/>
+  <copyField source="material_display" dest="text"/>
+  <copyField source="dimensions" dest="text"/>
+  <copyField source="description" dest="text"/>
+  <copyField source="artwork_category" dest="text"/>
+  <copyField source="artwork_category_display" dest="text"/>
+  <copyField source="artwork_type" dest="text"/>
+  <copyField source="artwork_type_display" dest="text"/>
+  <copyField source="artwork_subtype" dest="text"/>
+  <copyField source="artwork_subtype_display" dest="text"/>
 
   <!-- copyField commands copy one field to another at the time a document
         is added to the index.  It's used either to index the same field differently,
@@ -404,6 +426,8 @@
   <!-- Copy Fields -->
 
   <!-- unstemmed fields -->
+  <!-- it won't work with a copy of a copy field -->
+  <!--
   <copyField source="title_t" dest="title_unstem_search"/>
   <copyField source="subtitle_t" dest="subtitle_unstem_search"/>
   <copyField source="subtitle_t" dest="description_unstem_search"/>
@@ -416,6 +440,7 @@
   <copyField source="subject_addl_t" dest="subject_addl_unstem_search"/>
   <copyField source="description_t" dest="description_unstem_search"/>
   <copyField source="subject_topic_facet" dest="subject_topic_unstem_search"/>
+  -->
   
   <!-- sort fields -->
   <copyField source="title_display" dest="title_display_sort"/>
@@ -423,22 +448,54 @@
   <!-- spellcheck fields -->
   <!-- default spell check;  should match fields for default request handler -->
   <!-- it won't work with a copy of a copy field -->
+  <copyField source="title_display" dest="spell"/>
+  <copyField source="creator" dest="spell"/>
+  <copyField source="creator_index" dest="spell"/>
+  <copyField source="creator_display" dest="spell"/>
+  <copyField source="creator_role" dest="spell"/>
+  <copyField source="production_date" dest="spell"/>
+  <copyField source="period" dest="spell"/>
+  <copyField source="repository" dest="spell"/>
+  <copyField source="object_number" dest="spell"/>
+  <copyField source="material" dest="spell"/>
+  <copyField source="material_display" dest="spell"/>
+  <copyField source="artwork_category" dest="spell"/>
+  <copyField source="artwork_category_display" dest="spell"/>
+  <copyField source="artwork_type" dest="spell"/>
+  <copyField source="artwork_type_display" dest="spell"/>
+  <copyField source="artwork_subtype" dest="spell"/>
+  <copyField source="artwork_subtype_display" dest="spell"/>
+  <!--
   <copyField source="*_t" dest="spell"/>
   <copyField source="*_facet" dest="spell"/>
+  -->
   <!-- title spell check;  should match fields for title request handler -->
+  <copyField source="title_display" dest="title_spell"/>
+  <!--
   <copyField source="title_t" dest="title_spell"/>
   <copyField source="subtitle_t" dest="title_spell"/>
   <copyField source="addl_titles_t" dest="title_spell"/>
   <copyField source="title_added_entry_t" dest="title_spell"/>
   <copyField source="title_series_t" dest="title_spell"/>
+  -->
   <!-- author spell check; should match fields for author request handler -->
+  <copyField source="creator" dest="spell"/>
+  <copyField source="creator_display" dest="author_spell"/>
+  <copyField source="creator_role" dest="author_spell"/>
+  <!--
   <copyField source="author_t" dest="author_spell"/>
   <copyField source="author_addl_t" dest="author_spell"/>
+  -->
   <!-- subject spell check; should match fields for subject request handler -->
+  <!--
   <copyField source="subject_topic_facet" dest="subject_spell"/>
   <copyField source="subject_t" dest="subject_spell"/>
   <copyField source="subject_addl_t" dest="subject_spell"/>
-   <!-- OpenSearch query field should match request handler search fields -->
+  -->
+
+  <!-- OpenSearch query field should match request handler search fields -->
+  <!-- it won't work with a copy of a copy field -->
+  <!--
   <copyField source="title_t" dest="opensearch_display"/>
   <copyField source="subtitle_t" dest="opensearch_display"/>
   <copyField source="addl_titles_t" dest="opensearch_display"/>
@@ -449,4 +506,27 @@
   <copyField source="subject_topic_facet" dest="opensearch_display"/>
   <copyField source="subject_t" dest="opensearch_display"/>
   <copyField source="subject_addl_t" dest="opensearch_display"/>
+  -->
+
+  <!-- for suggestions -->
+  <copyField source="title_display" dest="suggest"/>
+  <copyField source="creator_index" dest="suggest"/>
+  <copyField source="creator_display" dest="suggest"/>
+  <copyField source="creator_role" dest="suggest"/>
+  <copyField source="repository" dest="suggest"/>
+  <copyField source="object_number" dest="suggest"/>
+  <copyField source="material" dest="suggest"/>
+  <copyField source="material_display" dest="suggest"/>
+  <copyField source="artwork_category" dest="suggest"/>
+  <copyField source="artwork_category_display" dest="suggest"/>
+  <copyField source="artwork_type" dest="suggest"/>
+  <copyField source="artwork_type_display" dest="suggest"/>
+  <copyField source="artwork_subtype" dest="suggest"/>
+  <copyField source="artwork_subtype_display" dest="suggest"/>
+  <!-- it won't work with a copy of a copy field -->
+  <!--
+  <copyField source="*_t" dest="suggest"/>
+  <copyField source="*_facet" dest="suggest"/>
+  -->
+
 </schema>
