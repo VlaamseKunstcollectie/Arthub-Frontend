@@ -65,6 +65,10 @@ Rails.application.routes.draw do
     end
 
     get "/:id" => "pages#show", :as => :page, :format => false
+
+    get "/suggest" => "suggest#index",
+      defaults: { format: 'json' },
+      as: 'suggest_index'
   
   end
 

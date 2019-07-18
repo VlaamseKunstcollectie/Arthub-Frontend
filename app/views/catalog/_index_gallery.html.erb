@@ -1,0 +1,10 @@
+<div class="gallery document col-xs-6 col-md-3">
+  <div class="thumbnail">
+    <%= link_to document do %>
+        <%= image_tag iiif_thumbnail_url_field(document, "235,"), alt: render_image_alt(document) %>
+    <% end %>
+    <div class="caption">
+      <%= render_document_partials document, blacklight_config.view_config(:gallery).partials, :document_counter => document_counter %>
+    </div>
+  </div>
+</div>

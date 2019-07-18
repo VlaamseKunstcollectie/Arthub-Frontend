@@ -270,8 +270,20 @@ en:
       view_title: "View results as: "
       view:
         list: "List"
+        gallery: "Gallery"
+        slideshow: "Slideshow"
+        masonry: "Grid"
 
     entry_name:
       default: 'item'
 
     did_you_mean: 'Did you mean to type: %{options}?'
+
+  blacklight_gallery:
+    catalog:
+      grid_slideshow:
+        missing_image: 'Missing'
+      document_slideshow:
+        header: "Select an image to start the slideshow"
+      modal_slideshow:
+        counter: "%{counter} of %{count}"

@@ -222,6 +222,7 @@
          artwork_subtype,
          artwork_subtype_display,
          artwork_category,
+         artwork_category_display,
          dimensions,
          creator_role,
          publish_image,
@@ -250,7 +251,7 @@
        <str name="spellcheck.dictionary">default</str>
        <str name="spellcheck.onlyMorePopular">true</str>
        <str name="spellcheck.extendedResults">true</str>
-       <str name="spellcheck.collate">false</str>
+       <str name="spellcheck.collate">true</str>
        <str name="spellcheck.count">5</str>
 
      </lst>
@@ -526,5 +527,26 @@
        </lst>
       -->
   </searchComponent>
+
+  <searchComponent name="suggest" class="solr.SuggestComponent">
+    <lst name="suggester">
+      <str name="name">mySuggester</str>
+      <str name="lookupImpl">FuzzyLookupFactory</str>
+      <str name="suggestAnalyzerFieldType">textSuggest</str>
+      <str name="buildOnCommit">true</str>
+      <str name="field">suggest</str>
+    </lst>
+  </searchComponent>
+
+  <requestHandler name="/suggest" class="solr.SearchHandler" startup="lazy">
+    <lst name="defaults">
+      <str name="suggest">true</str>
+      <str name="suggest.count">5</str>
+      <str name="suggest.dictionary">mySuggester</str>
+    </lst>
+    <arr name="components">
+      <str>suggest</str>
+    </arr>
+  </requestHandler>
 
 </config>

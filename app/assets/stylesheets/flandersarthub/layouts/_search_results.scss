@@ -13,7 +13,7 @@
 	    color: $color3 !important;
 	    background-color: $color4;
 	    border: 1px solid $color4;
-	   /*  font-size: 14px; */
+	    /*  font-size: 14px; */
 	}
 	.catalog_startOverLink:hover {
 		background-color: $color1;
@@ -22,5 +22,109 @@
 	.catalog_startOverLink:focus {
 		background-color: $color2;
 		border: 1px solid $color2;
+	}
+	.view-icon-gallery {
+		&:before { content: "\e011" }
+	}
+	.view-icon-masonry {
+		/* &:before { content: "\e010"; visibility: hidden };
+		background-image: url(view-icon-masonry.png);
+		background-size: 13px 13px; */
+		&:before { content: "\e010" }
+	}
+	.view-icon-slideshow {
+		&:before { content: "\e158" }
+	}
+	/* CSS rules for list view */
+	#documents.documents-list .index-thumbnail {
+		margin-bottom: 20px;
+	}
+	/* CSS rules for gallery view */
+	#documents.gallery {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#documents.gallery .document {
+		display: flex;
+		flex-direction: column;
+		border-bottom: none;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	#documents.gallery .thumbnail {
+		margin-bottom: 0;
+		border: none;
+	}
+	#documents.gallery .index_title {
+		padding: 0;
+		margin: 0;
+		line-height: inherit;
+	}
+	#documents.gallery .document-counter {
+		display: none;
+	}
+	/* CSS rules for masonry view */
+	#documents .masonry.document {
+		min-width: 275px;
+		border: none;
+	}
+	#documents .masonry .thumbnail {
+		margin: 0;
+	}
+	/* CSS rules for slideshow view */
+	#documents.slideshow-documents h3 {
+		text-align: center;
+	}
+	#documents.slideshow-documents .document {
+		padding-left: 6px;
+		padding-right: 6px;
+		min-width: 275px;
+		border: none;
+	}
+	#documents.slideshow-documents .thumbnail {
+		margin: 0;
+		border: none;
+	}
+	#documents.slideshow-documents .slideshow-modal {
+		padding: 0 !important;
+	}
+	#documents.slideshow-documents .modal-dialog {
+		width: 100%;
+	}
+	#documents.slideshow-documents .modal-content {
+		background-color: rgb(51, 51, 51);
+	}
+	#documents.slideshow-documents .modal-header {
+		border: none;
+	}
+	#documents.slideshow-documents .close {
+		color: rgb(255, 255, 255);
+		opacity: 0.5;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+	}
+	#documents.slideshow-documents .close:hover {
+		opacity: 0.9;
+	}
+	#documents.slideshow-documents .close:focus {
+		outline: 0;
+	}
+	#documents.slideshow-documents .frame {
+		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+	#documents.slideshow-documents .caption {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#documents.slideshow-documents .counter {
+		font-size: 12px;
+		border-radius: 12px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: rgb(255, 255, 255);
+		padding: 4px 10px;
+	}
+	#documents.slideshow-documents .carousel-control {
+		background-image: none;
 	}
 }

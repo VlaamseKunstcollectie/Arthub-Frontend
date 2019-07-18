@@ -17,4 +17,7 @@
 //= require blacklight/blacklight
 //= require bootstrap/carousel
 //= require mirador
+// Twitter Typeahead for autocomplete
+//= require twitter/typeahead
+//= require twitter/typeahead.min
 //= require_tree .
