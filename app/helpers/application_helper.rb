@@ -17,8 +17,11 @@ module ApplicationHelper
   end
 
   def iiif_thumbnail_url_field(document=@document, size)
-    image_id = document.fetch(:publish_image) ? document.fetch(:id) : 'arthub:placeholder'
-    riiif_image_url(image_id, size: "#{size}")
+    if (document.fetch(:publish_image))
+      document.fetch(:thumbnail_url) + "/full/#{size}/0/default.jpg"
+    else
+      riiif_image_url('arthub:placeholder', size: "#{size}")
+    end
   end
 
   def meta_description
