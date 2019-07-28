@@ -72,3 +72,5 @@ gem "rake", "~> 12.3"
 gem 'blacklight-gallery'
 
 gem 'twitter-typeahead-rails', '0.11.1.pre.corejavascript'
+
+gem 'pul_uv_rails'

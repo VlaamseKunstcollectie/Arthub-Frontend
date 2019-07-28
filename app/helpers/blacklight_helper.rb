@@ -103,8 +103,7 @@ module BlacklightHelper
   end
 
   def render_iiif_manifest_url(document=@document, options = {})
-    id = document.fetch(:id)
-    riiif_manifest_url(id)
+     document.fetch(:manifest_url)
   end
 
   def link_to_repository(repository)

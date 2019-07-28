@@ -41,6 +41,8 @@
     <field name="work_pid" type="string" indexed="false" stored="true" multiValued="false"/>
     <field name="data_pid" type="string" indexed="false" stored="true" multiValued="false"/>
     <field name="representation_pid" type="string" indexed="false" stored="true" multiValued="false"/>
+    <field name="manifest_url" type="string" indexed="false" stored="true" multiValued="false"/>
+    <field name="thumbnail_url" type="string" indexed="false" stored="true" multiValued="false"/>
 
     <field name="material" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="material_display" type="string" indexed="true" stored="true" multiValued="true"/>

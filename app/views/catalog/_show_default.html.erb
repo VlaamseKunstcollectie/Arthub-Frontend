@@ -1,34 +1,7 @@
 <% doc_presenter = show_presenter(document) %>
 
-<div class="mirador">
-  <%= mirador_tag(
-      id: "viewer",
-      height: '500px', 
-      width: '100%',
-      options: {
-        layout: "1x1",
-        data: [
-         {
-          manifestUri: render_iiif_manifest_url(document)
-         }
-        ],
-        mainMenuSettings: {
-          show: false
-        },
-        windowObjects: [
-            loadedManifest: render_iiif_manifest_url(document),
-            viewType: "ImageView",
-            displayLayout: false,
-            bottomPanel: false,
-            bottomPanelAvailable: false,
-            bottomPanelVisible: false,
-            sidePanel: false,
-            annotationLayer: false
-        ]
-      }
-    )
-   %>
-</div>
+<div class="uv viewer" "data-config="/uv-config.json" data-uri="<%= render_iiif_manifest_url(document) %>"></div>
+<%= PulUvRails::UniversalViewer.script_tag %>
 
 <%# default partial to display solr document fields in catalog show view -%>
 <dl class="dl-horizontal  dl-invert">

@@ -1,0 +1,24 @@
+{
+  "options": {
+    "dropEnabled": true,
+    "footerPanelEnabled": true,
+    "headerPanelEnabled": true,
+    "leftPanelEnabled": true,
+    "limitLocales": true,
+    "overrideFullScreen": false,
+    "pagingEnabled": true,
+    "rightPanelEnabled": true
+  },
+  "modules": {
+    "headerPanel": {
+      "options": {
+        "localeToggleEnabled": false
+      }
+    },
+    "seadragonCenterPanel": {
+      "options": {
+        "autoHideControls": false
+      }
+    }
+  }
+}
