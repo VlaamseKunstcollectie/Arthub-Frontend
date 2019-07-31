@@ -1,6 +1,6 @@
 <% doc_presenter = show_presenter(document) %>
 
-<div class="uv viewer" "data-config="/uv-config.json" data-uri="<%= render_iiif_manifest_url(document) %>"></div>
+<div class="uv viewer" data-config="/uv-config.json" data-uri="<%= render_iiif_manifest_url(document) %>" data-canvasindex="<%= render_iiif_canvas_index(document) %>"></div>
 <%= PulUvRails::UniversalViewer.script_tag %>
 
 <%# default partial to display solr document fields in catalog show view -%>

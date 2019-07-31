@@ -106,6 +106,29 @@ module BlacklightHelper
      document.fetch(:manifest_url)
   end
 
+  def render_iiif_canvas_index(document=@document, options = {})
+    url = document.fetch(:manifest_url)
+
+    uri = URI.parse(url)
+    http = Net::HTTP.new(uri.host, uri.port)
+    request = Net::HTTP::Get.new(uri.request_uri)
+    request.initialize_http_header({"User-Agent" => "Arthub RIIIF"})
+    
+    response = http.request (request)
+
+    if (response.code == "200")
+        manifest = JSON.parse(response.body)
+        canvasId = manifest['sequences'][0]['startCanvas']
+        manifest['sequences'][0]['canvases'].each_with_index do |sequence, index|
+          if (sequence['@id'] == canvasId)
+            return index
+          end
+        end
+    else
+      return null
+    end
+  end
+
   def link_to_repository(repository)
     host = url_for("http://"+request.host)
     if I18n.locale.to_s == "nl"
