@@ -108,6 +108,9 @@ module BlacklightHelper
 
   def render_iiif_canvas_index(document=@document, options = {})
     url = document.fetch(:manifest_url)
+    if (url == 'n/a')
+      return '0'
+    end
 
     uri = URI.parse(url)
     http = Net::HTTP.new(uri.host, uri.port)
