@@ -279,7 +279,7 @@
   <copyField source="language" dest="language_ssi"/>
 
 
-  <copyField source="title_display" dest="spell"/>
+<!--  <copyField source="title_display" dest="spell"/>
   <copyField source="creator" dest="spell"/>
   <copyField source="creator_index" dest="spell"/>
   <copyField source="creator_display" dest="spell"/>
@@ -289,7 +289,7 @@
   <copyField source="artwork_type" dest="spell"/>
   <copyField source="artwork_subtype" dest="spell"/>
   <copyField source="material" dest="spell"/>
-
+-->
 
   <copyField source="title_display" dest="suggest"/>
   <copyField source="creator_index" dest="suggest"/>
@@ -302,9 +302,10 @@
   <copyField source="material" dest="suggest"/>
 
 
-  <copyField source="author_tsim" dest="author_spell"/>
+<!--  <copyField source="author_tsim" dest="author_spell"/>
   <copyField source="subject_ssim" dest="subject_spell"/>
   <copyField source="title_tsim" dest="title_spell"/>
+-->
 
   <types>
     <fieldType name="string" class="solr.StrField" sortMissingLast="true" />
