@@ -114,7 +114,11 @@ module BlacklightHelper
 
     uri = URI.parse(url)
     http = Net::HTTP.new(uri.host, uri.port)
+
+    use_ssl = true
     request = Net::HTTP::Get.new(uri.request_uri)
+    http.use_ssl = use_ssl
+
     request.initialize_http_header({"User-Agent" => "Arthub RIIIF"})
     
     response = http.request (request)
@@ -125,7 +129,7 @@ module BlacklightHelper
         manifest['sequences'][0]['canvases'].each_with_index do |sequence, index|
           if (sequence['@id'] == canvasId)
             return index
-          end
+         end
         end
         return '0'
     else
