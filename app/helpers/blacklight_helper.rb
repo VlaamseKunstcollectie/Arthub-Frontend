@@ -115,9 +115,9 @@ module BlacklightHelper
     uri = URI.parse(url)
     http = Net::HTTP.new(uri.host, uri.port)
 
-    use_ssl = true
+#    use_ssl = true
     request = Net::HTTP::Get.new(uri.request_uri)
-    http.use_ssl = use_ssl
+ #   http.use_ssl = use_ssl
 
     request.initialize_http_header({"User-Agent" => "Arthub RIIIF"})
     
