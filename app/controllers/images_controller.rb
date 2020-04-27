@@ -1,4 +1,7 @@
 class ImagesController < ApplicationController
+    # don't prepend 'en:' to the document.id. Only do this for the catalog controller!
+    skip_before_action :switch_locale_of_document_id
+
     include Blacklight::Catalog
 
     def manifest
