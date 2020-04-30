@@ -16,7 +16,7 @@ module ApplicationHelper
     end.join('<br />').html_safe
   end
 
-  def iiif_thumbnail_url_field(document=@document)
+  def iiif_thumbnail_url_field(document=@document, size)
     image_id = document.fetch(:publish_image) ? document.fetch(:id) : 'arthub:placeholder'
     riiif_image_url(image_id, size: "206,")
   end

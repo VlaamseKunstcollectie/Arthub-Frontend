@@ -103,8 +103,7 @@ module BlacklightHelper
   end
 
   def render_iiif_manifest_url(document=@document, options = {})
-     id = document.id.gsub(/^#{I18n.locale.to_s}:/, '')
-     riiif_manifest_url(id)
+     riiif_manifest_url(document.id)
   end
 
   def link_to_repository(repository)
