@@ -1,0 +1,11 @@
+<div class="document col-xs-6 col-md-3">
+  <div class="thumbnail">
+    <%= link_to '#', data: { :'slide-to' => document_counter, toggle: "modal", target: "#slideshow-modal" } do %>
+      <% if iiif_thumbnail_url_field(document, "275,") %>
+        <%= image_tag iiif_thumbnail_url_field(document, "275,"), alt: render_image_alt(document) %>
+      <% else %>
+        <%= t('.missing_image', scope: [:blacklight_gallery]) %>
+      <% end %>
+    <% end %>
+  </div>
+</div>

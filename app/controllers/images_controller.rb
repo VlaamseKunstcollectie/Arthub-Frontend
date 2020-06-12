@@ -1,10 +1,12 @@
 class ImagesController < ApplicationController
+
     include Blacklight::Catalog
 
     def manifest
       @response, @document = fetch params[:id]
 
-      image_id = @document.fetch(:publish_image) ? params[:id] : 'arthub:placeholder'
+      # Remove the nl: or en: part before the id
+      image_id = @document.fetch(:publish_image) ? params[:id].gsub(/#{I18n.locale.to_s}:/, '') : 'arthub:placeholder'
 
       # Check if valid image
       # Set CORS allowed header
