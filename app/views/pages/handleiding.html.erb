@@ -8,12 +8,9 @@
 
     <h2><%= title %></h2>
 
-    <p>Arthub Flanders is een gebruiksvriendelijke zoekmachine of discovery interface 
-    om te zoeken naar en toegang te krijgen tot records die culturele erfgoedobjecten beschrijven die bewaard worden door de musea voor Beeldende Kunsten in Vlaanderen. Deze records worden gemaakt, aangepast en beheerd door de musea die 
-    hen bijdragen aan dit platform.</p>
+    <p>Arthub Flanders is een gebruiksvriendelijke zoekmachine voor beschrijvingen van museale objecten die bewaard worden door de beeldendekunstmusea in Vlaanderen. Deze beschrijvingen worden gemaakt, aangepast en beheerd door de musea die bijdragen aan dit platform. De metadata worden geautomatiseerd opgevraagd uit de collectieregistratiesystemen van deze musea. De metadata zijn dan ook steeds actueel.</p>
 
-    <p>Het platform faciliteert hergebruik van deze records door musea en derde 
-    partijen in hun eigen (digitale) projecten.</p>
+    <p>Het platform maakt hergebruik van deze objectbeschrijvingen door musea en derde partijen in hun eigen (digitale) projecten mogelijk.</p>
 
     <p><strong>Pagina-inhoud</strong></p>
 
@@ -27,73 +24,64 @@
 
     <h2>Over de catalogus</h2>
 
-    <p>Arthub Flanders is een catalogus van records die culturele erfgoedobjecten beschrijven die bewaard worden door de musea voor Beeldende Kunsten in Vlaanderen. Een record is een verzameling van gestructureerde informatie die verscheidene eigenschappen van het object beschrijven zoals de titel, zijn vervaardiger, de aanvangsdatum, fysieke afmetingen, herkomst, tentoonstellingsgeschiedenis,... Elke eigenschap wordt bewaard in wat men noemt een recordveld.</p>
+    <p>Arthub Flanders is een catalogus van records die museale objecten beschrijven. Een record is een verzameling van gestructureerde informatie die de noemers en eigenschappen van het object beschrijven zoals de titel, de vervaardiger, de datering, de fysieke afmetingen, de herkomst, de tentoonstellingsgeschiedenis, enzovoort. Elke noemer of eigenschap wordt bewaard in een recordveld.</p>
 
-    <p>Records worden gemaakt, aangepast en beheerd door kennisspecialisten in de culturele erfgoedorganisaties. Records worden bijgehouden in een collectieregistratiesysteem dat fungeert als een centrale kennisbasis voor de organisatie. Deze systemen zijn verbonden met het Arthub Flanders platform en wisselen regelmatig en automatisch met dit platform up-to-date kopieën uit van een gecureerde lijst van records.</p>
+    <p>Records worden gemaakt, aangepast en beheerd door deskundigen in de musea. Ze worden bijgehouden in een collectieregistratiesysteem dat fungeert als een centraal kennispunt voor de museumcollectie. Deze systemen zijn verbonden met het platform Arthub Flanders en wisselen regelmatig en automatisch met dit platform up-to-date kopieën uit van een gecureerde lijst van records. Dit wil zeggen dat het museum zelf aangaf welke records wel en welke niet worden ontsloten voor hergebruik.</p>
 
     <h2>De catalogus gebruiken</h2>
 
     <h3>Zoeken doorheen de catalogus</h3>
 
-    <p>Er zijn voornamelijk twee manieren om te zoeken doorheen de catalogus. Je kan de zoekbalk gebruiken om te zoeken naar specifieke zoekwoorden of je kan de facetten aan de linkerkant gebruiken om de zoekresultaten te filteren. Door full text-zoeken en zoekfacetten te combineren kan je gedetailleerde zoekopdrachten uitvoeren die relevante records opleveren.</p>
+    <p>Er zijn voornamelijk twee manieren om te zoeken doorheen de catalogus. Je kan de zoekbalk gebruiken om te zoeken naar specifieke zoekwoorden of je kan de facetten aan de linkerkant gebruiken om de zoekresultaten te filteren. Door ‘full text’-zoeken en zoekfacetten te combineren kan je gedetailleerde zoekopdrachten uitvoeren die relevante resultaten opleveren.</p>
 
     <h4>De zoekbalk</h4>
 
-    <p>De zoekbalk bevindt zich op de frontpagina en in de header van elke overige pagina van het platform. Net zoals bij Google, levert de ingave van een of meerdere zoektermen een lijst op van records waarin deze woorden voorkomen. De zoekresultaten worden geordend volgens een relevantiescore. Deze score wordt berekend op basis van hoeveel keer de term voorkomt in een record en de taalkundige context waarin hij voorkomt.</p>
+    <p>De zoekbalk bevindt zich op de homepage en in de header van elke pagina van het platform. Net zoals bij Google, levert het invoeren van een of meerdere zoektermen een lijst op van records waarin deze woorden voorkomen. De zoekresultaten worden geordend volgens een relevantiescore. Deze score wordt berekend op basis van hoeveel keer de term voorkomt in een record en de taalkundige context waarin hij voorkomt.</p>
 
-    <p><%= image_tag "manual-screenshot-1.png", :alt => "De zoekbalk" %>
-    </p>
+    <p><%= image_tag "manual-screenshot-1.png", :alt => "De zoekbalk" %></p>
 
     <p>Zoeken op meerdere zoektermen zonder aanhalingstekens levert een reeks resultaten op waarin elke term op zijn minst één keer voorkomt. Meerdere zoektermen tussen aanhalingstekens worden behandeld als één enkele zoekterm.</p>
 
-    <p><%= image_tag "manual-screenshot-2.png", :alt => "De zoekbalk met een zoekopdracht tussen aanhalingstekens" %>
-    </p>
+    <p><%= image_tag "manual-screenshot-2.png", :alt => "De zoekbalk met een zoekopdracht tussen aanhalingstekens" %></p>
 
-    <p>De zoekbalk beschikt - behalve op de frontpagina - over een een dropdown die full 
-    text-zoeken beperkt tot specifieke velden zoals 'titel' en 'vervaardiger'. Een full text-zoekopdracht wordt standaard uitgevoerd door alle aanwezige velden.</p>
+    <p>De zoekbalk beschikt – behalve op de homepage – over een een dropdown die ‘full text’-zoeken beperkt tot specifieke velden zoals ‘titel’, ‘vervaardiger’ en ‘objectnummer’. Een ‘full text’-zoekopdracht wordt standaard uitgevoerd door alle aanwezige velden.</p>
 
     <h4>De zoekfacetten</h4>
 
-    <p>Aan de linkerkant van de catalogus bevindt zich een reeks facetten die het mogelijk maken om de zoekresultaten te filteren door termen uit gesloten woordenlijsten te combineren. Een sleutelwoord selecteren initieert een zoekopdracht naar het geselecteerde sleutelwoord in het recordveld dat hoort bij de gekozen facet. Volgende selecties van sleutelwoorden reduceren de reeks zoekresultaten verder.</p>
+    <p>Aan de linkerkant van de catalogus bevindt zich een reeks facetten die het mogelijk maken om de zoekresultaten te filteren door vaste termen te combineren.</p>
 
     <p><%= image_tag "manual-screenshot-3.png", :alt => "De zoekfacetten" %></p>
 
-    <p>Elke term in een facet verwijst eveneens naar het aantal records die deze term in het overeenkomstige veld bevat. Het aantal records is gebonden aan de zoekcontext; het verwijst naar het aantal records in de zoekresultaten van de laatste opzoeking, die geassocieerd zijn met die specifieke term.</p>
+    <h3>Overzichtspagina’s</h3>
 
-    <p><%= image_tag "manual-screenshot-4.png", :alt => "De zoekfacetten na de selectie van een sleutelwoord" %></p>
-
-    <h3>Overzichtspagina's</h3>
-
-    <p>De overzichtspagina's tonen een lijst van resultaten die opgeleverd zijn bij het uitvoeren van een zoekopdracht of bij het browsen. Elk resultaat stelt één enkel record voor dat opgehaald werd naar het platform. Een record beschrijft de eigenschappen van een fysiek cultureel erfgoedobject (een schilderij, een beeldhouwwerk, een tapijt, een tekening, een prent,...) zoals de titel, vervaardiger, objecttype, herkomst,... Door gebruik te maken van de pagineringlinks bovenaan de lijst of van de paginering aan de onderkant, kan je browsen doorheen de lijst.</p>
+    <p>De overzichtspagina’s tonen een lijst van zoekresultaten. Elk resultaat stelt een record voor dat opgehaald werd naar het platform. Een record beschrijft de eigenschappen van een museaal object (een schilderij, een beeldhouwwerk, een tapijt, een tekening, een prent, ...) zoals de titel, vervaardiger, objecttype, herkomst, enz. Door gebruik te maken van de paginering links bovenaan de lijst of van de paginering aan de onderkant, kan je browsen doorheen de lijst.</p>
 
     <p><%= image_tag "manual-screenshot-5.png", :alt => "De zoekresultaten met paginering" %></p>
 
-    <p>Via de 'sorteer op'-dropdown kan je de resultaten sorteren volgens relevantie, vervaardiger, jaar of titel. Wanneer je een zoekopdracht uitvoert, krijgt elk resultaat een relevantiescore. Sorteren volgens relevantie plaatst de resultaten met de hoogste relevantiescore eerst.</p>
+    <p>Via de ‘sorteer op’-dropdown kan je de resultaten sorteren volgens relevantie, vervaardiger, jaar of titel. Wanneer je een zoekopdracht uitvoert, krijgt elk resultaat een relevantiescore. Sorteren volgens relevantie plaatst de resultaten met de hoogste relevantiescore eerst.</p>
 
-    <p>Standaard levert een resultaatpagina 10 resultaten op. Via de 'per pagina'-dropdown kan je tot 100 resultaten per pagina ophalen.</p>
+    <p>Standaard levert een overzichtspagina 10 resultaten op. Via de ‘per pagina’-dropdown kan je tot 100 resultaten per pagina ophalen.</p>
 
-    <p><%= image_tag "manual-screenshot-6.png", :alt => "Uitgeklapte 'sorteer op'-dropdown" 
-    %></p>
+    <p><%= image_tag "manual-screenshot-6.png", :alt => "Uitgeklapte ‘sorteer op’-dropdown" %></p>
 
     <h3>Detailpagina</h3>
 
-    <p>De detailpagina van een record geeft een reeks basiseigenschappen weer. De waarden van sommige van deze eigenschappen zijn links. Wanneer je klikt op deze links, start je een zoekopdracht naar gelijkaardige records die beschikken over dezelfde waarde voor die eigenschap. Onder de basiseigenschappen bevindt zich een kader 'Voor ontwikkelaars' dat een reeks links bevat die nuttig zijn voor wie de opgenomen informatie in zijn eigen (digitale) applicaties wil hergebruiken.</p>
+    <p>De detailpagina van een record geeft een reeks basiseigenschappen weer. De waarden van sommige van deze eigenschappen zijn aanklikbare links. Wanneer je klikt op deze links, start je een zoekopdracht naar records die beschikken over dezelfde eigenschap. Onder de basiseigenschappen bevindt zich een kader ‘Voor ontwikkelaars’ met een reeks links naar machineleesbare records in verschillende bestandsformaten die nuttig zijn voor wie de informatie in zijn eigen (digitale) applicaties wil hergebruiken.</p>
 
     <p><strong>Getoonde basiseigenschappen</strong></p>
 
     <div class="row">
         <dl class="dl-horizontal dl-invert">
             <dt>Titel</dt>
-            <dd>Dit is de titel van het culturele erfgoedobject.</dd>
+            <dd>Dit is de titel van het object.</dd>
             <dt>Vervaardiger</dt>
-            <dd>Een of meer personen die betrokken zijn in de vervaardiging van het object. Een persoon beschikt - indien bekend en beschreven - over een qualifier (toegeschreven aan, volgeling van,...), zijn naam en zijn rol in de vervaardiging.</dd>
+            <dd>Een of meer personen die betrokken zijn bij de vervaardiging van het object. Een persoon beschikt - indien bekend en beschreven - over een qualifier (toegeschreven aan, volgeling van,...), zijn naam en zijn rol in de vervaardiging.</dd>
             <dt>Periode</dt>
-            <dd>De tijdsperiode waarin het object vervaardigd werd, aangegeven in
-                eeuwen (16de eeuw, 17de eeuw,...).</dd>
+            <dd>De tijdsperiode waarin het object vervaardigd werd, aangegeven in eeuwen (16de eeuw, 17de eeuw,...).</dd>
             <dt>Datering</dt>
             <dd>De vervaardigingsdatum, indien bekend.</dd>
             <dt>Instelling</dt>
-            <dd>De culturele organisatie die de collectie beheert waarvan het object deel uitmaakt.</dd>
+            <dd>De instelling, vaak een museum, die de collectie beheert waarvan het object deel uitmaakt.</dd>
             <dt>Type</dt>
             <dd>Het objecttype verwijst naar de objectnaam of naar de objectcategorie waartoe het object behoort.</dd>
             <dt>Subtype</dt>
@@ -101,11 +89,11 @@
             <dt>Materiaal</dt>
             <dd>De fysieke materialen waaruit het object is gemaakt.</dd>
             <dt>Voorstelling</dt>
-            <dd>Het algemene thema of motief dat afgebeeld wordt door het object.</dd>
+            <dd>Het algemene thema of motief dat afgebeeld wordt.</dd>
             <dt>Dimensies</dt>
-            <dd>De fysieke afmetingen van het object, uitgedrukt in cm of mm.</dd>
+            <dd>De fysieke afmetingen, uitgedrukt in cm of mm.</dd>
             <dt>Objectnummer</dt>
-            <dd>Een unieke tekenreeks toegekend door de beherende culturele organisatie. Het objectnummer maakt identificatie van het object binnenin de collectie van de organisatie mogelijk.</dd>
+            <dd>Een unieke tekenreeks toegekend door de beherende instelling (vaak een museum). Het objectnummer maakt de identificatie van het object binnen de collectie van het museum mogelijk.</dd>
             <dt>Beschrijving</dt>
             <dd>Een algemene beschrijving van het object, gemaakt en geüpdatet door de collectieregistratoren.</dd>
         </dl>
@@ -113,14 +101,14 @@
 
     <p><strong>Voor ontwikkelaars</strong></p>
 
-    <p>Het kader <em>Voor ontwikkelaars</em> omvat een reeks nuttige links die het mogelijk maken om de gepubliceerde metadata te hergebruiken.</p>
+    <p>Het kader <em>‘Voor ontwikkelaars’</em> omvat een reeks nuttige links die het mogelijk maken om de gepubliceerde metadata te hergebruiken.</p>
 
     <div class="row">
         <dl class="dl-horizontal dl-invert">
             <dt>Permalink</dt>
-            <dd>Een permalink is een permanente URL die linkt naar de pagina waar je je op dat moment op bevindt. Permalinks kunnen veranderen doorheen de tijd, maar zijn handig voor het rechtstreeks linken naar de menselijk leesbare pagina zonder doorverwezen te worden via een derde partij. Gebruik deze in content die slechts een beperkte levensduur heeft.</dd>
+            <dd>Een permalink is een permanente URL die linkt naar de pagina waar je je op dat moment bevindt. Permalinks kunnen veranderen doorheen de tijd, maar zijn handig voor het rechtstreeks linken naar de menselijk leesbare pagina zonder doorverwezen te worden via een derde partij. Gebruik deze in content die slechts een beperkte levensduur heeft.</dd>
             <dt>Work PURL</dt>
-            <dd>Deze PURL of Persistent URL identificeert ondubbelzinnig het fysieke culturele erfgoedobject dat beschreven wordt door het record. Deze URL is niet bedoeld om gebruikt te worden als een link (dereferencing). Hij wordt louter gebruikt voor identificatie.</dd>
+            <dd>Deze PURL of Persistent URL identificeert ondubbelzinnig het fysieke culturele erfgoedobject dat beschreven wordt door het record. Deze URL is niet bedoeld om gebruikt te worden als een link. Hij wordt louter gebruikt voor identificatie.</dd>
             <dt>Data PURL</dt>
             <dd>Deze PURL of Persistent URL identificeert ondubbelzinnig het record zelf. De hostname in de URL verwijst over het algemeen naar de organisatie die of het museum dat het record heeft aangeboden. Navigeren (dereferencing) naar een data PURL leidt tot een HTML-pagina die een representatie van het record bevat die geviseerd werd door de bijdragende organisatie of het bijdragende museum.</dd>
             <dt>JSON</dt>
@@ -141,28 +129,27 @@
     <ol>
         <li>Open een spreadsheetprogramma (Excel, LibreOffice,...).</li>
         <li>Open een nieuwe, lege spreadsheet.</li>
-        <li>Vul 'link' in in de eerste cel van de eerste kolom. Dit is de kop van je lijst.</li>
+        <li>Vul in de eerste cel van de eerste kolom ‘link’ in. Dit is de kop van je lijst.</li>
         <li>Zoek in de Arthub Flanders-catalogus naar relevante records.</li>
         <li>Navigeer naar de detailpagina van één enkel record dat je wil toevoegen aan je lijst.</li>
-        <li>Scrol naar beneden naar het kader 'Voor ontwikkelaars' en klik met je rechtermuisknop op de LIDO XML-link.</li>
-        <li>Selecteer 'kopiëren' in het pop-up menu.</li>
+        <li>Scrol naar beneden naar het kader ‘Voor ontwikkelaars’ en klik met je rechtermuisknop op de LIDO XML-link.</li>
+        <li>Selecteer ‘kopiëren’ in het pop-up menu.</li>
         <li>Klik met je rechtermuisknop op de volgende cel in de eerste kolom van de spreadsheet.</li>
-        <li>Selecteer 'plakken' in het pop-up menu.</li>
-        <li>De link zou nu moeten toegevoegd zijn aan de spreadsheet.</li>
+        <li>Selecteer ‘plakken’ in het pop-up menu.</li>
+        <li>De link zou nu toegevoegd moeten zijn aan de spreadsheet.</li>
         <li>Blijf links selecteren, kopiëren en plakken om een volledige lijst samen te stellen in de spreadsheet.</li>
         <li>(optioneel) Voeg titels, vervaardigers,... toe in volgende kolommen.</li>
      </ol>
 
-     <p>Eens je klaar bent, geef je je lijst door aan je technische partner. 
-     Afhankelijk van de context zal je partner die lijst gebruiken om automatisch de records te downloaden en te verwerken in de (digitale) applicatie die je hebt besteld.</p>
+     <p>Eens je klaar bent, geef je je lijst door aan je technische partner. Afhankelijk van de context zal je partner die lijst gebruiken om automatisch de records te downloaden en te verwerken in de (digitale) applicatie die je hebt besteld.</p>
 
     <p><em>Q: Kan ik later meer records toevoegen?</em><p>
 
-    <p>Ja, dit is mogelijk. Je moet hiervoor enkel bijkomende links doorgeven. Je technische partner kan vragen om deze lijsten door te geven in de vorm van bijkomende spreadsheets. Of je digitale applicatie kan voorzien zijn van een eenvoudige 'upload'-functionaliteit, die automatisch bijkomende records importeert.</p>
+    <p>Ja, dit is mogelijk. Je moet hiervoor enkel bijkomende links doorgeven. Je technische partner kan vragen om deze lijsten door te geven in de vorm van bijkomende spreadsheets. Of je digitale applicatie kan voorzien zijn van een eenvoudige uploadfunctionaliteit, die automatisch bijkomende records importeert.</p>
 
     <p><em>Q: Wat gebeurt er als ik een record wijzig?</em></p>
 
-    <p>Het kan zijn dat je verwacht dat je digitale applicatie een bijgewerkte versie van de records in je lijst om de zoveel tijd (wekelijks, maandelijks) ophaalt. Je applicatie moet kunnen omgaan met hoe de geüpdatete informatie verwerkt wordt afhankelijk van wat je probeert te bereiken. Updaten betekent vaak de oudere versie van het record vervangen door een nieuwere versie.</p>
+    <p>Het kan zijn dat je verwacht dat je digitale applicatie een bijgewerkte versie van de records in je lijst om de zoveel tijd (wekelijks, maandelijks) ophaalt. Je applicatie moet kunnen omgaan met hoe de geüpdatete informatie verwerkt wordt, afhankelijk van wat je probeert te bereiken. Updaten betekent vaak de oudere versie van het record vervangen door een nieuwere versie.</p>
 
     <p>Let op: als je volgens je business case de records actief moet aanpassen in je digitale applicatie, dan kan het samenvoegen van updates erg complex worden.</p>
 
@@ -178,7 +165,7 @@
 
     <p><code>/nl/catalog.json?search_field=all_fields&q="James+Ensor"</code></p>
 
-    <p>Dit levert een response in JSON format op met een lijst van resultaten die bewaard wordt in de eigenschap 'docs'. De eigenschap 'pages' bevat extra informatie die automatische paginering en harvesting via de API mogelijk maakt.</p>
+    <p>Dit levert een response in JSON format op met een lijst van resultaten die bewaard wordt in de eigenschap ‘docs’. De eigenschap ‘pages’ bevat extra informatie die automatische paginering en harvesting via de API mogelijk maakt.</p>
 
     <pre><code>{
   "response": {
@@ -199,8 +186,7 @@
 
     <p><strong>Een afzonderlijk record</strong></p>
 
-    <p>Switchen tussen de XML- of JSON-presentatie van een record is 
-    mogelijk door in de URL de 'xml'-bestandsextensie te veranderen in 'json' en vice versa.</p>
+    <p>Switchen tussen de XML- of JSON-presentatie van een record is mogelijk door in de URL de ‘xml’-bestandsextensie te veranderen in ‘json’ en vice versa.</p>
 
     <p><code>/nl/catalog/kmska:2712_236.json</code>
 
@@ -232,32 +218,30 @@
 
 	<h3>OAI-PMH</h3>
 
-    <p>De Arthub Flanders voorziet een OAI-PMH endpoint om gemakkelijk alle beschikbare records op te halen via de Datahub. De endpoint biedt de records aan in LIDO XML format.</p>
+    <p>De Arthub Flanders voorziet een OAI-PMH-endpoint om gemakkelijk alle beschikbare records op te halen via de Datahub. De endpoint biedt de records aan in LIDO XML format.</p>
 
     <p>De endpoint is beschikbaar via deze URL:</p>
 
-    <p><a href="https://datahub.vlaamsekunstcollectie.be/oai">
-    https://datahub.vlaamsekunstcollectie.be/oai</a></p>
+    <p>https://datahub.vlaamsekunstcollectie.be/oai</p>
 
-    <p>Meer informatie kan gevonden worden op de 
-    <a href="https://www.openarchives.org/pmh/">OAI-PMH website</a>.</p>
+    <p>Meer informatie kan gevonden worden op de Datahub (<a href="http://datahub.vlaamsekunstcollectie.be/docs/oai" target="_blank">http://datahub.vlaamsekunstcollectie.be/docs/oai</a>) en op de <a href="https://www.openarchives.org/pmh/" target="_blank">OAI-PMH-website</a>.</p>
 
     <h2>F.A.Q.</h2>
 
     <p><em>Q: Zie ik alle informatie die geregistreerd werd door de musea?</em></p>
 
-    <p>De Arthub Flanders publiceert een record met een gecureerde reeks van basiseigenschappen die geregistreerd werden door de musea. De musea registreren veel verschillende aspecten van een cultureel erfgoedobject. Enkele aspecten worden niet gepubliceerd omwille van verscheidene redenen zoals copyright, vertrouwelijkheid, veiligheid en privacy. Andere eigenschappen, zoals tentoonstellingsgeschiedenis of herkomst, worden mogelijk op een later tijdstip toegevoegd aangezien kennis verzamelen over een cultureel erfgoedobject blijvende inspanning vergt.</p>
+    <p>De Arthub Flanders publiceert een record met een gecureerde reeks van basiseigenschappen die geregistreerd werden door de musea. De musea registreren veel verschillende aspecten van een cultureel erfgoedobject. Enkele aspecten worden niet gepubliceerd omwille van copyright, vertrouwelijkheid, veiligheid en privacy. Andere eigenschappen, zoals tentoonstellingsgeschiedenis of herkomst, worden mogelijk op een later tijdstip toegevoegd. Kennis verzamelen over een cultureel erfgoedobject vergt blijvende inspanningen.</p>
 
     <p><em>Q: Hoe vaak worden records geüpdatet?</em></p>
 
     <p>De records beschikbaar in de Arthub Flanders-catalogus worden wekelijks geüpdatet. Updates bevatten verbeteringen van bestaande records en de toevoeging van nieuwe records.</p>
 
-    <p><em>Q: Waarom zie ik dubbele records?</em></p>
+    <!--<p><em>Q: Waarom zie ik dubbele records?</em></p>
 
-    <p>Sommige organisaties, zoals de Vlaamse Kunstcollectie, beheren geen collectie van culturele erfgoedobjecten. Als onderdeel van haar kernmissie, onderhoudt de Vlaamse Kunstcollectie in haar eigen collectieregistratiesysteem een kopie van de records die oorspronkelijk gemaakt zijn door de culturele erfgoedorganisaties die zij vertegenwoordigt. Deze dubbele records worden vervolgens 'verrijkt' met extra informatie zoals vertalingen, specifieke terminologieën of content voor bepaalde doelgroepen.</p>
+    <p>De Vlaamse Kunstcollectie beheert geen collectie van culturele erfgoedobjecten. Als onderdeel van haar kernmissie, onderhoudt de Vlaamse Kunstcollectie in haar eigen collectieregistratiesysteem een kopie van de records die oorspronkelijk gemaakt zijn door de culturele erfgoedorganisaties die zij vertegenwoordigt. Deze dubbele records worden vervolgens ‘verrijkt’ met extra informatie zoals vertalingen, specifieke terminologieën of content voor bepaalde doelgroepen.</p>
 
-    <p>Deze dubbele records zijn ook beschikbaar in de Arthub Flanders als alternatieven voor het record dat aangeboden werd door de culturele erfgoedorganisatie die het fysieke erfgoedobject bewaart. Je kan de herkomst van een record afleiden uit de 'Data PURL' en 'Work PURL'. Deze persistente URL's identificeren ondubbelzinnig het record en het culturele erfgoedobject dat ze beschrijven. Records die hetzelfde culturele erfgoedobject beschrijven, hebben verschillende Data PURL's, maar dezelfde Work PURL.</p>
+    <p>Deze dubbele records zijn ook beschikbaar in de Arthub Flanders als alternatieven voor het record dat aangeboden werd door de culturele erfgoedorganisatie die het fysieke erfgoedobject bewaart. Je kan de herkomst van een record afleiden uit de ‘Data PURL’ en ‘Work PURL’. Deze persistente URL’s identificeren ondubbelzinnig het record en het culturele erfgoedobject dat ze beschrijven. Records die hetzelfde culturele erfgoedobject beschrijven, hebben verschillende Data PURL’s, maar dezelfde Work PURL.</p>
 
-    <p>Het recordveld 'Instelling' is een andere indicator voor de herkomst van een record, maar geeft niet aan dat die instelling de eigenaar is van het culturele erfgoedobject.</p>
+    <p>Het recordveld ‘Instelling’ is een andere indicator voor de herkomst van een record, maar geeft niet aan dat die instelling de eigenaar is van het culturele erfgoedobject.</p>-->
 
 </div>
