@@ -8,7 +8,7 @@
 
 	<h2><%= title %></h2>
 
-	<p>Arthub Flanders was designed and developed using a set of open source software libraries, frameworks and applications. The <a href="http://www.flemishartcollection.be/">Flemish Art Collection</a>, in close cooperation with <a href="https://meemoo.be/en">meemoo (previously PACKED vzw)</a>, developed a set of tailor-made tools which cater to the specific requirements of this platform. The entire toolset is made available to the <a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)">GLAM</a> community under an <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">open source</a> license. Cultural organisations can use and adapt these tools in their own digital projects.<p>
+	<p>Arthub Flanders was designed and developed using a set of open source software libraries, frameworks and applications. The <a href="http://www.flemishartcollection.be/">Flemish Art Collection</a>, in close cooperation with <a href="https://meemoo.be/en">meemoo</a> (previously PACKED vzw), developed a set of tailor-made tools which cater to the specific requirements of this platform. The entire toolset is made available to the <a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)">GLAM</a> community under an <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">open source</a> license. Cultural organisations can use and adapt these tools in their own digital projects.<p>
 
 	<p><strong>Page contents</strong></p>
 	<ul>
@@ -39,7 +39,7 @@
 
 	<p>The Datahub implements two API types. The application features a <a href="https://en.wikipedia.org/wiki/REST">REST API</a> which serves metadata in the JSON format. Metadata is also made available via an <a href="https://www.openarchives.org/pmh/">OAI-PMH API</a>.</p>
 
-	<p>The Datahub front end was build using the <a href="https://symfony.com/">Symfony Framework</a>. Aggregated metadata is persistently stored in a <a href="https://www.mongodb.com/">MongoDB</a> database.</p>
+	<p>The Datahub front end was built using the <a href="https://symfony.com/">Symfony Framework</a>. Aggregated metadata is persistently stored in a <a href="https://www.mongodb.com/">MongoDB</a> database.</p>
 
 	<p><a href="https://github.com/thedatahub/datahub">https://github.com/thedatahub/datahub</a></p>
 	
@@ -73,7 +73,7 @@
 
 	<p>LIDO is an XML harvesting schema. The schema delivers metadata for use in a variety of online services, from an organisation’s online collections database to portals of aggregated resources, as well as showing, sharing and connecting data on the web.</p>
 
-	<p>Metadata harvested from a collection registration system, is transformed to LIDO XML by the Datahub Factory. The transformed metadata is then aggregated by The Datahub. Records are transformed via scripts which are written in Catmandu’s <a href="http://librecat.org/Catmandu/#fix-language">Fix programming language</a>.</p>
+	<p>Metadata harvested from a collection registration system is transformed to LIDO XML by the Datahub Factory. The transformed metadata is then aggregated by The Datahub. Records are transformed via scripts which are written in Catmandu’s <a href="http://librecat.org/Catmandu/#fix-language">Fix programming language</a>.</p>
 
 	<p>A transformation script was created per institution. Each script defines a mapping between record fields provided by the collection registration system and the fields of the LIDO datamodel. The scripts also contain logic that determines when values are to be taken over into the LIDO record.</p>
 
