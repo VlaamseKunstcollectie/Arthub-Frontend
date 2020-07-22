@@ -8,18 +8,7 @@
 
 	<h2><%= title %></h2>
 
-	<p>Arthub Flanders was designed and developed leveraging a set of open 
-	source software libraries, frameworks and applications. 
-	The <a href="http://www.flemishartcollection.be/">Flemish Art Collection</a>, 
-	in close cooperation with <a href="http://www.packed.be">PACKED vzw</a>, 
-	developed a set of tailor made tools which cater to the specific 
-	requirements of this platform. The entire toolset is made available to the 
-	<a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)">GLAM</a> 
-	community under an 
-	<a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">open 
-	source</a> license. Cultural organisations whose digital strategy outlines
-	opening up their collections are invited to include and adapt these tools 
-	in their own digital projects.<p>
+	<p>Arthub Flanders was designed and developed using a set of open source software libraries, frameworks and applications. The <a href="http://www.flemishartcollection.be/" target="_blank">Flemish Art Collection</a>, in close cooperation with <a href="https://meemoo.be/en" target="_blank">meemoo</a> (previously PACKED vzw), developed a set of tailor-made tools which cater to the specific requirements of this platform. The entire toolset is made available to the <a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)" target="_blank">GLAM</a> community under an <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">open source</a> license. Cultural organisations can use and adapt these tools in their own digital projects.<p>
 
 	<p><strong>Page contents</strong></p>
 	<ul>
@@ -32,146 +21,84 @@
 	<a name="technology"></a>
 	<h2>Technology</h2>
 
-	<p>Arthub Flanders is a public discovery interface. It is the visible part
-	of the platform and provides direct, user-friendly access to the collection
-	metadata. The platform is constructed as an architecture of loose-coupled 
-	components that automatically exchange, transform and make collection 
-	metadata available via interfaces for humans or machines (<a href="https://en.wikipedia.org/wiki/Application_programming_interface">API's</a>).</p>
+	<p>Arthub Flanders is a public discovery interface. It is the visible part of the platform and provides direct, user-friendly access to the collection metadata. The platform is constructed as an architecture of loosely-coupled components that automatically exchange, transform and make collection metadata available via interfaces for humans or machines (<a href="https://en.wikipedia.org/wiki/Application_programming_interface" target="_blank">API’s</a>).</p>
 
 	<h3>Project Blacklight</h3>
 
-	<p>Blacklight is an open source Solr user interface discovery platform. You 
-	can use Blacklight to enable searching and browsing of your collections. 
-	Blacklight uses the <a href="http://lucene.apache.org/solr/">Apache Solr 
-	search engine</a> to search full text and/or metadata. Blacklight has a 
-	highly configurable <a href="http://rubyonrails.org/">Ruby on Rails</a> 
-	front end. Blacklight is made public under an Apache 2.0 license.<p>
+	<p>Blacklight is an open source Solr user interface discovery platform. You can use Blacklight to enable searching and browsing of your collections. Blacklight uses the <a href="http://lucene.apache.org/solr/" target="_blank">Apache Solr search engine</a> to search full text and/or metadata. Blacklight has a highly configurable <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a> front end. Blacklight is made public under an Apache 2.0 license.<p>
 
-	<p><a href="http://projectblacklight.org/">
-	http://projectblacklight.org/</a></p>
+	<p><a href="http://projectblacklight.org/" target="_blank">http://projectblacklight.org/</a></p>
 
-	<p>Arthub Flanders is an instance of Project Blacklight tailored towards
-	searching and browsing through cultural heritage objects. The code is made
-	available through Github.</p>
+	<p>Arthub Flanders is an instance of Project Blacklight tailored towards searching and browsing through cultural heritage objects. The code is made available through Github.</p>
 
-	<p><a href="https://github.com/VlaamseKunstcollectie/Arthub-Frontend">
-	https://github.com/VlaamseKunstcollectie/Arthub-Frontend</a></p>
+	<p><a href="https://github.com/VlaamseKunstcollectie/Arthub-Frontend" target="_blank">https://github.com/VlaamseKunstcollectie/Arthub-Frontend</a></p>
 	
 	<h3>The Datahub</h3>
 
-	<p>The Datahub is a web-based metadata aggregator. This application 
-	aggregates and stores collection metadata from one or more providers or 
-	sources, and publishes the aggregated metadata via web-based API's.</p>
+	<p>The Datahub is a web-based metadata aggregator. This application aggregates and stores collection metadata from one or more providers or sources, and publishes the aggregated metadata via web-based API’s.</p>
 
-	<p>The Datahub implements two API types. The application features a 
-	<a href="https://en.wikipedia.org/wiki/REST">REST API</a> which serves 
-	metadata in the JSON format. Metadata is also made available via an 
-	<a href="https://www.openarchives.org/pmh/">OAI-PMH API</a>.</p>
+	<p>The Datahub implements two API types. The application features a <a href="https://en.wikipedia.org/wiki/REST" target="_blank">REST API</a> which serves metadata in the JSON format. Metadata is also made available via an <a href="https://www.openarchives.org/pmh/" target="_blank">OAI-PMH API</a>.</p>
 
-	<p>The Datahub front end was build using the <a href="https://symfony.com/">
-	Symfony Framework</a>. Aggregated metadata is persistently stored in a 
-	<a href="https://www.mongodb.com/">MongoDB</a> database.</p>
+	<p>The Datahub front end was built using the <a href="https://symfony.com/" target="_blank">Symfony Framework</a>. Aggregated metadata is persistently stored in a <a href="https://www.mongodb.com/" target="_blank">MongoDB</a> database.</p>
 
-	<p><a href="https://github.com/thedatahub/datahub">
-	https://github.com/thedatahub/datahub</a></p>
+	<p><a href="https://github.com/thedatahub/datahub" target="_blank">https://github.com/thedatahub/datahub</a></p>
 	
 	<h3>Catmandu</h3>
 
-	<p>Catmandu is a data processing toolkit that allows access and conversion
-	of datasets from one format or data model into another.</p>
+	<p>Catmandu is a data processing toolkit that allows access and conversion of datasets from one format or data model into another.</p>
 
-	<p>The Catmandu framework is Perl based and features an ecosystem of 
-	pluggable modules which cater to a wide array of formats and use cases.</p>
+	<p>The Catmandu framework is Perl based and features an ecosystem of pluggable modules which cater to a wide array of formats and use cases.</p>
 
-	<p><a href="https://librecat.org">
-	https://librecat.org</a></p>
+	<p><a href="https://librecat.org" target="_blank">https://librecat.org</a></p>
 
 	<h3>The Datahub Factory</h3>
 
-	<p>The Datahub Factory is a tailor made command line tool which makes it
-	easier to configure and monitor complex ETL (Extract Transform Load) 
-	pipelines. This toolkit is Perl based and leverages Catmandu modules under 
-	the hood.</p>
+	<p>The Datahub Factory is a tailor-made command line tool which makes it easier to configure and monitor complex ETL (Extract, Transform, Load) pipelines. This toolkit is Perl based and leverages Catmandu modules under the hood.</p>
 
-	<p>This command line tool is used to create ETL pipelines between collection 
-	registration systems, the Datahub and Arthub Flanders. The Datahub Factory 
-	is used to automatically transfer and transform collection metadata between 
-	these systems.</p>
+	<p>This command line tool is used to create ETL pipelines between collection registration systems, the Datahub and Arthub Flanders. The Datahub Factory is used to automatically transfer and transform collection metadata between these systems.</p>
 
-	<p><a href="https://github.com/thedatahub/Datahub-Factory">
+	<p><a href="https://github.com/thedatahub/Datahub-Factory" target="_blank">
 	https://github.com/thedatahub/Datahub-Factory</a><br />
-	<a href="https://github.com/thedatahub/Datahub-Factory-Pipelines">
+	<a href="https://github.com/thedatahub/Datahub-Factory-Pipelines" target="_blank">
 	https://github.com/thedatahub/Datahub-Factory-Pipelines</a><br />
-	<a href="https://github.com/thedatahub/Datahub-Factory-Arthub">
+	<a href="https://github.com/thedatahub/Datahub-Factory-Arthub" target="_blank">
 	https://github.com/thedatahub/Datahub-Factory-Arthub</a></p>
 
 	<a name="formats"></a>
 	<h2>Open formats</h2>
 
-	<p>Collection metadata is automatically exchanged between the various
-	systems which are operational in the platform. Before collection metadata
-	is exchanged, it is transformed to a single unified format: LIDO XML</p>
+	<p>Collection metadata is automatically exchanged between the various systems which are operational in the platform. Before collection metadata is exchanged, it is transformed to a single unified format: LIDO XML.</p>
 
-	<p><a href="http://lido-schema.org">http://lido-schema.org</a></p>
+	<p><a href="http://lido-schema.org" target="_blank">http://lido-schema.org</a></p>
 
-	<p>LIDO is an XML harvesting schema. The schema is intended for delivering
-	metadata, for use in a variety of online services, from an organization’s 
-	online collections database to portals of aggregated resources, as well as 
-	exposing, sharing and connecting data on the web.</p>
+	<p>LIDO is an XML harvesting schema. The schema delivers metadata for use in a variety of online services, from an organisation’s online collections database to portals of aggregated resources, as well as showing, sharing and connecting data on the web.</p>
 
-	<p>Metadata harvested from a collection registration system, is transformed 
-	to LIDO XML by the Datahub Factory. The transformed metadata is then 
-	aggregated by The Datahub. Records are transformed via scripts which are 
-	written in Catmandu's <a href="http://librecat.org/Catmandu/#fix-language">
-	Fix programming language</a>.</p>
+	<p>Metadata harvested from a collection registration system is transformed to LIDO XML by the Datahub Factory. The transformed metadata is then aggregated by The Datahub. Records are transformed via scripts which are written in Catmandu’s <a href="http://librecat.org/Catmandu/#fix-language" target="_blank">Fix programming language</a>.</p>
 
-	<p>A transformation script was created per institution. Each script defines 
-	a mapping between record fields provided by the collection registration
-	system and the fields of the LIDO data model. The scripts also contain logic
-	that determines when values are to be taken over into the LIDO record.</p>
+	<p>A transformation script was created per institution. Each script defines a mapping between record fields provided by the collection registration system and the fields of the LIDO datamodel. The scripts also contain logic that determines when values are to be taken over into the LIDO record.</p>
 
-	<p>The scripts used by the Arthub Flanders platform are published on 
-	Github.</p>
+	<p>The scripts used by the Arthub Flanders platform are published on Github.</p>
 
-	<p><a href="https://github.com/VlaamseKunstcollectie/Datahub-Fixes">
+	<p><a href="https://github.com/VlaamseKunstcollectie/Datahub-Fixes" target="_blank">
 	https://github.com/VlaamseKunstcollectie/Datahub-Fixes</a></p>
 
 	<a name="community"></a>
 	<h2>Community of developers</h2>
 
-	<p>All components are made available on <a href="https://github.com">Github</a>
-	, a popular platform for sharing and collaborating on software. We invite 
-	third party developers to contribute to the components. There are several 
-	ways to contribute.</p>
+	<p>All components are made available on <a href="https://github.com" target="_blank">Github</a>, a popular platform for sharing and collaborating on software. We invite third party developers to contribute to the components. There are several ways to contribute.</p>
 
 	<ul>
-		<li>Bug reports, suggestions, questions and feedback can be submitted on 
-		a per component basis as separate 
-		<a href="https://help.github.com/articles/about-issues/">issues.</a> These
-		issues can be submitted to the 
-		<a href="https://help.github.com/articles/creating-an-issue/">Github project
-		issue tracker</a> associated with the relevant component.</li>
-
-		<li>Contributors are free to fork the components, make changes such as 
-		fixing bugs and adding new features, and contributing these changes 
-		back to the	projects as 
-		<a href="https://help.github.com/articles/about-pull-requests/">
-		Github pull requests</a>.</li>
+		<li>Bug reports, suggestions, questions and feedback can be submitted on a per component basis as separate <a href="https://help.github.com/articles/about-issues/" target="_blank">issues</a>. These issues can be submitted to the <a href="https://help.github.com/articles/creating-an-issue/" target="_blank">Github project issue tracker</a> associated with the relevant component.</li>
+		<li>Contributors are free to fork the components, make changes such as fixing bugs and adding new features, and contributing these changes back to the projects as <a href="https://help.github.com/articles/about-pull-requests/" target="_blank">Github pull requests</a>.</li>
 	</ul>
 
-	<p>In order to contribute to the projects, you are required to 
-	<a href="https://help.github.com/articles/signing-up-for-a-new-github-account/">
-	register an account on Github.</a></p>
+	<p>In order to contribute to the projects, you are required to <a href="https://help.github.com/articles/signing-up-for-a-new-github-account/" target="_blank">have an account on Github</a>.</p>
 
-	<p><a href="https://github.com/thedatahub">https://github.com/thedatahub
-	</a></p>
+	<p><a href="https://github.com/thedatahub" target="_blank">https://github.com/thedatahub</a></p>
 
 	<a name="licensing"></a>
 	<h2>Licensing</h2>
 
-	<p>Unless otherwise specified by the original authors, all software is made 
-	available as free software; you can redistribute it and/or modify it under
-	the terms of the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU 
-	General Public License (GPL) v3 license</a>.</p>
+	<p>Unless otherwise specified by the original authors, all software is made available as free software; you can redistribute it and/or modify it under the terms of the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU General Public License (GPL) v3 license</a>.</p>
 
 </div>

@@ -8,14 +8,9 @@
 
     <h2><%= title %></h2>
 
-    <p>Arthub Flanders is a user-friendly search machine or discovery interface 
-    for searching and accessing records which describe cultural heritage 
-    objects preserved by the museums of Visual Arts in 
-    Flanders. These records are created, edited and managed by the museums who 
-    contribute them to this platform.</p>
+    <p>Arthub Flanders is a user-friendly discovery interface for searching and accessing records that describe cultural heritage objects preserved by the museums of visual arts in Flanders. These records are created, edited and managed by the museums who contribute to the platform. The metadata is automatically retrieved from the collection registration systems of these museums, hereby ensuring the metadata is kept updated.</p>
 
-    <p>The platform enables reuse of these records by museums and third 
-    parties in their own (digital) projects.</p>
+    <p>The platform enables reuse of these records by museums and third parties in their own (digital) projects.</p>
 
     <p><strong>Page contents</strong></p>
 
@@ -29,131 +24,67 @@
 
     <h2>About the catalogue</h2>
 
-    <p>Arthub Flanders is a catalogue of records which describe cultural heritage
-    objects preserved by the museums of Visual Arts in Flanders. A record is a collection of structured
-    information which describes various properties of the object such as the
-    title, its creator, the date of inception, physical dimensions, provenance,
-    exhibition history,... Each property is stored in what is called a record field.</p>
+    <p>Arthub Flanders is a catalogue of records which describe cultural heritage objects. A record is a collection of structured information which describes various properties of the object such as the title, its creator, the date of inception, physical dimensions, provenance, exhibition history, etc. Each property is stored in what is called a record field.</p>
 
-    <p>Records are created, edited and managed by knowledge specialists in the
-    cultural heritage organisations. Records are kept in a collection 
-    registration system which acts as a central knowledge base for the 
-    organisation. These systems are connected to the Arthub Flanders platform
-    and will frequently and automatically exchange up-to-date copies of curated 
-    list of records with the platform.</p>
+    <p>Records are created, edited and managed by professionals in the cultural heritage organisations. Records are kept in a collection registration system which acts as a central knowledge base for the organisation. These systems are connected to the Arthub Flanders platform and will regularly and automatically exchange up-to-date copies of a curated list of records with the platform. This is to say that the museum itself chooses which records are made available.</p>
 
     <h2>Using the catalogue</h2>
 
     <h3>Searching through the catalogue</h3>
 
-    <p>There are two main ways of search through the catalogue. You can use the 
-    search bar to look for particular search words, or you can use the facets 
-    in the left sidebar to drill down into the collection. Combining both 
-    full text search and search facets allows you to launch fine-grained 
-    search queries yielding relevant records.</p>
+    <p>There are two main ways to search through the catalogue. You can use the search bar to look for particular terms, or you can use the facets in the left sidebar to filter the search. Combining both full text search and search facets allows you to launch fine-grained search queries returning relevant records.</p>
 
     <h4>The search bar</h4>
 
-    <p>The search bar is available on the frontpage, and in the header of each 
-    inner page of the platform. Just like Google, typing one or more search 
-    terms will yield a list of records in which these words are present. The 
-    results are ordered by a relevancy score. This score is calculated based on 
-    how many times the term occurs in a record, and the linguistic context 
-    in which it appears.</p>
+    <p>The search bar is available on the frontpage, and in the header of each page of the platform. Just like Google, typing one or more search terms will return a list of records in which these words are present. The results are ordered by a relevancy score. This score is calculated based on how many times the term occurs in a record, and the linguistic context in which it appears.</p>
 
-    <p><%= image_tag "manual-screenshot-1.png", :alt => "The search bar" %>
-    </p>
+    <p><%= image_tag "manual-screenshot-1.png", :alt => "The search bar" %></p>
 
-    <p>Searching for multiple search terms without quotes will yield a set of 
-    records in which each term occurs at least once. Multiple terms enclosed by 
-    double quotes will be treated as single search term.</p>
+    <p>Searching for multiple terms without quotes will yield a set of records in which each term occurs at least once. Multiple terms enclosed by double quotes will be treated as single search term.</p>
 
-    <p><%= image_tag "manual-screenshot-2.png", :alt => "The search bar with
-    quoted search" %>
-    </p>
+    <p><%= image_tag "manual-screenshot-2.png", :alt => "The search bar with quoted search" %></p>
 
-    <p>The search bar on the inner pages features a dropdown which limits full 
-    text searching to specific fields such as 'title' and 'creator'.
-    The full text search will by default look through all available 
-    fields.</p>
+    <p>The search bar features—except for on the home page—a dropdown which limits full text searching to specific fields such as ‘title’, ‘creator’ and ‘object number’. The full text search will by default look through all available fields.</p>
 
     <h4>The search facets</h4>
 
-    <p>The left sidebar of the catalogue features a set of facets which enables 
-    drilling down into the collection by combining terms which are defined in 
-    closed vocabularies. Selecting a keyword, will initiate a search query for 
-    the selected keyword in the associated record field associated with the 
-    facet. Subsequent selections of keywords will keep reducing the result 
-    set.</p>
+    <p>The left sidebar of the catalogue features a set of facets which enables the results to be filtered through combinations of fixed terms.</p>
 
-    <p><%= image_tag "manual-screenshot-3.png", :alt => "The search 
-    facets" %></p>
-
-    <p>Each term in a facet, also refers to the number of records associated 
-    with the term. The amount of records is tied to the search context; it 
-    refers to the number of records yielded by the last performed search query,
-    which are associated with that particular term.</p>
-
-    <p><%= image_tag "manual-screenshot-4.png", :alt => "The search 
-    facets, selection made" %></p>
+    <p><%= image_tag "manual-screenshot-3.png", :alt => "The search facets" %></p>
 
     <h3>Overview pages</h3>
 
-    <p>The overview pages display a list of results yielded when you launch a
-    a search query, or when you are just browsing. Each result represents a 
-    single record which is aggregated in the platform. A record describes the
-    properties of a physical cultural heritage object (a painting, a statue, a
-    tapestry, a drawing, a print,...) such as the title, creator, type of     
-    object, provenance,... Using the pagination links at the top of the list, 
-    or the pagination at the bottom, you can browse through the list.</p>
+    <p>The overview pages display a list of results returned by the search. Each result represents a single record which is aggregated in the platform. A record describes the properties of a museum object (a painting, a statue, a tapestry, a drawing, a print,...) such as the title, creator, type of object, provenance, etc. Using the pagination links at the top of the list, or the pagination at the bottom, you can browse through the list.</p>
 
-    <p><%= image_tag "manual-screenshot-5.png", :alt => "The search 
-    results with pagination" %></p>
+    <p><%= image_tag "manual-screenshot-5.png", :alt => "The search results with pagination" %></p>
 
-    <p>You can sort the results by relevance, creator, year or title, using 
-    the 'sort by' dropdown. When you perform a search, each result will be
-    assigned a relevance score. Sorting by relevance puts the results with the
-    highest scores first.</p>
+    <p>Using the ‘sort by’ dropdown lets you sort the results by relevance, creator, year or title. When you perform a search, each result will be assigned a relevance score. Sorting by relevance puts the results with the highest scores first.</p>
 
-    <p>By default, a result page will yield 10 results. Using the 'per page'
-    dropdown, you can retrieve up to 100 results per page.</p>
+    <p>By default, a result page will yield 10 results. Using the ‘per page’ dropdown, you can retrieve up to 100 results per page.</p>
 
 
-    <p><%= image_tag "manual-screenshot-6.png", :alt => "sorting filters" 
-    %></p>
+    <p><%= image_tag "manual-screenshot-6.png", :alt => "sorting filters" %></p>
 
     <h3>Detail page</h3>
 
-    <p>The detail page of a record displays a set of basic properties. The 
-    values of some of these properties are links. When you click on them, you 
-    will trigger a search for similar records who have the same value for that 
-    property. Below the basic properties, you will find a box 'For 
-    developers' which contains a set of links which are useful for people who 
-    want to reuse the recorded information in their own (digital) 
-    applications.</p>
+    <p>The detail page of a record displays a set of basic properties. The values of some of these properties are links. When you click on them, you will trigger a search for records which have the same value for that property. Below the basic properties, you will find a box ‘For developers’ which contains a set of links which are useful for people who want to reuse the recorded information in their own (digital) applications.</p>
 
     <p><strong>Displayed basic properties</strong></p>
 
     <div class="row">
         <dl class="dl-horizontal dl-invert">
             <dt>Title</dt>
-            <dd>This is the title of the cultural heritage object.</dd>
+            <dd>This is the title of the object.</dd>
             <dt>Creator</dt>
-            <dd>One or more persons involved in the creation of the object.
-                A person consists - if known and described - of a qualifier (attributed to, follower of, 
-                ...), their name and their role in the creation 
-                event.</dd>
+            <dd>One or more persons involved in the creation of the object. A person consists - if known and described - of a qualifier (attributed to, follower of, ...), their name and their role in the creation event.</dd>
             <dt>Period</dt>
-            <dd>The time period in which the object was produced; denoted in
-                centuries (16th century, 17th century,...).</dd>
+            <dd>The time period in which the object was produced; denoted in centuries (16th century, 17th century,...).</dd>
             <dt>Date</dt>
             <dd>The creation date; if known.</dd>
             <dt>Institution</dt>
-            <dd>The cultural organisation who manages the collection of which the 
-                object is part of.</dd>
+            <dd>The museum who manages the collection of which the object is part of.</dd>
             <dt>Type</dt>
-            <dd>The type of object refers to either the object name or 
-                object category to which the object belongs.</dd>
+            <dd>The type of object refers to either the object name or object category to which the object belongs.</dd>
             <dt>Subtype</dt>
             <dd>Further specification of the type of object.</dd>
             <dt>Material</dt>
@@ -161,113 +92,69 @@
             <dt>Category</dt>
             <dd>The general theme or motif depicted by the object.</dd>
             <dt>Dimensions</dt>
-            <dd>The physical dimensions of the object; expressed in cm or 
-                mm.</dd>
+            <dd>The physical dimensions of the object; expressed in cm or mm.</dd>
             <dt>Object number</dt>
-            <dd>A unique string of characters assigned by the managing cultural
-                organisation; allows identification of the object within the
-                collection of the organisation.</dd>
+            <dd>A unique string of characters assigned by the managing cultural organisation; allows identification of the object within the collection of the organisation.</dd>
             <dt>Description</dt>
-            <dd>A general description of the object; created and updated by the
-                collection registrars.</dd>
+            <dd>A general description of the object; created and updated by the collection registrars.</dd>
         </dl>
     </div>
 
     <p><strong>For developers</strong></p>
 
-    <p>The table <em>For developers</em> lists a set of useful links which 
-    enables reuse of the published metadata.</p>
+    <p>The section <em>‘For developers’</em> has a set of useful links which enables reuse of the published metadata.</p>
 
     <div class="row">
         <dl class="dl-horizontal dl-invert">
             <dt>Permalink</dt>
-            <dd>A permalink is a permanent URL which links to the page you're
-            currently on. Permalinks can change over time, but are great 
-            for linking directly to the human readable page without being 
-            redirected via a third party. Use these in content which has 
-            only a limited lifespan.</dd>
+            <dd>A permalink is a permanent URL which links to the page you’re currently on. Permalinks can change over time, but are great for linking directly to the human readable page without being redirected via a third party. Use these in content which has only a limited lifespan.</dd>
             <dt>Work PURL</dt>
-            <dd>This PURL or Persistent URL unambiguously identifies the 
-            physical cultural heritage object described by this record. This 
-            is URL is not intended to be used as a link (dereferencing). It is 
-            merely used for identification.</dd>
+            <dd>This PURL or Persistent URL unambiguously identifies the physical cultural heritage object described by this record. This URL is not intended to be used as a link. It is merely used for identification.</dd>
             <dt>Data PURL</dt>
-            <dd>This PURL or Persistent URL unambiguously identifies the 
-            record itself. The hostname in the URL generally refers to the 
-            organisation or museum which has provided the record. Navigating 
-            (dereferencing) to a data PURL will resolve to a HTML page which 
-            contains a representation of the record endorsed by the 
-            contributing organisation or museum.</dd>
+            <dd>This PURL or Persistent URL unambiguously identifies the record itself. The hostname in the URL generally refers to the organisation or museum which has provided the record. Navigating (dereferencing) to a data PURL will resolve to a HTML page which contains a representation of the record endorsed by the contributing organisation or museum.</dd>
             <dt>JSON</dt>
-            <dd>This is a permalink which references the JSON formatted 
-            presentation of the data.</dd>
+            <dd>This is a permalink which refers to the JSON formatted presentation of the data.</dd>
             <dt>LIDO XML</dt>
-            <dd>This is a permalink which references the LIDO XML formatted 
-            presentation of the data.</dd>
+            <dd>This is a permalink which refers to the LIDO XML formatted presentation of the data.</dd>
         </dl>
     </div>
 
     <h2>For museum workers</h2>
 
-    <p>Museum workers are encouraged to reuse records in the Arthub Flanders 
-    platform for their (digital) museal projects. How to reuse the records 
-    is covered in the next section. This section is limited to how to extract 
-    records from the Arthub Flanders platform and how to communicate with a technical partner.</p>
+    <p>Museum workers are encouraged to reuse records in the Arthub Flanders platform for their (digital) museal projects. How to reuse the records is covered in the next section. This section is limited to how to extract records from the Arthub Flanders platform and how to communicate with a technical partner.</p>
 
     <p><em>Q: How do I compile a curated list of records?</em><p>
 
-    <p>Our goal is to create a spreadsheet which contains a list of links. A 
-    technical partner will use (or develop) software which will go through the 
-    list, open each link, download the record and process the information 
-    stored in the record.</p>
+    <p>Our goal is to create a spreadsheet which contains a list of links. A technical partner will use (or develop) software which will go through the list, open each link, download the record and process the information stored in the record.</p>
 
     <ol>
-        <li>Open up a spreadsheet program (Excel, LibreOffice,...).</li>
+        <li>Open up a spreadsheet program (Excel, LibreOffice, ...).</li>
         <li>Open a new, empty spreadsheet.</li>
-        <li>Fill out 'link' in the first cell of the first column. This is the
-        header of your list.</li>
+        <li>Fill out ‘link’ in the first cell of the first column. This is the header of your list.</li>
         <li>Search the Arthub Flanders catalogue for relevant records.</li>
-        <li>Navigate to the detail page of a single record you would like to 
-        add to your list.</li>
-        <li>Scroll down to the 'For developers' box and right-click with on 
-        the LIDO XML link.</li>
-        <li>Select 'copy' from the pop-up menu.</li>
-        <li>Right-click on the second cell in the first column of the spreadsheet.</li>
-        <li>Select 'paste' from the pop-up menu.</li>
+        <li>Navigate to the detail page of a single record you would like to add to your list.</li>
+        <li>Scroll down to the ‘For developers’ box and right click on the LIDO XML link.</li>
+        <li>Select ‘copy’ from the pop-up menu.</li>
+        <li>Right click on the second cell in the first column of the spreadsheet.</li>
+        <li>Select ‘paste’ from the pop-up menu.</li>
         <li>The link should be added to the spreadsheet document.</li>
-        <li>Keep selecting, copying and pasting links to compile an entire 
-        list in the spreadsheet document.</li>
+        <li>Keep selecting, copying and pasting links to compile an entire list in the spreadsheet document.</li>
         <li>(optional) Add titles, creators,... in subsequent columns.</li>
      </ol>
 
-     <p>Once you're ready, pass your list on to your technical partner. 
-     Depending on the context, your partner will use that list to automatically 
-     download and process the records in the (digital) application you 
-     commissioned.</p>
+     <p>Once you’re ready, pass your list on to your technical partner. Depending on the context, your partner will use that list to automatically download and process the records in the (digital) application you commissioned.</p>
 
     <p><em>Q: Can I add more records later on?</em><p>
 
-    <p>Yes. This is possible. You just have to pass on additional sets of 
-    links. Your technical partner might require you to pass on these lists as 
-    additional spreadsheet documents. Or your digital application might be 
-    equipped with a easy 'upload' functionality, automatically importing 
-    additional sets of records.</p>
+    <p>Yes, this is possible. You just have to pass on additional sets of links. Your technical partner might require you to pass on these lists as additional spreadsheet documents. Or your digital application might be equipped with an easy ‘upload’ functionality, automatically importing additional sets of records.</p>
 
     <p><em>Q: What happens when I change a record?</em></p>
 
-    <p>Your requirements may include that your digital application fetches an 
-    updated version of the records in your list every so often (weekly, 
-    monthly). Your application should handle how the updated information is 
-    processed depending on what you are trying to achieve. In many cases, 
-    updating means replacing the older version of the record with a newer 
-    version.</p>
+    <p>Your requirements may include that your digital application periodically (weekly, monthly) fetches an updated version of the records in your list. Your application should handle how the updated information is processed depending on what you are trying to achieve. In many cases, updating means replacing the older version of the record with a newer version.</p>
 
-    <p>Beware though, if your business case requires you to actively edit the 
-    records in your digital application, merging updates might become very 
-    complex.</p>
+    <p>Beware though, if your business case requires you to actively edit the records in your digital application, merging updates might become very complex.</p>
 
-    <p>Always discuss with your technical partner what you want to achieve and 
-    what the (technical and financial) implications and drawbacks will be!</p>
+    <p>Discuss with your technical partner what you want to achieve and what the (technical and financial) implications and drawbacks will be.</p>
 
     <h2>For developers</h2>
 
@@ -279,10 +166,7 @@
 
     <p><code>/en/catalog.json?search_field=all_fields&q="James+Ensor"</code></p>
 
-    <p>This will yield a JSON formatted response containing a list of results
-    which is stored in the 'docs' property. The 'pages' property contains 
-    extra information which allows automatic pagination and harvesting of 
-    the API.</p>
+    <p>This will yield a JSON formatted response containing a list of results which is stored in the ‘docs’ property. The ‘pages’ property contains extra information which allows automatic pagination and harvesting of the API.</p>
 
     <pre><code>{
   "response": {
@@ -303,8 +187,7 @@
 
     <p><strong>Single record</strong></p>
 
-    <p>Switching between either the XML or JSON presentation of a record is 
-    done by changing between the 'xml' and 'json' file extension in the URL.</p>
+    <p>Switching between either the XML or JSON presentation of a record is done by changing between the ‘xml’ and ‘json’ file extension in the URL.</p>
 
     <p><code>/en/catalog/kmska:2712_236.json</code>
 
@@ -332,50 +215,34 @@
 
     <p><code>/en/catalog/kmska:2712_236.xml</code>
 
-    <p>The XML variant contains the full LIDO XML document as it is provided by 
-    the contributing cultural organisation. The JSON presentation of the 
-    document only contains the information extracted from the LIDO XML 
-    document which is needed to present the record and make the record 
-	findable in the Arthub Flanders search machine.</p>
+    <p>The XML variant contains the full LIDO XML document as provided by the contributing cultural organisation. The JSON presentation of the document only contains the information extracted from the LIDO XML document which is needed to present the record and make the record findable in the Arthub Flanders search engine.</p>
 
 	<h3>OAI-PMH</h3>
 
-    <p>The Arthub Flanders offers an OAI-PMH endpoint for easy harvesting of 
-    all available records via the Datahub. The endpoint provides the records 
-    in LIDO XML format.</p>
+    <p>The Arthub Flanders offers an OAI-PMH endpoint for easy harvesting of all available records via the Datahub. The endpoint provides the records in LIDO XML format.</p>
 
     <p>The endpoint is available via this URL:</p>
 
-    <p><a href="https://datahub.vlaamsekunstcollectie.be/oai">
-    https://datahub.vlaamsekunstcollectie.be/oai</a></p>
+    <p>http://datahub.vlaamsekunstcollectie.be/oai</p>
 
-    <p>More information can be found on the 
-    <a href="https://www.openarchives.org/pmh/">OAI-PMH website</a>.</p>
+    <p>More information can be found on the Datahub (<a href="http://datahub.vlaamsekunstcollectie.be/docs/oai" target="_blank">http://datahub.vlaamsekunstcollectie.be/docs/oai</a>) and on the <a href="https://www.openarchives.org/pmh/" target="_blank">OAI-PMH website</a>.</p>
 
     <h2>Frequently Asked Questions</h2>
 
     <p><em>Q: Do I see all the information recorded by the museums?</em></p>
 
-    <p>The Arthub Flanders publishes a record with a curated set of the basic 
-    properties which are registered by the museums. The museums record many 
-    different aspects of a cultural heritage object. A few aspects are not 
-    published because of various concerns such as copyright, confidentiality, 
-    security and privacy. Other properties, like exhibition history or 
-    provenance, might be added at a later date as capturing knowledge about 
-    a cultural heritage object is an ongoing effort.</p>
+    <p>The Arthub Flanders publishes a record with a curated set of the basic properties which are registered by the museums. The museums record many different aspects of a cultural heritage object. A few aspects are not published because of various concerns such as copyright, confidentiality, security and privacy. Other properties, like exhibition history or provenance, might be added at a later date as capturing knowledge about a cultural heritage object is an ongoing effort.</p>
 
     <p><em>Q: How often are records updated?</em></p>
 
-    <p>The records available in the Arthub Flanders catalogue are updated on a 
-    weekly basis. Updates include improvements of existing records, and the 
-    addition of new records.</p>
+    <p>The records available in the Arthub Flanders catalogue are updated on a daily basis. Updates include improvements of existing records, and the addition of new records.</p>
 
-    <p><em>Q: Why do I see duplicate records?</em></p>
+    <!--<p><em>Q: Why do I see duplicate records?</em></p>
 
     <p>Some organizations, like the Flemish Art Collection, do not manage a 
     collection of cultural heritage objects. As part of its core mission, 
-    the Flemisch Art Collection maintain a copy of the records originally created by the cultural 
-    heritage organisations it represent, in its own collection 
+    the Flemish Art Collection maintains a copy of the records originally created by the cultural 
+    heritage organisations it represents, in its own collection 
     registration systems. These duplicated records are then 'enriched' with 
     extra information such as translations, specific terminologies or content 
     suitable for particular audiences.</p>
@@ -389,6 +256,6 @@
 
     <p>The institution field is another indicator for the provenance of a 
     record, but does not indicate that the institution is the owner of the 
-    cultural heritage object.</p>
+    cultural heritage object.</p>-->
 
 </div>
