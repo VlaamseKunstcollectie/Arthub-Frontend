@@ -238,6 +238,8 @@ nl:
         artwork_subtype_display: 'Subtype'
         artwork_category: 'Onderwerp'
         artwork_category_display: 'Onderwerp'
+        iconclass: 'Iconclass'
+        language: 'Taal'
         title_display: 'Title'
         creator_index: 'Vervaardiger'
         creator_display: 'Vervaardiger'

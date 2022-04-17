@@ -223,6 +223,7 @@
          artwork_subtype_display,
          artwork_category,
          artwork_category_display,
+         iconclass,
          dimensions,
          creator_role,
          publish_image,
@@ -244,6 +245,7 @@
        <str name="facet.field">period</str>
        <str name="facet.field">repository</str>
        <str name="facet.field">artwork_category</str>
+       <str name="facet.field">iconclass</str>
        <str name="facet.field">artwork_type</str>
        <str name="facet.field">artwork_subtype</str>
 

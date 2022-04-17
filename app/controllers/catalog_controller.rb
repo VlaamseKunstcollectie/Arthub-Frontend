@@ -83,6 +83,7 @@ class CatalogController < ApplicationController
     config.add_facet_field 'artwork_subtype', limit: 15, label: 'artwork_subtype'
     config.add_facet_field 'material', limit: 15, label: 'material'
     config.add_facet_field 'artwork_category', limit: 15, label: 'artwork_category'
+    config.add_facet_field 'iconclass', limit: 15, label: 'iconclass'
     config.add_facet_field 'language', limit: 15, label: 'language'
 
     # Have BL send all facet field names to Solr, which has been the default
@@ -114,6 +115,7 @@ class CatalogController < ApplicationController
     config.add_show_field 'dimensions', label: 'dimensions', separator_options: { words_connector: '<br />', two_words_connector: '<br />', last_word_connector: '<br />'}
     config.add_show_field 'object_number', label: 'object_number'
     config.add_show_field 'description', label: 'description'
+    config.add_show_field 'iconclass', label: 'iconclass', separator_options: { words_connector: '<br />', two_words_connector: '<br />', last_word_connector: '<br />'}, link_to_search: true
 #    config.add_show_field 'work_pid', label: 'work_pid'
 #    config.add_show_field 'data_pid', helper_method: :link_to_pid, label: 'data_pid'
 #    config.add_show_field 'references', label: 'references'
