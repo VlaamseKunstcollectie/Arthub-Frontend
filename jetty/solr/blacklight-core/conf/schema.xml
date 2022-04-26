@@ -330,6 +330,7 @@
 
     <field name="artwork_category" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_category_display" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="iconclass" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_type" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_type_display" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_subtype" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -415,6 +416,7 @@
   <copyField source="description" dest="text"/>
   <copyField source="artwork_category" dest="text"/>
   <copyField source="artwork_category_display" dest="text"/>
+  <copyField source="iconclass" dest="text"/>
   <copyField source="artwork_type" dest="text"/>
   <copyField source="artwork_type_display" dest="text"/>
   <copyField source="artwork_subtype" dest="text"/>
@@ -461,6 +463,7 @@
   <copyField source="material_display" dest="spell"/>
   <copyField source="artwork_category" dest="spell"/>
   <copyField source="artwork_category_display" dest="spell"/>
+  <copyField source="iconclass" dest="spell"/>
   <copyField source="artwork_type" dest="spell"/>
   <copyField source="artwork_type_display" dest="spell"/>
   <copyField source="artwork_subtype" dest="spell"/>
@@ -519,6 +522,7 @@
   <copyField source="material_display" dest="suggest"/>
   <copyField source="artwork_category" dest="suggest"/>
   <copyField source="artwork_category_display" dest="suggest"/>
+  <copyField source="iconclass" dest="suggest"/>
   <copyField source="artwork_type" dest="suggest"/>
   <copyField source="artwork_type_display" dest="suggest"/>
   <copyField source="artwork_subtype" dest="suggest"/>

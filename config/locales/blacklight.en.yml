@@ -238,6 +238,8 @@ en:
         artwork_subtype_display: 'Subtype'
         artwork_category: 'Subject'
         artwork_category_display: 'Subject'
+        iconclass: 'Iconclass'
+        language: 'Language'
         title_display: 'Title'
         creator_index: 'Creator'
         creator_display: 'Creator'

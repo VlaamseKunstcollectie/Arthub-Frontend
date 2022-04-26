@@ -52,6 +52,7 @@
 
     <field name="artwork_category" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_category_display" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="iconclass" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_type" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_type_display" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="artwork_subtype" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -274,6 +275,7 @@
   <copyField source="description" dest="all_text_timv"/>
   <copyField source="object_number" dest="all_text_timv"/>
   <copyField source="artwork_category" dest="all_text_timv"/>
+  <copyField source="iconclass" dest="all_text_timv"/>
   <copyField source="artwork_type" dest="all_text_timv"/>
   <copyField source="artwork_subtype" dest="all_text_timv"/>
   <copyField source="material" dest="all_text_timv"/>
@@ -298,6 +300,7 @@
   <copyField source="creator_role" dest="suggest"/>
   <copyField source="object_number" dest="suggest"/>
   <copyField source="artwork_category" dest="suggest"/>
+  <copyField source="iconclass" dest="suggest"/>
   <copyField source="artwork_type" dest="suggest"/>
   <copyField source="artwork_subtype" dest="suggest"/>
   <copyField source="material" dest="suggest"/>
