@@ -146,7 +146,7 @@ GEM
       railties (>= 3.2)
     method_source (1.0.0)
     mini_mime (1.0.2)
-    mini_portile2 (2.8.0)
+    mini_portile2 (2.8.1)
     minitest (5.17.0)
     mirador_rails (0.7.0)
       font-awesome-rails
@@ -156,7 +156,7 @@ GEM
       tinymce-rails
     multipart-post (2.1.1)
     nio4r (2.5.2)
-    nokogiri (1.13.10)
+    nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     openseadragon (0.5.0)
@@ -173,7 +173,7 @@ GEM
     pry-rails (0.3.9)
       pry (>= 0.10.4)
     puma (3.12.6)
-    racc (1.6.1)
+    racc (1.6.2)
     rack (2.2.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
