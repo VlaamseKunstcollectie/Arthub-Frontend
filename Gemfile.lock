@@ -146,7 +146,7 @@ GEM
       railties (>= 3.2)
     method_source (1.0.0)
     mini_mime (1.0.2)
-    mini_portile2 (2.8.5)
+    mini_portile2 (2.8.6)
     minitest (5.17.0)
     mirador_rails (0.7.0)
       font-awesome-rails
@@ -156,7 +156,7 @@ GEM
       tinymce-rails
     multipart-post (2.1.1)
     nio4r (2.5.2)
-    nokogiri (1.16.2)
+    nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     openseadragon (0.5.0)
