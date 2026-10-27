@@ -3,6 +3,19 @@
 A customised Project Blacklight installation for the 
 [Arthub Flanders](https://arthub.vlaamsekunstcollectie.be) Project.
 
+## Project status: permanently discontinued
+
+This project has been permanently discontinued and is no longer maintained.
+It receives no bug fixes, dependency updates or security updates. The source
+code is retained for historical reference.
+
+Dependencies may contain known security vulnerabilities. Before reusing this
+code, review its security, update the dependencies to supported versions and
+test the application in an isolated environment before deployment.
+
+The installation, development and deployment instructions below are preserved
+as historical documentation.
+
 ## Requirements
 
 * Ruby ~>2.4 with Bundler ~>1.16
